@@ -1,0 +1,43 @@
+[15-Sep-2022 01:58:02 UTC] PHP Warning:  Use of undefined constant includes - assumed 'includes' (this will throw an Error in a future version of PHP) in C:\Users\thuna\LocalSites\magalhes-sipert-sociedade-de-advogados\app\public\wp-content\themes\mslaw\functions.php on line 4
+[15-Sep-2022 01:58:02 UTC] PHP Stack trace:
+[15-Sep-2022 01:58:02 UTC] PHP   1. {main}() C:\Users\thuna\LocalSites\magalhes-sipert-sociedade-de-advogados\app\public\wp-admin\admin-ajax.php:0
+[15-Sep-2022 01:58:02 UTC] PHP   2. require_once() C:\Users\thuna\LocalSites\magalhes-sipert-sociedade-de-advogados\app\public\wp-admin\admin-ajax.php:22
+[15-Sep-2022 01:58:02 UTC] PHP   3. require_once() C:\Users\thuna\LocalSites\magalhes-sipert-sociedade-de-advogados\app\public\wp-load.php:50
+[15-Sep-2022 01:58:02 UTC] PHP   4. require_once() C:\Users\thuna\LocalSites\magalhes-sipert-sociedade-de-advogados\app\public\wp-config.php:91
+[15-Sep-2022 01:58:02 UTC] PHP   5. include() C:\Users\thuna\LocalSites\magalhes-sipert-sociedade-de-advogados\app\public\wp-settings.php:566
+[15-Sep-2022 01:58:02 UTC] PHP Warning:  require_once(C:\Users\thuna\LocalSites\magalhes-sipert-sociedade-de-advogados\app\public/wp-content/themes/mslaw\includes\utils\_index.php): failed to open stream: No such file or directory in C:\Users\thuna\LocalSites\magalhes-sipert-sociedade-de-advogados\app\public\wp-content\themes\mslaw\functions.php on line 4
+[15-Sep-2022 01:58:02 UTC] PHP Stack trace:
+[15-Sep-2022 01:58:02 UTC] PHP   1. {main}() C:\Users\thuna\LocalSites\magalhes-sipert-sociedade-de-advogados\app\public\wp-admin\admin-ajax.php:0
+[15-Sep-2022 01:58:02 UTC] PHP   2. require_once() C:\Users\thuna\LocalSites\magalhes-sipert-sociedade-de-advogados\app\public\wp-admin\admin-ajax.php:22
+[15-Sep-2022 01:58:02 UTC] PHP   3. require_once() C:\Users\thuna\LocalSites\magalhes-sipert-sociedade-de-advogados\app\public\wp-load.php:50
+[15-Sep-2022 01:58:02 UTC] PHP   4. require_once() C:\Users\thuna\LocalSites\magalhes-sipert-sociedade-de-advogados\app\public\wp-config.php:91
+[15-Sep-2022 01:58:02 UTC] PHP   5. include() C:\Users\thuna\LocalSites\magalhes-sipert-sociedade-de-advogados\app\public\wp-settings.php:566
+[15-Sep-2022 01:58:02 UTC] PHP Fatal error:  require_once(): Failed opening required 'C:\Users\thuna\LocalSites\magalhes-sipert-sociedade-de-advogados\app\public/wp-content/themes/mslaw\includes\utils\_index.php' (include_path='.:/usr/share/php:/www/wp-content/pear') in C:\Users\thuna\LocalSites\magalhes-sipert-sociedade-de-advogados\app\public\wp-content\themes\mslaw\functions.php on line 4
+[15-Sep-2022 01:58:02 UTC] PHP Stack trace:
+[15-Sep-2022 01:58:02 UTC] PHP   1. {main}() C:\Users\thuna\LocalSites\magalhes-sipert-sociedade-de-advogados\app\public\wp-admin\admin-ajax.php:0
+[15-Sep-2022 01:58:02 UTC] PHP   2. require_once() C:\Users\thuna\LocalSites\magalhes-sipert-sociedade-de-advogados\app\public\wp-admin\admin-ajax.php:22
+[15-Sep-2022 01:58:02 UTC] PHP   3. require_once() C:\Users\thuna\LocalSites\magalhes-sipert-sociedade-de-advogados\app\public\wp-load.php:50
+[15-Sep-2022 01:58:02 UTC] PHP   4. require_once() C:\Users\thuna\LocalSites\magalhes-sipert-sociedade-de-advogados\app\public\wp-config.php:91
+[15-Sep-2022 01:58:02 UTC] PHP   5. include() C:\Users\thuna\LocalSites\magalhes-sipert-sociedade-de-advogados\app\public\wp-settings.php:566
+[21-Sep-2022 01:51:44 UTC] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, function 'it9_mslaw_enqueue_js_css' not found or invalid function name in C:\Users\thuna\LocalSites\magalhes-sipert-sociedade-de-advogados\app\public\wp-includes\class-wp-hook.php on line 307
+[21-Sep-2022 01:51:44 UTC] PHP Stack trace:
+[21-Sep-2022 01:51:44 UTC] PHP   1. {main}() C:\Users\thuna\LocalSites\magalhes-sipert-sociedade-de-advogados\app\public\index.php:0
+[21-Sep-2022 01:51:44 UTC] PHP   2. require() C:\Users\thuna\LocalSites\magalhes-sipert-sociedade-de-advogados\app\public\index.php:17
+[21-Sep-2022 01:51:44 UTC] PHP   3. require_once() C:\Users\thuna\LocalSites\magalhes-sipert-sociedade-de-advogados\app\public\wp-blog-header.php:19
+[21-Sep-2022 01:51:44 UTC] PHP   4. include() C:\Users\thuna\LocalSites\magalhes-sipert-sociedade-de-advogados\app\public\wp-includes\template-loader.php:106
+[21-Sep-2022 01:51:44 UTC] PHP   5. get_template_part() C:\Users\thuna\LocalSites\magalhes-sipert-sociedade-de-advogados\app\public\wp-content\themes\mslaw\pages\home\_index.php:5
+[21-Sep-2022 01:51:44 UTC] PHP   6. locate_template() C:\Users\thuna\LocalSites\magalhes-sipert-sociedade-de-advogados\app\public\wp-includes\general-template.php:204
+[21-Sep-2022 01:51:44 UTC] PHP   7. load_template() C:\Users\thuna\LocalSites\magalhes-sipert-sociedade-de-advogados\app\public\wp-includes\template.php:716
+[21-Sep-2022 01:51:44 UTC] PHP   8. require() C:\Users\thuna\LocalSites\magalhes-sipert-sociedade-de-advogados\app\public\wp-includes\template.php:772
+[21-Sep-2022 01:51:44 UTC] PHP   9. get_template_part() C:\Users\thuna\LocalSites\magalhes-sipert-sociedade-de-advogados\app\public\wp-content\themes\mslaw\components\header\_index.php:7
+[21-Sep-2022 01:51:44 UTC] PHP  10. locate_template() C:\Users\thuna\LocalSites\magalhes-sipert-sociedade-de-advogados\app\public\wp-includes\general-template.php:204
+[21-Sep-2022 01:51:44 UTC] PHP  11. load_template() C:\Users\thuna\LocalSites\magalhes-sipert-sociedade-de-advogados\app\public\wp-includes\template.php:716
+[21-Sep-2022 01:51:44 UTC] PHP  12. require() C:\Users\thuna\LocalSites\magalhes-sipert-sociedade-de-advogados\app\public\wp-includes\template.php:772
+[21-Sep-2022 01:51:44 UTC] PHP  13. wp_head() C:\Users\thuna\LocalSites\magalhes-sipert-sociedade-de-advogados\app\public\wp-content\themes\mslaw\components\header\content.php:12
+[21-Sep-2022 01:51:44 UTC] PHP  14. do_action() C:\Users\thuna\LocalSites\magalhes-sipert-sociedade-de-advogados\app\public\wp-includes\general-template.php:3042
+[21-Sep-2022 01:51:44 UTC] PHP  15. WP_Hook->do_action() C:\Users\thuna\LocalSites\magalhes-sipert-sociedade-de-advogados\app\public\wp-includes\plugin.php:476
+[21-Sep-2022 01:51:44 UTC] PHP  16. WP_Hook->apply_filters() C:\Users\thuna\LocalSites\magalhes-sipert-sociedade-de-advogados\app\public\wp-includes\class-wp-hook.php:331
+[21-Sep-2022 01:51:44 UTC] PHP  17. wp_enqueue_scripts() C:\Users\thuna\LocalSites\magalhes-sipert-sociedade-de-advogados\app\public\wp-includes\class-wp-hook.php:307
+[21-Sep-2022 01:51:44 UTC] PHP  18. do_action() C:\Users\thuna\LocalSites\magalhes-sipert-sociedade-de-advogados\app\public\wp-includes\script-loader.php:2156
+[21-Sep-2022 01:51:44 UTC] PHP  19. WP_Hook->do_action() C:\Users\thuna\LocalSites\magalhes-sipert-sociedade-de-advogados\app\public\wp-includes\plugin.php:476
+[21-Sep-2022 01:51:44 UTC] PHP  20. WP_Hook->apply_filters() C:\Users\thuna\LocalSites\magalhes-sipert-sociedade-de-advogados\app\public\wp-includes\class-wp-hook.php:331

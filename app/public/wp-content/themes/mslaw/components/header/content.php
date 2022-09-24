@@ -25,8 +25,7 @@ if (!defined('ABSPATH')) exit;
             <div class="row">
                 <div class="col-12">
                     <div class="header-content">
-                        <?php
-                        ?>
+                        <div class="bg-primary"></div>
                     </div>
                 </div>
             </div>

@@ -1,0 +1,43 @@
+/* Primary */
+.bg-primary{
+    background-color: #29666F;
+}
+.text-primary{
+    color: #29666F;
+}
+.border-primary{
+    border-color: #29666F;
+}
+
+/* Secondary */
+.bg-secondary{
+    background-color: #547C85;
+}
+.text-secondary{
+    color: #547C85;
+}
+.border-secondary{
+    border-color: #547C85;
+}
+
+/* Tertiary */
+.bg-tertiary{
+    background-color: #B5C5C8;
+}
+.text-tertiary{
+    color: #B5C5C8;
+}
+.border-tertiary{
+    border-color: #B5C5C8;
+}
+
+/* Quaternary */
+.bg-quaternary{
+    background-color: #B5C5C8;
+}
+.text-quaternary{
+    color: #B5C5C8;
+}
+.border-quaternary{
+    border-color: #B5C5C8;
+}

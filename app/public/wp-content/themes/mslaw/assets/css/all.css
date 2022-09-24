@@ -1,1 +1,5 @@
 @import url(../_bootstrap/bootstrap-grid.css);
+@import url(../_bootstrap/bootstrap-reboot.css);
+
+@import url(../css/global/_index.css);
+

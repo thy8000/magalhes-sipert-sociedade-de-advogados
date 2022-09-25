@@ -41,3 +41,14 @@
 .border-quaternary{
     border-color: #B5C5C8;
 }
+
+/* Transparent */
+.bg-transparent{
+    background-color: transparent;
+}
+.text-transparent{
+    color: transparent;
+}
+.border-transparent{
+    border-color: transparent;
+}

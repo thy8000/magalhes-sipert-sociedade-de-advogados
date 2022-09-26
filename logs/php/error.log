@@ -41,3 +41,4 @@
 [21-Sep-2022 01:51:44 UTC] PHP  18. do_action() C:\Users\thuna\LocalSites\magalhes-sipert-sociedade-de-advogados\app\public\wp-includes\script-loader.php:2156
 [21-Sep-2022 01:51:44 UTC] PHP  19. WP_Hook->do_action() C:\Users\thuna\LocalSites\magalhes-sipert-sociedade-de-advogados\app\public\wp-includes\plugin.php:476
 [21-Sep-2022 01:51:44 UTC] PHP  20. WP_Hook->apply_filters() C:\Users\thuna\LocalSites\magalhes-sipert-sociedade-de-advogados\app\public\wp-includes\class-wp-hook.php:331
+[26-Sep-2022 15:22:02 UTC] PHP Parse error:  syntax error, unexpected '"/assets/images/icons/map-pin.' (T_CONSTANT_ENCAPSED_STRING), expecting ';' or ',' in C:\Users\thuna\LocalSites\magalhes-sipert-sociedade-de-advogados\app\public\wp-content\themes\mslaw\components\header\content.php on line 27

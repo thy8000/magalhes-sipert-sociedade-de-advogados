@@ -23,15 +23,15 @@ if (!defined('ABSPATH')) exit;
     <header id="it9-mslaw-header">
         <div class="header-info container-fluid bg-primary py-2">
             <div class="row">
-                <div class="header-info__address col-lg-6 col-md-12 text-center text-white d-flex align-items-center">
-                    <span class="d-flex align-items-center">
-                        <img class="icon pe-2" src="<?php echo get_template_directory_uri() ?>/assets/images/icons/map-pin.svg">
+                <div class="header-info__address col-lg-6 col-md-12 text-center text-white d-flex align-items-center justify-content-center">
+                    <span class="d-md-flex d-block align-items-center">
+                        <img class="icon pe-md-2 my-sm-0 my-3" src="<?php echo get_template_directory_uri() ?>/assets/images/icons/map-pin.svg">
                         <a href="https://goo.gl/maps/wEUWgRZtNKrd7cvD9">
                             Rua Itabuna, nº. 158, Vl. Floresta, Sto André/SP – CEP 09050-210
                         </a>
                     </span>
                 </div>
-                <div class="header-info__social col-lg-6 col-md-12 text-center text-white">
+                <div class="header-info__social col-lg-6 col-md-12 text-center text-white my-sm-0 my-3">
                     <span>
                         <img class="icon" src="<?php echo get_template_directory_uri() ?>/assets/images/icons/whatsapp.svg">
                     </span>

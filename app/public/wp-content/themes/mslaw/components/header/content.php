@@ -24,11 +24,11 @@ if (!defined('ABSPATH')) exit;
         <div class="header-info container-fluid bg-primary py-2">
             <div class="row">
                 <div class="header-info__address col-lg-6 col-md-12 text-center text-white d-flex align-items-center justify-content-center">
-                    <span class="d-md-flex d-block align-items-center">
-                        <img class="icon pe-md-2 my-sm-0 my-3" src="<?php echo get_template_directory_uri() ?>/assets/images/icons/map-pin.svg">
-                        <a href="https://goo.gl/maps/wEUWgRZtNKrd7cvD9">
+                    <span class="d-flex align-items-center flex-md-row-reverse flex-column-reverse">
+                        <a class="link" href="https://goo.gl/maps/wEUWgRZtNKrd7cvD9">
                             Rua Itabuna, nº. 158, Vl. Floresta, Sto André/SP – CEP 09050-210
                         </a>
+                        <?php echo it9_mslaws_get_svg_icon('map-pin.svg', 'icon pe-md-2 my-sm-0 my-3') ?>
                     </span>
                 </div>
                 <div class="header-info__social col-lg-6 col-md-12 text-center text-white my-sm-0 my-3">

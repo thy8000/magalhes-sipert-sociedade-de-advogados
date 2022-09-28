@@ -2,6 +2,11 @@
     width: 100%;
     height: 30px;
 }
+.header-info .header-info__address .link:hover,
+.header-info .header-info__address .link:hover + .icon{
+    color: #B5C5C8;
+    stroke: #B5C5C8;
+}
 @media (min-width: 768px){
     .header-info .header-info__address .icon{
         width: 30px;

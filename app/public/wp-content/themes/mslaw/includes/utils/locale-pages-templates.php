@@ -34,10 +34,10 @@ $templates = [
 
 foreach ($templates as $template)
 {
-   add_filter("{$template}_template_hierarchy", 'bx_sntls_template_hierarchy_candidates');
+   add_filter("{$template}_template_hierarchy", 'it9_mslaws_template_hierarchy_candidates');
 }
 
-function bx_sntls_template_hierarchy_candidates($templates)
+function it9_mslaws_template_hierarchy_candidates($templates)
 {
    if (false !== strpos($templates[0], 'pages/'))
       return $templates;

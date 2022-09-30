@@ -32,40 +32,48 @@ if (!defined('ABSPATH')) exit;
                     </span>
                 </div>
                 <div class="header-info__social col-lg-6 col-md-12 text-center text-white my-sm-0 my-3">
-                    <span>
-                        <img class="icon" src="<?php echo get_template_directory_uri() ?>/assets/images/icons/whatsapp.svg">
-                    </span>
-                    <span>
-                        <img class="icon" src="<?php echo get_template_directory_uri() ?>/assets/images/icons/youtube.svg">
-                    </span>
-                    <span>
-                        <img class="icon" src="<?php echo get_template_directory_uri() ?>/assets/images/icons/instagram.svg">
-                    </span>
-                    <span>
-                        <img class="icon" src="<?php echo get_template_directory_uri() ?>/assets/images/icons/facebook.svg">
-                    </span>
-                    <span>
-                        <img class="icon" src="<?php echo get_template_directory_uri() ?>/assets/images/icons/messenger.svg">
-                    </span>
-                    <span>
-                        <img class="icon" src="<?php echo get_template_directory_uri() ?>/assets/images/icons/linkedin.svg">
-                    </span>
-                    <span>
-                        <img class="icon" src="<?php echo get_template_directory_uri() ?>/assets/images/icons/twitter.svg">
-                    </span>
+                    <a href="#">
+                        <?php echo it9_mslaws_get_svg_icon('whatsapp.svg', 'icon') ?>
+                    </a>
+                    <a href="#">
+                        <?php echo it9_mslaws_get_svg_icon('youtube.svg', 'icon') ?>
+                    </a>
+                    <a href="#">
+                        <?php echo it9_mslaws_get_svg_icon('instagram.svg', 'icon') ?>
+                    </a>
+                    <a href="#">
+                        <?php echo it9_mslaws_get_svg_icon('facebook.svg', 'icon') ?>
+                    </a>
+                    <a href="#">
+                        <?php echo it9_mslaws_get_svg_icon('messenger.svg', 'icon') ?>
+                    </a>
+                    <a href="#">
+                        <?php echo it9_mslaws_get_svg_icon('linkedin.svg', 'icon') ?>
+                    </a>
+                    <a href="#">
+                        <?php echo it9_mslaws_get_svg_icon('twitter.svg', 'icon') ?>
+                    </a>
                 </div>
             </div>
         </div>
-        <!--
-        <div class="container">
+        <div class="top-menu container bg-secondary py-3">
             <div class="row">
-                <div class="col-12">
-                    <div class="header-content bg-primary" style="height: 50px;">
-                        
+                <div class="col-3">
+                    <div class="top-menu__logo">
+                        <?php echo the_custom_logo(); ?>
                     </div>
                 </div>
+                <div class="col-9">
+                    <?php
+                        wp_nav_menu([
+                            'container_id' => 'top-menu__nav',
+                            'container_class' => 'top-menu__nav',
+                            'theme_location' => 'top-menu',
+                            'menu_class'    => 'top-menu__menu d-flex'
+                        ]);
+                    ?>
+                </div>
             </div>
         </div>
-        -->
     </header>
     <main>

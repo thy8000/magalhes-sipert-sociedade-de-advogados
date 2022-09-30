@@ -172,6 +172,13 @@ html {
     text-decoration: none;
     color: inherit;
  }
+ a:hover{
+   color: #B5C5C8;
+ }
+ a:hover > svg {
+   color: #B5C5C8;
+   stroke: #B5C5C8;
+ }
  
  button {
     cursor: pointer;

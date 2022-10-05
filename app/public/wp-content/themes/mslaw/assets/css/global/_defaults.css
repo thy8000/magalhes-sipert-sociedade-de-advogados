@@ -1,9 +1,10 @@
 html {
-    font-size: 100%;
-    box-sizing: border-box;
-    -ms-overflow-style: scrollbar;
-    scroll-behavior: smooth;
- }
+   font-family: 'Poppins', sans-serif;
+   font-size: 100%;
+   box-sizing: border-box;
+   -ms-overflow-style: scrollbar;
+   scroll-behavior: smooth;
+}
  
  *,
  *::before,
@@ -108,8 +109,7 @@ html {
     padding: 0;
     border: 0;
     font-size: 100%;
-    font: inherit;
-    vertical-align: baseline;
+   vertical-align: baseline;
  }
  
  article,
@@ -194,12 +194,10 @@ html {
     -webkit-border-radius: 0;
     border-radius: 0;
     text-overflow: ellipsis;
-    font-family: inherit;
     border: 0;
     position: relative;
     padding: unset;
     margin: unset;
-    font-size: inherit;
  }
  
  img {

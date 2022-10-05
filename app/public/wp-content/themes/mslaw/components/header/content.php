@@ -67,7 +67,7 @@ if (!defined('ABSPATH')) exit;
                     <?php
                         wp_nav_menu([
                             'container_id' => 'top-menu__nav',
-                            'container_class' => 'top-menu__nav',
+                            'container_class' => 'top-menu__nav d-flex align-items-center',
                             'theme_location' => 'top-menu',
                             'menu_class'    => 'top-menu__menu d-flex'
                         ]);

@@ -1,27 +1,5 @@
-.top-menu .top-menu__nav{
-    height: 100%;
-}
-.top-menu .menu-item
+.navbar-nav .nav-item .nav-link span,
+.nav-link:after
 {
-    padding: 1rem;
-    position: relative;
-    text-transform: uppercase;
-}
-.top-menu .menu-item:hover{
-    background-color: #29666F;
-}
-.top-menu .menu-item-has-children .sub-menu {
-    display: none;
-}
-.top-menu .menu-item-has-children:hover > .sub-menu {
-    display: block;
-    position: absolute;
-    top: 45px;
-    left: 0;
-    min-width: 15rem;
-    background-color: #29666F;
-}
-.top-menu .menu-item-has-children:hover > .sub-menu .menu-item-has-children:hover > .sub-menu {
-    left: 100%;
-    top: 0;
+    color: #fff;
 }

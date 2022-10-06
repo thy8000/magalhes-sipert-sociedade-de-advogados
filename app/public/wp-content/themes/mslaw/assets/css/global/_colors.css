@@ -1,45 +1,45 @@
 /* Primary */
-.bg-primary{
+.bg-one{
     background-color: #29666F;
 }
-.text-primary{
+.text-one{
     color: #29666F;
 }
-.border-primary{
+.border-one{
     border-color: #29666F;
 }
-.hover-primary:hover{
+.hover-one:hover{
     color: #29666F;
 }
 
 /* Secondary */
-.bg-secondary{
+.bg-two{
     background-color: #547C85;
 }
-.text-secondary{
+.text-two{
     color: #547C85;
 }
-.border-secondary{
+.border-two{
     border-color: #547C85;
 }
-.hover-secondary:hover{
+.hover-two:hover{
     color: #547C85;
 }
 
 /* Tertiary */
-.bg-tertiary{
+.bg-two{
     background-color: #B5C5C8;
 }
-.text-tertiary{
+.text-two{
     color: #B5C5C8;
 }
-.border-tertiary{
+.border-two{
     border-color: #B5C5C8;
 }
-.hover-tertiary:hover{
+.hover-two:hover{
     color: #B5C5C8;
 }
-.hover-tertiary:hover svg{
+.hover-two:hover svg{
     fill: #B5C5C8;
 }
 

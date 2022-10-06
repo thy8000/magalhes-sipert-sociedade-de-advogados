@@ -1,6 +1,8 @@
 header#it9-mslaw-header {
-    position: absolute;
+    position: fixed;
     top: 0;
+    left: 0;
+    z-index: 100;
     color: white;
 }
 .header-info .header-info__address .icon{

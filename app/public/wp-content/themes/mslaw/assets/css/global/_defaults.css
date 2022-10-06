@@ -1,206 +1,209 @@
 html {
-   font-family: 'Poppins', sans-serif;
-   font-size: 100%;
-   box-sizing: border-box;
-   -ms-overflow-style: scrollbar;
-   scroll-behavior: smooth;
+  font-size: 100%;
+  box-sizing: border-box;
+  -ms-overflow-style: scrollbar;
+  scroll-behavior: smooth;
 }
- 
- *,
- *::before,
- *::after {
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
-    text-rendering: optimizeLegibility;
-    -webkit-font-smoothing: antialiased;
-    line-height: 1;
-    background-repeat: no-repeat;
- }
- 
- *,
- *:focus,
- *:hover {
-    outline: revert !important;
- }
- 
- html,
- body,
- div,
- span,
- applet,
- object,
- iframe,
- h1,
- h2,
- h3,
- h4,
- h5,
- h6,
- p,
- blockquote,
- pre,
- a,
- abbr,
- acronym,
- address,
- big,
- cite,
- code,
- del,
- dfn,
- em,
- img,
- ins,
- kbd,
- q,
- s,
- samp,
- small,
- strike,
- strong,
- sub,
- sup,
- tt,
- var,
- b,
- u,
- i,
- center,
- dl,
- dt,
- dd,
- ol,
- ul,
- li,
- fieldset,
- form,
- label,
- legend,
- table,
- caption,
- tbody,
- tfoot,
- thead,
- tr,
- th,
- td,
- article,
- aside,
- canvas,
- details,
- embed,
- figure,
- figcaption,
- footer,
- header,
- hgroup,
- menu,
- nav,
- output,
- ruby,
- section,
- summary,
- time,
- mark,
- audio,
- video {
-    margin: 0;
-    padding: 0;
-    border: 0;
-    font-size: 100%;
-   vertical-align: baseline;
- }
- 
- article,
- aside,
- details,
- figcaption,
- figure,
- footer,
- header,
- hgroup,
- menu,
- nav,
- section {
-    display: block;
- }
- 
- ul {
-    list-style: none;
- }
- 
- blockquote,
- q {
-    quotes: none;
- }
- 
- li:last-child {
-    border-bottom: none !important;
- }
- 
- blockquote:before,
- blockquote:after,
- q:before,
- q:after {
-    content: '';
-    content: none;
- }
- 
- table {
-    border-collapse: collapse;
-    border-spacing: 0;
- }
- 
- svg {
-    max-width: 100% !important;
- }
- 
- body > header,
- body > footer,
- section {
-    position: relative;
-    width: 100%;
- }
- 
- section > .container {
-    position: relative;
-    z-index: 1;
- }
- 
- a {
-    text-decoration: none;
-    color: inherit;
- }
- a:hover{
-   color: #B5C5C8;
- }
- a:hover > svg {
-   color: #B5C5C8;
-   stroke: #B5C5C8;
- }
- 
- button {
-    cursor: pointer;
- }
- 
- input:not([type='range']),
- textarea,
- button,
- select {
-    -webkit-appearance: none;
-    -moz-appearance: none;
-    appearance: none;
-    -webkit-border-radius: 0;
-    border-radius: 0;
-    text-overflow: ellipsis;
-    border: 0;
-    position: relative;
-    padding: unset;
-    margin: unset;
- }
- 
- img {
-    max-width: 100%;
-    height: auto;
- }
+
+*,
+*::before,
+*::after {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  line-height: 1;
+  background-repeat: no-repeat;
+}
+
+*,
+*:focus,
+*:hover {
+  outline: revert !important;
+}
+
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  vertical-align: baseline;
+}
+
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+
+html body{
+  font-family: "Poppins", sans-serif;
+}
+
+body ul {
+  list-style: none;
+}
+
+blockquote,
+q {
+  quotes: none;
+}
+
+body li:last-child {
+  border-bottom: none !important;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: "";
+  content: none;
+}
+
+body table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+body svg {
+  max-width: 100% !important;
+}
+
+body > header,
+body > footer,
+body section {
+  position: relative;
+  width: 100%;
+}
+
+body section > .container {
+  position: relative;
+  z-index: 1;
+}
+
+body a {
+  text-decoration: none;
+  color: inherit;
+}
+body a:hover {
+  color: #b5c5c8;
+}
+body a:hover > svg {
+  color: #b5c5c8;
+  stroke: #b5c5c8;
+}
+
+body button {
+  cursor: pointer;
+}
+
+input:not([type="range"]),
+textarea,
+button,
+select {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  -webkit-border-radius: 0;
+  border-radius: 0;
+  text-overflow: ellipsis;
+  border: 0;
+  position: relative;
+  padding: unset;
+  margin: unset;
+}
+
+body img {
+  max-width: 100%;
+  height: auto;
+}

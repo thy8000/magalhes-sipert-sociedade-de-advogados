@@ -1,8 +1,6 @@
-@import url(../_bootstrap/bootstrap-grid.css);
-@import url(../_bootstrap/bootstrap-reboot.css);
-@import url(../_bootstrap/bootstrap-utilities.css);
-
 @import url(../css/global/_index.css);
 
 @import url(components/header/index.css);
+
+@import url(components/_hero.css);
 

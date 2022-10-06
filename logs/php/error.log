@@ -44,3 +44,79 @@
 [26-Sep-2022 15:22:02 UTC] PHP Parse error:  syntax error, unexpected '"/assets/images/icons/map-pin.' (T_CONSTANT_ENCAPSED_STRING), expecting ';' or ',' in C:\Users\thuna\LocalSites\magalhes-sipert-sociedade-de-advogados\app\public\wp-content\themes\mslaw\components\header\content.php on line 27
 [28-Sep-2022 02:39:35 UTC] PHP Parse error:  syntax error, unexpected ''" '' (T_CONSTANT_ENCAPSED_STRING), expecting ')' in C:\Users\thuna\LocalSites\magalhes-sipert-sociedade-de-advogados\app\public\wp-content\themes\mslaw\includes\utils\get-svg-icon.php on line 23
 [28-Sep-2022 02:39:35 UTC] PHP Parse error:  syntax error, unexpected ''" '' (T_CONSTANT_ENCAPSED_STRING), expecting ')' in C:\Users\thuna\LocalSites\magalhes-sipert-sociedade-de-advogados\app\public\wp-content\themes\mslaw\includes\utils\get-svg-icon.php on line 23
+[06-Oct-2022 00:53:31 UTC] PHP Warning:  require_once(C:\Users\thuna\LocalSites\magalhes-sipert-sociedade-de-advogados\app\public/wp-content/themes/mslaw/class-wp-bootstrap-navwalker.php): failed to open stream: No such file or directory in C:\Users\thuna\LocalSites\magalhes-sipert-sociedade-de-advogados\app\public\wp-content\themes\mslaw\includes\wp-bootstrap-walker\_index.php on line 10
+[06-Oct-2022 00:53:31 UTC] PHP Stack trace:
+[06-Oct-2022 00:53:31 UTC] PHP   1. {main}() C:\Users\thuna\LocalSites\magalhes-sipert-sociedade-de-advogados\app\public\index.php:0
+[06-Oct-2022 00:53:31 UTC] PHP   2. require() C:\Users\thuna\LocalSites\magalhes-sipert-sociedade-de-advogados\app\public\index.php:17
+[06-Oct-2022 00:53:31 UTC] PHP   3. require_once() C:\Users\thuna\LocalSites\magalhes-sipert-sociedade-de-advogados\app\public\wp-blog-header.php:13
+[06-Oct-2022 00:53:31 UTC] PHP   4. require_once() C:\Users\thuna\LocalSites\magalhes-sipert-sociedade-de-advogados\app\public\wp-load.php:50
+[06-Oct-2022 00:53:31 UTC] PHP   5. require_once() C:\Users\thuna\LocalSites\magalhes-sipert-sociedade-de-advogados\app\public\wp-config.php:91
+[06-Oct-2022 00:53:31 UTC] PHP   6. do_action() C:\Users\thuna\LocalSites\magalhes-sipert-sociedade-de-advogados\app\public\wp-settings.php:576
+[06-Oct-2022 00:53:31 UTC] PHP   7. WP_Hook->do_action() C:\Users\thuna\LocalSites\magalhes-sipert-sociedade-de-advogados\app\public\wp-includes\plugin.php:476
+[06-Oct-2022 00:53:31 UTC] PHP   8. WP_Hook->apply_filters() C:\Users\thuna\LocalSites\magalhes-sipert-sociedade-de-advogados\app\public\wp-includes\class-wp-hook.php:331
+[06-Oct-2022 00:53:31 UTC] PHP   9. register_navwalker() C:\Users\thuna\LocalSites\magalhes-sipert-sociedade-de-advogados\app\public\wp-includes\class-wp-hook.php:307
+[06-Oct-2022 00:53:31 UTC] PHP Fatal error:  require_once(): Failed opening required 'C:\Users\thuna\LocalSites\magalhes-sipert-sociedade-de-advogados\app\public/wp-content/themes/mslaw/class-wp-bootstrap-navwalker.php' (include_path='.:/usr/share/php:/www/wp-content/pear') in C:\Users\thuna\LocalSites\magalhes-sipert-sociedade-de-advogados\app\public\wp-content\themes\mslaw\includes\wp-bootstrap-walker\_index.php on line 10
+[06-Oct-2022 00:53:31 UTC] PHP Stack trace:
+[06-Oct-2022 00:53:31 UTC] PHP   1. {main}() C:\Users\thuna\LocalSites\magalhes-sipert-sociedade-de-advogados\app\public\index.php:0
+[06-Oct-2022 00:53:31 UTC] PHP   2. require() C:\Users\thuna\LocalSites\magalhes-sipert-sociedade-de-advogados\app\public\index.php:17
+[06-Oct-2022 00:53:31 UTC] PHP   3. require_once() C:\Users\thuna\LocalSites\magalhes-sipert-sociedade-de-advogados\app\public\wp-blog-header.php:13
+[06-Oct-2022 00:53:31 UTC] PHP   4. require_once() C:\Users\thuna\LocalSites\magalhes-sipert-sociedade-de-advogados\app\public\wp-load.php:50
+[06-Oct-2022 00:53:31 UTC] PHP   5. require_once() C:\Users\thuna\LocalSites\magalhes-sipert-sociedade-de-advogados\app\public\wp-config.php:91
+[06-Oct-2022 00:53:31 UTC] PHP   6. do_action() C:\Users\thuna\LocalSites\magalhes-sipert-sociedade-de-advogados\app\public\wp-settings.php:576
+[06-Oct-2022 00:53:31 UTC] PHP   7. WP_Hook->do_action() C:\Users\thuna\LocalSites\magalhes-sipert-sociedade-de-advogados\app\public\wp-includes\plugin.php:476
+[06-Oct-2022 00:53:31 UTC] PHP   8. WP_Hook->apply_filters() C:\Users\thuna\LocalSites\magalhes-sipert-sociedade-de-advogados\app\public\wp-includes\class-wp-hook.php:331
+[06-Oct-2022 00:53:31 UTC] PHP   9. register_navwalker() C:\Users\thuna\LocalSites\magalhes-sipert-sociedade-de-advogados\app\public\wp-includes\class-wp-hook.php:307
+[06-Oct-2022 00:53:32 UTC] PHP Warning:  require_once(C:\Users\thuna\LocalSites\magalhes-sipert-sociedade-de-advogados\app\public/wp-content/themes/mslaw/class-wp-bootstrap-navwalker.php): failed to open stream: No such file or directory in C:\Users\thuna\LocalSites\magalhes-sipert-sociedade-de-advogados\app\public\wp-content\themes\mslaw\includes\wp-bootstrap-walker\_index.php on line 10
+[06-Oct-2022 00:53:32 UTC] PHP Stack trace:
+[06-Oct-2022 00:53:32 UTC] PHP   1. {main}() C:\Users\thuna\LocalSites\magalhes-sipert-sociedade-de-advogados\app\public\index.php:0
+[06-Oct-2022 00:53:32 UTC] PHP   2. require() C:\Users\thuna\LocalSites\magalhes-sipert-sociedade-de-advogados\app\public\index.php:17
+[06-Oct-2022 00:53:32 UTC] PHP   3. require_once() C:\Users\thuna\LocalSites\magalhes-sipert-sociedade-de-advogados\app\public\wp-blog-header.php:13
+[06-Oct-2022 00:53:32 UTC] PHP   4. require_once() C:\Users\thuna\LocalSites\magalhes-sipert-sociedade-de-advogados\app\public\wp-load.php:50
+[06-Oct-2022 00:53:32 UTC] PHP   5. require_once() C:\Users\thuna\LocalSites\magalhes-sipert-sociedade-de-advogados\app\public\wp-config.php:91
+[06-Oct-2022 00:53:32 UTC] PHP   6. do_action() C:\Users\thuna\LocalSites\magalhes-sipert-sociedade-de-advogados\app\public\wp-settings.php:576
+[06-Oct-2022 00:53:32 UTC] PHP   7. WP_Hook->do_action() C:\Users\thuna\LocalSites\magalhes-sipert-sociedade-de-advogados\app\public\wp-includes\plugin.php:476
+[06-Oct-2022 00:53:32 UTC] PHP   8. WP_Hook->apply_filters() C:\Users\thuna\LocalSites\magalhes-sipert-sociedade-de-advogados\app\public\wp-includes\class-wp-hook.php:331
+[06-Oct-2022 00:53:32 UTC] PHP   9. register_navwalker() C:\Users\thuna\LocalSites\magalhes-sipert-sociedade-de-advogados\app\public\wp-includes\class-wp-hook.php:307
+[06-Oct-2022 00:53:32 UTC] PHP Fatal error:  require_once(): Failed opening required 'C:\Users\thuna\LocalSites\magalhes-sipert-sociedade-de-advogados\app\public/wp-content/themes/mslaw/class-wp-bootstrap-navwalker.php' (include_path='.:/usr/share/php:/www/wp-content/pear') in C:\Users\thuna\LocalSites\magalhes-sipert-sociedade-de-advogados\app\public\wp-content\themes\mslaw\includes\wp-bootstrap-walker\_index.php on line 10
+[06-Oct-2022 00:53:32 UTC] PHP Stack trace:
+[06-Oct-2022 00:53:32 UTC] PHP   1. {main}() C:\Users\thuna\LocalSites\magalhes-sipert-sociedade-de-advogados\app\public\index.php:0
+[06-Oct-2022 00:53:32 UTC] PHP   2. require() C:\Users\thuna\LocalSites\magalhes-sipert-sociedade-de-advogados\app\public\index.php:17
+[06-Oct-2022 00:53:32 UTC] PHP   3. require_once() C:\Users\thuna\LocalSites\magalhes-sipert-sociedade-de-advogados\app\public\wp-blog-header.php:13
+[06-Oct-2022 00:53:32 UTC] PHP   4. require_once() C:\Users\thuna\LocalSites\magalhes-sipert-sociedade-de-advogados\app\public\wp-load.php:50
+[06-Oct-2022 00:53:32 UTC] PHP   5. require_once() C:\Users\thuna\LocalSites\magalhes-sipert-sociedade-de-advogados\app\public\wp-config.php:91
+[06-Oct-2022 00:53:32 UTC] PHP   6. do_action() C:\Users\thuna\LocalSites\magalhes-sipert-sociedade-de-advogados\app\public\wp-settings.php:576
+[06-Oct-2022 00:53:32 UTC] PHP   7. WP_Hook->do_action() C:\Users\thuna\LocalSites\magalhes-sipert-sociedade-de-advogados\app\public\wp-includes\plugin.php:476
+[06-Oct-2022 00:53:32 UTC] PHP   8. WP_Hook->apply_filters() C:\Users\thuna\LocalSites\magalhes-sipert-sociedade-de-advogados\app\public\wp-includes\class-wp-hook.php:331
+[06-Oct-2022 00:53:32 UTC] PHP   9. register_navwalker() C:\Users\thuna\LocalSites\magalhes-sipert-sociedade-de-advogados\app\public\wp-includes\class-wp-hook.php:307
+[06-Oct-2022 01:02:49 UTC] PHP Fatal error:  Uncaught Error: Call to a member function walk() on string in C:\Users\thuna\LocalSites\magalhes-sipert-sociedade-de-advogados\app\public\wp-includes\nav-menu-template.php:608
+Stack trace:
+#0 C:\Users\thuna\LocalSites\magalhes-sipert-sociedade-de-advogados\app\public\wp-includes\nav-menu-template.php(228): walk_nav_menu_tree(Array, 2, Object(stdClass))
+#1 C:\Users\thuna\LocalSites\magalhes-sipert-sociedade-de-advogados\app\public\wp-content\themes\mslaw\components\header\content.php(73): wp_nav_menu(Object(stdClass))
+#2 C:\Users\thuna\LocalSites\magalhes-sipert-sociedade-de-advogados\app\public\wp-includes\template.php(772): require('C:\\Users\\thuna\\...')
+#3 C:\Users\thuna\LocalSites\magalhes-sipert-sociedade-de-advogados\app\public\wp-includes\template.php(716): load_template('C:\\Users\\thuna\\...', false, Array)
+#4 C:\Users\thuna\LocalSites\magalhes-sipert-sociedade-de-advogados\app\public\wp-includes\general-template.php(204): locate_template(Array, true, false, Array)
+#5 C:\Users\thuna\LocalSites\magal in C:\Users\thuna\LocalSites\magalhes-sipert-sociedade-de-advogados\app\public\wp-includes\nav-menu-template.php on line 608
+[06-Oct-2022 01:03:10 UTC] PHP Fatal error:  Uncaught Error: Call to a member function walk() on string in C:\Users\thuna\LocalSites\magalhes-sipert-sociedade-de-advogados\app\public\wp-includes\nav-menu-template.php:608
+Stack trace:
+#0 C:\Users\thuna\LocalSites\magalhes-sipert-sociedade-de-advogados\app\public\wp-includes\nav-menu-template.php(228): walk_nav_menu_tree(Array, 2, Object(stdClass))
+#1 C:\Users\thuna\LocalSites\magalhes-sipert-sociedade-de-advogados\app\public\wp-content\themes\mslaw\components\header\content.php(73): wp_nav_menu(Object(stdClass))
+#2 C:\Users\thuna\LocalSites\magalhes-sipert-sociedade-de-advogados\app\public\wp-includes\template.php(772): require('C:\\Users\\thuna\\...')
+#3 C:\Users\thuna\LocalSites\magalhes-sipert-sociedade-de-advogados\app\public\wp-includes\template.php(716): load_template('C:\\Users\\thuna\\...', false, Array)
+#4 C:\Users\thuna\LocalSites\magalhes-sipert-sociedade-de-advogados\app\public\wp-includes\general-template.php(204): locate_template(Array, true, false, Array)
+#5 C:\Users\thuna\LocalSites\magal in C:\Users\thuna\LocalSites\magalhes-sipert-sociedade-de-advogados\app\public\wp-includes\nav-menu-template.php on line 608
+[06-Oct-2022 01:03:17 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function WP_Bootstrap_Navwalker() in C:\Users\thuna\LocalSites\magalhes-sipert-sociedade-de-advogados\app\public\wp-content\themes\mslaw\components\header\content.php:80
+Stack trace:
+#0 C:\Users\thuna\LocalSites\magalhes-sipert-sociedade-de-advogados\app\public\wp-includes\template.php(772): require()
+#1 C:\Users\thuna\LocalSites\magalhes-sipert-sociedade-de-advogados\app\public\wp-includes\template.php(716): load_template('C:\\Users\\thuna\\...', false, Array)
+#2 C:\Users\thuna\LocalSites\magalhes-sipert-sociedade-de-advogados\app\public\wp-includes\general-template.php(204): locate_template(Array, true, false, Array)
+#3 C:\Users\thuna\LocalSites\magalhes-sipert-sociedade-de-advogados\app\public\wp-content\themes\mslaw\components\header\_index.php(7): get_template_part('components/head...')
+#4 C:\Users\thuna\LocalSites\magalhes-sipert-sociedade-de-advogados\app\public\wp-includes\template.php(772): require('C:\\Users\\thuna\\...')
+#5 C:\Users\thuna\LocalSites\magalhes-sipert in C:\Users\thuna\LocalSites\magalhes-sipert-sociedade-de-advogados\app\public\wp-content\themes\mslaw\components\header\content.php on line 80
+[06-Oct-2022 01:04:02 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function WP_Bootstrap_Navwalker() in C:\Users\thuna\LocalSites\magalhes-sipert-sociedade-de-advogados\app\public\wp-content\themes\mslaw\components\header\content.php:80
+Stack trace:
+#0 C:\Users\thuna\LocalSites\magalhes-sipert-sociedade-de-advogados\app\public\wp-includes\template.php(772): require()
+#1 C:\Users\thuna\LocalSites\magalhes-sipert-sociedade-de-advogados\app\public\wp-includes\template.php(716): load_template('C:\\Users\\thuna\\...', false, Array)
+#2 C:\Users\thuna\LocalSites\magalhes-sipert-sociedade-de-advogados\app\public\wp-includes\general-template.php(204): locate_template(Array, true, false, Array)
+#3 C:\Users\thuna\LocalSites\magalhes-sipert-sociedade-de-advogados\app\public\wp-content\themes\mslaw\components\header\_index.php(7): get_template_part('components/head...')
+#4 C:\Users\thuna\LocalSites\magalhes-sipert-sociedade-de-advogados\app\public\wp-includes\template.php(772): require('C:\\Users\\thuna\\...')
+#5 C:\Users\thuna\LocalSites\magalhes-sipert in C:\Users\thuna\LocalSites\magalhes-sipert-sociedade-de-advogados\app\public\wp-content\themes\mslaw\components\header\content.php on line 80

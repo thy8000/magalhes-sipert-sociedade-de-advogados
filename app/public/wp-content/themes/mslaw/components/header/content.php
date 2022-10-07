@@ -21,6 +21,7 @@ if (!defined('ABSPATH')) exit;
 
     ?>
     <header id="it9-mslaw-header">
+        <!--
         <div class="header-info container-fluid bg-one py-2">
             <div class="container">
                 <div class="row">
@@ -29,37 +30,38 @@ if (!defined('ABSPATH')) exit;
                             <a class="link text-white" href="https://goo.gl/maps/wEUWgRZtNKrd7cvD9">
                                 Rua Itabuna, nº. 158, Vl. Floresta, Sto André/SP – CEP 09050-210
                             </a>
-                            <?php echo it9_mslaws_get_svg_icon('map-pin.svg', 'icon pe-md-2 my-sm-0 my-3') ?>
+                            <?php //echo it9_mslaws_get_svg_icon('map-pin.svg', 'icon pe-md-2 my-sm-0 my-3') ?>
                         </span>
                     </div>
                     <div class="header-info__social col-lg-6 col-md-12 text-center text-white my-sm-0 my-3">
                         <a href="#">
-                            <?php echo it9_mslaws_get_svg_icon('whatsapp.svg', 'icon') ?>
+                            <?php //echo it9_mslaws_get_svg_icon('whatsapp.svg', 'icon') ?>
                         </a>
                         <a href="#">
-                            <?php echo it9_mslaws_get_svg_icon('youtube.svg', 'icon') ?>
+                            <?php //echo it9_mslaws_get_svg_icon('youtube.svg', 'icon') ?>
                         </a>
                         <a href="#">
-                            <?php echo it9_mslaws_get_svg_icon('instagram.svg', 'icon') ?>
+                            <?php //echo it9_mslaws_get_svg_icon('instagram.svg', 'icon') ?>
                         </a>
                         <a href="#">
-                            <?php echo it9_mslaws_get_svg_icon('facebook.svg', 'icon') ?>
+                            <?php //echo it9_mslaws_get_svg_icon('facebook.svg', 'icon') ?>
                         </a>
                         <a href="#">
-                            <?php echo it9_mslaws_get_svg_icon('messenger.svg', 'icon') ?>
+                            <?php //echo it9_mslaws_get_svg_icon('messenger.svg', 'icon') ?>
                         </a>
                         <a href="#">
-                            <?php echo it9_mslaws_get_svg_icon('linkedin.svg', 'icon') ?>
+                            <?php //echo it9_mslaws_get_svg_icon('linkedin.svg', 'icon') ?>
                         </a>
                         <a href="#">
-                            <?php echo it9_mslaws_get_svg_icon('twitter.svg', 'icon') ?>
+                            <?php //echo it9_mslaws_get_svg_icon('twitter.svg', 'icon') ?>
                         </a>
                     </div>
                 </div>
             </div>
         </div>
-        <nav class="navbar navbar-expand-lg navbar-dark bg-transparent">
-            <div class="container-fluid text-white">
+        -->
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <div class="container-fluid">
                 <?php echo the_custom_logo(); ?>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>

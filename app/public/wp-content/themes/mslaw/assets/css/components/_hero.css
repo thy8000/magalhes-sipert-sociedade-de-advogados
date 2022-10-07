@@ -1,4 +1,4 @@
-.hero {
+.hero__image {
   background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
     url(http://magalhes-sipert-sociedade-de-advogados.local/wp-content/uploads/2022/10/magalhaes-hero.jpg);
   height: 100vh;
@@ -6,8 +6,7 @@
   background-size: cover;
   position: relative;
 }
-
-.hero .hero__button {
+.hero .hero__button{
   transition: 0.5s all;
   border: 1px solid #b5c5c8;
   border-radius: 5px;
@@ -20,9 +19,19 @@
   cursor: pointer;
   text-transform: uppercase;
 }
-
+.horizontal-hero .hero__button{
+  border: 1px solid #b5c5c8;
+  color: #b5c5c8;
+  display: inline-block;
+}
 .hero .hero__button:hover {
   border: 1px solid #29666f;
   background-color: #29666f;
   color: white;
 }
+.vertical-hero .hero__button{
+  border: 1px solid #29666f;
+  color: #29666f;
+  display: inline-block;
+}
+

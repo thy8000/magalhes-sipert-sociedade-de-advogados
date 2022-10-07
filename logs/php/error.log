@@ -120,3 +120,5 @@ Stack trace:
 #3 C:\Users\thuna\LocalSites\magalhes-sipert-sociedade-de-advogados\app\public\wp-content\themes\mslaw\components\header\_index.php(7): get_template_part('components/head...')
 #4 C:\Users\thuna\LocalSites\magalhes-sipert-sociedade-de-advogados\app\public\wp-includes\template.php(772): require('C:\\Users\\thuna\\...')
 #5 C:\Users\thuna\LocalSites\magalhes-sipert in C:\Users\thuna\LocalSites\magalhes-sipert-sociedade-de-advogados\app\public\wp-content\themes\mslaw\components\header\content.php on line 80
+[07-Oct-2022 02:31:59 UTC] PHP Parse error:  syntax error, unexpected ''hero_button_text'' (T_CONSTANT_ENCAPSED_STRING), expecting ']' in C:\Users\thuna\LocalSites\magalhes-sipert-sociedade-de-advogados\app\public\wp-content\themes\mslaw\pages\home\content.php on line 6
+[07-Oct-2022 02:32:03 UTC] PHP Parse error:  syntax error, unexpected ''hero_button_text'' (T_CONSTANT_ENCAPSED_STRING), expecting ']' in C:\Users\thuna\LocalSites\magalhes-sipert-sociedade-de-advogados\app\public\wp-content\themes\mslaw\pages\home\content.php on line 6

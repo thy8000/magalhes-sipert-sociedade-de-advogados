@@ -21,45 +21,6 @@ if (!defined('ABSPATH')) exit;
 
     ?>
     <header id="it9-mslaw-header">
-        <!--
-        <div class="header-info container-fluid bg-one py-2">
-            <div class="container">
-                <div class="row">
-                    <div class="header-info__address col-lg-6 col-md-12 text-center text-white d-flex align-items-center justify-content-center">
-                        <span class="d-flex align-items-center flex-md-row-reverse flex-column-reverse">
-                            <a class="link text-white" href="https://goo.gl/maps/wEUWgRZtNKrd7cvD9">
-                                Rua Itabuna, nº. 158, Vl. Floresta, Sto André/SP – CEP 09050-210
-                            </a>
-                            <?php //echo it9_mslaws_get_svg_icon('map-pin.svg', 'icon pe-md-2 my-sm-0 my-3') ?>
-                        </span>
-                    </div>
-                    <div class="header-info__social col-lg-6 col-md-12 text-center text-white my-sm-0 my-3">
-                        <a href="#">
-                            <?php //echo it9_mslaws_get_svg_icon('whatsapp.svg', 'icon') ?>
-                        </a>
-                        <a href="#">
-                            <?php //echo it9_mslaws_get_svg_icon('youtube.svg', 'icon') ?>
-                        </a>
-                        <a href="#">
-                            <?php //echo it9_mslaws_get_svg_icon('instagram.svg', 'icon') ?>
-                        </a>
-                        <a href="#">
-                            <?php //echo it9_mslaws_get_svg_icon('facebook.svg', 'icon') ?>
-                        </a>
-                        <a href="#">
-                            <?php //echo it9_mslaws_get_svg_icon('messenger.svg', 'icon') ?>
-                        </a>
-                        <a href="#">
-                            <?php //echo it9_mslaws_get_svg_icon('linkedin.svg', 'icon') ?>
-                        </a>
-                        <a href="#">
-                            <?php //echo it9_mslaws_get_svg_icon('twitter.svg', 'icon') ?>
-                        </a>
-                    </div>
-                </div>
-            </div>
-        </div>
-        -->
         <nav class="navbar navbar-expand-lg navbar-light bg-light">
             <div class="container-fluid">
                 <?php echo the_custom_logo(); ?>
@@ -71,7 +32,7 @@ if (!defined('ABSPATH')) exit;
                     'theme_location'    => 'top-menu',
                     'depth'             =>  2,
                     'container'         => 'div',
-                    'container_class'   => 'collapse navbar-collapse',
+                    'container_class'   => 'collapse navbar-collapse d-lg-flex justify-content-end me-5 pe-5',
                     'container_id'      => 'navbarNavDropdown',
                     'menu_class'        => 'navbar-nav',
                     'fallback_cb'       => 'WP_Bootstrap_Navwalker::fallback',

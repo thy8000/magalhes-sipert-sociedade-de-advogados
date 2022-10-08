@@ -4,3 +4,16 @@
 .gallery .card {
     height: 15rem;
 }
+.gallery .gallery__image{
+    border: none;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    transition: .5s all;
+    overflow: hidden;
+}
+.gallery .gallery__card:hover .gallery__image{
+    transform: scale(1.1);
+    z-index:200;
+    cursor: pointer;
+}   

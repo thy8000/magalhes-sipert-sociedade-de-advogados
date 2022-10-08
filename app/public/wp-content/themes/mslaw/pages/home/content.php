@@ -17,7 +17,12 @@
   </div>
   <div class="bg-light">
     <?php
-    get_template_part('components/_flexible-card');
+    get_template_part('components/_gallery');
+    ?>
+  </div>
+  <div class="bg-white">
+    <?php
+      get_template_part('components/_posts-cards');
     ?>
   </div>
 </div>

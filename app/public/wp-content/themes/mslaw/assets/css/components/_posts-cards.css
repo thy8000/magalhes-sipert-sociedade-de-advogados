@@ -1,0 +1,24 @@
+.posts-cards .posts-cards__thumbnail {
+  height: 225px;
+  background-image: url(https://blog.emania.com.br/wp-content/uploads/2016/02/direitos-autorais-e-de-imagem.jpg);
+  background-size: cover;
+}
+
+.posts-cards .posts-cards__button {
+  background-color: transparent;
+  color: #29666f;
+  border: 1px solid #29666f;
+  border-radius: 5px;
+  padding: 5px 10px;
+  transition: 0.5s all;
+}
+.posts-cards .posts-cards__button:hover {
+  background-color: #29666f;
+  color: white;
+  border: 1px solid #29666f;
+  border-radius: 5px;
+}
+
+.posts-cards .posts-cards__button.posts-cards__single__link {
+  padding: 10px 20px;
+}

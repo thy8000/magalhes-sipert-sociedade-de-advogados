@@ -15,7 +15,7 @@
                 <?php
                 if (!empty($args['hero_text'])) {
                 ?>
-                    <p class="lead text-secondary"><?php echo esc_html($args['hero_text']); ?></p>
+                    <p class="lead text-secondary lh-base"><?php echo esc_html($args['hero_text']); ?></p>
                 <?php
                 }
                 ?>

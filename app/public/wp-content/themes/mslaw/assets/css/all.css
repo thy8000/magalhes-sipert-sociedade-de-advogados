@@ -1,9 +1,11 @@
 @import url(../css/global/_index.css);
 
 @import url(components/header/index.css);
+@import url(components/footer/index.css);
 
 @import url(components/_hero.css);
 @import url(components/_gallery.css);
 @import url(components/_posts-cards.css);
 @import url(components/_centered-hero.css);
+@import url(components/_search.css);
 

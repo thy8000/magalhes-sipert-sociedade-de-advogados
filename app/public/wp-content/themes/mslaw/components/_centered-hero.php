@@ -2,7 +2,7 @@
 $background_opacity = 0.5;
 ?>
 <div class="hero centered__hero" style="background-image: linear-gradient(rgba(0, 0, 0, <?php echo $background_opacity; ?>), rgba(0, 0, 0, <?php echo $background_opacity; ?>)), url(<?php echo get_template_directory_uri(); ?>/assets/images/background/centered-hero.jpg);">
-    <div class="px-4 py-5 my-5 text-center text-white">
+    <div class="px-4 py-5 text-center text-white">
         <?php
         if (!empty($args['hero_title'])) 
         {

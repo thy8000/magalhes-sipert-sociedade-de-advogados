@@ -1,0 +1,25 @@
+.search .search__input,
+.search .search__button{
+    height: 40px;
+}
+.search .search__input{
+    border: 1px solid transparent !important;
+    outline: none !important;
+    box-shadow: none !important;
+}
+.search .search__input[type=text]{
+    padding: 0px 10px;
+}
+
+.search .search__button{
+    background-color: #547C85;
+}
+
+.search .search__button:hover{
+    background-color: #3F7785;
+}
+
+.search .search__button .search__icon{
+    width: 25px;
+    height: 20px;
+}

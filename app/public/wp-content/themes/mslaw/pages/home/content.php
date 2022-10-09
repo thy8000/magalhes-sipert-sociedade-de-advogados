@@ -25,7 +25,7 @@
       get_template_part('components/_posts-cards');
     ?>
   </div>
-  <div class="bg-white">
+  <div class="bg-white mt-5">
     <?php get_template_part('components/_centered-hero', null, [
       'hero_title' => __('Fale Conosco', 'mslaw'),
       'hero_text'  => __('Nosso escritório conta com advogados especializados em diversas áreas do Direito para resolver seus problemas', 'mslaw'),

@@ -1,5 +1,6 @@
 <div class="hero horizontal-hero">
-    <div class="hero__image d-flex align-items-center justify-content-center text-center">
+    <div class="hero__image d-flex align-items-center justify-content-center text-center" style="background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url(http://magalhes-sipert-sociedade-de-advogados.local/wp-content/uploads/2022/10/magalhaes-hero.jpg);">
         <div class="hero__text text-white px-3">
             <?php
             if (!empty($args['hero_title'])) {

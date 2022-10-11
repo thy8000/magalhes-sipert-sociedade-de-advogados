@@ -1,1 +1,2 @@
 2022/09/26 22:45:20 [alert] 9044#10928: OpenEvent("ngx_master_19128") failed (2: FormatMessage() error:(15100))
+2022/10/10 23:53:27 [error] 19684#12956: *8733 WSARecv() failed (10054: FormatMessage() error:(15100)) while reading response header from upstream, client: 127.0.0.1, server: , request: "GET /wp-content/themes/mslaw/assets/bootstrap/bootstrap.bundle.min.js.map HTTP/1.0", upstream: "fastcgi://127.0.0.1:10018", host: "magalhes-sipert-sociedade-de-advogados.local"

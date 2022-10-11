@@ -70,7 +70,7 @@ if (!defined('ABSPATH')) exit;
                 </div>
             </div>
             <div class="col-lg-4 col-md-6 mb-4 mb-md-0">
-                <h5 class="text-uppercase mb-4">Horário de Atendimento</h5>
+                <h5 class="text-uppercase mb-4 text-center">Horário de Atendimento</h5>
 
                 <table class="table text-center text-white">
                     <tbody class="font-weight-normal">

@@ -1,0 +1,7 @@
+.footer__contact__icon {
+    width: 30px;
+}
+.main__footer .footer__contact__link:hover{
+    cursor: pointer;
+    background-color: #29666F;
+}

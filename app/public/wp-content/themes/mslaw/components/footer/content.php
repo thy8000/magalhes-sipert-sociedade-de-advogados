@@ -42,21 +42,32 @@ if (!defined('ABSPATH')) exit;
                     <input type="text" class="search__input form-control" placeholder="Pesquisar" aria-label="Pesquisar" aria-describedby="button-addon2">
                     <button class="search__button btn" type="button" id="button-addon2"><?php echo it9_mslaws_get_svg_icon('search.svg', 'search__icon') ?></button>
                 </div>
-
-                <ul class="fa-ul" style="margin-left: 1.65em;">
-                    <li class="mb-3">
-                        <span class="fa-li"><i class="fas fa-home"></i></span><span class="ms-2">Rua Itabuna, nº. 158, Vl. Floresta, Santo André - SP -  09050-210</span>
-                    </li>
-                    <li class="mb-3">
-                        <span class="fa-li"><i class="fas fa-envelope"></i></span><span class="ms-2">contato@mslaw.com.br</span>
-                    </li>
-                    <li class="mb-3">
-                        <span class="fa-li"><i class="fas fa-phone"></i></span><span class="ms-2">4425-01-08</span>
-                    </li>
-                    <li class="mb-3">
-                        <span class="fa-li"><i class="fas fa-print"></i></span><span class="ms-2">11 4901-3857</span>
-                    </li>
-                </ul>
+                <div class="footer__contact">
+                    <div class="mb-3">
+                        <a class="footer__contact__link">
+                            <?php echo it9_mslaws_get_svg_icon('map-pin.svg', 'footer__contact__icon') ?>
+                            Rua Itabuna, nº. 158, Vl. Floresta, Santo André - SP -  09050-210
+                        </a>
+                    </div>
+                    <div class="mb-3">
+                        <a class="footer__contact__link">
+                            <?php echo it9_mslaws_get_svg_icon('mail.svg', 'footer__contact__icon') ?>
+                            contato@mslaw.com.br
+                        </a>
+                    </div>
+                    <div class="mb-3">
+                        <a class="footer__contact__link">
+                            <?php echo it9_mslaws_get_svg_icon('phone.svg', 'footer__contact__icon') ?>
+                            (11) 4425-0108
+                        </a>
+                    </div>
+                    <div class="mb-3">
+                        <a class="footer__contact__link">
+                            <?php echo it9_mslaws_get_svg_icon('phone.svg', 'footer__contact__icon') ?>
+                            (11) 4901-3857
+                        </a>
+                    </div>
+                </div>
             </div>
             <div class="col-lg-4 col-md-6 mb-4 mb-md-0">
                 <h5 class="text-uppercase mb-4">Horário de Atendimento</h5>
@@ -77,8 +88,11 @@ if (!defined('ABSPATH')) exit;
         </div>
     </div>
     <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
-        © 2022 Copyright:
+        © 2022 Todos os direitos reservados - 
         <a class="text-white" href="https://mdbootstrap.com/">MSLaw Advogados</a>
+        <br>
+        <br>
+        Hospedado e monitorado por <a href="https://it9.com.br/">IT9</a> - <a href="https://www.abctudo.com.br/">ABCTudo</a>
     </div>
     </div>
 </footer>

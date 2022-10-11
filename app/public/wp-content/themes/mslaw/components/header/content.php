@@ -20,8 +20,8 @@ if (!defined('ABSPATH')) exit;
     wp_body_open();
 
     ?>
-    <header id="it9-mslaw-header">
-        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <header id="it9-mslaw-header" class="top-menu">
+        <nav class="top-menu__nav navbar navbar-expand-lg navbar-light bg-lg-transparent bg-md-white">
             <div class="container-fluid">
                 <?php echo the_custom_logo(); ?>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">

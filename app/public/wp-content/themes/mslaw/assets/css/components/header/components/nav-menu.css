@@ -1,7 +1,19 @@
+.top-menu .top-menu__nav{
+    transition: .5s all;
+}
 .menu-item:hover .dropdown-menu{
     display: block;
     animation-name: dropdown;
     animation-duration: .3s;
+}
+.top-menu .top-menu__nav.is-fixed .nav-link{
+    color: #FFF;
+}
+.top-menu .top-menu__nav.is-fixed .nav-link:hover{
+    color: #29666F;
+}
+.top-menu .top-menu__nav .nav-item .nav-link:hover{
+    color: #29666F;
 }
 .nav-link:after{
     display: none !important;

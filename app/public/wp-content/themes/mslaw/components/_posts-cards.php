@@ -1,10 +1,11 @@
 <div class="posts-cards">
+  <div class="posts-cards__background-shape position-absolute"></div>
   <div class="container">
     <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
-      <div class="col-12 my-5">
-        <h2 class="title pb-2 text-one display-5 text-center fw-bold border-bottom">Blog</h2>
+      <div class="col-12 my-5 position-relative">
+        <h2 class="title pb-2 text-one display-5 text-center fw-bold">Blog</h2>
       </div>
-      <div class="col-md-4 col-12 my-4 my-md-4 my-lg-0">
+      <div class="col-md-4 col-12 my-4 my-md-4 my-lg-0 shadow">
         <div class="card shadow-sm">
           <div class="posts-cards__thumbnail"></div>
           <div class="card-body px-5">
@@ -27,7 +28,7 @@
           </div>
         </div>
       </div>
-      <div class="col-md-4 col-12 my-4 my-md-4 my-lg-0">
+      <div class="col-md-4 col-12 my-4 my-md-4 my-lg-0 shadow">
         <div class="card shadow-sm">
           <div class="posts-cards__thumbnail"></div>
           <div class="card-body px-5">
@@ -50,7 +51,7 @@
           </div>
         </div>
       </div>
-      <div class="col-md-4 col-12 my-4 my-md-4 my-lg-0">
+      <div class="col-md-4 col-12 my-4 my-md-4 my-lg-0 shadow">
         <div class="card shadow-sm">
           <div class="posts-cards__thumbnail"></div>
           <div class="card-body px-5">

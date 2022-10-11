@@ -20,7 +20,7 @@
     get_template_part('components/_gallery');
     ?>
   </div>
-  <div class="bg-white">
+  <div class="bg-white position-relative">
     <?php
       get_template_part('components/_posts-cards');
     ?>

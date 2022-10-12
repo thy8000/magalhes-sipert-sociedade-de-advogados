@@ -5,7 +5,7 @@
       <div class="col-12 my-5 position-relative">
         <h2 class="title pb-2 text-one display-5 text-center fw-bold">Blog</h2>
       </div>
-      <div class="col-md-4 col-12 my-4 my-md-4 my-lg-0 shadow">
+      <div class="col-lg-4 col-md-12 col-12 my-4 my-md-4 my-lg-0 shadow">
         <div class="card shadow-sm">
           <div class="posts-cards__thumbnail"></div>
           <div class="card-body px-5">
@@ -28,7 +28,7 @@
           </div>
         </div>
       </div>
-      <div class="col-md-4 col-12 my-4 my-md-4 my-lg-0 shadow">
+      <div class="col-lg-4 col-md-12 col-12 my-4 my-md-4 my-lg-0 shadow">
         <div class="card shadow-sm">
           <div class="posts-cards__thumbnail"></div>
           <div class="card-body px-5">
@@ -51,7 +51,7 @@
           </div>
         </div>
       </div>
-      <div class="col-md-4 col-12 my-4 my-md-4 my-lg-0 shadow">
+      <div class="col-lg-4 col-md-12 col-12 my-4 my-md-4 my-lg-0 shadow">
         <div class="card shadow-sm">
           <div class="posts-cards__thumbnail"></div>
           <div class="card-body px-5">

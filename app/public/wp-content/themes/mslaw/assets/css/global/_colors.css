@@ -43,6 +43,23 @@
     fill: #B5C5C8;
 }
 
+/* Quaternary */
+.bg-quaternary{
+    background-color: rgb(242, 243, 245);
+}
+.text-quaternary{
+    color: rgb(242, 243, 245);
+}
+.border-quaternary{
+    border-color: rgb(242, 243, 245);
+}
+.hover-quaternary:hover{
+    color: rgb(242, 243, 245);
+}
+.hover-quaternary:hover svg{
+    fill: rgb(242, 243, 245);
+}
+
 /* Transparent */
 .bg-transparent{
     background-color: transparent;

@@ -15,7 +15,7 @@
     ]);
     ?>
   </div>
-  <div class="bg-light">
+  <div class="bg-quaternary">
     <?php
     get_template_part('components/_gallery');
     ?>

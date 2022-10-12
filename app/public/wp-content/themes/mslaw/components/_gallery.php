@@ -1,10 +1,10 @@
 <?php
     $background_opacity = 0.6;
 ?>
-<div class="gallery flexible__gallery">
+<div class="gallery flexible__gallery my-5 py-5">
     <div class="container px-4 py-5" id="custom-cards">
         <h2 class="text-center text-one fs-1 fw-bold lh-base">Áreas de Atuação</h2>
-        <h3 class="text-center text-secondary fs-5 fw-normal lh-base px-5 mx-5">Atuamos em diversas áreas do direito. Nós podemos te ajudar a resolver o seu problema jurídico em diversos setores e situações.</h2>
+        <h3 class="text-center text-secondary fs-5 fw-normal lh-base px-md-5 mx-md-5 px-0 mx-0">Atuamos em diversas áreas do direito. Nós podemos te ajudar a resolver o seu problema jurídico em diversos setores e situações.</h2>
 
         <div class="row row-cols-1 row-cols-lg-3 align-items-stretch g-4 py-5">
             <div class="col-lg-6 gallery__card">

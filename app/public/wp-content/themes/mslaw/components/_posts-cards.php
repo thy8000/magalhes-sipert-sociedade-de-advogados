@@ -1,10 +1,10 @@
-<div class="posts-cards">
+<div class="posts-cards my-5 py-5">
   <!--<div class="posts-cards__background-shape position-absolute"></div>-->
   <div class="container">
     <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
       <div class="col-12 my-5 position-relative">
       <h2 class="text-center text-one fs-1 fw-bold lh-base">Notícias</h2>
-        <h3 class="text-center text-secondary fs-5 fw-normal lh-base px-5 mx-5">Fique por dentro das novidades e atualizações do mundo jurídico.</h2>
+        <h3 class="text-center text-secondary fs-5 fw-normal lh-base px-md-5 mx-md-5 px-0 mx-0">Fique por dentro das novidades e atualizações do mundo jurídico.</h2>
       </div>
       <div class="col-lg-4 col-md-12 col-12 my-4 my-md-4 my-lg-0">
         <div class="card shadow-sm">

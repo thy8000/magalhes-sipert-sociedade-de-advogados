@@ -1,4 +1,4 @@
-<div class="hero vertical-hero">
+<div class="hero vertical-hero my-5 py-5">
     <div class="container px-4 py-5">
         <div class="row flex-lg-row-reverse align-items-center g-5 py-5">
             <div class="col-lg-6 col-md-12 position-relative">
@@ -9,14 +9,14 @@
                 <?php
                 if (!empty($args['hero_title'])) {
                 ?>
-                    <h1 class="text-one fs-1 fw-bold lh-base"><?php echo esc_html($args['hero_title']); ?></h1>
+                    <h1 class="text-one fs-1 fw-bold lh-base text-lg-start text-center"><?php echo esc_html($args['hero_title']); ?></h1>
                 <?php
                 }
                 ?>
                 <?php
                 if (!empty($args['hero_text'])) {
                 ?>
-                    <p class="text-secondary fs-5 fw-normal lh-base"><?php echo esc_html($args['hero_text']); ?></p>
+                    <p class="text-secondary fs-5 fw-normal lh-base text-lg-start text-center"><?php echo esc_html($args['hero_text']); ?></p>
                 <?php
                 }
                 ?>

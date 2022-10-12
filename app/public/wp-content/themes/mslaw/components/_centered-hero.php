@@ -16,7 +16,7 @@ $background_opacity = 0.5;
             if (!empty($args['hero_text'])) 
             {
             ?>
-                <h3 class="text-center text-light fs-5 fw-normal lh-base px-3 mx-3"><?php echo esc_html($args['hero_text']); ?></p>
+                <h3 class="text-center text-light fs-5 fw-normal lh-base px-md-3 mx-md-3 px-0 mx-0"><?php echo esc_html($args['hero_text']); ?></p>
             <?php
             }
             ?>

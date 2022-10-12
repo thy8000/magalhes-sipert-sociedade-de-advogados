@@ -3,7 +3,8 @@
 ?>
 <div class="gallery flexible__gallery">
     <div class="container px-4 py-5" id="custom-cards">
-        <h2 class="title pb-2 text-one display-5 text-center fw-bold border-bottom">Serviços</h2>
+        <h2 class="text-center text-one fs-1 fw-bold lh-base">Áreas de Atuação</h2>
+        <h3 class="text-center text-secondary fs-5 fw-normal lh-base px-5 mx-5">Atuamos em diversas áreas do direito. Nós podemos te ajudar a resolver o seu problema jurídico em diversos setores e situações.</h2>
 
         <div class="row row-cols-1 row-cols-lg-3 align-items-stretch g-4 py-5">
             <div class="col-lg-6 gallery__card">

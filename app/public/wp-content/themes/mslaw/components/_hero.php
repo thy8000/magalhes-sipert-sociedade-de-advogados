@@ -5,17 +5,17 @@
             <?php
             if (!empty($args['hero_title'])) {
             ?>
-                <h1 class="hero__title h1 text-two"><?php echo esc_html($args['hero_title']); ?></h1>
+                <h1 class="hero__title text-two fs-1 lh-base fw-bold"><?php echo esc_html($args['hero_title']); ?></h1>
             <?php
             }
             if (!empty($args['hero_subtitle'])) {
             ?>
-                <h2 class="hero__subtitle h2 text-light"><?php echo esc_html($args['hero_subtitle']); ?></h2>
+                <h2 class="hero__subtitle text-light fs-2 lh-base fw-normal"><?php echo esc_html($args['hero_subtitle']); ?></h2>
             <?php
             }
             if (!empty($args['hero_button_text'])) {
             ?>
-                <button class="hero__button mt-5"><?php echo esc_html($args['hero_button_text']); ?></button>
+                <button class="hero__button mt-5 fs-6 lh-base fw-light"><?php echo esc_html($args['hero_button_text']); ?></button>
             <?php
             }
             ?>

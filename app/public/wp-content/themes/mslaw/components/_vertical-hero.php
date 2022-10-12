@@ -9,14 +9,14 @@
                 <?php
                 if (!empty($args['hero_title'])) {
                 ?>
-                    <h1 class="display-5 fw-bold lh-1 mb-3 text-one"><?php echo esc_html($args['hero_title']); ?></h1>
+                    <h1 class="text-one fs-1 fw-bold lh-base"><?php echo esc_html($args['hero_title']); ?></h1>
                 <?php
                 }
                 ?>
                 <?php
                 if (!empty($args['hero_text'])) {
                 ?>
-                    <p class="lead text-secondary lh-base"><?php echo esc_html($args['hero_text']); ?></p>
+                    <p class="text-secondary fs-5 fw-normal lh-base"><?php echo esc_html($args['hero_text']); ?></p>
                 <?php
                 }
                 ?>
@@ -24,7 +24,7 @@
                 if (!empty($args['hero_button_text'])) {
                 ?>
                     <div class="d-grid gap-2 d-md-flex justify-content-md-start mt-5">
-                        <button type="button" class="hero__button"><?php echo esc_html($args['hero_button_text']); ?></button>
+                        <button type="button" class="hero__button fw-light lh-base"><?php echo esc_html($args['hero_button_text']); ?></button>
                     </div>
                 <?php
                 }

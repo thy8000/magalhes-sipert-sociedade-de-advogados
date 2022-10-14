@@ -20,6 +20,11 @@
     get_template_part('components/_gallery');
     ?>
   </div>
+  <div style="background-color: #141414;">
+    <?php
+    get_template_part('components/_circle-hero');
+    ?>
+  </div>
   <div class="bg-white position-relative">
     <?php
       get_template_part('components/_posts-cards');

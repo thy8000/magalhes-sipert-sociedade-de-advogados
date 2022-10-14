@@ -1,11 +1,10 @@
-<div class="hero vertical-hero my-5 py-5">
-    <div class="container px-4 py-5">
-        <div class="row flex-lg-row-reverse align-items-center g-5 py-5">
-            <div class="col-lg-6 col-md-12 position-relative">
-                <div class="hero__big-circle position-absolute"></div>
-                <img class="position-relative" src="http://magalhes-sipert-sociedade-de-advogados.local/wp-content/uploads/2022/10/mslaws-vertical-hero-image.jpg" class="d-block mx-lg-auto img-fluid" alt="Bootstrap Themes" width="700" height="500" loading="lazy">
-            </div>
+<div class="hero vertical-hero my-5 py-5 position-relative">
+    <div class="container px-4 py-5 mb-5">
+        <div class="row">
             <div class="col-lg-6 col-md-12">
+                <img class="hero__image img-fluid" src="http://magalhes-sipert-sociedade-de-advogados.local/wp-content/uploads/2022/10/mslaws-vertical-hero-image.jpg" class="d-block mx-lg-auto img-fluid" alt="Magalhães & Sipert" width="700" height="500" loading="lazy">
+            </div>
+            <div class="col-lg-6 col-md-12 ps-lg-5 mt-lg-0 mt-5">
                 <?php
                 if (!empty($args['hero_title'])) {
                 ?>
@@ -23,7 +22,7 @@
                 <?php
                 if (!empty($args['hero_button_text'])) {
                 ?>
-                    <div class="d-grid gap-2 d-md-flex justify-content-md-start mt-5">
+                    <div class="d-grid gap-2 d-md-flex justify-content-lg-start justify-content-md-center mt-5">
                         <button type="button" class="hero__button fw-light lh-base"><?php echo esc_html($args['hero_button_text']); ?></button>
                     </div>
                 <?php

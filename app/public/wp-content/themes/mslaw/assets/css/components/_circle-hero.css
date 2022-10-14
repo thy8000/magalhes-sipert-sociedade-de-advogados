@@ -1,0 +1,13 @@
+.circle-hero .circle-hero__image{
+    width: 250px;
+    max-width: 100%;
+    height: 250px;
+    box-shadow: 25px -25px rgb(181 197 200 / 30%);
+}
+.circle-hero .circle-hero__wrapper{
+    transition: .5s all;
+}
+.circle-hero .circle-hero__wrapper:hover{
+    transform: scale(1.1);
+    cursor: pointer;
+}

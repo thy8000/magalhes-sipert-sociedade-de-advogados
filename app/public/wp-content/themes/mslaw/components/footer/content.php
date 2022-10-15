@@ -10,7 +10,9 @@ if (!defined('ABSPATH')) exit;
         <div class="row mt-4">
             <div class="col-lg-4 col-md-12 mb-4 mb-md-0">
                 <div class="footer_logo mb-5">
-                    <?php echo the_custom_logo(); ?>
+                <a href="http://magalhes-sipert-sociedade-de-advogados.local/" class="custom-logo-link" rel="home" aria-current="page">
+                    <img width="150" height="150" src="http://magalhes-sipert-sociedade-de-advogados.local/wp-content/uploads/2022/10/logo-quadrado-magalhaes.png" class="custom-logo" alt="Magalhães & Sipert Sociedade de Advogados">
+                </a>
                 </div>
                 <div class="footer__social d-flex">
                     <div>

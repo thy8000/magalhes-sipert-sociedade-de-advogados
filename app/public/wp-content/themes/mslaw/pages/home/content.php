@@ -6,11 +6,12 @@
     'hero_button_text' => __('Entrar em contato', 'mslaw'),
   ]);
   ?>
-  <div class="bg-white">
+  <div class="bg-light">
     <?php
     get_template_part('components/_vertical-hero', null, [
       'hero_title' => __('Quem Somos', 'mslaw'),
-      'hero_text' => __('Magalhães & Sipert Sociedade de Advogados nasceu da vontade de seus sócios em atender seus clientes com uma prestação de serviços que agregue valor de forma a melhorarem o resultado final, tornando-se um bom parceiro.', 'mslaw'),
+      'hero_text' => __('A Magalhães &amp; Sipert Sociedade de Advogados nasceu da vontade de seus sócios em atender
+      seus clientes com as melhores soluções jurídicas para cada caso concreto.', 'mslaw'),
       'hero_button_text' => __('Saiba mais', 'mslaw'),
     ]);
     ?>
@@ -20,17 +21,22 @@
     get_template_part('components/_gallery');
     ?>
   </div>
-  <div style="background-color: #141414;">
+  <div class="bg-light">
     <?php
     get_template_part('components/_circle-hero');
     ?>
   </div>
-  <div class="bg-white position-relative">
+  <div class="bg-quaternary">
+    <?php
+    get_template_part('components/_cards');
+    ?>
+  </div>
+  <div class="bg-light position-relative">
     <?php
       get_template_part('components/_posts-cards');
     ?>
   </div>
-  <div class="bg-white mt-5">
+  <div class="bg-light mt-5">
     <?php get_template_part('components/_centered-hero', null, [
       'hero_title' => __('Fale Conosco', 'mslaw'),
       'hero_text'  => __('Nosso escritório conta com advogados especializados em diversas áreas do Direito para resolver seus problemas', 'mslaw'),

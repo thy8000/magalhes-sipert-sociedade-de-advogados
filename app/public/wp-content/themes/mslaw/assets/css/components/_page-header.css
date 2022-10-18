@@ -1,0 +1,14 @@
+.page-header{
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 8rem 0;
+}
+.page-header .page-header__box{
+    background-color: #29666F;
+    padding: 2.5rem;
+}
+@media (min-width: 768px){
+    .page-header .page-header__box{
+        padding: 5rem;
+    } 
+}

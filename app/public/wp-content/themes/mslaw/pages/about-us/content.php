@@ -24,4 +24,7 @@ if (!defined('ABSPATH')) exit;
         ]);
         ?>
     </div>
+    <div class="bg-quaternary">
+        <?php get_template_part('components/_double-column-section'); ?>
+    </div>
 </div>

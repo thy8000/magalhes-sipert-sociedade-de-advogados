@@ -178,3 +178,7 @@ Stack trace:
 [15-Oct-2022 17:47:41 UTC] PHP   5. require_once() C:\Users\thuna\LocalSites\magalhes-sipert-sociedade-de-advogados\app\public\wp-config.php:91
 [15-Oct-2022 17:47:41 UTC] PHP   6. include() C:\Users\thuna\LocalSites\magalhes-sipert-sociedade-de-advogados\app\public\wp-settings.php:566
 [15-Oct-2022 17:47:41 UTC] PHP   7. require_once() C:\Users\thuna\LocalSites\magalhes-sipert-sociedade-de-advogados\app\public\wp-content\themes\mslaw\functions.php:5
+[18-Oct-2022 02:47:25 UTC] Performing upgrade from  to 4.0.2
+[18-Oct-2022 02:47:25 UTC] setting sglobal
+[18-Oct-2022 02:47:39 UTC] Could not check system for sql lock support. wp_remote_request failed. Error: cURL error 28: Operation timed out after 12010 milliseconds with 0 bytes received
+[21-Oct-2022 02:45:47 UTC] DUP PRO:license key is empty on uninstall!

@@ -2,7 +2,9 @@
 if (!defined('ABSPATH')) exit;
 ?>
 <div class="about-us">
-    <?php get_template_part('components/_page-header'); ?>
+    <?php get_template_part('components/_page-header', null, [
+        'page_description' => __('Conheça o nosso trabalho', 'it9_mslaws'),
+    ]); ?>
     <div class="bg-light">
         <?php
         get_template_part('components/_vertical-hero', null, [
@@ -25,16 +27,22 @@ if (!defined('ABSPATH')) exit;
         ?>
     </div>
     <div class="bg-quaternary">
-        <?php get_template_part('components/_double-column-section'); ?>
+        <?php
+        get_template_part('components/_double-column-section', null, [
+            'second_column_have_icons' => true,
+            'first_column_title' => __('Porquê escolher Magalhães & Sipert Sociedade de Advogados ?', 'it9_mslaws'),
+            'first_column_description' => __('Nascemos da vontade em atender os nossos clientes com as melhores soluções jurídicas. Conheça os nossos diferenciais para as outras empresas.', 'it9_mslaws'),
+        ]);
+        ?>
     </div>
     <div class="bg-light">
         <?php get_template_part('components/_cards-with-image-and-title'); ?>
     </div>
     <div class="bg-white mt-5">
-    <?php get_template_part('components/_centered-hero', null, [
-      'hero_title' => __('Fale Conosco', 'mslaw'),
-      'hero_text'  => __('Nosso escritório conta com advogados especializados em diversas áreas do Direito para resolver seus problemas', 'mslaw'),
-      'hero_button_text' => __('Entre em contato', 'mslaw')
-    ]); ?>
-  </div>
+        <?php get_template_part('components/_centered-hero', null, [
+            'hero_title' => __('Fale Conosco', 'mslaw'),
+            'hero_text'  => __('Nosso escritório conta com advogados especializados em diversas áreas do Direito para resolver seus problemas', 'mslaw'),
+            'hero_button_text' => __('Entre em contato', 'mslaw')
+        ]); ?>
+    </div>
 </div>

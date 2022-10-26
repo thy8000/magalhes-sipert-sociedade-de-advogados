@@ -5,4 +5,4 @@
 
 get_template_part('components/header/_index');
 get_template_part('pages/services/_index');
-get_template_part('components/header/_index');
+get_template_part('components/footer/_index');

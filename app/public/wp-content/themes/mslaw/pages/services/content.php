@@ -18,8 +18,18 @@ if (!defined('ABSPATH')) exit;
         ?>
     </div>
     <div class="bg-quaternary">
-    <?php
-    get_template_part('components/_gallery');
-    ?>
+        <?php
+        get_template_part('components/_gallery', null, [
+            'title' => __('Áreas de Atuação', 'it9_mslaws'),
+            'description' => __('Prestamos os melhores serviços da nossa área. Estamos sempre dispostos a atender você. Saiba as nossas especialidades', 'it9_mslaws'),
+        ]);
+        ?>
+        <div class="bg-light mt-5">
+            <?php get_template_part('components/_centered-hero', null, [
+                'hero_title' => __('Fale Conosco', 'mslaw'),
+                'hero_text'  => __('Nosso escritório conta com advogados especializados em diversas áreas do Direito para resolver seus problemas', 'mslaw'),
+                'hero_button_text' => __('Entre em contato', 'mslaw')
+            ]); ?>
+        </div>
     </div>
 </div>

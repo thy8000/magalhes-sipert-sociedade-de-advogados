@@ -32,8 +32,7 @@ $templates = [
    'taxonomy'
 ];
 
-foreach ($templates as $template)
-{
+foreach ($templates as $template) {
    add_filter("{$template}_template_hierarchy", 'it9_mslaws_template_hierarchy_candidates');
 }
 
@@ -42,8 +41,7 @@ function it9_mslaws_template_hierarchy_candidates($templates)
    if (false !== strpos($templates[0], 'pages/'))
       return $templates;
 
-   foreach ($templates as $template)
-   {
+   foreach ($templates as $template) {
       $index = str_replace('.php', '/_index.php', $template);
       $new_templates[] = "pages/{$index}";
       $new_templates[] = "pages/{$template}";

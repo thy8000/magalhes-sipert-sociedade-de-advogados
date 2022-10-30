@@ -1,42 +1,16 @@
-[27-Oct-2022 02:33:33 UTC] Xdebug: [Step Debug] Time-out connecting to debugging client, waited: 200 ms. Tried: ::1:9000 (from HTTP_X_FORWARDED_FOR HTTP header), localhost:9000 (fallback through xdebug.client_host/xdebug.client_port) :-(
-[27-Oct-2022 02:33:33 UTC] Xdebug: [Step Debug] Time-out connecting to debugging client, waited: 200 ms. Tried: ::1:9000 (from HTTP_X_FORWARDED_FOR HTTP header), localhost:9000 (fallback through xdebug.client_host/xdebug.client_port) :-(
-[27-Oct-2022 02:33:34 UTC] Xdebug: [Step Debug] Time-out connecting to debugging client, waited: 200 ms. Tried: ::1:9000 (from HTTP_X_FORWARDED_FOR HTTP header), localhost:9000 (fallback through xdebug.client_host/xdebug.client_port) :-(
-[27-Oct-2022 02:33:35 UTC] Xdebug: [Step Debug] Time-out connecting to debugging client, waited: 200 ms. Tried: ::1:9000 (from HTTP_X_FORWARDED_FOR HTTP header), localhost:9000 (fallback through xdebug.client_host/xdebug.client_port) :-(
-[27-Oct-2022 02:33:35 UTC] Xdebug: [Step Debug] Time-out connecting to debugging client, waited: 200 ms. Tried: ::1:9000 (from HTTP_X_FORWARDED_FOR HTTP header), localhost:9000 (fallback through xdebug.client_host/xdebug.client_port) :-(
-[27-Oct-2022 02:33:36 UTC] Xdebug: [Step Debug] Time-out connecting to debugging client, waited: 200 ms. Tried: ::1:9000 (from HTTP_X_FORWARDED_FOR HTTP header), localhost:9000 (fallback through xdebug.client_host/xdebug.client_port) :-(
-[27-Oct-2022 02:33:36 UTC] Xdebug: [Step Debug] Time-out connecting to debugging client, waited: 200 ms. Tried: ::1:9000 (from HTTP_X_FORWARDED_FOR HTTP header), localhost:9000 (fallback through xdebug.client_host/xdebug.client_port) :-(
-[27-Oct-2022 02:33:36 UTC] Xdebug: [Step Debug] Time-out connecting to debugging client, waited: 200 ms. Tried: ::1:9000 (from HTTP_X_FORWARDED_FOR HTTP header), localhost:9000 (fallback through xdebug.client_host/xdebug.client_port) :-(
-[27-Oct-2022 02:33:37 UTC] Xdebug: [Step Debug] Time-out connecting to debugging client, waited: 200 ms. Tried: ::1:9000 (from HTTP_X_FORWARDED_FOR HTTP header), localhost:9000 (fallback through xdebug.client_host/xdebug.client_port) :-(
-[27-Oct-2022 02:33:37 UTC] Xdebug: [Step Debug] Time-out connecting to debugging client, waited: 200 ms. Tried: ::1:9000 (from HTTP_X_FORWARDED_FOR HTTP header), localhost:9000 (fallback through xdebug.client_host/xdebug.client_port) :-(
-[27-Oct-2022 02:33:37 UTC] Xdebug: [Step Debug] Time-out connecting to debugging client, waited: 200 ms. Tried: ::1:9000 (from HTTP_X_FORWARDED_FOR HTTP header), localhost:9000 (fallback through xdebug.client_host/xdebug.client_port) :-(
-[27-Oct-2022 02:33:38 UTC] Xdebug: [Step Debug] Time-out connecting to debugging client, waited: 200 ms. Tried: ::1:9000 (from HTTP_X_FORWARDED_FOR HTTP header), localhost:9000 (fallback through xdebug.client_host/xdebug.client_port) :-(
-[27-Oct-2022 02:33:39 UTC] Xdebug: [Step Debug] Time-out connecting to debugging client, waited: 200 ms. Tried: ::1:9000 (from HTTP_X_FORWARDED_FOR HTTP header), localhost:9000 (fallback through xdebug.client_host/xdebug.client_port) :-(
-[27-Oct-2022 02:33:39 UTC] Xdebug: [Step Debug] Time-out connecting to debugging client, waited: 200 ms. Tried: ::1:9000 (from HTTP_X_FORWARDED_FOR HTTP header), localhost:9000 (fallback through xdebug.client_host/xdebug.client_port) :-(
-[27-Oct-2022 02:33:40 UTC] Xdebug: [Step Debug] Time-out connecting to debugging client, waited: 200 ms. Tried: ::1:9000 (from HTTP_X_FORWARDED_FOR HTTP header), localhost:9000 (fallback through xdebug.client_host/xdebug.client_port) :-(
-[27-Oct-2022 02:33:40 UTC] Xdebug: [Step Debug] Time-out connecting to debugging client, waited: 200 ms. Tried: ::1:9000 (from HTTP_X_FORWARDED_FOR HTTP header), localhost:9000 (fallback through xdebug.client_host/xdebug.client_port) :-(
-[27-Oct-2022 02:33:43 UTC] Xdebug: [Step Debug] Time-out connecting to debugging client, waited: 200 ms. Tried: ::1:9000 (from HTTP_X_FORWARDED_FOR HTTP header), localhost:9000 (fallback through xdebug.client_host/xdebug.client_port) :-(
-[27-Oct-2022 02:33:43 UTC] Xdebug: [Step Debug] Time-out connecting to debugging client, waited: 200 ms. Tried: ::1:9000 (from HTTP_X_FORWARDED_FOR HTTP header), localhost:9000 (fallback through xdebug.client_host/xdebug.client_port) :-(
-[27-Oct-2022 02:33:44 UTC] Xdebug: [Step Debug] Time-out connecting to debugging client, waited: 200 ms. Tried: ::1:9000 (from HTTP_X_FORWARDED_FOR HTTP header), localhost:9000 (fallback through xdebug.client_host/xdebug.client_port) :-(
-[27-Oct-2022 02:33:44 UTC] Xdebug: [Step Debug] Time-out connecting to debugging client, waited: 200 ms. Tried: ::1:9000 (from HTTP_X_FORWARDED_FOR HTTP header), localhost:9000 (fallback through xdebug.client_host/xdebug.client_port) :-(
-[27-Oct-2022 02:33:45 UTC] Xdebug: [Step Debug] Time-out connecting to debugging client, waited: 200 ms. Tried: ::1:9000 (from HTTP_X_FORWARDED_FOR HTTP header), localhost:9000 (fallback through xdebug.client_host/xdebug.client_port) :-(
-[27-Oct-2022 02:33:46 UTC] Xdebug: [Step Debug] Time-out connecting to debugging client, waited: 200 ms. Tried: ::1:9000 (from HTTP_X_FORWARDED_FOR HTTP header), localhost:9000 (fallback through xdebug.client_host/xdebug.client_port) :-(
-[27-Oct-2022 02:33:46 UTC] Xdebug: [Step Debug] Time-out connecting to debugging client, waited: 200 ms. Tried: ::1:9000 (from HTTP_X_FORWARDED_FOR HTTP header), localhost:9000 (fallback through xdebug.client_host/xdebug.client_port) :-(
-[27-Oct-2022 02:33:46 UTC] Xdebug: [Step Debug] Time-out connecting to debugging client, waited: 200 ms. Tried: ::1:9000 (from HTTP_X_FORWARDED_FOR HTTP header), localhost:9000 (fallback through xdebug.client_host/xdebug.client_port) :-(
-[27-Oct-2022 02:33:46 UTC] Xdebug: [Step Debug] Time-out connecting to debugging client, waited: 200 ms. Tried: ::1:9000 (from HTTP_X_FORWARDED_FOR HTTP header), localhost:9000 (fallback through xdebug.client_host/xdebug.client_port) :-(
-[27-Oct-2022 02:33:47 UTC] Xdebug: [Step Debug] Time-out connecting to debugging client, waited: 200 ms. Tried: ::1:9000 (from HTTP_X_FORWARDED_FOR HTTP header), localhost:9000 (fallback through xdebug.client_host/xdebug.client_port) :-(
-[27-Oct-2022 02:33:47 UTC] Xdebug: [Step Debug] Time-out connecting to debugging client, waited: 200 ms. Tried: ::1:9000 (from HTTP_X_FORWARDED_FOR HTTP header), localhost:9000 (fallback through xdebug.client_host/xdebug.client_port) :-(
-[27-Oct-2022 02:33:48 UTC] Xdebug: [Step Debug] Time-out connecting to debugging client, waited: 200 ms. Tried: ::1:9000 (from HTTP_X_FORWARDED_FOR HTTP header), localhost:9000 (fallback through xdebug.client_host/xdebug.client_port) :-(
-[27-Oct-2022 02:33:48 UTC] Xdebug: [Step Debug] Time-out connecting to debugging client, waited: 200 ms. Tried: ::1:9000 (from HTTP_X_FORWARDED_FOR HTTP header), localhost:9000 (fallback through xdebug.client_host/xdebug.client_port) :-(
-[27-Oct-2022 02:33:49 UTC] Xdebug: [Step Debug] Time-out connecting to debugging client, waited: 200 ms. Tried: ::1:9000 (from HTTP_X_FORWARDED_FOR HTTP header), localhost:9000 (fallback through xdebug.client_host/xdebug.client_port) :-(
-[27-Oct-2022 02:33:50 UTC] Xdebug: [Step Debug] Time-out connecting to debugging client, waited: 200 ms. Tried: ::1:9000 (from HTTP_X_FORWARDED_FOR HTTP header), localhost:9000 (fallback through xdebug.client_host/xdebug.client_port) :-(
-[27-Oct-2022 02:33:50 UTC] Xdebug: [Step Debug] Time-out connecting to debugging client, waited: 200 ms. Tried: ::1:9000 (from HTTP_X_FORWARDED_FOR HTTP header), localhost:9000 (fallback through xdebug.client_host/xdebug.client_port) :-(
-[27-Oct-2022 02:33:52 UTC] Xdebug: [Step Debug] Time-out connecting to debugging client, waited: 200 ms. Tried: ::1:9000 (from HTTP_X_FORWARDED_FOR HTTP header), localhost:9000 (fallback through xdebug.client_host/xdebug.client_port) :-(
-[27-Oct-2022 02:33:53 UTC] Xdebug: [Step Debug] Time-out connecting to debugging client, waited: 200 ms. Tried: ::1:9000 (from HTTP_X_FORWARDED_FOR HTTP header), localhost:9000 (fallback through xdebug.client_host/xdebug.client_port) :-(
-[27-Oct-2022 02:34:05 UTC] Xdebug: [Step Debug] Time-out connecting to debugging client, waited: 200 ms. Tried: ::1:9000 (from HTTP_X_FORWARDED_FOR HTTP header), localhost:9000 (fallback through xdebug.client_host/xdebug.client_port) :-(
-[27-Oct-2022 02:34:05 UTC] Xdebug: [Step Debug] Time-out connecting to debugging client, waited: 200 ms. Tried: ::1:9000 (from HTTP_X_FORWARDED_FOR HTTP header), localhost:9000 (fallback through xdebug.client_host/xdebug.client_port) :-(
-[27-Oct-2022 02:34:55 UTC] Xdebug: [Step Debug] Time-out connecting to debugging client, waited: 200 ms. Tried: ::1:9000 (from HTTP_X_FORWARDED_FOR HTTP header), localhost:9000 (fallback through xdebug.client_host/xdebug.client_port) :-(
-[27-Oct-2022 02:34:56 UTC] Xdebug: [Step Debug] Time-out connecting to debugging client, waited: 200 ms. Tried: ::1:9000 (from HTTP_X_FORWARDED_FOR HTTP header), localhost:9000 (fallback through xdebug.client_host/xdebug.client_port) :-(
-[27-Oct-2022 02:36:55 UTC] Xdebug: [Step Debug] Time-out connecting to debugging client, waited: 200 ms. Tried: ::1:9000 (from HTTP_X_FORWARDED_FOR HTTP header), localhost:9000 (fallback through xdebug.client_host/xdebug.client_port) :-(
-[27-Oct-2022 02:36:56 UTC] Xdebug: [Step Debug] Time-out connecting to debugging client, waited: 200 ms. Tried: ::1:9000 (from HTTP_X_FORWARDED_FOR HTTP header), localhost:9000 (fallback through xdebug.client_host/xdebug.client_port) :-(
-[28-Oct-2022 02:08:57 UTC] Xdebug: [Step Debug] Time-out connecting to debugging client, waited: 200 ms. Tried: ::1:9000 (from HTTP_X_FORWARDED_FOR HTTP header), localhost:9000 (fallback through xdebug.client_host/xdebug.client_port) :-(
-[28-Oct-2022 02:08:58 UTC] Xdebug: [Step Debug] Time-out connecting to debugging client, waited: 200 ms. Tried: ::1:9000 (from HTTP_X_FORWARDED_FOR HTTP header), localhost:9000 (fallback through xdebug.client_host/xdebug.client_port) :-(
+[30-Oct-2022 19:05:05 UTC] Caller: C:\Users\ACER\Documents\IT9\Local\magalhes-sipert-sociedade-de-advogados\app\public\wp-content\themes\mslaw\components\_posts-list.php:26
+[30-Oct-2022 19:05:05 UTC] Adipisci exercitationem sed consectetur
+[30-Oct-2022 19:05:05 UTC] Caller: C:\Users\ACER\Documents\IT9\Local\magalhes-sipert-sociedade-de-advogados\app\public\wp-content\themes\mslaw\components\_posts-list.php:26
+[30-Oct-2022 19:05:05 UTC] Array
+(
+)
+
+[30-Oct-2022 19:05:05 UTC] Caller: C:\Users\ACER\Documents\IT9\Local\magalhes-sipert-sociedade-de-advogados\app\public\wp-content\themes\mslaw\components\_posts-list.php:26
+[30-Oct-2022 19:05:05 UTC] Adipisci exercitationem sed consectetur
+[30-Oct-2022 19:05:05 UTC] Caller: C:\Users\ACER\Documents\IT9\Local\magalhes-sipert-sociedade-de-advogados\app\public\wp-content\themes\mslaw\components\_posts-list.php:26
+[30-Oct-2022 19:05:05 UTC] Array
+(
+)
+
+[30-Oct-2022 19:05:05 UTC] Caller: C:\Users\ACER\Documents\IT9\Local\magalhes-sipert-sociedade-de-advogados\app\public\wp-content\themes\mslaw\components\_posts-list.php:26
+[30-Oct-2022 19:05:05 UTC] Adipisci exercitationem sed consectetur

@@ -10,9 +10,9 @@ if (!defined('ABSPATH')) exit;
         <div class="row mt-4">
             <div class="col-lg-4 col-md-12 mb-4 mb-md-0">
                 <div class="footer_logo mb-5">
-                <a href="http://magalhes-sipert-sociedade-de-advogados.local/" class="custom-logo-link" rel="home" aria-current="page">
-                    <img width="150" height="150" src="http://magalhes-sipert-sociedade-de-advogados.local/wp-content/uploads/2022/10/logo-quadrado-magalhaes.png" class="custom-logo" alt="Magalhães & Sipert Sociedade de Advogados">
-                </a>
+                    <a href="http://magalhes-sipert-sociedade-de-advogados.local/" class="custom-logo-link" rel="home" aria-current="page">
+                        <img width="150" height="150" src="http://magalhes-sipert-sociedade-de-advogados.local/wp-content/uploads/2022/10/logo-quadrado-magalhaes.png" class="custom-logo" alt="Magalhães & Sipert Sociedade de Advogados">
+                    </a>
                 </div>
                 <div class="footer__social d-flex">
                     <div>
@@ -38,17 +38,12 @@ if (!defined('ABSPATH')) exit;
                 </div>
             </div>
             <div class="col-lg-4 col-md-6 mb-4 mb-md-0">
-                <h5 class="text-uppercase mb-4 pb-1 fw-normal lh-base fs-5">Pesquisar</h5>
-
-                <div class="search input-group mb-3">
-                    <input type="text" class="search__input form-control" placeholder="Pesquisar" aria-label="Pesquisar" aria-describedby="button-addon2">
-                    <button class="search__button btn" type="button" id="button-addon2"><?php echo it9_mslaws_get_svg_icon('search.svg', 'search__icon') ?></button>
-                </div>
+                <?php get_template_part('components/_search-form'); ?>
                 <div class="footer__contact">
                     <div class="mb-3">
                         <a class="footer__contact__link fs-6 fw-light lh-base">
                             <?php echo it9_mslaws_get_svg_icon('map-pin.svg', 'footer__contact__icon') ?>
-                            Rua Itabuna, nº. 158, Vl. Floresta, Santo André - SP -  09050-210
+                            Rua Itabuna, nº. 158, Vl. Floresta, Santo André - SP - 09050-210
                         </a>
                     </div>
                     <div class="mb-3">
@@ -90,7 +85,7 @@ if (!defined('ABSPATH')) exit;
         </div>
     </div>
     <div class="text-center p-3 fw-normal lh-base fs-5" style="background-color: rgba(0, 0, 0, 0.2);">
-        © 2022 Todos os direitos reservados - 
+        © 2022 Todos os direitos reservados -
         <a class="text-white" href="https://mdbootstrap.com/">MSLaw Advogados</a>
         <br>
         <br>

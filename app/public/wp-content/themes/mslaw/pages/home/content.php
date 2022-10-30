@@ -23,7 +23,9 @@ $posts_args = [
                     'posts_args' => $posts_args,
                 ]); ?>
             </div>
-            <div class="col-lg-4"></div>
+            <div class="col-lg-4 py-5">
+                <?php get_template_part('components/_search-form'); ?>
+            </div>
         </div>
     </div>
 </div>

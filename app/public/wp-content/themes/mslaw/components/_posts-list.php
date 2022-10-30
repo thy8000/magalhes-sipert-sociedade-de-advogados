@@ -32,15 +32,17 @@ if (empty($posts_args))
             if (!empty(get_the_date('YMD', $post->ID)))
                 $post_date = date_i18n('d') . ' de ' . date_i18n('F') . ' de ' . date_i18n('Y');
         ?>
-            <div class="col-lg-6 col-md-12 py-3">
-                <div class="post__item">
-                    <div class="post__thumbnail position-relative" <?php echo $post_style_tag; ?>>
-                        <?php if (!empty($post_category)) { ?>
-                            <div class="post__category bg-one text-light p-3 position-absolute left-0 fw-normal lh-base">
-                                <?php echo $post_category; ?>
-                            </div>
-                        <?php } ?>
-                    </div>
+            <div class="col-lg-6 col-md-12">
+                <div class="post__item py-5">
+                    <a href="<?php echo get_the_permalink($post->ID); ?>">
+                        <div class="post__thumbnail position-relative" <?php echo $post_style_tag; ?>>
+                            <?php if (!empty($post_category)) { ?>
+                                <div class="post__category bg-one text-light p-3 position-absolute left-0 fw-normal lh-base">
+                                    <?php echo $post_category; ?>
+                                </div>
+                            <?php } ?>
+                        </div>
+                    </a>
                     <div class="post__info">
                         <ul class="p-0 mt-1 d-flex">
                             <li class="d-flex align-items-center justify-content-start">

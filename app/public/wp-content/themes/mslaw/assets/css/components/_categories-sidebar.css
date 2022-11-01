@@ -1,0 +1,4 @@
+.categories-sidebar .category-link{
+    cursor: pointer;
+    transform: .5s all;
+}

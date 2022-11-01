@@ -7,6 +7,12 @@ $posts_args = [
     'orderby' => 'date',
     'order' => 'DESC',
 ];
+$recent_posts_args = [
+    'post_type' => 'post',
+    'oderby' => 'date',
+    'order' => 'DESC',
+    'numberposts' => 5,
+];
 //debug(get_posts($posts_args));
 ?>
 
@@ -18,13 +24,17 @@ $posts_args = [
 
     <div class="container">
         <div class="row">
-            <div class="col-lg-8">
+            <div class="col-lg-8 col-md-12">
                 <?php get_template_part('components/_posts-list', null, [
                     'posts_args' => $posts_args,
                 ]); ?>
             </div>
-            <div class="col-lg-4 py-5">
+            <div class="col-lg-4 col-md-12 py-5">
                 <?php get_template_part('components/_search-form'); ?>
+                <?php get_template_part('components/_categories-sidebar'); ?>
+                <?php get_template_part('components/_recent-posts', null, [
+                    'posts_args' => $recent_posts_args,
+                ]); ?>
             </div>
         </div>
     </div>

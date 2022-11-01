@@ -1,16 +1,126 @@
-[30-Oct-2022 19:05:05 UTC] Caller: C:\Users\ACER\Documents\IT9\Local\magalhes-sipert-sociedade-de-advogados\app\public\wp-content\themes\mslaw\components\_posts-list.php:26
-[30-Oct-2022 19:05:05 UTC] Adipisci exercitationem sed consectetur
-[30-Oct-2022 19:05:05 UTC] Caller: C:\Users\ACER\Documents\IT9\Local\magalhes-sipert-sociedade-de-advogados\app\public\wp-content\themes\mslaw\components\_posts-list.php:26
-[30-Oct-2022 19:05:05 UTC] Array
+[01-Nov-2022 01:05:39 UTC] Caller: C:\Users\ACER\Documents\IT9\Local\magalhes-sipert-sociedade-de-advogados\app\public\wp-content\themes\mslaw\components\_categories-sidebar.php:15
+[01-Nov-2022 01:05:39 UTC] WP_Term Object
 (
+    [term_id] => 5
+    [name] => Adipisci exercitationem sed consectetur
+    [slug] => adipisci-exercitationem-sed-consectetur
+    [term_group] => 0
+    [term_taxonomy_id] => 5
+    [taxonomy] => category
+    [description] => Veritatis in earum nulla illo ut omnis quas voluptas laudantium commodi sint qui pariatur eos soluta labore aut aut quisquam vel ex officiis neque sed perferendis aut non eligendi autem voluptatem tempora blanditiis repellendus laboriosam fugiat quam doloribus molestiae minima et doloremque fugit
+    [parent] => 0
+    [count] => 14
+    [filter] => raw
+    [cat_ID] => 5
+    [category_count] => 14
+    [category_description] => Veritatis in earum nulla illo ut omnis quas voluptas laudantium commodi sint qui pariatur eos soluta labore aut aut quisquam vel ex officiis neque sed perferendis aut non eligendi autem voluptatem tempora blanditiis repellendus laboriosam fugiat quam doloribus molestiae minima et doloremque fugit
+    [cat_name] => Adipisci exercitationem sed consectetur
+    [category_nicename] => adipisci-exercitationem-sed-consectetur
+    [category_parent] => 0
 )
 
-[30-Oct-2022 19:05:05 UTC] Caller: C:\Users\ACER\Documents\IT9\Local\magalhes-sipert-sociedade-de-advogados\app\public\wp-content\themes\mslaw\components\_posts-list.php:26
-[30-Oct-2022 19:05:05 UTC] Adipisci exercitationem sed consectetur
-[30-Oct-2022 19:05:05 UTC] Caller: C:\Users\ACER\Documents\IT9\Local\magalhes-sipert-sociedade-de-advogados\app\public\wp-content\themes\mslaw\components\_posts-list.php:26
-[30-Oct-2022 19:05:05 UTC] Array
+[01-Nov-2022 01:05:39 UTC] Caller: C:\Users\ACER\Documents\IT9\Local\magalhes-sipert-sociedade-de-advogados\app\public\wp-content\themes\mslaw\components\_categories-sidebar.php:15
+[01-Nov-2022 01:05:39 UTC] WP_Term Object
 (
+    [term_id] => 4
+    [name] => Harum sint
+    [slug] => harum-sint
+    [term_group] => 0
+    [term_taxonomy_id] => 4
+    [taxonomy] => category
+    [description] => Esse et laboriosam sint et molestiae quia libero sunt ut autem mollitia hic accusamus corrupti eligendi non quas ad nemo modi corrupti quaerat et in
+    [parent] => 0
+    [count] => 14
+    [filter] => raw
+    [cat_ID] => 4
+    [category_count] => 14
+    [category_description] => Esse et laboriosam sint et molestiae quia libero sunt ut autem mollitia hic accusamus corrupti eligendi non quas ad nemo modi corrupti quaerat et in
+    [cat_name] => Harum sint
+    [category_nicename] => harum-sint
+    [category_parent] => 0
 )
 
-[30-Oct-2022 19:05:05 UTC] Caller: C:\Users\ACER\Documents\IT9\Local\magalhes-sipert-sociedade-de-advogados\app\public\wp-content\themes\mslaw\components\_posts-list.php:26
-[30-Oct-2022 19:05:05 UTC] Adipisci exercitationem sed consectetur
+[01-Nov-2022 01:05:39 UTC] Caller: C:\Users\ACER\Documents\IT9\Local\magalhes-sipert-sociedade-de-advogados\app\public\wp-content\themes\mslaw\components\_categories-sidebar.php:15
+[01-Nov-2022 01:05:39 UTC] WP_Term Object
+(
+    [term_id] => 1
+    [name] => Uncategorized
+    [slug] => uncategorized
+    [term_group] => 0
+    [term_taxonomy_id] => 1
+    [taxonomy] => category
+    [description] => 
+    [parent] => 0
+    [count] => 15
+    [filter] => raw
+    [cat_ID] => 1
+    [category_count] => 15
+    [category_description] => 
+    [cat_name] => Uncategorized
+    [category_nicename] => uncategorized
+    [category_parent] => 0
+)
+
+[01-Nov-2022 01:10:27 UTC] Caller: C:\Users\ACER\Documents\IT9\Local\magalhes-sipert-sociedade-de-advogados\app\public\wp-content\themes\mslaw\components\_categories-sidebar.php:15
+[01-Nov-2022 01:10:27 UTC] WP_Term Object
+(
+    [term_id] => 5
+    [name] => Adipisci exercitationem sed consectetur
+    [slug] => adipisci-exercitationem-sed-consectetur
+    [term_group] => 0
+    [term_taxonomy_id] => 5
+    [taxonomy] => category
+    [description] => Veritatis in earum nulla illo ut omnis quas voluptas laudantium commodi sint qui pariatur eos soluta labore aut aut quisquam vel ex officiis neque sed perferendis aut non eligendi autem voluptatem tempora blanditiis repellendus laboriosam fugiat quam doloribus molestiae minima et doloremque fugit
+    [parent] => 0
+    [count] => 14
+    [filter] => raw
+    [cat_ID] => 5
+    [category_count] => 14
+    [category_description] => Veritatis in earum nulla illo ut omnis quas voluptas laudantium commodi sint qui pariatur eos soluta labore aut aut quisquam vel ex officiis neque sed perferendis aut non eligendi autem voluptatem tempora blanditiis repellendus laboriosam fugiat quam doloribus molestiae minima et doloremque fugit
+    [cat_name] => Adipisci exercitationem sed consectetur
+    [category_nicename] => adipisci-exercitationem-sed-consectetur
+    [category_parent] => 0
+)
+
+[01-Nov-2022 01:10:27 UTC] Caller: C:\Users\ACER\Documents\IT9\Local\magalhes-sipert-sociedade-de-advogados\app\public\wp-content\themes\mslaw\components\_categories-sidebar.php:15
+[01-Nov-2022 01:10:27 UTC] WP_Term Object
+(
+    [term_id] => 4
+    [name] => Harum sint
+    [slug] => harum-sint
+    [term_group] => 0
+    [term_taxonomy_id] => 4
+    [taxonomy] => category
+    [description] => Esse et laboriosam sint et molestiae quia libero sunt ut autem mollitia hic accusamus corrupti eligendi non quas ad nemo modi corrupti quaerat et in
+    [parent] => 0
+    [count] => 14
+    [filter] => raw
+    [cat_ID] => 4
+    [category_count] => 14
+    [category_description] => Esse et laboriosam sint et molestiae quia libero sunt ut autem mollitia hic accusamus corrupti eligendi non quas ad nemo modi corrupti quaerat et in
+    [cat_name] => Harum sint
+    [category_nicename] => harum-sint
+    [category_parent] => 0
+)
+
+[01-Nov-2022 01:10:27 UTC] Caller: C:\Users\ACER\Documents\IT9\Local\magalhes-sipert-sociedade-de-advogados\app\public\wp-content\themes\mslaw\components\_categories-sidebar.php:15
+[01-Nov-2022 01:10:27 UTC] WP_Term Object
+(
+    [term_id] => 1
+    [name] => Uncategorized
+    [slug] => uncategorized
+    [term_group] => 0
+    [term_taxonomy_id] => 1
+    [taxonomy] => category
+    [description] => 
+    [parent] => 0
+    [count] => 15
+    [filter] => raw
+    [cat_ID] => 1
+    [category_count] => 15
+    [category_description] => 
+    [cat_name] => Uncategorized
+    [category_nicename] => uncategorized
+    [category_parent] => 0
+)
+

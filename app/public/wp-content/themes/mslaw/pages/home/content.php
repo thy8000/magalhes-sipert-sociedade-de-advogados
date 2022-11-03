@@ -1,8 +1,12 @@
 <?php
 if (!defined('ABSPATH')) exit;
-rewind_posts();
+
+$paged = ( get_query_var( 'paged' ) ) ? absint( get_query_var( 'paged' ) ) : 1;
+$posts_per_page = 10;
 
 $posts_args = [
+    'posts_per_page' => $posts_per_page,
+    'paged' => $paged,
     'post_type' => 'post',
     'orderby' => 'date',
     'order' => 'DESC',

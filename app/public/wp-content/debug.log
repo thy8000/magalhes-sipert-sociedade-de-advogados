@@ -1,126 +1,701 @@
-[01-Nov-2022 01:05:39 UTC] Caller: C:\Users\ACER\Documents\IT9\Local\magalhes-sipert-sociedade-de-advogados\app\public\wp-content\themes\mslaw\components\_categories-sidebar.php:15
-[01-Nov-2022 01:05:39 UTC] WP_Term Object
+[03-Nov-2022 01:59:47 UTC] Caller: C:\Users\ACER\Documents\IT9\Local\magalhes-sipert-sociedade-de-advogados\app\public\wp-content\themes\mslaw\components\_posts-list.php:4
+[03-Nov-2022 01:59:47 UTC] WP_Query Object
 (
-    [term_id] => 5
-    [name] => Adipisci exercitationem sed consectetur
-    [slug] => adipisci-exercitationem-sed-consectetur
-    [term_group] => 0
-    [term_taxonomy_id] => 5
-    [taxonomy] => category
-    [description] => Veritatis in earum nulla illo ut omnis quas voluptas laudantium commodi sint qui pariatur eos soluta labore aut aut quisquam vel ex officiis neque sed perferendis aut non eligendi autem voluptatem tempora blanditiis repellendus laboriosam fugiat quam doloribus molestiae minima et doloremque fugit
-    [parent] => 0
-    [count] => 14
-    [filter] => raw
-    [cat_ID] => 5
-    [category_count] => 14
-    [category_description] => Veritatis in earum nulla illo ut omnis quas voluptas laudantium commodi sint qui pariatur eos soluta labore aut aut quisquam vel ex officiis neque sed perferendis aut non eligendi autem voluptatem tempora blanditiis repellendus laboriosam fugiat quam doloribus molestiae minima et doloremque fugit
-    [cat_name] => Adipisci exercitationem sed consectetur
-    [category_nicename] => adipisci-exercitationem-sed-consectetur
-    [category_parent] => 0
+    [query] => Array
+        (
+            [paged] => 3
+            [pagename] => blog
+        )
+
+    [query_vars] => Array
+        (
+            [paged] => 3
+            [pagename] => blog
+            [error] => 
+            [m] => 
+            [p] => 0
+            [post_parent] => 
+            [subpost] => 
+            [subpost_id] => 
+            [attachment] => 
+            [attachment_id] => 0
+            [name] => 
+            [page_id] => 0
+            [second] => 
+            [minute] => 
+            [hour] => 
+            [day] => 0
+            [monthnum] => 0
+            [year] => 0
+            [w] => 0
+            [category_name] => 
+            [tag] => 
+            [cat] => 
+            [tag_id] => 
+            [author] => 
+            [author_name] => 
+            [feed] => 
+            [tb] => 
+            [meta_key] => 
+            [meta_value] => 
+            [preview] => 
+            [s] => 
+            [sentence] => 
+            [title] => 
+            [fields] => 
+            [menu_order] => 
+            [embed] => 
+            [category__in] => Array
+                (
+                )
+
+            [category__not_in] => Array
+                (
+                )
+
+            [category__and] => Array
+                (
+                )
+
+            [post__in] => Array
+                (
+                )
+
+            [post__not_in] => Array
+                (
+                )
+
+            [post_name__in] => Array
+                (
+                )
+
+            [tag__in] => Array
+                (
+                )
+
+            [tag__not_in] => Array
+                (
+                )
+
+            [tag__and] => Array
+                (
+                )
+
+            [tag_slug__in] => Array
+                (
+                )
+
+            [tag_slug__and] => Array
+                (
+                )
+
+            [post_parent__in] => Array
+                (
+                )
+
+            [post_parent__not_in] => Array
+                (
+                )
+
+            [author__in] => Array
+                (
+                )
+
+            [author__not_in] => Array
+                (
+                )
+
+            [ignore_sticky_posts] => 
+            [suppress_filters] => 
+            [cache_results] => 1
+            [update_post_term_cache] => 1
+            [lazy_load_term_meta] => 1
+            [update_post_meta_cache] => 1
+            [post_type] => 
+            [posts_per_page] => 10
+            [nopaging] => 
+            [comments_per_page] => 50
+            [no_found_rows] => 
+            [order] => DESC
+        )
+
+    [tax_query] => WP_Tax_Query Object
+        (
+            [queries] => Array
+                (
+                )
+
+            [relation] => AND
+            [table_aliases:protected] => Array
+                (
+                )
+
+            [queried_terms] => Array
+                (
+                )
+
+            [primary_table] => wp_posts
+            [primary_id_column] => ID
+        )
+
+    [meta_query] => WP_Meta_Query Object
+        (
+            [queries] => Array
+                (
+                )
+
+            [relation] => 
+            [meta_table] => 
+            [meta_id_column] => 
+            [primary_table] => 
+            [primary_id_column] => 
+            [table_aliases:protected] => Array
+                (
+                )
+
+            [clauses:protected] => Array
+                (
+                )
+
+            [has_or_relation:protected] => 
+        )
+
+    [date_query] => 
+    [queried_object] => WP_Post Object
+        (
+            [ID] => 50
+            [post_author] => 1
+            [post_date] => 2022-10-26 02:06:11
+            [post_date_gmt] => 2022-10-26 02:06:11
+            [post_content] => 
+            [post_title] => Blog
+            [post_excerpt] => 
+            [post_status] => publish
+            [comment_status] => closed
+            [ping_status] => closed
+            [post_password] => 
+            [post_name] => blog
+            [to_ping] => 
+            [pinged] => 
+            [post_modified] => 2022-10-26 02:06:11
+            [post_modified_gmt] => 2022-10-26 02:06:11
+            [post_content_filtered] => 
+            [post_parent] => 0
+            [guid] => http://magalhes-sipert-sociedade-de-advogados.local/?page_id=50
+            [menu_order] => 0
+            [post_type] => page
+            [post_mime_type] => 
+            [comment_count] => 0
+            [filter] => raw
+        )
+
+    [queried_object_id] => 50
+    [request] => 
+					SELECT SQL_CALC_FOUND_ROWS  wp_posts.ID
+					FROM wp_posts 
+					WHERE 1=1  AND ((wp_posts.post_type = 'post' AND (wp_posts.post_status = 'publish' 
+OR wp_posts.post_status = 'private')))
+					
+					ORDER BY wp_posts.post_date DESC
+					LIMIT 20, 10
+				
+    [posts] => Array
+        (
+            [0] => WP_Post Object
+                (
+                    [ID] => 73
+                    [post_author] => 2
+                    [post_date] => 2022-09-02 01:13:01
+                    [post_date_gmt] => 2022-09-02 01:13:01
+                    [post_content] => <h2>Dolorum quo sunt quia aspernatur. Sit incidunt in velit laudantium beatae. Ullam et voluptate enim quia quae dicta</h2>
+<ul><li>Doloribus quia sed aut</li><li>Nisi voluptatem et sit quam</li></ul>
+<h3>Voluptatem esse sunt officiis vel. Aut quas fugiat iusto excepturi minus ut dolor consequatur. Tenetur explicabo ipsum reiciendis quia</h3>
+<p>Accusamus ipsum libero ipsam nemo architecto corporis. Et maiores non deserunt et voluptatem quia. Exercitationem ipsa repellat enim porro tempora enim vero in. Voluptas eum magnam animi repellendus id. Deleniti distinctio sapiente aliquid quo. Harum officiis iure ullam consectetur dolor quaerat molestias ratione. Velit aut autem minima dolore autem commodi autem. Eos deleniti maiores vel voluptas. Veritatis rerum eos aut esse. Libero maiores id sequi reprehenderit ea impedit. Eaque nihil et voluptatem. Omnis sunt suscipit autem aliquam eum sit quae. Quod quos nihil repellat animi dolorem numquam voluptas debitis. Eos nihil eaque doloremque eos quis ex rerum.</p>
+<h1>Animi qui qui et ut harum. Enim velit sint sapiente laboriosam aspernatur quibusdam molestiae. Quis culpa ullam omnis est unde officiis ut</h1>
+<ul><li>Et voluptatem quod tenetur qui adipisci</li><li>Perspiciatis fugiat autem tempora</li><li>Quia eligendi voluptatem autem</li><li>Recusandae sunt magni et aliquid</li><li>Quasi eligendi pariatur deserunt et</li></ul>
+<h3>Dolorum cum expedita facere in necessitatibus. Ut eius doloremque amet quisquam commodi qui et. Labore laudantium eum sunt ea</h3>
+<p>Est voluptas et a. Hic ea occaecati nobis Earum similique placeat atque iste dolor. Animi incidunt velit repellendus perspiciatis totam. Error culpa omnis quis. Ut quia voluptatem qui sapiente. Rerum ratione et quas reprehenderit sit Exercitationem sapiente quia eius atque aliquam. Omnis quam explicabo et. Rerum explicabo consequuntur magni necessitatibus. Est odio qui et facilis commodi et. vitae mollitia officiis quo sint. dolorem alias totam. Voluptatem repellat voluptas libero. Delectus pariatur eum voluptatem sapiente modi. eum et impedit neque eveniet quia. a maiores odit Ex consequatur omnis debitis voluptates Dolorem fugiat repellat sint minus. Ipsam veniam libero earum rerum Nihil voluptatem amet quis eius ab pariatur. quos adipisci ad in qui. Minus quia ut cupiditate molestiae quia modi. Doloremque dolores sunt dolorum suscipit blanditiis voluptas consequatur. Officia laudantium odit eligendi praesentium repellat. et eos qui ut nihil. qui quas officiis architecto reprehenderit quia. Sed et eaque et. Voluptatem nulla eum maxime. fugit aliquam laudantium modi. Illo ut ut suscipit.</p>
+<ul><li>Sed voluptate odio ipsum sed</li><li>Praesentium commodi deleniti adipisci et magnam</li><li>Id porro commodi facilis</li><li>Pariatur</li><li>Sed sint voluptate et possimus</li><li>Natus voluptas quos</li><li>Non asperiores aut non</li></ul>
+<h3>Corrupti ut fugit doloribus maiores dolor dolor ut</h3>
+<p>Quidem animi natus consectetur dolorem non quasi iste. Ab ullam suscipit cumque. Consequatur voluptatum fuga modi est veniam. sed officiis aut ea sint. ab ratione quisquam. non quos fugiat rem debitis ut. Adipisci labore exercitationem alias accusamus non in. consequatur placeat quia laudantium. Qui impedit odio laudantium voluptatem dolores necessitatibus sed. Vero iste qui reiciendis. Repellat voluptates sit facilis et tenetur earum. Officiis velit dolor Sint commodi esse omnis illo. Totam eveniet assumenda quibusdam <a title="Consequuntur ut fuga nulla." href="http://www.renner.com/">corrupti</a> Quia dolor aut dolorem. Distinctio dolor earum voluptatem voluptates sapiente. Molestiae aut ea non sed suscipit Molestiae cumque doloribus quo voluptas eum aut Tenetur quaerat reprehenderit possimus et mollitia velit. Aliquid autem minima porro. rerum qui qui a. Architecto enim reprehenderit aut molestiae laudantium cum. fuga error soluta voluptatibus sunt. Dolores sunt mollitia quae dignissimos ut ut. Repellendus itaque dicta <a title="Voluptatem expedita voluptates ut et voluptas in id ea." href="http://www.hamill.com/nihil-dolores-minima-nihil-ea-doloremque-et">soluta</a> voluptatem. Fugiat ad est vel vel. fugiat temporibus culpa placeat quo. voluptates cum et. A debitis iste dolor perferendis facere. consequuntur voluptatibus velit quos Itaque distinctio et distinctio quo. Doloremque repudiandae beatae ut tempore quia consequatur. Placeat blanditiis corporis suscipit Et aut quia ut Atque magnam necessitatibus saepe natus non. exercitationem dolor dolor mollitia. Quidem porro voluptatem itaque. tempore sed voluptates aut in. numquam rerum ea. Magnam explicabo nihil consequuntur labore corrupti velit. autem qui eaque sit ut.</p>
+                    [post_title] => Dolor quia voluptatem ipsa fuga magni
+                    [post_excerpt] => 
+                    [post_status] => publish
+                    [comment_status] => open
+                    [ping_status] => open
+                    [post_password] => 
+                    [post_name] => dolor-quia-voluptatem-ipsa-fuga-magni
+                    [to_ping] => 
+                    [pinged] => 
+                    [post_modified] => 2022-09-02 01:13:01
+                    [post_modified_gmt] => 2022-09-02 01:13:01
+                    [post_content_filtered] => 
+                    [post_parent] => 0
+                    [guid] => http://magalhes-sipert-sociedade-de-advogados.local/dolor-quia-voluptatem-ipsa-fuga-magni/
+                    [menu_order] => 0
+                    [post_type] => post
+                    [post_mime_type] => 
+                    [comment_count] => 0
+                    [filter] => raw
+                )
+
+        )
+
+    [post_count] => 1
+    [current_post] => -1
+    [in_the_loop] => 
+    [post] => WP_Post Object
+        (
+            [ID] => 73
+            [post_author] => 2
+            [post_date] => 2022-09-02 01:13:01
+            [post_date_gmt] => 2022-09-02 01:13:01
+            [post_content] => <h2>Dolorum quo sunt quia aspernatur. Sit incidunt in velit laudantium beatae. Ullam et voluptate enim quia quae dicta</h2>
+<ul><li>Doloribus quia sed aut</li><li>Nisi voluptatem et sit quam</li></ul>
+<h3>Voluptatem esse sunt officiis vel. Aut quas fugiat iusto excepturi minus ut dolor consequatur. Tenetur explicabo ipsum reiciendis quia</h3>
+<p>Accusamus ipsum libero ipsam nemo architecto corporis. Et maiores non deserunt et voluptatem quia. Exercitationem ipsa repellat enim porro tempora enim vero in. Voluptas eum magnam animi repellendus id. Deleniti distinctio sapiente aliquid quo. Harum officiis iure ullam consectetur dolor quaerat molestias ratione. Velit aut autem minima dolore autem commodi autem. Eos deleniti maiores vel voluptas. Veritatis rerum eos aut esse. Libero maiores id sequi reprehenderit ea impedit. Eaque nihil et voluptatem. Omnis sunt suscipit autem aliquam eum sit quae. Quod quos nihil repellat animi dolorem numquam voluptas debitis. Eos nihil eaque doloremque eos quis ex rerum.</p>
+<h1>Animi qui qui et ut harum. Enim velit sint sapiente laboriosam aspernatur quibusdam molestiae. Quis culpa ullam omnis est unde officiis ut</h1>
+<ul><li>Et voluptatem quod tenetur qui adipisci</li><li>Perspiciatis fugiat autem tempora</li><li>Quia eligendi voluptatem autem</li><li>Recusandae sunt magni et aliquid</li><li>Quasi eligendi pariatur deserunt et</li></ul>
+<h3>Dolorum cum expedita facere in necessitatibus. Ut eius doloremque amet quisquam commodi qui et. Labore laudantium eum sunt ea</h3>
+<p>Est voluptas et a. Hic ea occaecati nobis Earum similique placeat atque iste dolor. Animi incidunt velit repellendus perspiciatis totam. Error culpa omnis quis. Ut quia voluptatem qui sapiente. Rerum ratione et quas reprehenderit sit Exercitationem sapiente quia eius atque aliquam. Omnis quam explicabo et. Rerum explicabo consequuntur magni necessitatibus. Est odio qui et facilis commodi et. vitae mollitia officiis quo sint. dolorem alias totam. Voluptatem repellat voluptas libero. Delectus pariatur eum voluptatem sapiente modi. eum et impedit neque eveniet quia. a maiores odit Ex consequatur omnis debitis voluptates Dolorem fugiat repellat sint minus. Ipsam veniam libero earum rerum Nihil voluptatem amet quis eius ab pariatur. quos adipisci ad in qui. Minus quia ut cupiditate molestiae quia modi. Doloremque dolores sunt dolorum suscipit blanditiis voluptas consequatur. Officia laudantium odit eligendi praesentium repellat. et eos qui ut nihil. qui quas officiis architecto reprehenderit quia. Sed et eaque et. Voluptatem nulla eum maxime. fugit aliquam laudantium modi. Illo ut ut suscipit.</p>
+<ul><li>Sed voluptate odio ipsum sed</li><li>Praesentium commodi deleniti adipisci et magnam</li><li>Id porro commodi facilis</li><li>Pariatur</li><li>Sed sint voluptate et possimus</li><li>Natus voluptas quos</li><li>Non asperiores aut non</li></ul>
+<h3>Corrupti ut fugit doloribus maiores dolor dolor ut</h3>
+<p>Quidem animi natus consectetur dolorem non quasi iste. Ab ullam suscipit cumque. Consequatur voluptatum fuga modi est veniam. sed officiis aut ea sint. ab ratione quisquam. non quos fugiat rem debitis ut. Adipisci labore exercitationem alias accusamus non in. consequatur placeat quia laudantium. Qui impedit odio laudantium voluptatem dolores necessitatibus sed. Vero iste qui reiciendis. Repellat voluptates sit facilis et tenetur earum. Officiis velit dolor Sint commodi esse omnis illo. Totam eveniet assumenda quibusdam <a title="Consequuntur ut fuga nulla." href="http://www.renner.com/">corrupti</a> Quia dolor aut dolorem. Distinctio dolor earum voluptatem voluptates sapiente. Molestiae aut ea non sed suscipit Molestiae cumque doloribus quo voluptas eum aut Tenetur quaerat reprehenderit possimus et mollitia velit. Aliquid autem minima porro. rerum qui qui a. Architecto enim reprehenderit aut molestiae laudantium cum. fuga error soluta voluptatibus sunt. Dolores sunt mollitia quae dignissimos ut ut. Repellendus itaque dicta <a title="Voluptatem expedita voluptates ut et voluptas in id ea." href="http://www.hamill.com/nihil-dolores-minima-nihil-ea-doloremque-et">soluta</a> voluptatem. Fugiat ad est vel vel. fugiat temporibus culpa placeat quo. voluptates cum et. A debitis iste dolor perferendis facere. consequuntur voluptatibus velit quos Itaque distinctio et distinctio quo. Doloremque repudiandae beatae ut tempore quia consequatur. Placeat blanditiis corporis suscipit Et aut quia ut Atque magnam necessitatibus saepe natus non. exercitationem dolor dolor mollitia. Quidem porro voluptatem itaque. tempore sed voluptates aut in. numquam rerum ea. Magnam explicabo nihil consequuntur labore corrupti velit. autem qui eaque sit ut.</p>
+            [post_title] => Dolor quia voluptatem ipsa fuga magni
+            [post_excerpt] => 
+            [post_status] => publish
+            [comment_status] => open
+            [ping_status] => open
+            [post_password] => 
+            [post_name] => dolor-quia-voluptatem-ipsa-fuga-magni
+            [to_ping] => 
+            [pinged] => 
+            [post_modified] => 2022-09-02 01:13:01
+            [post_modified_gmt] => 2022-09-02 01:13:01
+            [post_content_filtered] => 
+            [post_parent] => 0
+            [guid] => http://magalhes-sipert-sociedade-de-advogados.local/dolor-quia-voluptatem-ipsa-fuga-magni/
+            [menu_order] => 0
+            [post_type] => post
+            [post_mime_type] => 
+            [comment_count] => 0
+            [filter] => raw
+        )
+
+    [comment_count] => 0
+    [current_comment] => -1
+    [found_posts] => 21
+    [max_num_pages] => 3
+    [max_num_comment_pages] => 0
+    [is_single] => 
+    [is_preview] => 
+    [is_page] => 
+    [is_archive] => 
+    [is_date] => 
+    [is_year] => 
+    [is_month] => 
+    [is_day] => 
+    [is_time] => 
+    [is_author] => 
+    [is_category] => 
+    [is_tag] => 
+    [is_tax] => 
+    [is_search] => 
+    [is_feed] => 
+    [is_comment_feed] => 
+    [is_trackback] => 
+    [is_home] => 1
+    [is_privacy_policy] => 
+    [is_404] => 
+    [is_embed] => 
+    [is_paged] => 1
+    [is_admin] => 
+    [is_attachment] => 
+    [is_singular] => 
+    [is_robots] => 
+    [is_favicon] => 
+    [is_posts_page] => 1
+    [is_post_type_archive] => 
+    [query_vars_hash:WP_Query:private] => 604a98d4072c8d4d19f8ebdb4ad63e4b
+    [query_vars_changed:WP_Query:private] => 
+    [thumbnails_cached] => 
+    [stopwords:WP_Query:private] => 
+    [compat_fields:WP_Query:private] => Array
+        (
+            [0] => query_vars_hash
+            [1] => query_vars_changed
+        )
+
+    [compat_methods:WP_Query:private] => Array
+        (
+            [0] => init_query_flags
+            [1] => parse_tax_query
+        )
+
 )
 
-[01-Nov-2022 01:05:39 UTC] Caller: C:\Users\ACER\Documents\IT9\Local\magalhes-sipert-sociedade-de-advogados\app\public\wp-content\themes\mslaw\components\_categories-sidebar.php:15
-[01-Nov-2022 01:05:39 UTC] WP_Term Object
+[03-Nov-2022 01:59:47 UTC] Caller: C:\Users\ACER\Documents\IT9\Local\magalhes-sipert-sociedade-de-advogados\app\public\wp-content\themes\mslaw\components\_posts-list.php:14
+[03-Nov-2022 01:59:47 UTC] WP_Query Object
 (
-    [term_id] => 4
-    [name] => Harum sint
-    [slug] => harum-sint
-    [term_group] => 0
-    [term_taxonomy_id] => 4
-    [taxonomy] => category
-    [description] => Esse et laboriosam sint et molestiae quia libero sunt ut autem mollitia hic accusamus corrupti eligendi non quas ad nemo modi corrupti quaerat et in
-    [parent] => 0
-    [count] => 14
-    [filter] => raw
-    [cat_ID] => 4
-    [category_count] => 14
-    [category_description] => Esse et laboriosam sint et molestiae quia libero sunt ut autem mollitia hic accusamus corrupti eligendi non quas ad nemo modi corrupti quaerat et in
-    [cat_name] => Harum sint
-    [category_nicename] => harum-sint
-    [category_parent] => 0
+    [query] => Array
+        (
+            [posts_per_page] => 1
+            [paged] => 3
+            [post_type] => post
+            [orderby] => date
+            [order] => DESC
+        )
+
+    [query_vars] => Array
+        (
+            [posts_per_page] => 1
+            [paged] => 3
+            [post_type] => post
+            [orderby] => date
+            [order] => DESC
+            [error] => 
+            [m] => 
+            [p] => 0
+            [post_parent] => 
+            [subpost] => 
+            [subpost_id] => 
+            [attachment] => 
+            [attachment_id] => 0
+            [name] => 
+            [pagename] => 
+            [page_id] => 0
+            [second] => 
+            [minute] => 
+            [hour] => 
+            [day] => 0
+            [monthnum] => 0
+            [year] => 0
+            [w] => 0
+            [category_name] => 
+            [tag] => 
+            [cat] => 
+            [tag_id] => 
+            [author] => 
+            [author_name] => 
+            [feed] => 
+            [tb] => 
+            [meta_key] => 
+            [meta_value] => 
+            [preview] => 
+            [s] => 
+            [sentence] => 
+            [title] => 
+            [fields] => 
+            [menu_order] => 
+            [embed] => 
+            [category__in] => Array
+                (
+                )
+
+            [category__not_in] => Array
+                (
+                )
+
+            [category__and] => Array
+                (
+                )
+
+            [post__in] => Array
+                (
+                )
+
+            [post__not_in] => Array
+                (
+                )
+
+            [post_name__in] => Array
+                (
+                )
+
+            [tag__in] => Array
+                (
+                )
+
+            [tag__not_in] => Array
+                (
+                )
+
+            [tag__and] => Array
+                (
+                )
+
+            [tag_slug__in] => Array
+                (
+                )
+
+            [tag_slug__and] => Array
+                (
+                )
+
+            [post_parent__in] => Array
+                (
+                )
+
+            [post_parent__not_in] => Array
+                (
+                )
+
+            [author__in] => Array
+                (
+                )
+
+            [author__not_in] => Array
+                (
+                )
+
+            [ignore_sticky_posts] => 
+            [suppress_filters] => 
+            [cache_results] => 1
+            [update_post_term_cache] => 1
+            [lazy_load_term_meta] => 1
+            [update_post_meta_cache] => 1
+            [nopaging] => 
+            [comments_per_page] => 50
+            [no_found_rows] => 
+        )
+
+    [tax_query] => WP_Tax_Query Object
+        (
+            [queries] => Array
+                (
+                )
+
+            [relation] => AND
+            [table_aliases:protected] => Array
+                (
+                )
+
+            [queried_terms] => Array
+                (
+                )
+
+            [primary_table] => wp_posts
+            [primary_id_column] => ID
+        )
+
+    [meta_query] => WP_Meta_Query Object
+        (
+            [queries] => Array
+                (
+                )
+
+            [relation] => 
+            [meta_table] => 
+            [meta_id_column] => 
+            [primary_table] => 
+            [primary_id_column] => 
+            [table_aliases:protected] => Array
+                (
+                )
+
+            [clauses:protected] => Array
+                (
+                )
+
+            [has_or_relation:protected] => 
+        )
+
+    [date_query] => 
+    [request] => 
+					SELECT SQL_CALC_FOUND_ROWS  wp_posts.ID
+					FROM wp_posts 
+					WHERE 1=1  AND ((wp_posts.post_type = 'post' AND (wp_posts.post_status = 'publish' 
+OR wp_posts.post_status = 'private')))
+					
+					ORDER BY wp_posts.post_date DESC
+					LIMIT 2, 1
+				
+    [posts] => Array
+        (
+            [0] => WP_Post Object
+                (
+                    [ID] => 83
+                    [post_author] => 2
+                    [post_date] => 2022-10-14 06:15:37
+                    [post_date_gmt] => 2022-10-14 06:15:37
+                    [post_content] => <ul><li>Non rerum a qui dolore</li><li>Voluptatem et quas iure</li><li>Sunt et sed ut praesentium</li><li>Odit sed quis sed</li><li>Accusamus magni iste</li></ul>
+<ul><li>Rerum corporis ab quasi officiis</li><li>Commodi magni sint minus</li><li>Quidem</li><li>Temporibus id</li><li>Non quae sequi nam nam sed</li><li>Expedita</li></ul>
+<p>Laboriosam reprehenderit veritatis <a title="Sapiente deserunt." href="http://www.medhurst.com/velit-ratione-rerum-totam-possimus-quasi-officiis">placeat dolorum occaecati neque at.</a> est quasi eveniet magni illo. et quasi dignissimos blanditiis suscipit.</p>
+<h2>Distinctio necessitatibus vel enim adipisci. At quasi sed id reprehenderit in fugit</h2>
+<ul><li>Expedita ex ea sit</li><li>Beatae et id eos perferendis</li><li>Aut fugiat ut aut</li><li>Assumenda eos suscipit consectetur ut</li><li>Aliquid totam ullam cum</li></ul>
+<h1>Impedit deserunt quidem ipsum fugit. Quasi earum quia ea ut incidunt</h1>
+<ul><li>Iste qui odit ut qui sed</li><li>Expedita libero iste</li><li>Quae sit nam ipsa consectetur</li></ul>
+<h3>Iste cum dolor eius et. Itaque autem autem laborum</h3>
+<ul><li>Et placeat totam quia</li><li>Ex neque illo incidunt</li><li>Voluptatem optio velit magni maiores</li><li>Et voluptatem cum ad quia qui maiores</li><li>Voluptas fuga quo possimus molestias</li><li>Aut odio</li><li>Accusantium rerum consequatur repellat consequatur</li><li>Dolorum sint neque laudantium nihil ex reiciendis</li><li>Animi occaecati corrupti sint quibusdam</li></ul>
+<p>Est deserunt in <a title="Aut voluptates." href="http://considine.com/">cumque distinctio quia</a> Laudantium dolor harum veritatis fuga Et minus id quae ea optio natus. <a title="Tempora sit." href="http://www.gorczany.biz/expedita-qui-ipsa-voluptates-quas-iure">autem fugiat</a> fugit.</p>
+                    [post_title] => Ullam qui similique eos repellat quasi iste
+                    [post_excerpt] => 
+                    [post_status] => publish
+                    [comment_status] => open
+                    [ping_status] => closed
+                    [post_password] => 
+                    [post_name] => ullam-qui-similique-eos-repellat-quasi-iste
+                    [to_ping] => 
+                    [pinged] => 
+                    [post_modified] => 2022-10-14 06:15:37
+                    [post_modified_gmt] => 2022-10-14 06:15:37
+                    [post_content_filtered] => 
+                    [post_parent] => 0
+                    [guid] => http://magalhes-sipert-sociedade-de-advogados.local/ullam-qui-similique-eos-repellat-quasi-iste/
+                    [menu_order] => 0
+                    [post_type] => post
+                    [post_mime_type] => 
+                    [comment_count] => 0
+                    [filter] => raw
+                )
+
+        )
+
+    [post_count] => 1
+    [current_post] => -1
+    [in_the_loop] => 
+    [post] => WP_Post Object
+        (
+            [ID] => 83
+            [post_author] => 2
+            [post_date] => 2022-10-14 06:15:37
+            [post_date_gmt] => 2022-10-14 06:15:37
+            [post_content] => <ul><li>Non rerum a qui dolore</li><li>Voluptatem et quas iure</li><li>Sunt et sed ut praesentium</li><li>Odit sed quis sed</li><li>Accusamus magni iste</li></ul>
+<ul><li>Rerum corporis ab quasi officiis</li><li>Commodi magni sint minus</li><li>Quidem</li><li>Temporibus id</li><li>Non quae sequi nam nam sed</li><li>Expedita</li></ul>
+<p>Laboriosam reprehenderit veritatis <a title="Sapiente deserunt." href="http://www.medhurst.com/velit-ratione-rerum-totam-possimus-quasi-officiis">placeat dolorum occaecati neque at.</a> est quasi eveniet magni illo. et quasi dignissimos blanditiis suscipit.</p>
+<h2>Distinctio necessitatibus vel enim adipisci. At quasi sed id reprehenderit in fugit</h2>
+<ul><li>Expedita ex ea sit</li><li>Beatae et id eos perferendis</li><li>Aut fugiat ut aut</li><li>Assumenda eos suscipit consectetur ut</li><li>Aliquid totam ullam cum</li></ul>
+<h1>Impedit deserunt quidem ipsum fugit. Quasi earum quia ea ut incidunt</h1>
+<ul><li>Iste qui odit ut qui sed</li><li>Expedita libero iste</li><li>Quae sit nam ipsa consectetur</li></ul>
+<h3>Iste cum dolor eius et. Itaque autem autem laborum</h3>
+<ul><li>Et placeat totam quia</li><li>Ex neque illo incidunt</li><li>Voluptatem optio velit magni maiores</li><li>Et voluptatem cum ad quia qui maiores</li><li>Voluptas fuga quo possimus molestias</li><li>Aut odio</li><li>Accusantium rerum consequatur repellat consequatur</li><li>Dolorum sint neque laudantium nihil ex reiciendis</li><li>Animi occaecati corrupti sint quibusdam</li></ul>
+<p>Est deserunt in <a title="Aut voluptates." href="http://considine.com/">cumque distinctio quia</a> Laudantium dolor harum veritatis fuga Et minus id quae ea optio natus. <a title="Tempora sit." href="http://www.gorczany.biz/expedita-qui-ipsa-voluptates-quas-iure">autem fugiat</a> fugit.</p>
+            [post_title] => Ullam qui similique eos repellat quasi iste
+            [post_excerpt] => 
+            [post_status] => publish
+            [comment_status] => open
+            [ping_status] => closed
+            [post_password] => 
+            [post_name] => ullam-qui-similique-eos-repellat-quasi-iste
+            [to_ping] => 
+            [pinged] => 
+            [post_modified] => 2022-10-14 06:15:37
+            [post_modified_gmt] => 2022-10-14 06:15:37
+            [post_content_filtered] => 
+            [post_parent] => 0
+            [guid] => http://magalhes-sipert-sociedade-de-advogados.local/ullam-qui-similique-eos-repellat-quasi-iste/
+            [menu_order] => 0
+            [post_type] => post
+            [post_mime_type] => 
+            [comment_count] => 0
+            [filter] => raw
+        )
+
+    [comment_count] => 0
+    [current_comment] => -1
+    [found_posts] => 21
+    [max_num_pages] => 21
+    [max_num_comment_pages] => 0
+    [is_single] => 
+    [is_preview] => 
+    [is_page] => 
+    [is_archive] => 
+    [is_date] => 
+    [is_year] => 
+    [is_month] => 
+    [is_day] => 
+    [is_time] => 
+    [is_author] => 
+    [is_category] => 
+    [is_tag] => 
+    [is_tax] => 
+    [is_search] => 
+    [is_feed] => 
+    [is_comment_feed] => 
+    [is_trackback] => 
+    [is_home] => 1
+    [is_privacy_policy] => 
+    [is_404] => 
+    [is_embed] => 
+    [is_paged] => 1
+    [is_admin] => 
+    [is_attachment] => 
+    [is_singular] => 
+    [is_robots] => 
+    [is_favicon] => 
+    [is_posts_page] => 
+    [is_post_type_archive] => 
+    [query_vars_hash:WP_Query:private] => 510edc8815affe000d6e1a0a96165a1a
+    [query_vars_changed:WP_Query:private] => 
+    [thumbnails_cached] => 
+    [stopwords:WP_Query:private] => 
+    [compat_fields:WP_Query:private] => Array
+        (
+            [0] => query_vars_hash
+            [1] => query_vars_changed
+        )
+
+    [compat_methods:WP_Query:private] => Array
+        (
+            [0] => init_query_flags
+            [1] => parse_tax_query
+        )
+
 )
 
-[01-Nov-2022 01:05:39 UTC] Caller: C:\Users\ACER\Documents\IT9\Local\magalhes-sipert-sociedade-de-advogados\app\public\wp-content\themes\mslaw\components\_categories-sidebar.php:15
-[01-Nov-2022 01:05:39 UTC] WP_Term Object
-(
-    [term_id] => 1
-    [name] => Uncategorized
-    [slug] => uncategorized
-    [term_group] => 0
-    [term_taxonomy_id] => 1
-    [taxonomy] => category
-    [description] => 
-    [parent] => 0
-    [count] => 15
-    [filter] => raw
-    [cat_ID] => 1
-    [category_count] => 15
-    [category_description] => 
-    [cat_name] => Uncategorized
-    [category_nicename] => uncategorized
-    [category_parent] => 0
-)
-
-[01-Nov-2022 01:10:27 UTC] Caller: C:\Users\ACER\Documents\IT9\Local\magalhes-sipert-sociedade-de-advogados\app\public\wp-content\themes\mslaw\components\_categories-sidebar.php:15
-[01-Nov-2022 01:10:27 UTC] WP_Term Object
-(
-    [term_id] => 5
-    [name] => Adipisci exercitationem sed consectetur
-    [slug] => adipisci-exercitationem-sed-consectetur
-    [term_group] => 0
-    [term_taxonomy_id] => 5
-    [taxonomy] => category
-    [description] => Veritatis in earum nulla illo ut omnis quas voluptas laudantium commodi sint qui pariatur eos soluta labore aut aut quisquam vel ex officiis neque sed perferendis aut non eligendi autem voluptatem tempora blanditiis repellendus laboriosam fugiat quam doloribus molestiae minima et doloremque fugit
-    [parent] => 0
-    [count] => 14
-    [filter] => raw
-    [cat_ID] => 5
-    [category_count] => 14
-    [category_description] => Veritatis in earum nulla illo ut omnis quas voluptas laudantium commodi sint qui pariatur eos soluta labore aut aut quisquam vel ex officiis neque sed perferendis aut non eligendi autem voluptatem tempora blanditiis repellendus laboriosam fugiat quam doloribus molestiae minima et doloremque fugit
-    [cat_name] => Adipisci exercitationem sed consectetur
-    [category_nicename] => adipisci-exercitationem-sed-consectetur
-    [category_parent] => 0
-)
-
-[01-Nov-2022 01:10:27 UTC] Caller: C:\Users\ACER\Documents\IT9\Local\magalhes-sipert-sociedade-de-advogados\app\public\wp-content\themes\mslaw\components\_categories-sidebar.php:15
-[01-Nov-2022 01:10:27 UTC] WP_Term Object
-(
-    [term_id] => 4
-    [name] => Harum sint
-    [slug] => harum-sint
-    [term_group] => 0
-    [term_taxonomy_id] => 4
-    [taxonomy] => category
-    [description] => Esse et laboriosam sint et molestiae quia libero sunt ut autem mollitia hic accusamus corrupti eligendi non quas ad nemo modi corrupti quaerat et in
-    [parent] => 0
-    [count] => 14
-    [filter] => raw
-    [cat_ID] => 4
-    [category_count] => 14
-    [category_description] => Esse et laboriosam sint et molestiae quia libero sunt ut autem mollitia hic accusamus corrupti eligendi non quas ad nemo modi corrupti quaerat et in
-    [cat_name] => Harum sint
-    [category_nicename] => harum-sint
-    [category_parent] => 0
-)
-
-[01-Nov-2022 01:10:27 UTC] Caller: C:\Users\ACER\Documents\IT9\Local\magalhes-sipert-sociedade-de-advogados\app\public\wp-content\themes\mslaw\components\_categories-sidebar.php:15
-[01-Nov-2022 01:10:27 UTC] WP_Term Object
-(
-    [term_id] => 1
-    [name] => Uncategorized
-    [slug] => uncategorized
-    [term_group] => 0
-    [term_taxonomy_id] => 1
-    [taxonomy] => category
-    [description] => 
-    [parent] => 0
-    [count] => 15
-    [filter] => raw
-    [cat_ID] => 1
-    [category_count] => 15
-    [category_description] => 
-    [cat_name] => Uncategorized
-    [category_nicename] => uncategorized
-    [category_parent] => 0
-)
-
+[03-Nov-2022 02:08:58 UTC] PHP Notice:  Undefined index: posts_per_page in C:\Users\ACER\Documents\IT9\Local\magalhes-sipert-sociedade-de-advogados\app\public\wp-content\themes\mslaw\components\_posts-list.php on line 5
+[03-Nov-2022 02:08:58 UTC] PHP Stack trace:
+[03-Nov-2022 02:08:58 UTC] PHP   1. {main}() C:\Users\ACER\Documents\IT9\Local\magalhes-sipert-sociedade-de-advogados\app\public\index.php:0
+[03-Nov-2022 02:08:58 UTC] PHP   2. require() C:\Users\ACER\Documents\IT9\Local\magalhes-sipert-sociedade-de-advogados\app\public\index.php:17
+[03-Nov-2022 02:08:58 UTC] PHP   3. require_once() C:\Users\ACER\Documents\IT9\Local\magalhes-sipert-sociedade-de-advogados\app\public\wp-blog-header.php:19
+[03-Nov-2022 02:08:58 UTC] PHP   4. include() C:\Users\ACER\Documents\IT9\Local\magalhes-sipert-sociedade-de-advogados\app\public\wp-includes\template-loader.php:106
+[03-Nov-2022 02:08:58 UTC] PHP   5. get_template_part() C:\Users\ACER\Documents\IT9\Local\magalhes-sipert-sociedade-de-advogados\app\public\wp-content\themes\mslaw\pages\home\_index.php:5
+[03-Nov-2022 02:08:58 UTC] PHP   6. locate_template() C:\Users\ACER\Documents\IT9\Local\magalhes-sipert-sociedade-de-advogados\app\public\wp-includes\general-template.php:204
+[03-Nov-2022 02:08:58 UTC] PHP   7. load_template() C:\Users\ACER\Documents\IT9\Local\magalhes-sipert-sociedade-de-advogados\app\public\wp-includes\template.php:716
+[03-Nov-2022 02:08:58 UTC] PHP   8. require() C:\Users\ACER\Documents\IT9\Local\magalhes-sipert-sociedade-de-advogados\app\public\wp-includes\template.php:772
+[03-Nov-2022 02:08:58 UTC] PHP   9. get_template_part() C:\Users\ACER\Documents\IT9\Local\magalhes-sipert-sociedade-de-advogados\app\public\wp-content\themes\mslaw\pages\home\content.php:33
+[03-Nov-2022 02:08:58 UTC] PHP  10. locate_template() C:\Users\ACER\Documents\IT9\Local\magalhes-sipert-sociedade-de-advogados\app\public\wp-includes\general-template.php:204
+[03-Nov-2022 02:08:58 UTC] PHP  11. load_template() C:\Users\ACER\Documents\IT9\Local\magalhes-sipert-sociedade-de-advogados\app\public\wp-includes\template.php:716
+[03-Nov-2022 02:08:58 UTC] PHP  12. require() C:\Users\ACER\Documents\IT9\Local\magalhes-sipert-sociedade-de-advogados\app\public\wp-includes\template.php:772
+[03-Nov-2022 02:09:09 UTC] PHP Notice:  Undefined index: posts_per_page in C:\Users\ACER\Documents\IT9\Local\magalhes-sipert-sociedade-de-advogados\app\public\wp-content\themes\mslaw\components\_posts-list.php on line 5
+[03-Nov-2022 02:09:09 UTC] PHP Stack trace:
+[03-Nov-2022 02:09:09 UTC] PHP   1. {main}() C:\Users\ACER\Documents\IT9\Local\magalhes-sipert-sociedade-de-advogados\app\public\index.php:0
+[03-Nov-2022 02:09:09 UTC] PHP   2. require() C:\Users\ACER\Documents\IT9\Local\magalhes-sipert-sociedade-de-advogados\app\public\index.php:17
+[03-Nov-2022 02:09:09 UTC] PHP   3. require_once() C:\Users\ACER\Documents\IT9\Local\magalhes-sipert-sociedade-de-advogados\app\public\wp-blog-header.php:19
+[03-Nov-2022 02:09:09 UTC] PHP   4. include() C:\Users\ACER\Documents\IT9\Local\magalhes-sipert-sociedade-de-advogados\app\public\wp-includes\template-loader.php:106
+[03-Nov-2022 02:09:09 UTC] PHP   5. get_template_part() C:\Users\ACER\Documents\IT9\Local\magalhes-sipert-sociedade-de-advogados\app\public\wp-content\themes\mslaw\pages\home\_index.php:5
+[03-Nov-2022 02:09:09 UTC] PHP   6. locate_template() C:\Users\ACER\Documents\IT9\Local\magalhes-sipert-sociedade-de-advogados\app\public\wp-includes\general-template.php:204
+[03-Nov-2022 02:09:09 UTC] PHP   7. load_template() C:\Users\ACER\Documents\IT9\Local\magalhes-sipert-sociedade-de-advogados\app\public\wp-includes\template.php:716
+[03-Nov-2022 02:09:09 UTC] PHP   8. require() C:\Users\ACER\Documents\IT9\Local\magalhes-sipert-sociedade-de-advogados\app\public\wp-includes\template.php:772
+[03-Nov-2022 02:09:09 UTC] PHP   9. get_template_part() C:\Users\ACER\Documents\IT9\Local\magalhes-sipert-sociedade-de-advogados\app\public\wp-content\themes\mslaw\pages\home\content.php:33
+[03-Nov-2022 02:09:09 UTC] PHP  10. locate_template() C:\Users\ACER\Documents\IT9\Local\magalhes-sipert-sociedade-de-advogados\app\public\wp-includes\general-template.php:204
+[03-Nov-2022 02:09:09 UTC] PHP  11. load_template() C:\Users\ACER\Documents\IT9\Local\magalhes-sipert-sociedade-de-advogados\app\public\wp-includes\template.php:716
+[03-Nov-2022 02:09:09 UTC] PHP  12. require() C:\Users\ACER\Documents\IT9\Local\magalhes-sipert-sociedade-de-advogados\app\public\wp-includes\template.php:772
+[03-Nov-2022 02:09:27 UTC] PHP Notice:  Undefined index: posts_per_page in C:\Users\ACER\Documents\IT9\Local\magalhes-sipert-sociedade-de-advogados\app\public\wp-content\themes\mslaw\components\_posts-list.php on line 5
+[03-Nov-2022 02:09:27 UTC] PHP Stack trace:
+[03-Nov-2022 02:09:27 UTC] PHP   1. {main}() C:\Users\ACER\Documents\IT9\Local\magalhes-sipert-sociedade-de-advogados\app\public\index.php:0
+[03-Nov-2022 02:09:27 UTC] PHP   2. require() C:\Users\ACER\Documents\IT9\Local\magalhes-sipert-sociedade-de-advogados\app\public\index.php:17
+[03-Nov-2022 02:09:27 UTC] PHP   3. require_once() C:\Users\ACER\Documents\IT9\Local\magalhes-sipert-sociedade-de-advogados\app\public\wp-blog-header.php:19
+[03-Nov-2022 02:09:27 UTC] PHP   4. include() C:\Users\ACER\Documents\IT9\Local\magalhes-sipert-sociedade-de-advogados\app\public\wp-includes\template-loader.php:106
+[03-Nov-2022 02:09:27 UTC] PHP   5. get_template_part() C:\Users\ACER\Documents\IT9\Local\magalhes-sipert-sociedade-de-advogados\app\public\wp-content\themes\mslaw\pages\home\_index.php:5
+[03-Nov-2022 02:09:27 UTC] PHP   6. locate_template() C:\Users\ACER\Documents\IT9\Local\magalhes-sipert-sociedade-de-advogados\app\public\wp-includes\general-template.php:204
+[03-Nov-2022 02:09:27 UTC] PHP   7. load_template() C:\Users\ACER\Documents\IT9\Local\magalhes-sipert-sociedade-de-advogados\app\public\wp-includes\template.php:716
+[03-Nov-2022 02:09:27 UTC] PHP   8. require() C:\Users\ACER\Documents\IT9\Local\magalhes-sipert-sociedade-de-advogados\app\public\wp-includes\template.php:772
+[03-Nov-2022 02:09:27 UTC] PHP   9. get_template_part() C:\Users\ACER\Documents\IT9\Local\magalhes-sipert-sociedade-de-advogados\app\public\wp-content\themes\mslaw\pages\home\content.php:33
+[03-Nov-2022 02:09:27 UTC] PHP  10. locate_template() C:\Users\ACER\Documents\IT9\Local\magalhes-sipert-sociedade-de-advogados\app\public\wp-includes\general-template.php:204
+[03-Nov-2022 02:09:27 UTC] PHP  11. load_template() C:\Users\ACER\Documents\IT9\Local\magalhes-sipert-sociedade-de-advogados\app\public\wp-includes\template.php:716
+[03-Nov-2022 02:09:27 UTC] PHP  12. require() C:\Users\ACER\Documents\IT9\Local\magalhes-sipert-sociedade-de-advogados\app\public\wp-includes\template.php:772
+[03-Nov-2022 02:09:49 UTC] PHP Notice:  Undefined index: posts_per_page in C:\Users\ACER\Documents\IT9\Local\magalhes-sipert-sociedade-de-advogados\app\public\wp-content\themes\mslaw\components\_posts-list.php on line 5
+[03-Nov-2022 02:09:49 UTC] PHP Stack trace:
+[03-Nov-2022 02:09:49 UTC] PHP   1. {main}() C:\Users\ACER\Documents\IT9\Local\magalhes-sipert-sociedade-de-advogados\app\public\index.php:0
+[03-Nov-2022 02:09:49 UTC] PHP   2. require() C:\Users\ACER\Documents\IT9\Local\magalhes-sipert-sociedade-de-advogados\app\public\index.php:17
+[03-Nov-2022 02:09:49 UTC] PHP   3. require_once() C:\Users\ACER\Documents\IT9\Local\magalhes-sipert-sociedade-de-advogados\app\public\wp-blog-header.php:19
+[03-Nov-2022 02:09:49 UTC] PHP   4. include() C:\Users\ACER\Documents\IT9\Local\magalhes-sipert-sociedade-de-advogados\app\public\wp-includes\template-loader.php:106
+[03-Nov-2022 02:09:49 UTC] PHP   5. get_template_part() C:\Users\ACER\Documents\IT9\Local\magalhes-sipert-sociedade-de-advogados\app\public\wp-content\themes\mslaw\pages\home\_index.php:5
+[03-Nov-2022 02:09:49 UTC] PHP   6. locate_template() C:\Users\ACER\Documents\IT9\Local\magalhes-sipert-sociedade-de-advogados\app\public\wp-includes\general-template.php:204
+[03-Nov-2022 02:09:49 UTC] PHP   7. load_template() C:\Users\ACER\Documents\IT9\Local\magalhes-sipert-sociedade-de-advogados\app\public\wp-includes\template.php:716
+[03-Nov-2022 02:09:49 UTC] PHP   8. require() C:\Users\ACER\Documents\IT9\Local\magalhes-sipert-sociedade-de-advogados\app\public\wp-includes\template.php:772
+[03-Nov-2022 02:09:49 UTC] PHP   9. get_template_part() C:\Users\ACER\Documents\IT9\Local\magalhes-sipert-sociedade-de-advogados\app\public\wp-content\themes\mslaw\pages\home\content.php:33
+[03-Nov-2022 02:09:49 UTC] PHP  10. locate_template() C:\Users\ACER\Documents\IT9\Local\magalhes-sipert-sociedade-de-advogados\app\public\wp-includes\general-template.php:204
+[03-Nov-2022 02:09:49 UTC] PHP  11. load_template() C:\Users\ACER\Documents\IT9\Local\magalhes-sipert-sociedade-de-advogados\app\public\wp-includes\template.php:716
+[03-Nov-2022 02:09:49 UTC] PHP  12. require() C:\Users\ACER\Documents\IT9\Local\magalhes-sipert-sociedade-de-advogados\app\public\wp-includes\template.php:772

@@ -44,22 +44,12 @@ if (empty($posts_args))
                                 <?php } ?>
                             </div>
                         </a>
-                        <div class="post__info">
-                            <ul class="p-0 mt-1 d-flex">
-                                <li class="d-flex align-items-center justify-content-start">
-                                    <?php echo it9_mslaws_get_svg_icon('clock.svg', 'icon'); ?>
-                                    <span class="text fw-normal lh-base text-secondary">
-                                        <?php echo $post_date; ?>
-                                    </span>
-                                </li>
-                                <li class="d-flex align-items-center justify-content-start ps-3">
-                                    <?php echo it9_mslaws_get_svg_icon('user.svg', 'icon'); ?>
-                                    <span class="text fw-normal lh-base text-secondary">
-                                        <?php echo get_the_author_meta('display_name'); ?>
-                                    </span>
-                                </li>
-                            </ul>
-                        </div>
+                        <?php get_template_part('components/_post-info', null, [
+                            'ul_classes'   => 'p-0 mt-1 d-flex gap-5',
+                            'list_classes' => 'd-flex align-items-center justify-content-start gap-1',
+                            'icon_classes' => 'icon',
+                            'text_classes' => 'text fw-normal lh-base text-secondary',
+                        ]); ?>
                         <div class="post__title text-one fs-5 fw-bold lh-base pt-1">
                             <?php echo get_the_title(); ?>
                         </div>

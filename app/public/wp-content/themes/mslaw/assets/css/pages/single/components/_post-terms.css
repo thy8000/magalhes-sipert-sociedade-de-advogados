@@ -1,0 +1,7 @@
+.post-terms .post-terms-item:hover {
+  cursor: pointer;
+  transition: 0.5s all;
+}
+.post-terms .post-terms-item:hover {
+  background-color: #16525b;
+}

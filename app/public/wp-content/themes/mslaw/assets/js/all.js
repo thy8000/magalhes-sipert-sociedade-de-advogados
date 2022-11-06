@@ -27,3 +27,47 @@ function it9_mslaw_change_nav_style_by_window_scroll(windowScrollTop, header){
         header.removeClass('bg-light shadow');     
     }
 }
+
+document.addEventListener('DOMContentLoaded', function () {
+    var url = postShare.url
+    var title = postShare.title
+ 
+    createShareLinksDesktop(url, title)
+ })
+ 
+ function createShareLinksDesktop(postUrl, postTitle) {
+    var shareButtonList = document.querySelectorAll('.post-share .link')
+ 
+    shareButtonList.forEach((shareButton) => {
+       shareButton.addEventListener('click', function (clickEvent) {
+          var shareButtonDataUrl = shareButton.dataset.url
+          var shareButtonDataName = shareButton.dataset.name
+ 
+          if (shareButtonDataName !== 'copylink') {
+             shareButtonDataUrl = shareButtonDataUrl.replace(/{url}/g, postUrl)
+             shareButtonDataUrl = shareButtonDataUrl.replace(/{title}/g, postTitle)
+             shareButtonDataUrl = encodeURI(shareButtonDataUrl)
+ 
+             window.open(shareButtonDataUrl)
+             return
+          }
+ 
+          copyPostUrl(postUrl)
+       })
+    })
+
+ }
+ 
+ function copyPostUrl(postUrl) {
+    navigator.clipboard.writeText(postUrl)
+ 
+    showAlertAfterCopyPostUrl()
+ }
+ 
+ function showAlertAfterCopyPostUrl() {
+    document.querySelector('.copylink-alert').classList.remove('translate-y-300')
+    setTimeout(() => {
+       document.querySelector('.copylink-alert').classList.add('translate-y-300')
+    }, '5000')
+ }
+ 

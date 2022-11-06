@@ -1,0 +1,40 @@
+.post-share .post-share-list{
+    list-style-type: none;
+}
+.post-share .link{
+    background-color: transparent;
+    width: 2.5rem;
+    height: 2.5rem;
+    border-width: 1px;
+    border-color: #CCCCCC;
+    border-style: solid;
+    display: flex;
+    justify-items: center;
+    justify-content: center;
+    border-radius: 9999px;
+    cursor: pointer;
+    transition: .5s all;
+}
+.post-share .link .icon{
+    stroke: #29666F;
+    width: 1.5rem;
+    height: 1.5rem;
+    display: flex;
+    align-self: center;
+    transition: .5s all;
+}
+.post-share .link:hover{
+    background-color: #29666F;
+}
+.post-share .link:hover .icon{
+    stroke: #FFFFFF;
+}
+.post-share .copylink-alert{
+    position: fixed;
+    bottom: 30px;
+    left: 30px;
+    transition: .5s all;
+}
+.post-share .translate-y-300{
+    transform: translateY(300%);
+}

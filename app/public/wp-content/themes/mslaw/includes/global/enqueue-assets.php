@@ -11,4 +11,12 @@ function it9_mslaw_enqueue_js_css()
    wp_enqueue_style( 'bootstrap', get_template_directory_uri() . '/assets/bootstrap/bootstrap.min.css' );
 
    wp_enqueue_script( 'bootstrap', get_template_directory_uri() . '/assets/bootstrap/bootstrap.bundle.min.js', false, true);
+
+   if (is_singular())
+   {
+      wp_localize_script('all', 'postShare', [
+         'title' => get_the_title(),
+         'url'   => get_the_permalink()
+      ]);
+   }
 }

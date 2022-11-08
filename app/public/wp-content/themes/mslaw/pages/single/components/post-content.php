@@ -3,36 +3,27 @@ if (!defined('ABSPATH')) exit;
 
 global $post;
 
+$post_tags = get_terms(array(
+    'taxonomy' => 'post_tag',
+    'hide_empty' => false,
+));
+
+$post_date = get_the_date('d', $post->ID) . ' de ' . get_the_date('F', $post->ID) . ' de ' . get_the_date('Y', $post->ID);
+
 ?>
 <div class="post-content">
-    <div class="post-share d-flex gap-3 pt-5">
-        <li class="post-share-list">
-            <button class="link" data-name="facebook" data-url="https://www.facebook.com/sharer/sharer.php?u={url}&quote={title}">
-                <?php echo it9_mslaws_get_svg_icon('facebook.svg', 'icon') ?>
-            </button>
-        </li>
-        <li class="post-share-list">
-            <button class="link" data-name="linkedin" data-url="https://www.linkedin.com/shareArticle?mini=true&url={url}&title={title}">
-                <?php echo it9_mslaws_get_svg_icon('linkedin.svg', 'icon') ?>
-            </button>
-        </li>
-        <li class="post-share-list">
-            <button class="link" data-name="whatsapp" data-url="https://wa.me/?text={title} {url}">
-                <?php echo it9_mslaws_get_svg_icon('whatsapp.svg', 'icon') ?>
-            </button>
-        </li>
-        <li class="post-share-list">
-            <button class="link" data-name="twitter" data-url="https://twitter.com/intent/tweet?url={url}&text={title}">
-                <?php echo it9_mslaws_get_svg_icon('twitter.svg', 'icon') ?>
-            </button>
-        </li>
-        <li class="post-share-list">
-            <button class="link" data-name="copylink">
-                <?php echo it9_mslaws_get_svg_icon('share-link.svg', 'icon') ?>
-            </button>
-        </li>
-        <div class="copylink-alert bg-one p-3 text-white translate-y-300">
-            <span><?php echo esc_html__('Link copiado para a área de transferência', 'it9_mslaws'); ?></span>
-        </div>
+    <?php get_template_part('pages/single/components/post-share'); ?>
+    <div class="post-content-text pt-5">
+        <?php the_content(); ?>
+    </div>
+    <?php get_template_part('pages/single/components/post-share'); ?>
+    <?php get_template_part('pages/single/components/post-tags', null, [
+        'post_tags' => $post_tags,
+    ]); ?>
+    
+    <div class="post-published-info py-5 text-secondary font-normal lh-base">
+        <span>
+            <?php echo esc_html('Artigo publicado em: ', 'it9_mslaws') . $post_date; ?>
+        </span>
     </div>
 </div>

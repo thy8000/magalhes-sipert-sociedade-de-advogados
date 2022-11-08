@@ -38,3 +38,23 @@
 .post-share .translate-y-300{
     transform: translateY(300%);
 }
+.post-content-text h1, .post-content-text h2, .post-content-text h3, .post-content-text h4, .post-content-text h5, .post-content-text h6{
+    color: #29666F;
+    font-weight: bold;
+}
+.post-content > *{
+    color: #6c757d;
+    line-height: 1.5rem;
+}
+.post-content-text p{
+    color: #6c757d;
+    line-height: 1.5rem;
+    font-weight: 400;
+}
+.post-content ul{
+    list-style: disc;
+    color: #6c757d;
+}
+.post-content li{
+    line-height: 1.5rem;
+}

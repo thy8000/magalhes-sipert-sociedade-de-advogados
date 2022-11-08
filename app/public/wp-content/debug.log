@@ -1,204 +1,344 @@
-[05-Nov-2022 21:19:38 UTC] Caller: C:\Users\ACER\Documents\IT9\Local\magalhes-sipert-sociedade-de-advogados\app\public\wp-content\themes\mslaw\pages\single\components\post-thumbnail.php:6
-[05-Nov-2022 21:19:38 UTC] http://magalhes-sipert-sociedade-de-advogados.local/wp-content/uploads/2022/10/b65cdc63-7e9c-3e73-831d-9000542a80dc.jpg
-[05-Nov-2022 21:19:55 UTC] Caller: C:\Users\ACER\Documents\IT9\Local\magalhes-sipert-sociedade-de-advogados\app\public\wp-content\themes\mslaw\pages\single\components\post-thumbnail.php:6
-[05-Nov-2022 21:19:55 UTC] http://magalhes-sipert-sociedade-de-advogados.local/wp-content/uploads/2022/10/b65cdc63-7e9c-3e73-831d-9000542a80dc.jpg
-[06-Nov-2022 20:35:37 UTC] PHP Notice:  Undefined variable: recent_posts_args in C:\Users\ACER\Documents\IT9\Local\magalhes-sipert-sociedade-de-advogados\app\public\wp-content\themes\mslaw\pages\single\content.php on line 21
-[06-Nov-2022 20:35:37 UTC] PHP Stack trace:
-[06-Nov-2022 20:35:37 UTC] PHP   1. {main}() C:\Users\ACER\Documents\IT9\Local\magalhes-sipert-sociedade-de-advogados\app\public\index.php:0
-[06-Nov-2022 20:35:37 UTC] PHP   2. require() C:\Users\ACER\Documents\IT9\Local\magalhes-sipert-sociedade-de-advogados\app\public\index.php:17
-[06-Nov-2022 20:35:37 UTC] PHP   3. require_once() C:\Users\ACER\Documents\IT9\Local\magalhes-sipert-sociedade-de-advogados\app\public\wp-blog-header.php:19
-[06-Nov-2022 20:35:37 UTC] PHP   4. include() C:\Users\ACER\Documents\IT9\Local\magalhes-sipert-sociedade-de-advogados\app\public\wp-includes\template-loader.php:106
-[06-Nov-2022 20:35:37 UTC] PHP   5. get_template_part() C:\Users\ACER\Documents\IT9\Local\magalhes-sipert-sociedade-de-advogados\app\public\wp-content\themes\mslaw\pages\single\_index.php:5
-[06-Nov-2022 20:35:37 UTC] PHP   6. locate_template() C:\Users\ACER\Documents\IT9\Local\magalhes-sipert-sociedade-de-advogados\app\public\wp-includes\general-template.php:204
-[06-Nov-2022 20:35:37 UTC] PHP   7. load_template() C:\Users\ACER\Documents\IT9\Local\magalhes-sipert-sociedade-de-advogados\app\public\wp-includes\template.php:716
-[06-Nov-2022 20:35:37 UTC] PHP   8. require() C:\Users\ACER\Documents\IT9\Local\magalhes-sipert-sociedade-de-advogados\app\public\wp-includes\template.php:772
-[06-Nov-2022 20:36:50 UTC] PHP Notice:  Undefined variable: recent_posts_args in C:\Users\ACER\Documents\IT9\Local\magalhes-sipert-sociedade-de-advogados\app\public\wp-content\themes\mslaw\pages\single\content.php on line 21
-[06-Nov-2022 20:36:50 UTC] PHP Stack trace:
-[06-Nov-2022 20:36:50 UTC] PHP   1. {main}() C:\Users\ACER\Documents\IT9\Local\magalhes-sipert-sociedade-de-advogados\app\public\index.php:0
-[06-Nov-2022 20:36:50 UTC] PHP   2. require() C:\Users\ACER\Documents\IT9\Local\magalhes-sipert-sociedade-de-advogados\app\public\index.php:17
-[06-Nov-2022 20:36:50 UTC] PHP   3. require_once() C:\Users\ACER\Documents\IT9\Local\magalhes-sipert-sociedade-de-advogados\app\public\wp-blog-header.php:19
-[06-Nov-2022 20:36:50 UTC] PHP   4. include() C:\Users\ACER\Documents\IT9\Local\magalhes-sipert-sociedade-de-advogados\app\public\wp-includes\template-loader.php:106
-[06-Nov-2022 20:36:50 UTC] PHP   5. get_template_part() C:\Users\ACER\Documents\IT9\Local\magalhes-sipert-sociedade-de-advogados\app\public\wp-content\themes\mslaw\pages\single\_index.php:5
-[06-Nov-2022 20:36:50 UTC] PHP   6. locate_template() C:\Users\ACER\Documents\IT9\Local\magalhes-sipert-sociedade-de-advogados\app\public\wp-includes\general-template.php:204
-[06-Nov-2022 20:36:50 UTC] PHP   7. load_template() C:\Users\ACER\Documents\IT9\Local\magalhes-sipert-sociedade-de-advogados\app\public\wp-includes\template.php:716
-[06-Nov-2022 20:36:50 UTC] PHP   8. require() C:\Users\ACER\Documents\IT9\Local\magalhes-sipert-sociedade-de-advogados\app\public\wp-includes\template.php:772
-[06-Nov-2022 20:37:04 UTC] PHP Notice:  Undefined variable: recent_posts_args in C:\Users\ACER\Documents\IT9\Local\magalhes-sipert-sociedade-de-advogados\app\public\wp-content\themes\mslaw\pages\single\content.php on line 21
-[06-Nov-2022 20:37:04 UTC] PHP Stack trace:
-[06-Nov-2022 20:37:04 UTC] PHP   1. {main}() C:\Users\ACER\Documents\IT9\Local\magalhes-sipert-sociedade-de-advogados\app\public\index.php:0
-[06-Nov-2022 20:37:04 UTC] PHP   2. require() C:\Users\ACER\Documents\IT9\Local\magalhes-sipert-sociedade-de-advogados\app\public\index.php:17
-[06-Nov-2022 20:37:04 UTC] PHP   3. require_once() C:\Users\ACER\Documents\IT9\Local\magalhes-sipert-sociedade-de-advogados\app\public\wp-blog-header.php:19
-[06-Nov-2022 20:37:04 UTC] PHP   4. include() C:\Users\ACER\Documents\IT9\Local\magalhes-sipert-sociedade-de-advogados\app\public\wp-includes\template-loader.php:106
-[06-Nov-2022 20:37:04 UTC] PHP   5. get_template_part() C:\Users\ACER\Documents\IT9\Local\magalhes-sipert-sociedade-de-advogados\app\public\wp-content\themes\mslaw\pages\single\_index.php:5
-[06-Nov-2022 20:37:04 UTC] PHP   6. locate_template() C:\Users\ACER\Documents\IT9\Local\magalhes-sipert-sociedade-de-advogados\app\public\wp-includes\general-template.php:204
-[06-Nov-2022 20:37:04 UTC] PHP   7. load_template() C:\Users\ACER\Documents\IT9\Local\magalhes-sipert-sociedade-de-advogados\app\public\wp-includes\template.php:716
-[06-Nov-2022 20:37:04 UTC] PHP   8. require() C:\Users\ACER\Documents\IT9\Local\magalhes-sipert-sociedade-de-advogados\app\public\wp-includes\template.php:772
-[06-Nov-2022 20:37:33 UTC] PHP Notice:  Undefined variable: recent_posts_args in C:\Users\ACER\Documents\IT9\Local\magalhes-sipert-sociedade-de-advogados\app\public\wp-content\themes\mslaw\pages\single\content.php on line 21
-[06-Nov-2022 20:37:33 UTC] PHP Stack trace:
-[06-Nov-2022 20:37:33 UTC] PHP   1. {main}() C:\Users\ACER\Documents\IT9\Local\magalhes-sipert-sociedade-de-advogados\app\public\index.php:0
-[06-Nov-2022 20:37:33 UTC] PHP   2. require() C:\Users\ACER\Documents\IT9\Local\magalhes-sipert-sociedade-de-advogados\app\public\index.php:17
-[06-Nov-2022 20:37:33 UTC] PHP   3. require_once() C:\Users\ACER\Documents\IT9\Local\magalhes-sipert-sociedade-de-advogados\app\public\wp-blog-header.php:19
-[06-Nov-2022 20:37:33 UTC] PHP   4. include() C:\Users\ACER\Documents\IT9\Local\magalhes-sipert-sociedade-de-advogados\app\public\wp-includes\template-loader.php:106
-[06-Nov-2022 20:37:33 UTC] PHP   5. get_template_part() C:\Users\ACER\Documents\IT9\Local\magalhes-sipert-sociedade-de-advogados\app\public\wp-content\themes\mslaw\pages\single\_index.php:5
-[06-Nov-2022 20:37:33 UTC] PHP   6. locate_template() C:\Users\ACER\Documents\IT9\Local\magalhes-sipert-sociedade-de-advogados\app\public\wp-includes\general-template.php:204
-[06-Nov-2022 20:37:33 UTC] PHP   7. load_template() C:\Users\ACER\Documents\IT9\Local\magalhes-sipert-sociedade-de-advogados\app\public\wp-includes\template.php:716
-[06-Nov-2022 20:37:33 UTC] PHP   8. require() C:\Users\ACER\Documents\IT9\Local\magalhes-sipert-sociedade-de-advogados\app\public\wp-includes\template.php:772
-[06-Nov-2022 20:37:39 UTC] PHP Notice:  Undefined variable: recent_posts_args in C:\Users\ACER\Documents\IT9\Local\magalhes-sipert-sociedade-de-advogados\app\public\wp-content\themes\mslaw\pages\single\content.php on line 21
-[06-Nov-2022 20:37:39 UTC] PHP Stack trace:
-[06-Nov-2022 20:37:39 UTC] PHP   1. {main}() C:\Users\ACER\Documents\IT9\Local\magalhes-sipert-sociedade-de-advogados\app\public\index.php:0
-[06-Nov-2022 20:37:39 UTC] PHP   2. require() C:\Users\ACER\Documents\IT9\Local\magalhes-sipert-sociedade-de-advogados\app\public\index.php:17
-[06-Nov-2022 20:37:39 UTC] PHP   3. require_once() C:\Users\ACER\Documents\IT9\Local\magalhes-sipert-sociedade-de-advogados\app\public\wp-blog-header.php:19
-[06-Nov-2022 20:37:39 UTC] PHP   4. include() C:\Users\ACER\Documents\IT9\Local\magalhes-sipert-sociedade-de-advogados\app\public\wp-includes\template-loader.php:106
-[06-Nov-2022 20:37:39 UTC] PHP   5. get_template_part() C:\Users\ACER\Documents\IT9\Local\magalhes-sipert-sociedade-de-advogados\app\public\wp-content\themes\mslaw\pages\single\_index.php:5
-[06-Nov-2022 20:37:39 UTC] PHP   6. locate_template() C:\Users\ACER\Documents\IT9\Local\magalhes-sipert-sociedade-de-advogados\app\public\wp-includes\general-template.php:204
-[06-Nov-2022 20:37:39 UTC] PHP   7. load_template() C:\Users\ACER\Documents\IT9\Local\magalhes-sipert-sociedade-de-advogados\app\public\wp-includes\template.php:716
-[06-Nov-2022 20:37:39 UTC] PHP   8. require() C:\Users\ACER\Documents\IT9\Local\magalhes-sipert-sociedade-de-advogados\app\public\wp-includes\template.php:772
-[06-Nov-2022 20:48:04 UTC] PHP Notice:  Undefined variable: recent_posts_args in C:\Users\ACER\Documents\IT9\Local\magalhes-sipert-sociedade-de-advogados\app\public\wp-content\themes\mslaw\pages\single\content.php on line 21
-[06-Nov-2022 20:48:04 UTC] PHP Stack trace:
-[06-Nov-2022 20:48:04 UTC] PHP   1. {main}() C:\Users\ACER\Documents\IT9\Local\magalhes-sipert-sociedade-de-advogados\app\public\index.php:0
-[06-Nov-2022 20:48:04 UTC] PHP   2. require() C:\Users\ACER\Documents\IT9\Local\magalhes-sipert-sociedade-de-advogados\app\public\index.php:17
-[06-Nov-2022 20:48:04 UTC] PHP   3. require_once() C:\Users\ACER\Documents\IT9\Local\magalhes-sipert-sociedade-de-advogados\app\public\wp-blog-header.php:19
-[06-Nov-2022 20:48:04 UTC] PHP   4. include() C:\Users\ACER\Documents\IT9\Local\magalhes-sipert-sociedade-de-advogados\app\public\wp-includes\template-loader.php:106
-[06-Nov-2022 20:48:04 UTC] PHP   5. get_template_part() C:\Users\ACER\Documents\IT9\Local\magalhes-sipert-sociedade-de-advogados\app\public\wp-content\themes\mslaw\pages\single\_index.php:5
-[06-Nov-2022 20:48:04 UTC] PHP   6. locate_template() C:\Users\ACER\Documents\IT9\Local\magalhes-sipert-sociedade-de-advogados\app\public\wp-includes\general-template.php:204
-[06-Nov-2022 20:48:04 UTC] PHP   7. load_template() C:\Users\ACER\Documents\IT9\Local\magalhes-sipert-sociedade-de-advogados\app\public\wp-includes\template.php:716
-[06-Nov-2022 20:48:04 UTC] PHP   8. require() C:\Users\ACER\Documents\IT9\Local\magalhes-sipert-sociedade-de-advogados\app\public\wp-includes\template.php:772
-[06-Nov-2022 20:48:41 UTC] PHP Notice:  Undefined variable: recent_posts_args in C:\Users\ACER\Documents\IT9\Local\magalhes-sipert-sociedade-de-advogados\app\public\wp-content\themes\mslaw\pages\single\content.php on line 21
-[06-Nov-2022 20:48:41 UTC] PHP Stack trace:
-[06-Nov-2022 20:48:41 UTC] PHP   1. {main}() C:\Users\ACER\Documents\IT9\Local\magalhes-sipert-sociedade-de-advogados\app\public\index.php:0
-[06-Nov-2022 20:48:41 UTC] PHP   2. require() C:\Users\ACER\Documents\IT9\Local\magalhes-sipert-sociedade-de-advogados\app\public\index.php:17
-[06-Nov-2022 20:48:41 UTC] PHP   3. require_once() C:\Users\ACER\Documents\IT9\Local\magalhes-sipert-sociedade-de-advogados\app\public\wp-blog-header.php:19
-[06-Nov-2022 20:48:41 UTC] PHP   4. include() C:\Users\ACER\Documents\IT9\Local\magalhes-sipert-sociedade-de-advogados\app\public\wp-includes\template-loader.php:106
-[06-Nov-2022 20:48:41 UTC] PHP   5. get_template_part() C:\Users\ACER\Documents\IT9\Local\magalhes-sipert-sociedade-de-advogados\app\public\wp-content\themes\mslaw\pages\single\_index.php:5
-[06-Nov-2022 20:48:41 UTC] PHP   6. locate_template() C:\Users\ACER\Documents\IT9\Local\magalhes-sipert-sociedade-de-advogados\app\public\wp-includes\general-template.php:204
-[06-Nov-2022 20:48:41 UTC] PHP   7. load_template() C:\Users\ACER\Documents\IT9\Local\magalhes-sipert-sociedade-de-advogados\app\public\wp-includes\template.php:716
-[06-Nov-2022 20:48:41 UTC] PHP   8. require() C:\Users\ACER\Documents\IT9\Local\magalhes-sipert-sociedade-de-advogados\app\public\wp-includes\template.php:772
-[06-Nov-2022 20:48:51 UTC] PHP Notice:  Undefined variable: recent_posts_args in C:\Users\ACER\Documents\IT9\Local\magalhes-sipert-sociedade-de-advogados\app\public\wp-content\themes\mslaw\pages\single\content.php on line 21
-[06-Nov-2022 20:48:51 UTC] PHP Stack trace:
-[06-Nov-2022 20:48:51 UTC] PHP   1. {main}() C:\Users\ACER\Documents\IT9\Local\magalhes-sipert-sociedade-de-advogados\app\public\index.php:0
-[06-Nov-2022 20:48:51 UTC] PHP   2. require() C:\Users\ACER\Documents\IT9\Local\magalhes-sipert-sociedade-de-advogados\app\public\index.php:17
-[06-Nov-2022 20:48:51 UTC] PHP   3. require_once() C:\Users\ACER\Documents\IT9\Local\magalhes-sipert-sociedade-de-advogados\app\public\wp-blog-header.php:19
-[06-Nov-2022 20:48:51 UTC] PHP   4. include() C:\Users\ACER\Documents\IT9\Local\magalhes-sipert-sociedade-de-advogados\app\public\wp-includes\template-loader.php:106
-[06-Nov-2022 20:48:51 UTC] PHP   5. get_template_part() C:\Users\ACER\Documents\IT9\Local\magalhes-sipert-sociedade-de-advogados\app\public\wp-content\themes\mslaw\pages\single\_index.php:5
-[06-Nov-2022 20:48:51 UTC] PHP   6. locate_template() C:\Users\ACER\Documents\IT9\Local\magalhes-sipert-sociedade-de-advogados\app\public\wp-includes\general-template.php:204
-[06-Nov-2022 20:48:51 UTC] PHP   7. load_template() C:\Users\ACER\Documents\IT9\Local\magalhes-sipert-sociedade-de-advogados\app\public\wp-includes\template.php:716
-[06-Nov-2022 20:48:51 UTC] PHP   8. require() C:\Users\ACER\Documents\IT9\Local\magalhes-sipert-sociedade-de-advogados\app\public\wp-includes\template.php:772
-[06-Nov-2022 20:50:22 UTC] PHP Notice:  Undefined variable: recent_posts_args in C:\Users\ACER\Documents\IT9\Local\magalhes-sipert-sociedade-de-advogados\app\public\wp-content\themes\mslaw\pages\single\content.php on line 21
-[06-Nov-2022 20:50:22 UTC] PHP Stack trace:
-[06-Nov-2022 20:50:22 UTC] PHP   1. {main}() C:\Users\ACER\Documents\IT9\Local\magalhes-sipert-sociedade-de-advogados\app\public\index.php:0
-[06-Nov-2022 20:50:22 UTC] PHP   2. require() C:\Users\ACER\Documents\IT9\Local\magalhes-sipert-sociedade-de-advogados\app\public\index.php:17
-[06-Nov-2022 20:50:22 UTC] PHP   3. require_once() C:\Users\ACER\Documents\IT9\Local\magalhes-sipert-sociedade-de-advogados\app\public\wp-blog-header.php:19
-[06-Nov-2022 20:50:22 UTC] PHP   4. include() C:\Users\ACER\Documents\IT9\Local\magalhes-sipert-sociedade-de-advogados\app\public\wp-includes\template-loader.php:106
-[06-Nov-2022 20:50:22 UTC] PHP   5. get_template_part() C:\Users\ACER\Documents\IT9\Local\magalhes-sipert-sociedade-de-advogados\app\public\wp-content\themes\mslaw\pages\single\_index.php:5
-[06-Nov-2022 20:50:22 UTC] PHP   6. locate_template() C:\Users\ACER\Documents\IT9\Local\magalhes-sipert-sociedade-de-advogados\app\public\wp-includes\general-template.php:204
-[06-Nov-2022 20:50:22 UTC] PHP   7. load_template() C:\Users\ACER\Documents\IT9\Local\magalhes-sipert-sociedade-de-advogados\app\public\wp-includes\template.php:716
-[06-Nov-2022 20:50:22 UTC] PHP   8. require() C:\Users\ACER\Documents\IT9\Local\magalhes-sipert-sociedade-de-advogados\app\public\wp-includes\template.php:772
-[06-Nov-2022 20:51:45 UTC] PHP Notice:  Undefined variable: recent_posts_args in C:\Users\ACER\Documents\IT9\Local\magalhes-sipert-sociedade-de-advogados\app\public\wp-content\themes\mslaw\pages\single\content.php on line 21
-[06-Nov-2022 20:51:45 UTC] PHP Stack trace:
-[06-Nov-2022 20:51:45 UTC] PHP   1. {main}() C:\Users\ACER\Documents\IT9\Local\magalhes-sipert-sociedade-de-advogados\app\public\index.php:0
-[06-Nov-2022 20:51:45 UTC] PHP   2. require() C:\Users\ACER\Documents\IT9\Local\magalhes-sipert-sociedade-de-advogados\app\public\index.php:17
-[06-Nov-2022 20:51:45 UTC] PHP   3. require_once() C:\Users\ACER\Documents\IT9\Local\magalhes-sipert-sociedade-de-advogados\app\public\wp-blog-header.php:19
-[06-Nov-2022 20:51:45 UTC] PHP   4. include() C:\Users\ACER\Documents\IT9\Local\magalhes-sipert-sociedade-de-advogados\app\public\wp-includes\template-loader.php:106
-[06-Nov-2022 20:51:45 UTC] PHP   5. get_template_part() C:\Users\ACER\Documents\IT9\Local\magalhes-sipert-sociedade-de-advogados\app\public\wp-content\themes\mslaw\pages\single\_index.php:5
-[06-Nov-2022 20:51:45 UTC] PHP   6. locate_template() C:\Users\ACER\Documents\IT9\Local\magalhes-sipert-sociedade-de-advogados\app\public\wp-includes\general-template.php:204
-[06-Nov-2022 20:51:45 UTC] PHP   7. load_template() C:\Users\ACER\Documents\IT9\Local\magalhes-sipert-sociedade-de-advogados\app\public\wp-includes\template.php:716
-[06-Nov-2022 20:51:45 UTC] PHP   8. require() C:\Users\ACER\Documents\IT9\Local\magalhes-sipert-sociedade-de-advogados\app\public\wp-includes\template.php:772
-[06-Nov-2022 20:52:04 UTC] PHP Notice:  Undefined variable: recent_posts_args in C:\Users\ACER\Documents\IT9\Local\magalhes-sipert-sociedade-de-advogados\app\public\wp-content\themes\mslaw\pages\single\content.php on line 21
-[06-Nov-2022 20:52:04 UTC] PHP Stack trace:
-[06-Nov-2022 20:52:04 UTC] PHP   1. {main}() C:\Users\ACER\Documents\IT9\Local\magalhes-sipert-sociedade-de-advogados\app\public\index.php:0
-[06-Nov-2022 20:52:04 UTC] PHP   2. require() C:\Users\ACER\Documents\IT9\Local\magalhes-sipert-sociedade-de-advogados\app\public\index.php:17
-[06-Nov-2022 20:52:04 UTC] PHP   3. require_once() C:\Users\ACER\Documents\IT9\Local\magalhes-sipert-sociedade-de-advogados\app\public\wp-blog-header.php:19
-[06-Nov-2022 20:52:04 UTC] PHP   4. include() C:\Users\ACER\Documents\IT9\Local\magalhes-sipert-sociedade-de-advogados\app\public\wp-includes\template-loader.php:106
-[06-Nov-2022 20:52:04 UTC] PHP   5. get_template_part() C:\Users\ACER\Documents\IT9\Local\magalhes-sipert-sociedade-de-advogados\app\public\wp-content\themes\mslaw\pages\single\_index.php:5
-[06-Nov-2022 20:52:04 UTC] PHP   6. locate_template() C:\Users\ACER\Documents\IT9\Local\magalhes-sipert-sociedade-de-advogados\app\public\wp-includes\general-template.php:204
-[06-Nov-2022 20:52:04 UTC] PHP   7. load_template() C:\Users\ACER\Documents\IT9\Local\magalhes-sipert-sociedade-de-advogados\app\public\wp-includes\template.php:716
-[06-Nov-2022 20:52:04 UTC] PHP   8. require() C:\Users\ACER\Documents\IT9\Local\magalhes-sipert-sociedade-de-advogados\app\public\wp-includes\template.php:772
-[06-Nov-2022 20:52:11 UTC] PHP Notice:  Undefined variable: recent_posts_args in C:\Users\ACER\Documents\IT9\Local\magalhes-sipert-sociedade-de-advogados\app\public\wp-content\themes\mslaw\pages\single\content.php on line 21
-[06-Nov-2022 20:52:11 UTC] PHP Stack trace:
-[06-Nov-2022 20:52:11 UTC] PHP   1. {main}() C:\Users\ACER\Documents\IT9\Local\magalhes-sipert-sociedade-de-advogados\app\public\index.php:0
-[06-Nov-2022 20:52:11 UTC] PHP   2. require() C:\Users\ACER\Documents\IT9\Local\magalhes-sipert-sociedade-de-advogados\app\public\index.php:17
-[06-Nov-2022 20:52:11 UTC] PHP   3. require_once() C:\Users\ACER\Documents\IT9\Local\magalhes-sipert-sociedade-de-advogados\app\public\wp-blog-header.php:19
-[06-Nov-2022 20:52:11 UTC] PHP   4. include() C:\Users\ACER\Documents\IT9\Local\magalhes-sipert-sociedade-de-advogados\app\public\wp-includes\template-loader.php:106
-[06-Nov-2022 20:52:11 UTC] PHP   5. get_template_part() C:\Users\ACER\Documents\IT9\Local\magalhes-sipert-sociedade-de-advogados\app\public\wp-content\themes\mslaw\pages\single\_index.php:5
-[06-Nov-2022 20:52:11 UTC] PHP   6. locate_template() C:\Users\ACER\Documents\IT9\Local\magalhes-sipert-sociedade-de-advogados\app\public\wp-includes\general-template.php:204
-[06-Nov-2022 20:52:11 UTC] PHP   7. load_template() C:\Users\ACER\Documents\IT9\Local\magalhes-sipert-sociedade-de-advogados\app\public\wp-includes\template.php:716
-[06-Nov-2022 20:52:11 UTC] PHP   8. require() C:\Users\ACER\Documents\IT9\Local\magalhes-sipert-sociedade-de-advogados\app\public\wp-includes\template.php:772
-[06-Nov-2022 20:53:10 UTC] PHP Notice:  Undefined variable: recent_posts_args in C:\Users\ACER\Documents\IT9\Local\magalhes-sipert-sociedade-de-advogados\app\public\wp-content\themes\mslaw\pages\single\content.php on line 21
-[06-Nov-2022 20:53:10 UTC] PHP Stack trace:
-[06-Nov-2022 20:53:10 UTC] PHP   1. {main}() C:\Users\ACER\Documents\IT9\Local\magalhes-sipert-sociedade-de-advogados\app\public\index.php:0
-[06-Nov-2022 20:53:10 UTC] PHP   2. require() C:\Users\ACER\Documents\IT9\Local\magalhes-sipert-sociedade-de-advogados\app\public\index.php:17
-[06-Nov-2022 20:53:10 UTC] PHP   3. require_once() C:\Users\ACER\Documents\IT9\Local\magalhes-sipert-sociedade-de-advogados\app\public\wp-blog-header.php:19
-[06-Nov-2022 20:53:10 UTC] PHP   4. include() C:\Users\ACER\Documents\IT9\Local\magalhes-sipert-sociedade-de-advogados\app\public\wp-includes\template-loader.php:106
-[06-Nov-2022 20:53:10 UTC] PHP   5. get_template_part() C:\Users\ACER\Documents\IT9\Local\magalhes-sipert-sociedade-de-advogados\app\public\wp-content\themes\mslaw\pages\single\_index.php:5
-[06-Nov-2022 20:53:10 UTC] PHP   6. locate_template() C:\Users\ACER\Documents\IT9\Local\magalhes-sipert-sociedade-de-advogados\app\public\wp-includes\general-template.php:204
-[06-Nov-2022 20:53:10 UTC] PHP   7. load_template() C:\Users\ACER\Documents\IT9\Local\magalhes-sipert-sociedade-de-advogados\app\public\wp-includes\template.php:716
-[06-Nov-2022 20:53:10 UTC] PHP   8. require() C:\Users\ACER\Documents\IT9\Local\magalhes-sipert-sociedade-de-advogados\app\public\wp-includes\template.php:772
-[06-Nov-2022 20:53:59 UTC] PHP Notice:  Undefined variable: recent_posts_args in C:\Users\ACER\Documents\IT9\Local\magalhes-sipert-sociedade-de-advogados\app\public\wp-content\themes\mslaw\pages\single\content.php on line 21
-[06-Nov-2022 20:53:59 UTC] PHP Stack trace:
-[06-Nov-2022 20:53:59 UTC] PHP   1. {main}() C:\Users\ACER\Documents\IT9\Local\magalhes-sipert-sociedade-de-advogados\app\public\index.php:0
-[06-Nov-2022 20:53:59 UTC] PHP   2. require() C:\Users\ACER\Documents\IT9\Local\magalhes-sipert-sociedade-de-advogados\app\public\index.php:17
-[06-Nov-2022 20:53:59 UTC] PHP   3. require_once() C:\Users\ACER\Documents\IT9\Local\magalhes-sipert-sociedade-de-advogados\app\public\wp-blog-header.php:19
-[06-Nov-2022 20:53:59 UTC] PHP   4. include() C:\Users\ACER\Documents\IT9\Local\magalhes-sipert-sociedade-de-advogados\app\public\wp-includes\template-loader.php:106
-[06-Nov-2022 20:53:59 UTC] PHP   5. get_template_part() C:\Users\ACER\Documents\IT9\Local\magalhes-sipert-sociedade-de-advogados\app\public\wp-content\themes\mslaw\pages\single\_index.php:5
-[06-Nov-2022 20:53:59 UTC] PHP   6. locate_template() C:\Users\ACER\Documents\IT9\Local\magalhes-sipert-sociedade-de-advogados\app\public\wp-includes\general-template.php:204
-[06-Nov-2022 20:53:59 UTC] PHP   7. load_template() C:\Users\ACER\Documents\IT9\Local\magalhes-sipert-sociedade-de-advogados\app\public\wp-includes\template.php:716
-[06-Nov-2022 20:53:59 UTC] PHP   8. require() C:\Users\ACER\Documents\IT9\Local\magalhes-sipert-sociedade-de-advogados\app\public\wp-includes\template.php:772
-[06-Nov-2022 20:54:11 UTC] PHP Notice:  Undefined variable: recent_posts_args in C:\Users\ACER\Documents\IT9\Local\magalhes-sipert-sociedade-de-advogados\app\public\wp-content\themes\mslaw\pages\single\content.php on line 21
-[06-Nov-2022 20:54:11 UTC] PHP Stack trace:
-[06-Nov-2022 20:54:11 UTC] PHP   1. {main}() C:\Users\ACER\Documents\IT9\Local\magalhes-sipert-sociedade-de-advogados\app\public\index.php:0
-[06-Nov-2022 20:54:11 UTC] PHP   2. require() C:\Users\ACER\Documents\IT9\Local\magalhes-sipert-sociedade-de-advogados\app\public\index.php:17
-[06-Nov-2022 20:54:11 UTC] PHP   3. require_once() C:\Users\ACER\Documents\IT9\Local\magalhes-sipert-sociedade-de-advogados\app\public\wp-blog-header.php:19
-[06-Nov-2022 20:54:11 UTC] PHP   4. include() C:\Users\ACER\Documents\IT9\Local\magalhes-sipert-sociedade-de-advogados\app\public\wp-includes\template-loader.php:106
-[06-Nov-2022 20:54:11 UTC] PHP   5. get_template_part() C:\Users\ACER\Documents\IT9\Local\magalhes-sipert-sociedade-de-advogados\app\public\wp-content\themes\mslaw\pages\single\_index.php:5
-[06-Nov-2022 20:54:11 UTC] PHP   6. locate_template() C:\Users\ACER\Documents\IT9\Local\magalhes-sipert-sociedade-de-advogados\app\public\wp-includes\general-template.php:204
-[06-Nov-2022 20:54:11 UTC] PHP   7. load_template() C:\Users\ACER\Documents\IT9\Local\magalhes-sipert-sociedade-de-advogados\app\public\wp-includes\template.php:716
-[06-Nov-2022 20:54:11 UTC] PHP   8. require() C:\Users\ACER\Documents\IT9\Local\magalhes-sipert-sociedade-de-advogados\app\public\wp-includes\template.php:772
-[06-Nov-2022 20:55:28 UTC] PHP Notice:  Undefined variable: recent_posts_args in C:\Users\ACER\Documents\IT9\Local\magalhes-sipert-sociedade-de-advogados\app\public\wp-content\themes\mslaw\pages\single\content.php on line 21
-[06-Nov-2022 20:55:28 UTC] PHP Stack trace:
-[06-Nov-2022 20:55:28 UTC] PHP   1. {main}() C:\Users\ACER\Documents\IT9\Local\magalhes-sipert-sociedade-de-advogados\app\public\index.php:0
-[06-Nov-2022 20:55:28 UTC] PHP   2. require() C:\Users\ACER\Documents\IT9\Local\magalhes-sipert-sociedade-de-advogados\app\public\index.php:17
-[06-Nov-2022 20:55:28 UTC] PHP   3. require_once() C:\Users\ACER\Documents\IT9\Local\magalhes-sipert-sociedade-de-advogados\app\public\wp-blog-header.php:19
-[06-Nov-2022 20:55:28 UTC] PHP   4. include() C:\Users\ACER\Documents\IT9\Local\magalhes-sipert-sociedade-de-advogados\app\public\wp-includes\template-loader.php:106
-[06-Nov-2022 20:55:28 UTC] PHP   5. get_template_part() C:\Users\ACER\Documents\IT9\Local\magalhes-sipert-sociedade-de-advogados\app\public\wp-content\themes\mslaw\pages\single\_index.php:5
-[06-Nov-2022 20:55:28 UTC] PHP   6. locate_template() C:\Users\ACER\Documents\IT9\Local\magalhes-sipert-sociedade-de-advogados\app\public\wp-includes\general-template.php:204
-[06-Nov-2022 20:55:28 UTC] PHP   7. load_template() C:\Users\ACER\Documents\IT9\Local\magalhes-sipert-sociedade-de-advogados\app\public\wp-includes\template.php:716
-[06-Nov-2022 20:55:28 UTC] PHP   8. require() C:\Users\ACER\Documents\IT9\Local\magalhes-sipert-sociedade-de-advogados\app\public\wp-includes\template.php:772
-[06-Nov-2022 20:56:28 UTC] PHP Notice:  Undefined variable: recent_posts_args in C:\Users\ACER\Documents\IT9\Local\magalhes-sipert-sociedade-de-advogados\app\public\wp-content\themes\mslaw\pages\single\content.php on line 21
-[06-Nov-2022 20:56:28 UTC] PHP Stack trace:
-[06-Nov-2022 20:56:28 UTC] PHP   1. {main}() C:\Users\ACER\Documents\IT9\Local\magalhes-sipert-sociedade-de-advogados\app\public\index.php:0
-[06-Nov-2022 20:56:28 UTC] PHP   2. require() C:\Users\ACER\Documents\IT9\Local\magalhes-sipert-sociedade-de-advogados\app\public\index.php:17
-[06-Nov-2022 20:56:28 UTC] PHP   3. require_once() C:\Users\ACER\Documents\IT9\Local\magalhes-sipert-sociedade-de-advogados\app\public\wp-blog-header.php:19
-[06-Nov-2022 20:56:28 UTC] PHP   4. include() C:\Users\ACER\Documents\IT9\Local\magalhes-sipert-sociedade-de-advogados\app\public\wp-includes\template-loader.php:106
-[06-Nov-2022 20:56:28 UTC] PHP   5. get_template_part() C:\Users\ACER\Documents\IT9\Local\magalhes-sipert-sociedade-de-advogados\app\public\wp-content\themes\mslaw\pages\single\_index.php:5
-[06-Nov-2022 20:56:28 UTC] PHP   6. locate_template() C:\Users\ACER\Documents\IT9\Local\magalhes-sipert-sociedade-de-advogados\app\public\wp-includes\general-template.php:204
-[06-Nov-2022 20:56:28 UTC] PHP   7. load_template() C:\Users\ACER\Documents\IT9\Local\magalhes-sipert-sociedade-de-advogados\app\public\wp-includes\template.php:716
-[06-Nov-2022 20:56:28 UTC] PHP   8. require() C:\Users\ACER\Documents\IT9\Local\magalhes-sipert-sociedade-de-advogados\app\public\wp-includes\template.php:772
-[06-Nov-2022 20:56:41 UTC] PHP Notice:  Undefined variable: recent_posts_args in C:\Users\ACER\Documents\IT9\Local\magalhes-sipert-sociedade-de-advogados\app\public\wp-content\themes\mslaw\pages\single\content.php on line 21
-[06-Nov-2022 20:56:41 UTC] PHP Stack trace:
-[06-Nov-2022 20:56:41 UTC] PHP   1. {main}() C:\Users\ACER\Documents\IT9\Local\magalhes-sipert-sociedade-de-advogados\app\public\index.php:0
-[06-Nov-2022 20:56:41 UTC] PHP   2. require() C:\Users\ACER\Documents\IT9\Local\magalhes-sipert-sociedade-de-advogados\app\public\index.php:17
-[06-Nov-2022 20:56:41 UTC] PHP   3. require_once() C:\Users\ACER\Documents\IT9\Local\magalhes-sipert-sociedade-de-advogados\app\public\wp-blog-header.php:19
-[06-Nov-2022 20:56:41 UTC] PHP   4. include() C:\Users\ACER\Documents\IT9\Local\magalhes-sipert-sociedade-de-advogados\app\public\wp-includes\template-loader.php:106
-[06-Nov-2022 20:56:41 UTC] PHP   5. get_template_part() C:\Users\ACER\Documents\IT9\Local\magalhes-sipert-sociedade-de-advogados\app\public\wp-content\themes\mslaw\pages\single\_index.php:5
-[06-Nov-2022 20:56:41 UTC] PHP   6. locate_template() C:\Users\ACER\Documents\IT9\Local\magalhes-sipert-sociedade-de-advogados\app\public\wp-includes\general-template.php:204
-[06-Nov-2022 20:56:41 UTC] PHP   7. load_template() C:\Users\ACER\Documents\IT9\Local\magalhes-sipert-sociedade-de-advogados\app\public\wp-includes\template.php:716
-[06-Nov-2022 20:56:41 UTC] PHP   8. require() C:\Users\ACER\Documents\IT9\Local\magalhes-sipert-sociedade-de-advogados\app\public\wp-includes\template.php:772
-[06-Nov-2022 20:58:02 UTC] PHP Notice:  Undefined variable: recent_posts_args in C:\Users\ACER\Documents\IT9\Local\magalhes-sipert-sociedade-de-advogados\app\public\wp-content\themes\mslaw\pages\single\content.php on line 21
-[06-Nov-2022 20:58:02 UTC] PHP Stack trace:
-[06-Nov-2022 20:58:02 UTC] PHP   1. {main}() C:\Users\ACER\Documents\IT9\Local\magalhes-sipert-sociedade-de-advogados\app\public\index.php:0
-[06-Nov-2022 20:58:02 UTC] PHP   2. require() C:\Users\ACER\Documents\IT9\Local\magalhes-sipert-sociedade-de-advogados\app\public\index.php:17
-[06-Nov-2022 20:58:02 UTC] PHP   3. require_once() C:\Users\ACER\Documents\IT9\Local\magalhes-sipert-sociedade-de-advogados\app\public\wp-blog-header.php:19
-[06-Nov-2022 20:58:02 UTC] PHP   4. include() C:\Users\ACER\Documents\IT9\Local\magalhes-sipert-sociedade-de-advogados\app\public\wp-includes\template-loader.php:106
-[06-Nov-2022 20:58:02 UTC] PHP   5. get_template_part() C:\Users\ACER\Documents\IT9\Local\magalhes-sipert-sociedade-de-advogados\app\public\wp-content\themes\mslaw\pages\single\_index.php:5
-[06-Nov-2022 20:58:02 UTC] PHP   6. locate_template() C:\Users\ACER\Documents\IT9\Local\magalhes-sipert-sociedade-de-advogados\app\public\wp-includes\general-template.php:204
-[06-Nov-2022 20:58:02 UTC] PHP   7. load_template() C:\Users\ACER\Documents\IT9\Local\magalhes-sipert-sociedade-de-advogados\app\public\wp-includes\template.php:716
-[06-Nov-2022 20:58:02 UTC] PHP   8. require() C:\Users\ACER\Documents\IT9\Local\magalhes-sipert-sociedade-de-advogados\app\public\wp-includes\template.php:772
-[06-Nov-2022 21:00:13 UTC] PHP Notice:  Undefined variable: recent_posts_args in C:\Users\ACER\Documents\IT9\Local\magalhes-sipert-sociedade-de-advogados\app\public\wp-content\themes\mslaw\pages\single\content.php on line 21
-[06-Nov-2022 21:00:13 UTC] PHP Stack trace:
-[06-Nov-2022 21:00:13 UTC] PHP   1. {main}() C:\Users\ACER\Documents\IT9\Local\magalhes-sipert-sociedade-de-advogados\app\public\index.php:0
-[06-Nov-2022 21:00:13 UTC] PHP   2. require() C:\Users\ACER\Documents\IT9\Local\magalhes-sipert-sociedade-de-advogados\app\public\index.php:17
-[06-Nov-2022 21:00:13 UTC] PHP   3. require_once() C:\Users\ACER\Documents\IT9\Local\magalhes-sipert-sociedade-de-advogados\app\public\wp-blog-header.php:19
-[06-Nov-2022 21:00:13 UTC] PHP   4. include() C:\Users\ACER\Documents\IT9\Local\magalhes-sipert-sociedade-de-advogados\app\public\wp-includes\template-loader.php:106
-[06-Nov-2022 21:00:13 UTC] PHP   5. get_template_part() C:\Users\ACER\Documents\IT9\Local\magalhes-sipert-sociedade-de-advogados\app\public\wp-content\themes\mslaw\pages\single\_index.php:5
-[06-Nov-2022 21:00:13 UTC] PHP   6. locate_template() C:\Users\ACER\Documents\IT9\Local\magalhes-sipert-sociedade-de-advogados\app\public\wp-includes\general-template.php:204
-[06-Nov-2022 21:00:13 UTC] PHP   7. load_template() C:\Users\ACER\Documents\IT9\Local\magalhes-sipert-sociedade-de-advogados\app\public\wp-includes\template.php:716
-[06-Nov-2022 21:00:13 UTC] PHP   8. require() C:\Users\ACER\Documents\IT9\Local\magalhes-sipert-sociedade-de-advogados\app\public\wp-includes\template.php:772
+[08-Nov-2022 01:36:47 UTC] Caller: C:\Users\ACER\Documents\IT9\Local\magalhes-sipert-sociedade-de-advogados\app\public\wp-content\themes\mslaw\pages\single\components\post-content.php:18
+[08-Nov-2022 01:36:47 UTC] aaaaaaaa
+[08-Nov-2022 01:37:14 UTC] Caller: C:\Users\ACER\Documents\IT9\Local\magalhes-sipert-sociedade-de-advogados\app\public\wp-content\themes\mslaw\pages\single\components\post-tags.php:5
+[08-Nov-2022 01:37:14 UTC] Array
+(
+    [0] => WP_Term Object
+        (
+            [term_id] => 6
+            [name] => Consequatur nisi
+            [slug] => consequatur-nisi
+            [term_group] => 0
+            [term_taxonomy_id] => 6
+            [taxonomy] => post_tag
+            [description] => Totam tempora voluptatibus corporis eveniet velit inventore nobis odit voluptas sapiente voluptatibus sed commodi eaque a et harum eligendi dignissimos voluptates accusamus sunt illum aut repudiandae asperiores non reprehenderit porro veniam esse vero ea aut et fuga
+            [parent] => 0
+            [count] => 16
+            [filter] => raw
+        )
+
+)
+
+[08-Nov-2022 01:38:17 UTC] Caller: C:\Users\ACER\Documents\IT9\Local\magalhes-sipert-sociedade-de-advogados\app\public\wp-content\themes\mslaw\pages\single\components\post-tags.php:5
+[08-Nov-2022 01:38:17 UTC] Array
+(
+    [0] => WP_Term Object
+        (
+            [term_id] => 6
+            [name] => Consequatur nisi
+            [slug] => consequatur-nisi
+            [term_group] => 0
+            [term_taxonomy_id] => 6
+            [taxonomy] => post_tag
+            [description] => Totam tempora voluptatibus corporis eveniet velit inventore nobis odit voluptas sapiente voluptatibus sed commodi eaque a et harum eligendi dignissimos voluptates accusamus sunt illum aut repudiandae asperiores non reprehenderit porro veniam esse vero ea aut et fuga
+            [parent] => 0
+            [count] => 16
+            [filter] => raw
+        )
+
+)
+
+[08-Nov-2022 01:40:03 UTC] Caller: C:\Users\ACER\Documents\IT9\Local\magalhes-sipert-sociedade-de-advogados\app\public\wp-content\themes\mslaw\pages\single\components\post-tags.php:5
+[08-Nov-2022 01:40:03 UTC] Array
+(
+    [0] => WP_Term Object
+        (
+            [term_id] => 6
+            [name] => Consequatur nisi
+            [slug] => consequatur-nisi
+            [term_group] => 0
+            [term_taxonomy_id] => 6
+            [taxonomy] => post_tag
+            [description] => Totam tempora voluptatibus corporis eveniet velit inventore nobis odit voluptas sapiente voluptatibus sed commodi eaque a et harum eligendi dignissimos voluptates accusamus sunt illum aut repudiandae asperiores non reprehenderit porro veniam esse vero ea aut et fuga
+            [parent] => 0
+            [count] => 16
+            [filter] => raw
+        )
+
+)
+
+[08-Nov-2022 01:42:24 UTC] Caller: C:\Users\ACER\Documents\IT9\Local\magalhes-sipert-sociedade-de-advogados\app\public\wp-content\themes\mslaw\pages\single\components\post-tags.php:5
+[08-Nov-2022 01:42:24 UTC] Array
+(
+    [0] => WP_Term Object
+        (
+            [term_id] => 6
+            [name] => Consequatur nisi
+            [slug] => consequatur-nisi
+            [term_group] => 0
+            [term_taxonomy_id] => 6
+            [taxonomy] => post_tag
+            [description] => Totam tempora voluptatibus corporis eveniet velit inventore nobis odit voluptas sapiente voluptatibus sed commodi eaque a et harum eligendi dignissimos voluptates accusamus sunt illum aut repudiandae asperiores non reprehenderit porro veniam esse vero ea aut et fuga
+            [parent] => 0
+            [count] => 16
+            [filter] => raw
+        )
+
+)
+
+[08-Nov-2022 01:43:26 UTC] Caller: C:\Users\ACER\Documents\IT9\Local\magalhes-sipert-sociedade-de-advogados\app\public\wp-content\themes\mslaw\pages\single\components\post-tags.php:5
+[08-Nov-2022 01:43:26 UTC] Array
+(
+    [0] => WP_Term Object
+        (
+            [term_id] => 6
+            [name] => Consequatur nisi
+            [slug] => consequatur-nisi
+            [term_group] => 0
+            [term_taxonomy_id] => 6
+            [taxonomy] => post_tag
+            [description] => Totam tempora voluptatibus corporis eveniet velit inventore nobis odit voluptas sapiente voluptatibus sed commodi eaque a et harum eligendi dignissimos voluptates accusamus sunt illum aut repudiandae asperiores non reprehenderit porro veniam esse vero ea aut et fuga
+            [parent] => 0
+            [count] => 16
+            [filter] => raw
+        )
+
+)
+
+[08-Nov-2022 01:44:36 UTC] Caller: C:\Users\ACER\Documents\IT9\Local\magalhes-sipert-sociedade-de-advogados\app\public\wp-content\themes\mslaw\pages\single\components\post-tags.php:5
+[08-Nov-2022 01:44:36 UTC] Array
+(
+    [0] => WP_Term Object
+        (
+            [term_id] => 6
+            [name] => Consequatur nisi
+            [slug] => consequatur-nisi
+            [term_group] => 0
+            [term_taxonomy_id] => 6
+            [taxonomy] => post_tag
+            [description] => Totam tempora voluptatibus corporis eveniet velit inventore nobis odit voluptas sapiente voluptatibus sed commodi eaque a et harum eligendi dignissimos voluptates accusamus sunt illum aut repudiandae asperiores non reprehenderit porro veniam esse vero ea aut et fuga
+            [parent] => 0
+            [count] => 16
+            [filter] => raw
+        )
+
+)
+
+[08-Nov-2022 01:46:46 UTC] Caller: C:\Users\ACER\Documents\IT9\Local\magalhes-sipert-sociedade-de-advogados\app\public\wp-content\themes\mslaw\pages\single\components\post-tags.php:5
+[08-Nov-2022 01:46:46 UTC] Array
+(
+    [0] => WP_Term Object
+        (
+            [term_id] => 6
+            [name] => Consequatur nisi
+            [slug] => consequatur-nisi
+            [term_group] => 0
+            [term_taxonomy_id] => 6
+            [taxonomy] => post_tag
+            [description] => Totam tempora voluptatibus corporis eveniet velit inventore nobis odit voluptas sapiente voluptatibus sed commodi eaque a et harum eligendi dignissimos voluptates accusamus sunt illum aut repudiandae asperiores non reprehenderit porro veniam esse vero ea aut et fuga
+            [parent] => 0
+            [count] => 16
+            [filter] => raw
+        )
+
+)
+
+[08-Nov-2022 01:49:47 UTC] Caller: C:\Users\ACER\Documents\IT9\Local\magalhes-sipert-sociedade-de-advogados\app\public\wp-content\themes\mslaw\pages\single\components\post-tags.php:5
+[08-Nov-2022 01:49:47 UTC] Array
+(
+    [0] => WP_Term Object
+        (
+            [term_id] => 6
+            [name] => Consequatur nisi
+            [slug] => consequatur-nisi
+            [term_group] => 0
+            [term_taxonomy_id] => 6
+            [taxonomy] => post_tag
+            [description] => Totam tempora voluptatibus corporis eveniet velit inventore nobis odit voluptas sapiente voluptatibus sed commodi eaque a et harum eligendi dignissimos voluptates accusamus sunt illum aut repudiandae asperiores non reprehenderit porro veniam esse vero ea aut et fuga
+            [parent] => 0
+            [count] => 16
+            [filter] => raw
+        )
+
+)
+
+[08-Nov-2022 01:50:13 UTC] Caller: C:\Users\ACER\Documents\IT9\Local\magalhes-sipert-sociedade-de-advogados\app\public\wp-content\themes\mslaw\pages\single\components\post-tags.php:5
+[08-Nov-2022 01:50:13 UTC] Array
+(
+    [0] => WP_Term Object
+        (
+            [term_id] => 6
+            [name] => Consequatur nisi
+            [slug] => consequatur-nisi
+            [term_group] => 0
+            [term_taxonomy_id] => 6
+            [taxonomy] => post_tag
+            [description] => Totam tempora voluptatibus corporis eveniet velit inventore nobis odit voluptas sapiente voluptatibus sed commodi eaque a et harum eligendi dignissimos voluptates accusamus sunt illum aut repudiandae asperiores non reprehenderit porro veniam esse vero ea aut et fuga
+            [parent] => 0
+            [count] => 16
+            [filter] => raw
+        )
+
+)
+
+[08-Nov-2022 01:54:47 UTC] Caller: C:\Users\ACER\Documents\IT9\Local\magalhes-sipert-sociedade-de-advogados\app\public\wp-content\themes\mslaw\pages\single\components\post-tags.php:5
+[08-Nov-2022 01:54:47 UTC] Array
+(
+    [0] => WP_Term Object
+        (
+            [term_id] => 6
+            [name] => Consequatur nisi
+            [slug] => consequatur-nisi
+            [term_group] => 0
+            [term_taxonomy_id] => 6
+            [taxonomy] => post_tag
+            [description] => Totam tempora voluptatibus corporis eveniet velit inventore nobis odit voluptas sapiente voluptatibus sed commodi eaque a et harum eligendi dignissimos voluptates accusamus sunt illum aut repudiandae asperiores non reprehenderit porro veniam esse vero ea aut et fuga
+            [parent] => 0
+            [count] => 16
+            [filter] => raw
+        )
+
+)
+
+[08-Nov-2022 01:55:34 UTC] Caller: C:\Users\ACER\Documents\IT9\Local\magalhes-sipert-sociedade-de-advogados\app\public\wp-content\themes\mslaw\pages\single\components\post-tags.php:5
+[08-Nov-2022 01:55:34 UTC] Array
+(
+    [0] => WP_Term Object
+        (
+            [term_id] => 6
+            [name] => Consequatur nisi
+            [slug] => consequatur-nisi
+            [term_group] => 0
+            [term_taxonomy_id] => 6
+            [taxonomy] => post_tag
+            [description] => Totam tempora voluptatibus corporis eveniet velit inventore nobis odit voluptas sapiente voluptatibus sed commodi eaque a et harum eligendi dignissimos voluptates accusamus sunt illum aut repudiandae asperiores non reprehenderit porro veniam esse vero ea aut et fuga
+            [parent] => 0
+            [count] => 16
+            [filter] => raw
+        )
+
+)
+
+[08-Nov-2022 02:04:42 UTC] Caller: C:\Users\ACER\Documents\IT9\Local\magalhes-sipert-sociedade-de-advogados\app\public\wp-content\themes\mslaw\pages\single\components\post-tags.php:5
+[08-Nov-2022 02:04:42 UTC] Array
+(
+    [0] => WP_Term Object
+        (
+            [term_id] => 6
+            [name] => Consequatur nisi
+            [slug] => consequatur-nisi
+            [term_group] => 0
+            [term_taxonomy_id] => 6
+            [taxonomy] => post_tag
+            [description] => Totam tempora voluptatibus corporis eveniet velit inventore nobis odit voluptas sapiente voluptatibus sed commodi eaque a et harum eligendi dignissimos voluptates accusamus sunt illum aut repudiandae asperiores non reprehenderit porro veniam esse vero ea aut et fuga
+            [parent] => 0
+            [count] => 16
+            [filter] => raw
+        )
+
+)
+
+[08-Nov-2022 02:05:34 UTC] Caller: C:\Users\ACER\Documents\IT9\Local\magalhes-sipert-sociedade-de-advogados\app\public\wp-content\themes\mslaw\pages\single\components\post-tags.php:5
+[08-Nov-2022 02:05:34 UTC] Array
+(
+    [0] => WP_Term Object
+        (
+            [term_id] => 6
+            [name] => Consequatur nisi
+            [slug] => consequatur-nisi
+            [term_group] => 0
+            [term_taxonomy_id] => 6
+            [taxonomy] => post_tag
+            [description] => Totam tempora voluptatibus corporis eveniet velit inventore nobis odit voluptas sapiente voluptatibus sed commodi eaque a et harum eligendi dignissimos voluptates accusamus sunt illum aut repudiandae asperiores non reprehenderit porro veniam esse vero ea aut et fuga
+            [parent] => 0
+            [count] => 16
+            [filter] => raw
+        )
+
+)
+
+[08-Nov-2022 02:05:42 UTC] Caller: C:\Users\ACER\Documents\IT9\Local\magalhes-sipert-sociedade-de-advogados\app\public\wp-content\themes\mslaw\pages\single\components\post-tags.php:5
+[08-Nov-2022 02:05:42 UTC] Array
+(
+    [0] => WP_Term Object
+        (
+            [term_id] => 6
+            [name] => Consequatur nisi
+            [slug] => consequatur-nisi
+            [term_group] => 0
+            [term_taxonomy_id] => 6
+            [taxonomy] => post_tag
+            [description] => Totam tempora voluptatibus corporis eveniet velit inventore nobis odit voluptas sapiente voluptatibus sed commodi eaque a et harum eligendi dignissimos voluptates accusamus sunt illum aut repudiandae asperiores non reprehenderit porro veniam esse vero ea aut et fuga
+            [parent] => 0
+            [count] => 16
+            [filter] => raw
+        )
+
+)
+
+[08-Nov-2022 02:06:00 UTC] Caller: C:\Users\ACER\Documents\IT9\Local\magalhes-sipert-sociedade-de-advogados\app\public\wp-content\themes\mslaw\pages\single\components\post-tags.php:5
+[08-Nov-2022 02:06:00 UTC] Array
+(
+    [0] => WP_Term Object
+        (
+            [term_id] => 6
+            [name] => Consequatur nisi
+            [slug] => consequatur-nisi
+            [term_group] => 0
+            [term_taxonomy_id] => 6
+            [taxonomy] => post_tag
+            [description] => Totam tempora voluptatibus corporis eveniet velit inventore nobis odit voluptas sapiente voluptatibus sed commodi eaque a et harum eligendi dignissimos voluptates accusamus sunt illum aut repudiandae asperiores non reprehenderit porro veniam esse vero ea aut et fuga
+            [parent] => 0
+            [count] => 16
+            [filter] => raw
+        )
+
+)
+
+[08-Nov-2022 02:06:07 UTC] Caller: C:\Users\ACER\Documents\IT9\Local\magalhes-sipert-sociedade-de-advogados\app\public\wp-content\themes\mslaw\pages\single\components\post-tags.php:5
+[08-Nov-2022 02:06:07 UTC] Array
+(
+    [0] => WP_Term Object
+        (
+            [term_id] => 6
+            [name] => Consequatur nisi
+            [slug] => consequatur-nisi
+            [term_group] => 0
+            [term_taxonomy_id] => 6
+            [taxonomy] => post_tag
+            [description] => Totam tempora voluptatibus corporis eveniet velit inventore nobis odit voluptas sapiente voluptatibus sed commodi eaque a et harum eligendi dignissimos voluptates accusamus sunt illum aut repudiandae asperiores non reprehenderit porro veniam esse vero ea aut et fuga
+            [parent] => 0
+            [count] => 16
+            [filter] => raw
+        )
+
+)
+
+[08-Nov-2022 02:06:22 UTC] Caller: C:\Users\ACER\Documents\IT9\Local\magalhes-sipert-sociedade-de-advogados\app\public\wp-content\themes\mslaw\pages\single\components\post-tags.php:5
+[08-Nov-2022 02:06:22 UTC] Array
+(
+    [0] => WP_Term Object
+        (
+            [term_id] => 6
+            [name] => Consequatur nisi
+            [slug] => consequatur-nisi
+            [term_group] => 0
+            [term_taxonomy_id] => 6
+            [taxonomy] => post_tag
+            [description] => Totam tempora voluptatibus corporis eveniet velit inventore nobis odit voluptas sapiente voluptatibus sed commodi eaque a et harum eligendi dignissimos voluptates accusamus sunt illum aut repudiandae asperiores non reprehenderit porro veniam esse vero ea aut et fuga
+            [parent] => 0
+            [count] => 16
+            [filter] => raw
+        )
+
+)
+
+[08-Nov-2022 02:07:53 UTC] Caller: C:\Users\ACER\Documents\IT9\Local\magalhes-sipert-sociedade-de-advogados\app\public\wp-content\themes\mslaw\pages\single\components\post-tags.php:5
+[08-Nov-2022 02:07:53 UTC] Array
+(
+    [0] => WP_Term Object
+        (
+            [term_id] => 6
+            [name] => Consequatur nisi
+            [slug] => consequatur-nisi
+            [term_group] => 0
+            [term_taxonomy_id] => 6
+            [taxonomy] => post_tag
+            [description] => Totam tempora voluptatibus corporis eveniet velit inventore nobis odit voluptas sapiente voluptatibus sed commodi eaque a et harum eligendi dignissimos voluptates accusamus sunt illum aut repudiandae asperiores non reprehenderit porro veniam esse vero ea aut et fuga
+            [parent] => 0
+            [count] => 16
+            [filter] => raw
+        )
+
+)
+

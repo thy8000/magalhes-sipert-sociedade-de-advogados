@@ -2,6 +2,13 @@
 if (!defined('ABSPATH')) exit;
 
 $post_id = get_the_ID();
+
+$recent_posts_args = [
+    'post_type' => 'post',
+    'oderby' => 'date',
+    'order' => 'DESC',
+    'numberposts' => 5,
+];
 ?>
 <div class="post-single">
     <?php

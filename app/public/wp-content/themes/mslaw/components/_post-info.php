@@ -5,7 +5,7 @@ global $post;
 
 $post_date = '';
 if (!empty(get_the_date('YMD', $post->ID)))
-    $post_date = date_i18n('d') . ' de ' . date_i18n('F') . ' de ' . date_i18n('Y');
+    $post_date = get_the_date('d', $post->ID) . ' de ' . get_the_date('F', $post->ID) . ' de ' . get_the_date('Y', $post->ID);
 
 $author_id = $post->post_author;
 $author_display_name = get_the_author_meta('display_name', $author_id);

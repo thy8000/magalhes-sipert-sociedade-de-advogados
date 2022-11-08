@@ -1,7 +1,16 @@
-.post-terms .post-terms-item:hover {
+.post-categories .post-categories-item:hover,
+.post-tags .post-tags-item:hover {
   cursor: pointer;
   transition: 0.5s all;
 }
-.post-terms .post-terms-item:hover {
+.post-categories .post-categories-item:hover,
+.post-tags .post-tags-item:hover {
   background-color: #16525b;
+}
+
+@media (max-width: 768px) {
+  .post-tags-span {
+    width: 100%;
+    display: block;
+  }
 }

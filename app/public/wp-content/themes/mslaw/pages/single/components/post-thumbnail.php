@@ -18,8 +18,8 @@ $post_categories = empty(get_the_category($post_id)) ? false : get_the_category(
             'icon_classes' => 'icon stroke-white',
             'text_classes' => 'text fw-normal lh-base text-white',
         ]); ?>
-        <?php get_template_part('pages/single/components/post-terms', null, [
-            'post_terms' => $post_categories,
+        <?php get_template_part('pages/single/components/post-categories', null, [
+            'post_categories' => $post_categories,
         ]); ?>
     </div>
 </div>

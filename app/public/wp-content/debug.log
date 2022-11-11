@@ -342,3 +342,56 @@
 
 )
 
+[10-Nov-2022 12:46:38 UTC] PHP Warning:  mysqli_real_connect(): (HY000/2002): Nenhuma conexão pôde ser feita porque a máquina de destino as recusou ativamente.
+ in C:\Users\ACER\Documents\IT9\Local\magalhes-sipert-sociedade-de-advogados\app\public\wp-includes\wp-db.php on line 1753
+[10-Nov-2022 12:46:38 UTC] PHP Stack trace:
+[10-Nov-2022 12:46:38 UTC] PHP   1. {main}() C:\Program Files (x86)\Local\resources\extraResources\bin\wp-cli\wp-cli.phar:0
+[10-Nov-2022 12:46:38 UTC] PHP   2. include() C:\Program Files (x86)\Local\resources\extraResources\bin\wp-cli\wp-cli.phar:4
+[10-Nov-2022 12:46:38 UTC] PHP   3. include() phar://C:/Program Files (x86)/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/php/boot-phar.php:11
+[10-Nov-2022 12:46:38 UTC] PHP   4. WP_CLI\bootstrap() phar://C:/Program Files (x86)/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/wp-cli.php:27
+[10-Nov-2022 12:46:38 UTC] PHP   5. WP_CLI\Bootstrap\LaunchRunner->process() phar://C:/Program Files (x86)/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/bootstrap.php:78
+[10-Nov-2022 12:46:38 UTC] PHP   6. WP_CLI\Runner->start() phar://C:/Program Files (x86)/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/WP_CLI/Bootstrap/LaunchRunner.php:28
+[10-Nov-2022 12:46:38 UTC] PHP   7. WP_CLI\Runner->load_wordpress() phar://C:/Program Files (x86)/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/WP_CLI/Runner.php:1235
+[10-Nov-2022 12:46:38 UTC] PHP   8. require() phar://C:/Program Files (x86)/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/WP_CLI/Runner.php:1317
+[10-Nov-2022 12:46:38 UTC] PHP   9. require_wp_db() C:\Users\ACER\Documents\IT9\Local\magalhes-sipert-sociedade-de-advogados\app\public\wp-settings.php:124
+[10-Nov-2022 12:46:38 UTC] PHP  10. wpdb->__construct() C:\Users\ACER\Documents\IT9\Local\magalhes-sipert-sociedade-de-advogados\app\public\wp-includes\load.php:561
+[10-Nov-2022 12:46:38 UTC] PHP  11. wpdb->db_connect() C:\Users\ACER\Documents\IT9\Local\magalhes-sipert-sociedade-de-advogados\app\public\wp-includes\wp-db.php:724
+[10-Nov-2022 12:46:38 UTC] PHP  12. mysqli_real_connect() C:\Users\ACER\Documents\IT9\Local\magalhes-sipert-sociedade-de-advogados\app\public\wp-includes\wp-db.php:1753
+[11-Nov-2022 02:05:47 UTC] Caller: C:\Users\ACER\Documents\IT9\Local\magalhes-sipert-sociedade-de-advogados\app\public\wp-content\themes\mslaw\pages\single\components\post-tags.php:5
+[11-Nov-2022 02:05:47 UTC] Array
+(
+    [0] => WP_Term Object
+        (
+            [term_id] => 6
+            [name] => Consequatur nisi
+            [slug] => consequatur-nisi
+            [term_group] => 0
+            [term_taxonomy_id] => 6
+            [taxonomy] => post_tag
+            [description] => Totam tempora voluptatibus corporis eveniet velit inventore nobis odit voluptas sapiente voluptatibus sed commodi eaque a et harum eligendi dignissimos voluptates accusamus sunt illum aut repudiandae asperiores non reprehenderit porro veniam esse vero ea aut et fuga
+            [parent] => 0
+            [count] => 16
+            [filter] => raw
+        )
+
+)
+
+[11-Nov-2022 02:06:12 UTC] Caller: C:\Users\ACER\Documents\IT9\Local\magalhes-sipert-sociedade-de-advogados\app\public\wp-content\themes\mslaw\pages\single\components\post-tags.php:5
+[11-Nov-2022 02:06:12 UTC] Array
+(
+    [0] => WP_Term Object
+        (
+            [term_id] => 6
+            [name] => Consequatur nisi
+            [slug] => consequatur-nisi
+            [term_group] => 0
+            [term_taxonomy_id] => 6
+            [taxonomy] => post_tag
+            [description] => Totam tempora voluptatibus corporis eveniet velit inventore nobis odit voluptas sapiente voluptatibus sed commodi eaque a et harum eligendi dignissimos voluptates accusamus sunt illum aut repudiandae asperiores non reprehenderit porro veniam esse vero ea aut et fuga
+            [parent] => 0
+            [count] => 16
+            [filter] => raw
+        )
+
+)
+

@@ -1,0 +1,27 @@
+.contact-list .wpcf7-form-control[type="text"],
+.contact-list .wpcf7-form-control[type="email"],
+.contact-list .wpcf7-form-control[type="tel"],
+.contact-list .wpcf7-form-control {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border: 3px solid #ccc;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  outline: none;
+}
+
+.contact-list .wpcf7-form-control[type="text"]:focus,
+.contact-list .wpcf7-form-control[type="email"]:focus,
+.contact-list .wpcf7-form-control[type="tel"]:focus,
+.contact-list .wpcf7-form-control:focus {
+    border: 3px solid #29666F !important;
+}
+
+.contact-list .input-submit{
+    color: #6c757d!important;
+    line-height: 1.5!important;
+    font-weight: 400!important;
+    font-size: 1.25rem!important;
+}

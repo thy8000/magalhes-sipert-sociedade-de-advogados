@@ -20,8 +20,30 @@
 }
 
 .contact-list .input-submit{
-    color: #6c757d!important;
-    line-height: 1.5!important;
-    font-weight: 400!important;
-    font-size: 1.25rem!important;
+    transition: 0.5s all;
+    border: 1px solid #b5c5c8;
+    border-radius: 5px;
+    color: #b5c5c8;
+    outline: 0;
+    display: inline-block;
+    padding: 15px 50px;
+    background-color: transparent;
+    text-align: center;
+    cursor: pointer;
+    text-transform: uppercase;
+}
+.contact-list .input-submit:hover {
+  border: 1px solid #29666f;
+  background-color: #29666f;
+  color: white;
+}
+.contact-list .wpcf7 .wpcf7-response-output{
+    background-color: #29666F;
+    border: 0px;
+    border-radius: 5px;
+    color: white;
+    font-weight: normal;
+    line-height: 1.5rem;
+    margin: 0;
+    padding: 15px;
 }

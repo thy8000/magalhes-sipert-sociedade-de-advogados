@@ -14,6 +14,8 @@ $recent_posts_args = [
     <?php
     get_template_part('pages/single/components/post-thumbnail', null, [
         'post_id' => $post_id,
+        'has_post_info' => true,
+        'has_post_categories' => true,
     ]);
     ?>
     <div class="container">

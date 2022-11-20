@@ -4,3 +4,604 @@
     [0] => contact-form-7/wp-contact-form-7.php
 )
 
+[20-Nov-2022 18:20:38 UTC] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, function 'it9_mslaw_register_post_type_services' not found or invalid function name in C:\Users\ACER\Documents\IT9\Local\magalhes-sipert-sociedade-de-advogados\app\public\wp-includes\class-wp-hook.php on line 307
+[20-Nov-2022 18:20:38 UTC] PHP Stack trace:
+[20-Nov-2022 18:20:38 UTC] PHP   1. {main}() C:\Users\ACER\Documents\IT9\Local\magalhes-sipert-sociedade-de-advogados\app\public\wp-admin\index.php:0
+[20-Nov-2022 18:20:38 UTC] PHP   2. require_once() C:\Users\ACER\Documents\IT9\Local\magalhes-sipert-sociedade-de-advogados\app\public\wp-admin\index.php:10
+[20-Nov-2022 18:20:38 UTC] PHP   3. require_once() C:\Users\ACER\Documents\IT9\Local\magalhes-sipert-sociedade-de-advogados\app\public\wp-admin\admin.php:34
+[20-Nov-2022 18:20:38 UTC] PHP   4. require_once() C:\Users\ACER\Documents\IT9\Local\magalhes-sipert-sociedade-de-advogados\app\public\wp-load.php:50
+[20-Nov-2022 18:20:38 UTC] PHP   5. require_once() C:\Users\ACER\Documents\IT9\Local\magalhes-sipert-sociedade-de-advogados\app\public\wp-config.php:94
+[20-Nov-2022 18:20:38 UTC] PHP   6. do_action() C:\Users\ACER\Documents\IT9\Local\magalhes-sipert-sociedade-de-advogados\app\public\wp-settings.php:598
+[20-Nov-2022 18:20:38 UTC] PHP   7. WP_Hook->do_action() C:\Users\ACER\Documents\IT9\Local\magalhes-sipert-sociedade-de-advogados\app\public\wp-includes\plugin.php:476
+[20-Nov-2022 18:20:38 UTC] PHP   8. WP_Hook->apply_filters() C:\Users\ACER\Documents\IT9\Local\magalhes-sipert-sociedade-de-advogados\app\public\wp-includes\class-wp-hook.php:331
+[20-Nov-2022 18:20:39 UTC] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, function 'it9_mslaw_register_post_type_services' not found or invalid function name in C:\Users\ACER\Documents\IT9\Local\magalhes-sipert-sociedade-de-advogados\app\public\wp-includes\class-wp-hook.php on line 307
+[20-Nov-2022 18:20:39 UTC] PHP Stack trace:
+[20-Nov-2022 18:20:39 UTC] PHP   1. {main}() C:\Users\ACER\Documents\IT9\Local\magalhes-sipert-sociedade-de-advogados\app\public\wp-admin\admin-ajax.php:0
+[20-Nov-2022 18:20:39 UTC] PHP   2. require_once() C:\Users\ACER\Documents\IT9\Local\magalhes-sipert-sociedade-de-advogados\app\public\wp-admin\admin-ajax.php:22
+[20-Nov-2022 18:20:39 UTC] PHP   3. require_once() C:\Users\ACER\Documents\IT9\Local\magalhes-sipert-sociedade-de-advogados\app\public\wp-load.php:50
+[20-Nov-2022 18:20:39 UTC] PHP   4. require_once() C:\Users\ACER\Documents\IT9\Local\magalhes-sipert-sociedade-de-advogados\app\public\wp-config.php:94
+[20-Nov-2022 18:20:39 UTC] PHP   5. do_action() C:\Users\ACER\Documents\IT9\Local\magalhes-sipert-sociedade-de-advogados\app\public\wp-settings.php:598
+[20-Nov-2022 18:20:39 UTC] PHP   6. WP_Hook->do_action() C:\Users\ACER\Documents\IT9\Local\magalhes-sipert-sociedade-de-advogados\app\public\wp-includes\plugin.php:476
+[20-Nov-2022 18:20:39 UTC] PHP   7. WP_Hook->apply_filters() C:\Users\ACER\Documents\IT9\Local\magalhes-sipert-sociedade-de-advogados\app\public\wp-includes\class-wp-hook.php:331
+[20-Nov-2022 18:20:39 UTC] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, function 'it9_mslaw_register_post_type_services' not found or invalid function name in C:\Users\ACER\Documents\IT9\Local\magalhes-sipert-sociedade-de-advogados\app\public\wp-includes\class-wp-hook.php on line 307
+[20-Nov-2022 18:20:39 UTC] PHP Stack trace:
+[20-Nov-2022 18:20:39 UTC] PHP   1. {main}() C:\Users\ACER\Documents\IT9\Local\magalhes-sipert-sociedade-de-advogados\app\public\index.php:0
+[20-Nov-2022 18:20:39 UTC] PHP   2. require() C:\Users\ACER\Documents\IT9\Local\magalhes-sipert-sociedade-de-advogados\app\public\index.php:17
+[20-Nov-2022 18:20:39 UTC] PHP   3. require_once() C:\Users\ACER\Documents\IT9\Local\magalhes-sipert-sociedade-de-advogados\app\public\wp-blog-header.php:13
+[20-Nov-2022 18:20:39 UTC] PHP   4. require_once() C:\Users\ACER\Documents\IT9\Local\magalhes-sipert-sociedade-de-advogados\app\public\wp-load.php:50
+[20-Nov-2022 18:20:39 UTC] PHP   5. require_once() C:\Users\ACER\Documents\IT9\Local\magalhes-sipert-sociedade-de-advogados\app\public\wp-config.php:94
+[20-Nov-2022 18:20:39 UTC] PHP   6. do_action() C:\Users\ACER\Documents\IT9\Local\magalhes-sipert-sociedade-de-advogados\app\public\wp-settings.php:598
+[20-Nov-2022 18:20:39 UTC] PHP   7. WP_Hook->do_action() C:\Users\ACER\Documents\IT9\Local\magalhes-sipert-sociedade-de-advogados\app\public\wp-includes\plugin.php:476
+[20-Nov-2022 18:20:39 UTC] PHP   8. WP_Hook->apply_filters() C:\Users\ACER\Documents\IT9\Local\magalhes-sipert-sociedade-de-advogados\app\public\wp-includes\class-wp-hook.php:331
+[20-Nov-2022 18:20:47 UTC] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, function 'it9_mslaw_register_post_type_services' not found or invalid function name in C:\Users\ACER\Documents\IT9\Local\magalhes-sipert-sociedade-de-advogados\app\public\wp-includes\class-wp-hook.php on line 307
+[20-Nov-2022 18:20:47 UTC] PHP Stack trace:
+[20-Nov-2022 18:20:47 UTC] PHP   1. {main}() C:\Users\ACER\Documents\IT9\Local\magalhes-sipert-sociedade-de-advogados\app\public\wp-admin\index.php:0
+[20-Nov-2022 18:20:47 UTC] PHP   2. require_once() C:\Users\ACER\Documents\IT9\Local\magalhes-sipert-sociedade-de-advogados\app\public\wp-admin\index.php:10
+[20-Nov-2022 18:20:47 UTC] PHP   3. require_once() C:\Users\ACER\Documents\IT9\Local\magalhes-sipert-sociedade-de-advogados\app\public\wp-admin\admin.php:34
+[20-Nov-2022 18:20:47 UTC] PHP   4. require_once() C:\Users\ACER\Documents\IT9\Local\magalhes-sipert-sociedade-de-advogados\app\public\wp-load.php:50
+[20-Nov-2022 18:20:47 UTC] PHP   5. require_once() C:\Users\ACER\Documents\IT9\Local\magalhes-sipert-sociedade-de-advogados\app\public\wp-config.php:94
+[20-Nov-2022 18:20:47 UTC] PHP   6. do_action() C:\Users\ACER\Documents\IT9\Local\magalhes-sipert-sociedade-de-advogados\app\public\wp-settings.php:598
+[20-Nov-2022 18:20:47 UTC] PHP   7. WP_Hook->do_action() C:\Users\ACER\Documents\IT9\Local\magalhes-sipert-sociedade-de-advogados\app\public\wp-includes\plugin.php:476
+[20-Nov-2022 18:20:47 UTC] PHP   8. WP_Hook->apply_filters() C:\Users\ACER\Documents\IT9\Local\magalhes-sipert-sociedade-de-advogados\app\public\wp-includes\class-wp-hook.php:331
+[20-Nov-2022 18:20:47 UTC] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, function 'it9_mslaw_register_post_type_services' not found or invalid function name in C:\Users\ACER\Documents\IT9\Local\magalhes-sipert-sociedade-de-advogados\app\public\wp-includes\class-wp-hook.php on line 307
+[20-Nov-2022 18:20:47 UTC] PHP Stack trace:
+[20-Nov-2022 18:20:47 UTC] PHP   1. {main}() C:\Users\ACER\Documents\IT9\Local\magalhes-sipert-sociedade-de-advogados\app\public\wp-admin\admin-ajax.php:0
+[20-Nov-2022 18:20:47 UTC] PHP   2. require_once() C:\Users\ACER\Documents\IT9\Local\magalhes-sipert-sociedade-de-advogados\app\public\wp-admin\admin-ajax.php:22
+[20-Nov-2022 18:20:47 UTC] PHP   3. require_once() C:\Users\ACER\Documents\IT9\Local\magalhes-sipert-sociedade-de-advogados\app\public\wp-load.php:50
+[20-Nov-2022 18:20:47 UTC] PHP   4. require_once() C:\Users\ACER\Documents\IT9\Local\magalhes-sipert-sociedade-de-advogados\app\public\wp-config.php:94
+[20-Nov-2022 18:20:47 UTC] PHP   5. do_action() C:\Users\ACER\Documents\IT9\Local\magalhes-sipert-sociedade-de-advogados\app\public\wp-settings.php:598
+[20-Nov-2022 18:20:47 UTC] PHP   6. WP_Hook->do_action() C:\Users\ACER\Documents\IT9\Local\magalhes-sipert-sociedade-de-advogados\app\public\wp-includes\plugin.php:476
+[20-Nov-2022 18:20:47 UTC] PHP   7. WP_Hook->apply_filters() C:\Users\ACER\Documents\IT9\Local\magalhes-sipert-sociedade-de-advogados\app\public\wp-includes\class-wp-hook.php:331
+[20-Nov-2022 18:20:48 UTC] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, function 'it9_mslaw_register_post_type_services' not found or invalid function name in C:\Users\ACER\Documents\IT9\Local\magalhes-sipert-sociedade-de-advogados\app\public\wp-includes\class-wp-hook.php on line 307
+[20-Nov-2022 18:20:48 UTC] PHP Stack trace:
+[20-Nov-2022 18:20:48 UTC] PHP   1. {main}() C:\Users\ACER\Documents\IT9\Local\magalhes-sipert-sociedade-de-advogados\app\public\index.php:0
+[20-Nov-2022 18:20:48 UTC] PHP   2. require() C:\Users\ACER\Documents\IT9\Local\magalhes-sipert-sociedade-de-advogados\app\public\index.php:17
+[20-Nov-2022 18:20:48 UTC] PHP   3. require_once() C:\Users\ACER\Documents\IT9\Local\magalhes-sipert-sociedade-de-advogados\app\public\wp-blog-header.php:13
+[20-Nov-2022 18:20:48 UTC] PHP   4. require_once() C:\Users\ACER\Documents\IT9\Local\magalhes-sipert-sociedade-de-advogados\app\public\wp-load.php:50
+[20-Nov-2022 18:20:48 UTC] PHP   5. require_once() C:\Users\ACER\Documents\IT9\Local\magalhes-sipert-sociedade-de-advogados\app\public\wp-config.php:94
+[20-Nov-2022 18:20:48 UTC] PHP   6. do_action() C:\Users\ACER\Documents\IT9\Local\magalhes-sipert-sociedade-de-advogados\app\public\wp-settings.php:598
+[20-Nov-2022 18:20:48 UTC] PHP   7. WP_Hook->do_action() C:\Users\ACER\Documents\IT9\Local\magalhes-sipert-sociedade-de-advogados\app\public\wp-includes\plugin.php:476
+[20-Nov-2022 18:20:48 UTC] PHP   8. WP_Hook->apply_filters() C:\Users\ACER\Documents\IT9\Local\magalhes-sipert-sociedade-de-advogados\app\public\wp-includes\class-wp-hook.php:331
+[20-Nov-2022 18:21:48 UTC] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, function 'it9_mslaw_register_post_type_services' not found or invalid function name in C:\Users\ACER\Documents\IT9\Local\magalhes-sipert-sociedade-de-advogados\app\public\wp-includes\class-wp-hook.php on line 307
+[20-Nov-2022 18:21:48 UTC] PHP Stack trace:
+[20-Nov-2022 18:21:48 UTC] PHP   1. {main}() C:\Users\ACER\Documents\IT9\Local\magalhes-sipert-sociedade-de-advogados\app\public\wp-admin\admin-ajax.php:0
+[20-Nov-2022 18:21:48 UTC] PHP   2. require_once() C:\Users\ACER\Documents\IT9\Local\magalhes-sipert-sociedade-de-advogados\app\public\wp-admin\admin-ajax.php:22
+[20-Nov-2022 18:21:48 UTC] PHP   3. require_once() C:\Users\ACER\Documents\IT9\Local\magalhes-sipert-sociedade-de-advogados\app\public\wp-load.php:50
+[20-Nov-2022 18:21:48 UTC] PHP   4. require_once() C:\Users\ACER\Documents\IT9\Local\magalhes-sipert-sociedade-de-advogados\app\public\wp-config.php:94
+[20-Nov-2022 18:21:48 UTC] PHP   5. do_action() C:\Users\ACER\Documents\IT9\Local\magalhes-sipert-sociedade-de-advogados\app\public\wp-settings.php:598
+[20-Nov-2022 18:21:48 UTC] PHP   6. WP_Hook->do_action() C:\Users\ACER\Documents\IT9\Local\magalhes-sipert-sociedade-de-advogados\app\public\wp-includes\plugin.php:476
+[20-Nov-2022 18:21:48 UTC] PHP   7. WP_Hook->apply_filters() C:\Users\ACER\Documents\IT9\Local\magalhes-sipert-sociedade-de-advogados\app\public\wp-includes\class-wp-hook.php:331
+[20-Nov-2022 18:23:33 UTC] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, function 'it9_mslaw_register_post_type_services' not found or invalid function name in C:\Users\ACER\Documents\IT9\Local\magalhes-sipert-sociedade-de-advogados\app\public\wp-includes\class-wp-hook.php on line 307
+[20-Nov-2022 18:23:33 UTC] PHP Stack trace:
+[20-Nov-2022 18:23:33 UTC] PHP   1. {main}() C:\Users\ACER\Documents\IT9\Local\magalhes-sipert-sociedade-de-advogados\app\public\wp-admin\admin-ajax.php:0
+[20-Nov-2022 18:23:33 UTC] PHP   2. require_once() C:\Users\ACER\Documents\IT9\Local\magalhes-sipert-sociedade-de-advogados\app\public\wp-admin\admin-ajax.php:22
+[20-Nov-2022 18:23:33 UTC] PHP   3. require_once() C:\Users\ACER\Documents\IT9\Local\magalhes-sipert-sociedade-de-advogados\app\public\wp-load.php:50
+[20-Nov-2022 18:23:33 UTC] PHP   4. require_once() C:\Users\ACER\Documents\IT9\Local\magalhes-sipert-sociedade-de-advogados\app\public\wp-config.php:94
+[20-Nov-2022 18:23:33 UTC] PHP   5. do_action() C:\Users\ACER\Documents\IT9\Local\magalhes-sipert-sociedade-de-advogados\app\public\wp-settings.php:598
+[20-Nov-2022 18:23:33 UTC] PHP   6. WP_Hook->do_action() C:\Users\ACER\Documents\IT9\Local\magalhes-sipert-sociedade-de-advogados\app\public\wp-includes\plugin.php:476
+[20-Nov-2022 18:23:33 UTC] PHP   7. WP_Hook->apply_filters() C:\Users\ACER\Documents\IT9\Local\magalhes-sipert-sociedade-de-advogados\app\public\wp-includes\class-wp-hook.php:331
+[20-Nov-2022 18:23:35 UTC] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, function 'it9_mslaw_register_post_type_services' not found or invalid function name in C:\Users\ACER\Documents\IT9\Local\magalhes-sipert-sociedade-de-advogados\app\public\wp-includes\class-wp-hook.php on line 307
+[20-Nov-2022 18:23:35 UTC] PHP Stack trace:
+[20-Nov-2022 18:23:35 UTC] PHP   1. {main}() C:\Users\ACER\Documents\IT9\Local\magalhes-sipert-sociedade-de-advogados\app\public\wp-admin\edit.php:0
+[20-Nov-2022 18:23:35 UTC] PHP   2. require_once() C:\Users\ACER\Documents\IT9\Local\magalhes-sipert-sociedade-de-advogados\app\public\wp-admin\edit.php:10
+[20-Nov-2022 18:23:35 UTC] PHP   3. require_once() C:\Users\ACER\Documents\IT9\Local\magalhes-sipert-sociedade-de-advogados\app\public\wp-admin\admin.php:34
+[20-Nov-2022 18:23:35 UTC] PHP   4. require_once() C:\Users\ACER\Documents\IT9\Local\magalhes-sipert-sociedade-de-advogados\app\public\wp-load.php:50
+[20-Nov-2022 18:23:35 UTC] PHP   5. require_once() C:\Users\ACER\Documents\IT9\Local\magalhes-sipert-sociedade-de-advogados\app\public\wp-config.php:94
+[20-Nov-2022 18:23:35 UTC] PHP   6. do_action() C:\Users\ACER\Documents\IT9\Local\magalhes-sipert-sociedade-de-advogados\app\public\wp-settings.php:598
+[20-Nov-2022 18:23:35 UTC] PHP   7. WP_Hook->do_action() C:\Users\ACER\Documents\IT9\Local\magalhes-sipert-sociedade-de-advogados\app\public\wp-includes\plugin.php:476
+[20-Nov-2022 18:23:35 UTC] PHP   8. WP_Hook->apply_filters() C:\Users\ACER\Documents\IT9\Local\magalhes-sipert-sociedade-de-advogados\app\public\wp-includes\class-wp-hook.php:331
+[20-Nov-2022 18:23:35 UTC] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, function 'it9_mslaw_register_post_type_services' not found or invalid function name in C:\Users\ACER\Documents\IT9\Local\magalhes-sipert-sociedade-de-advogados\app\public\wp-includes\class-wp-hook.php on line 307
+[20-Nov-2022 18:23:35 UTC] PHP Stack trace:
+[20-Nov-2022 18:23:35 UTC] PHP   1. {main}() C:\Users\ACER\Documents\IT9\Local\magalhes-sipert-sociedade-de-advogados\app\public\wp-admin\admin-ajax.php:0
+[20-Nov-2022 18:23:35 UTC] PHP   2. require_once() C:\Users\ACER\Documents\IT9\Local\magalhes-sipert-sociedade-de-advogados\app\public\wp-admin\admin-ajax.php:22
+[20-Nov-2022 18:23:35 UTC] PHP   3. require_once() C:\Users\ACER\Documents\IT9\Local\magalhes-sipert-sociedade-de-advogados\app\public\wp-load.php:50
+[20-Nov-2022 18:23:35 UTC] PHP   4. require_once() C:\Users\ACER\Documents\IT9\Local\magalhes-sipert-sociedade-de-advogados\app\public\wp-config.php:94
+[20-Nov-2022 18:23:35 UTC] PHP   5. do_action() C:\Users\ACER\Documents\IT9\Local\magalhes-sipert-sociedade-de-advogados\app\public\wp-settings.php:598
+[20-Nov-2022 18:23:35 UTC] PHP   6. WP_Hook->do_action() C:\Users\ACER\Documents\IT9\Local\magalhes-sipert-sociedade-de-advogados\app\public\wp-includes\plugin.php:476
+[20-Nov-2022 18:23:35 UTC] PHP   7. WP_Hook->apply_filters() C:\Users\ACER\Documents\IT9\Local\magalhes-sipert-sociedade-de-advogados\app\public\wp-includes\class-wp-hook.php:331
+[20-Nov-2022 18:23:40 UTC] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, function 'it9_mslaw_register_post_type_services' not found or invalid function name in C:\Users\ACER\Documents\IT9\Local\magalhes-sipert-sociedade-de-advogados\app\public\wp-includes\class-wp-hook.php on line 307
+[20-Nov-2022 18:23:40 UTC] PHP Stack trace:
+[20-Nov-2022 18:23:40 UTC] PHP   1. {main}() C:\Users\ACER\Documents\IT9\Local\magalhes-sipert-sociedade-de-advogados\app\public\wp-admin\post.php:0
+[20-Nov-2022 18:23:40 UTC] PHP   2. require_once() C:\Users\ACER\Documents\IT9\Local\magalhes-sipert-sociedade-de-advogados\app\public\wp-admin\post.php:12
+[20-Nov-2022 18:23:40 UTC] PHP   3. require_once() C:\Users\ACER\Documents\IT9\Local\magalhes-sipert-sociedade-de-advogados\app\public\wp-admin\admin.php:34
+[20-Nov-2022 18:23:40 UTC] PHP   4. require_once() C:\Users\ACER\Documents\IT9\Local\magalhes-sipert-sociedade-de-advogados\app\public\wp-load.php:50
+[20-Nov-2022 18:23:40 UTC] PHP   5. require_once() C:\Users\ACER\Documents\IT9\Local\magalhes-sipert-sociedade-de-advogados\app\public\wp-config.php:94
+[20-Nov-2022 18:23:40 UTC] PHP   6. do_action() C:\Users\ACER\Documents\IT9\Local\magalhes-sipert-sociedade-de-advogados\app\public\wp-settings.php:598
+[20-Nov-2022 18:23:40 UTC] PHP   7. WP_Hook->do_action() C:\Users\ACER\Documents\IT9\Local\magalhes-sipert-sociedade-de-advogados\app\public\wp-includes\plugin.php:476
+[20-Nov-2022 18:23:40 UTC] PHP   8. WP_Hook->apply_filters() C:\Users\ACER\Documents\IT9\Local\magalhes-sipert-sociedade-de-advogados\app\public\wp-includes\class-wp-hook.php:331
+[20-Nov-2022 18:23:40 UTC] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, function 'it9_mslaw_register_post_type_services' not found or invalid function name in C:\Users\ACER\Documents\IT9\Local\magalhes-sipert-sociedade-de-advogados\app\public\wp-includes\class-wp-hook.php on line 307
+[20-Nov-2022 18:23:40 UTC] PHP Stack trace:
+[20-Nov-2022 18:23:40 UTC] PHP   1. {main}() C:\Users\ACER\Documents\IT9\Local\magalhes-sipert-sociedade-de-advogados\app\public\wp-admin\edit.php:0
+[20-Nov-2022 18:23:40 UTC] PHP   2. require_once() C:\Users\ACER\Documents\IT9\Local\magalhes-sipert-sociedade-de-advogados\app\public\wp-admin\edit.php:10
+[20-Nov-2022 18:23:40 UTC] PHP   3. require_once() C:\Users\ACER\Documents\IT9\Local\magalhes-sipert-sociedade-de-advogados\app\public\wp-admin\admin.php:34
+[20-Nov-2022 18:23:40 UTC] PHP   4. require_once() C:\Users\ACER\Documents\IT9\Local\magalhes-sipert-sociedade-de-advogados\app\public\wp-load.php:50
+[20-Nov-2022 18:23:40 UTC] PHP   5. require_once() C:\Users\ACER\Documents\IT9\Local\magalhes-sipert-sociedade-de-advogados\app\public\wp-config.php:94
+[20-Nov-2022 18:23:40 UTC] PHP   6. do_action() C:\Users\ACER\Documents\IT9\Local\magalhes-sipert-sociedade-de-advogados\app\public\wp-settings.php:598
+[20-Nov-2022 18:23:40 UTC] PHP   7. WP_Hook->do_action() C:\Users\ACER\Documents\IT9\Local\magalhes-sipert-sociedade-de-advogados\app\public\wp-includes\plugin.php:476
+[20-Nov-2022 18:23:40 UTC] PHP   8. WP_Hook->apply_filters() C:\Users\ACER\Documents\IT9\Local\magalhes-sipert-sociedade-de-advogados\app\public\wp-includes\class-wp-hook.php:331
+[20-Nov-2022 18:23:41 UTC] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, function 'it9_mslaw_register_post_type_services' not found or invalid function name in C:\Users\ACER\Documents\IT9\Local\magalhes-sipert-sociedade-de-advogados\app\public\wp-includes\class-wp-hook.php on line 307
+[20-Nov-2022 18:23:41 UTC] PHP Stack trace:
+[20-Nov-2022 18:23:41 UTC] PHP   1. {main}() C:\Users\ACER\Documents\IT9\Local\magalhes-sipert-sociedade-de-advogados\app\public\wp-admin\admin-ajax.php:0
+[20-Nov-2022 18:23:41 UTC] PHP   2. require_once() C:\Users\ACER\Documents\IT9\Local\magalhes-sipert-sociedade-de-advogados\app\public\wp-admin\admin-ajax.php:22
+[20-Nov-2022 18:23:41 UTC] PHP   3. require_once() C:\Users\ACER\Documents\IT9\Local\magalhes-sipert-sociedade-de-advogados\app\public\wp-load.php:50
+[20-Nov-2022 18:23:41 UTC] PHP   4. require_once() C:\Users\ACER\Documents\IT9\Local\magalhes-sipert-sociedade-de-advogados\app\public\wp-config.php:94
+[20-Nov-2022 18:23:41 UTC] PHP   5. do_action() C:\Users\ACER\Documents\IT9\Local\magalhes-sipert-sociedade-de-advogados\app\public\wp-settings.php:598
+[20-Nov-2022 18:23:41 UTC] PHP   6. WP_Hook->do_action() C:\Users\ACER\Documents\IT9\Local\magalhes-sipert-sociedade-de-advogados\app\public\wp-includes\plugin.php:476
+[20-Nov-2022 18:23:41 UTC] PHP   7. WP_Hook->apply_filters() C:\Users\ACER\Documents\IT9\Local\magalhes-sipert-sociedade-de-advogados\app\public\wp-includes\class-wp-hook.php:331
+[20-Nov-2022 18:23:43 UTC] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, function 'it9_mslaw_register_post_type_services' not found or invalid function name in C:\Users\ACER\Documents\IT9\Local\magalhes-sipert-sociedade-de-advogados\app\public\wp-includes\class-wp-hook.php on line 307
+[20-Nov-2022 18:23:43 UTC] PHP Stack trace:
+[20-Nov-2022 18:23:43 UTC] PHP   1. {main}() C:\Users\ACER\Documents\IT9\Local\magalhes-sipert-sociedade-de-advogados\app\public\wp-admin\post.php:0
+[20-Nov-2022 18:23:43 UTC] PHP   2. require_once() C:\Users\ACER\Documents\IT9\Local\magalhes-sipert-sociedade-de-advogados\app\public\wp-admin\post.php:12
+[20-Nov-2022 18:23:43 UTC] PHP   3. require_once() C:\Users\ACER\Documents\IT9\Local\magalhes-sipert-sociedade-de-advogados\app\public\wp-admin\admin.php:34
+[20-Nov-2022 18:23:43 UTC] PHP   4. require_once() C:\Users\ACER\Documents\IT9\Local\magalhes-sipert-sociedade-de-advogados\app\public\wp-load.php:50
+[20-Nov-2022 18:23:43 UTC] PHP   5. require_once() C:\Users\ACER\Documents\IT9\Local\magalhes-sipert-sociedade-de-advogados\app\public\wp-config.php:94
+[20-Nov-2022 18:23:43 UTC] PHP   6. do_action() C:\Users\ACER\Documents\IT9\Local\magalhes-sipert-sociedade-de-advogados\app\public\wp-settings.php:598
+[20-Nov-2022 18:23:43 UTC] PHP   7. WP_Hook->do_action() C:\Users\ACER\Documents\IT9\Local\magalhes-sipert-sociedade-de-advogados\app\public\wp-includes\plugin.php:476
+[20-Nov-2022 18:23:43 UTC] PHP   8. WP_Hook->apply_filters() C:\Users\ACER\Documents\IT9\Local\magalhes-sipert-sociedade-de-advogados\app\public\wp-includes\class-wp-hook.php:331
+[20-Nov-2022 18:23:46 UTC] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, function 'it9_mslaw_register_post_type_services' not found or invalid function name in C:\Users\ACER\Documents\IT9\Local\magalhes-sipert-sociedade-de-advogados\app\public\wp-includes\class-wp-hook.php on line 307
+[20-Nov-2022 18:23:46 UTC] PHP Stack trace:
+[20-Nov-2022 18:23:46 UTC] PHP   1. {main}() C:\Users\ACER\Documents\IT9\Local\magalhes-sipert-sociedade-de-advogados\app\public\wp-admin\admin-ajax.php:0
+[20-Nov-2022 18:23:46 UTC] PHP   2. require_once() C:\Users\ACER\Documents\IT9\Local\magalhes-sipert-sociedade-de-advogados\app\public\wp-admin\admin-ajax.php:22
+[20-Nov-2022 18:23:46 UTC] PHP   3. require_once() C:\Users\ACER\Documents\IT9\Local\magalhes-sipert-sociedade-de-advogados\app\public\wp-load.php:50
+[20-Nov-2022 18:23:46 UTC] PHP   4. require_once() C:\Users\ACER\Documents\IT9\Local\magalhes-sipert-sociedade-de-advogados\app\public\wp-config.php:94
+[20-Nov-2022 18:23:46 UTC] PHP   5. do_action() C:\Users\ACER\Documents\IT9\Local\magalhes-sipert-sociedade-de-advogados\app\public\wp-settings.php:598
+[20-Nov-2022 18:23:46 UTC] PHP   6. WP_Hook->do_action() C:\Users\ACER\Documents\IT9\Local\magalhes-sipert-sociedade-de-advogados\app\public\wp-includes\plugin.php:476
+[20-Nov-2022 18:23:46 UTC] PHP   7. WP_Hook->apply_filters() C:\Users\ACER\Documents\IT9\Local\magalhes-sipert-sociedade-de-advogados\app\public\wp-includes\class-wp-hook.php:331
+[20-Nov-2022 18:23:48 UTC] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, function 'it9_mslaw_register_post_type_services' not found or invalid function name in C:\Users\ACER\Documents\IT9\Local\magalhes-sipert-sociedade-de-advogados\app\public\wp-includes\class-wp-hook.php on line 307
+[20-Nov-2022 18:23:48 UTC] PHP Stack trace:
+[20-Nov-2022 18:23:48 UTC] PHP   1. {main}() C:\Users\ACER\Documents\IT9\Local\magalhes-sipert-sociedade-de-advogados\app\public\wp-admin\post.php:0
+[20-Nov-2022 18:23:48 UTC] PHP   2. require_once() C:\Users\ACER\Documents\IT9\Local\magalhes-sipert-sociedade-de-advogados\app\public\wp-admin\post.php:12
+[20-Nov-2022 18:23:48 UTC] PHP   3. require_once() C:\Users\ACER\Documents\IT9\Local\magalhes-sipert-sociedade-de-advogados\app\public\wp-admin\admin.php:34
+[20-Nov-2022 18:23:48 UTC] PHP   4. require_once() C:\Users\ACER\Documents\IT9\Local\magalhes-sipert-sociedade-de-advogados\app\public\wp-load.php:50
+[20-Nov-2022 18:23:48 UTC] PHP   5. require_once() C:\Users\ACER\Documents\IT9\Local\magalhes-sipert-sociedade-de-advogados\app\public\wp-config.php:94
+[20-Nov-2022 18:23:48 UTC] PHP   6. do_action() C:\Users\ACER\Documents\IT9\Local\magalhes-sipert-sociedade-de-advogados\app\public\wp-settings.php:598
+[20-Nov-2022 18:23:48 UTC] PHP   7. WP_Hook->do_action() C:\Users\ACER\Documents\IT9\Local\magalhes-sipert-sociedade-de-advogados\app\public\wp-includes\plugin.php:476
+[20-Nov-2022 18:23:48 UTC] PHP   8. WP_Hook->apply_filters() C:\Users\ACER\Documents\IT9\Local\magalhes-sipert-sociedade-de-advogados\app\public\wp-includes\class-wp-hook.php:331
+[20-Nov-2022 18:23:48 UTC] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, function 'it9_mslaw_register_post_type_services' not found or invalid function name in C:\Users\ACER\Documents\IT9\Local\magalhes-sipert-sociedade-de-advogados\app\public\wp-includes\class-wp-hook.php on line 307
+[20-Nov-2022 18:23:48 UTC] PHP Stack trace:
+[20-Nov-2022 18:23:48 UTC] PHP   1. {main}() C:\Users\ACER\Documents\IT9\Local\magalhes-sipert-sociedade-de-advogados\app\public\wp-admin\post.php:0
+[20-Nov-2022 18:23:48 UTC] PHP   2. require_once() C:\Users\ACER\Documents\IT9\Local\magalhes-sipert-sociedade-de-advogados\app\public\wp-admin\post.php:12
+[20-Nov-2022 18:23:48 UTC] PHP   3. require_once() C:\Users\ACER\Documents\IT9\Local\magalhes-sipert-sociedade-de-advogados\app\public\wp-admin\admin.php:34
+[20-Nov-2022 18:23:48 UTC] PHP   4. require_once() C:\Users\ACER\Documents\IT9\Local\magalhes-sipert-sociedade-de-advogados\app\public\wp-load.php:50
+[20-Nov-2022 18:23:48 UTC] PHP   5. require_once() C:\Users\ACER\Documents\IT9\Local\magalhes-sipert-sociedade-de-advogados\app\public\wp-config.php:94
+[20-Nov-2022 18:23:48 UTC] PHP   6. do_action() C:\Users\ACER\Documents\IT9\Local\magalhes-sipert-sociedade-de-advogados\app\public\wp-settings.php:598
+[20-Nov-2022 18:23:48 UTC] PHP   7. WP_Hook->do_action() C:\Users\ACER\Documents\IT9\Local\magalhes-sipert-sociedade-de-advogados\app\public\wp-includes\plugin.php:476
+[20-Nov-2022 18:23:48 UTC] PHP   8. WP_Hook->apply_filters() C:\Users\ACER\Documents\IT9\Local\magalhes-sipert-sociedade-de-advogados\app\public\wp-includes\class-wp-hook.php:331
+[20-Nov-2022 18:23:48 UTC] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, function 'it9_mslaw_register_post_type_services' not found or invalid function name in C:\Users\ACER\Documents\IT9\Local\magalhes-sipert-sociedade-de-advogados\app\public\wp-includes\class-wp-hook.php on line 307
+[20-Nov-2022 18:23:48 UTC] PHP Stack trace:
+[20-Nov-2022 18:23:48 UTC] PHP   1. {main}() C:\Users\ACER\Documents\IT9\Local\magalhes-sipert-sociedade-de-advogados\app\public\wp-admin\admin-ajax.php:0
+[20-Nov-2022 18:23:48 UTC] PHP   2. require_once() C:\Users\ACER\Documents\IT9\Local\magalhes-sipert-sociedade-de-advogados\app\public\wp-admin\admin-ajax.php:22
+[20-Nov-2022 18:23:48 UTC] PHP   3. require_once() C:\Users\ACER\Documents\IT9\Local\magalhes-sipert-sociedade-de-advogados\app\public\wp-load.php:50
+[20-Nov-2022 18:23:48 UTC] PHP   4. require_once() C:\Users\ACER\Documents\IT9\Local\magalhes-sipert-sociedade-de-advogados\app\public\wp-config.php:94
+[20-Nov-2022 18:23:48 UTC] PHP   5. do_action() C:\Users\ACER\Documents\IT9\Local\magalhes-sipert-sociedade-de-advogados\app\public\wp-settings.php:598
+[20-Nov-2022 18:23:48 UTC] PHP   6. WP_Hook->do_action() C:\Users\ACER\Documents\IT9\Local\magalhes-sipert-sociedade-de-advogados\app\public\wp-includes\plugin.php:476
+[20-Nov-2022 18:23:48 UTC] PHP   7. WP_Hook->apply_filters() C:\Users\ACER\Documents\IT9\Local\magalhes-sipert-sociedade-de-advogados\app\public\wp-includes\class-wp-hook.php:331
+[20-Nov-2022 18:23:50 UTC] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, function 'it9_mslaw_register_post_type_services' not found or invalid function name in C:\Users\ACER\Documents\IT9\Local\magalhes-sipert-sociedade-de-advogados\app\public\wp-includes\class-wp-hook.php on line 307
+[20-Nov-2022 18:23:50 UTC] PHP Stack trace:
+[20-Nov-2022 18:23:50 UTC] PHP   1. {main}() C:\Users\ACER\Documents\IT9\Local\magalhes-sipert-sociedade-de-advogados\app\public\wp-admin\edit.php:0
+[20-Nov-2022 18:23:50 UTC] PHP   2. require_once() C:\Users\ACER\Documents\IT9\Local\magalhes-sipert-sociedade-de-advogados\app\public\wp-admin\edit.php:10
+[20-Nov-2022 18:23:50 UTC] PHP   3. require_once() C:\Users\ACER\Documents\IT9\Local\magalhes-sipert-sociedade-de-advogados\app\public\wp-admin\admin.php:34
+[20-Nov-2022 18:23:50 UTC] PHP   4. require_once() C:\Users\ACER\Documents\IT9\Local\magalhes-sipert-sociedade-de-advogados\app\public\wp-load.php:50
+[20-Nov-2022 18:23:50 UTC] PHP   5. require_once() C:\Users\ACER\Documents\IT9\Local\magalhes-sipert-sociedade-de-advogados\app\public\wp-config.php:94
+[20-Nov-2022 18:23:50 UTC] PHP   6. do_action() C:\Users\ACER\Documents\IT9\Local\magalhes-sipert-sociedade-de-advogados\app\public\wp-settings.php:598
+[20-Nov-2022 18:23:50 UTC] PHP   7. WP_Hook->do_action() C:\Users\ACER\Documents\IT9\Local\magalhes-sipert-sociedade-de-advogados\app\public\wp-includes\plugin.php:476
+[20-Nov-2022 18:23:50 UTC] PHP   8. WP_Hook->apply_filters() C:\Users\ACER\Documents\IT9\Local\magalhes-sipert-sociedade-de-advogados\app\public\wp-includes\class-wp-hook.php:331
+[20-Nov-2022 18:23:50 UTC] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, function 'it9_mslaw_register_post_type_services' not found or invalid function name in C:\Users\ACER\Documents\IT9\Local\magalhes-sipert-sociedade-de-advogados\app\public\wp-includes\class-wp-hook.php on line 307
+[20-Nov-2022 18:23:50 UTC] PHP Stack trace:
+[20-Nov-2022 18:23:50 UTC] PHP   1. {main}() C:\Users\ACER\Documents\IT9\Local\magalhes-sipert-sociedade-de-advogados\app\public\wp-admin\admin-ajax.php:0
+[20-Nov-2022 18:23:50 UTC] PHP   2. require_once() C:\Users\ACER\Documents\IT9\Local\magalhes-sipert-sociedade-de-advogados\app\public\wp-admin\admin-ajax.php:22
+[20-Nov-2022 18:23:50 UTC] PHP   3. require_once() C:\Users\ACER\Documents\IT9\Local\magalhes-sipert-sociedade-de-advogados\app\public\wp-load.php:50
+[20-Nov-2022 18:23:50 UTC] PHP   4. require_once() C:\Users\ACER\Documents\IT9\Local\magalhes-sipert-sociedade-de-advogados\app\public\wp-config.php:94
+[20-Nov-2022 18:23:50 UTC] PHP   5. do_action() C:\Users\ACER\Documents\IT9\Local\magalhes-sipert-sociedade-de-advogados\app\public\wp-settings.php:598
+[20-Nov-2022 18:23:50 UTC] PHP   6. WP_Hook->do_action() C:\Users\ACER\Documents\IT9\Local\magalhes-sipert-sociedade-de-advogados\app\public\wp-includes\plugin.php:476
+[20-Nov-2022 18:23:50 UTC] PHP   7. WP_Hook->apply_filters() C:\Users\ACER\Documents\IT9\Local\magalhes-sipert-sociedade-de-advogados\app\public\wp-includes\class-wp-hook.php:331
+[20-Nov-2022 18:23:50 UTC] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, function 'it9_mslaw_register_post_type_services' not found or invalid function name in C:\Users\ACER\Documents\IT9\Local\magalhes-sipert-sociedade-de-advogados\app\public\wp-includes\class-wp-hook.php on line 307
+[20-Nov-2022 18:23:50 UTC] PHP Stack trace:
+[20-Nov-2022 18:23:50 UTC] PHP   1. {main}() C:\Users\ACER\Documents\IT9\Local\magalhes-sipert-sociedade-de-advogados\app\public\wp-admin\admin-ajax.php:0
+[20-Nov-2022 18:23:50 UTC] PHP   2. require_once() C:\Users\ACER\Documents\IT9\Local\magalhes-sipert-sociedade-de-advogados\app\public\wp-admin\admin-ajax.php:22
+[20-Nov-2022 18:23:50 UTC] PHP   3. require_once() C:\Users\ACER\Documents\IT9\Local\magalhes-sipert-sociedade-de-advogados\app\public\wp-load.php:50
+[20-Nov-2022 18:23:50 UTC] PHP   4. require_once() C:\Users\ACER\Documents\IT9\Local\magalhes-sipert-sociedade-de-advogados\app\public\wp-config.php:94
+[20-Nov-2022 18:23:50 UTC] PHP   5. do_action() C:\Users\ACER\Documents\IT9\Local\magalhes-sipert-sociedade-de-advogados\app\public\wp-settings.php:598
+[20-Nov-2022 18:23:50 UTC] PHP   6. WP_Hook->do_action() C:\Users\ACER\Documents\IT9\Local\magalhes-sipert-sociedade-de-advogados\app\public\wp-includes\plugin.php:476
+[20-Nov-2022 18:23:50 UTC] PHP   7. WP_Hook->apply_filters() C:\Users\ACER\Documents\IT9\Local\magalhes-sipert-sociedade-de-advogados\app\public\wp-includes\class-wp-hook.php:331
+[20-Nov-2022 18:23:54 UTC] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, function 'it9_mslaw_register_post_type_services' not found or invalid function name in C:\Users\ACER\Documents\IT9\Local\magalhes-sipert-sociedade-de-advogados\app\public\wp-includes\class-wp-hook.php on line 307
+[20-Nov-2022 18:23:54 UTC] PHP Stack trace:
+[20-Nov-2022 18:23:54 UTC] PHP   1. {main}() C:\Users\ACER\Documents\IT9\Local\magalhes-sipert-sociedade-de-advogados\app\public\wp-admin\post.php:0
+[20-Nov-2022 18:23:54 UTC] PHP   2. require_once() C:\Users\ACER\Documents\IT9\Local\magalhes-sipert-sociedade-de-advogados\app\public\wp-admin\post.php:12
+[20-Nov-2022 18:23:54 UTC] PHP   3. require_once() C:\Users\ACER\Documents\IT9\Local\magalhes-sipert-sociedade-de-advogados\app\public\wp-admin\admin.php:34
+[20-Nov-2022 18:23:54 UTC] PHP   4. require_once() C:\Users\ACER\Documents\IT9\Local\magalhes-sipert-sociedade-de-advogados\app\public\wp-load.php:50
+[20-Nov-2022 18:23:54 UTC] PHP   5. require_once() C:\Users\ACER\Documents\IT9\Local\magalhes-sipert-sociedade-de-advogados\app\public\wp-config.php:94
+[20-Nov-2022 18:23:54 UTC] PHP   6. do_action() C:\Users\ACER\Documents\IT9\Local\magalhes-sipert-sociedade-de-advogados\app\public\wp-settings.php:598
+[20-Nov-2022 18:23:54 UTC] PHP   7. WP_Hook->do_action() C:\Users\ACER\Documents\IT9\Local\magalhes-sipert-sociedade-de-advogados\app\public\wp-includes\plugin.php:476
+[20-Nov-2022 18:23:54 UTC] PHP   8. WP_Hook->apply_filters() C:\Users\ACER\Documents\IT9\Local\magalhes-sipert-sociedade-de-advogados\app\public\wp-includes\class-wp-hook.php:331
+[20-Nov-2022 18:23:59 UTC] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, function 'it9_mslaw_register_post_type_services' not found or invalid function name in C:\Users\ACER\Documents\IT9\Local\magalhes-sipert-sociedade-de-advogados\app\public\wp-includes\class-wp-hook.php on line 307
+[20-Nov-2022 18:23:59 UTC] PHP Stack trace:
+[20-Nov-2022 18:23:59 UTC] PHP   1. {main}() C:\Users\ACER\Documents\IT9\Local\magalhes-sipert-sociedade-de-advogados\app\public\wp-admin\admin-ajax.php:0
+[20-Nov-2022 18:23:59 UTC] PHP   2. require_once() C:\Users\ACER\Documents\IT9\Local\magalhes-sipert-sociedade-de-advogados\app\public\wp-admin\admin-ajax.php:22
+[20-Nov-2022 18:23:59 UTC] PHP   3. require_once() C:\Users\ACER\Documents\IT9\Local\magalhes-sipert-sociedade-de-advogados\app\public\wp-load.php:50
+[20-Nov-2022 18:23:59 UTC] PHP   4. require_once() C:\Users\ACER\Documents\IT9\Local\magalhes-sipert-sociedade-de-advogados\app\public\wp-config.php:94
+[20-Nov-2022 18:23:59 UTC] PHP   5. do_action() C:\Users\ACER\Documents\IT9\Local\magalhes-sipert-sociedade-de-advogados\app\public\wp-settings.php:598
+[20-Nov-2022 18:23:59 UTC] PHP   6. WP_Hook->do_action() C:\Users\ACER\Documents\IT9\Local\magalhes-sipert-sociedade-de-advogados\app\public\wp-includes\plugin.php:476
+[20-Nov-2022 18:23:59 UTC] PHP   7. WP_Hook->apply_filters() C:\Users\ACER\Documents\IT9\Local\magalhes-sipert-sociedade-de-advogados\app\public\wp-includes\class-wp-hook.php:331
+[20-Nov-2022 18:24:01 UTC] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, function 'it9_mslaw_register_post_type_services' not found or invalid function name in C:\Users\ACER\Documents\IT9\Local\magalhes-sipert-sociedade-de-advogados\app\public\wp-includes\class-wp-hook.php on line 307
+[20-Nov-2022 18:24:01 UTC] PHP Stack trace:
+[20-Nov-2022 18:24:01 UTC] PHP   1. {main}() C:\Users\ACER\Documents\IT9\Local\magalhes-sipert-sociedade-de-advogados\app\public\wp-admin\post.php:0
+[20-Nov-2022 18:24:01 UTC] PHP   2. require_once() C:\Users\ACER\Documents\IT9\Local\magalhes-sipert-sociedade-de-advogados\app\public\wp-admin\post.php:12
+[20-Nov-2022 18:24:01 UTC] PHP   3. require_once() C:\Users\ACER\Documents\IT9\Local\magalhes-sipert-sociedade-de-advogados\app\public\wp-admin\admin.php:34
+[20-Nov-2022 18:24:01 UTC] PHP   4. require_once() C:\Users\ACER\Documents\IT9\Local\magalhes-sipert-sociedade-de-advogados\app\public\wp-load.php:50
+[20-Nov-2022 18:24:01 UTC] PHP   5. require_once() C:\Users\ACER\Documents\IT9\Local\magalhes-sipert-sociedade-de-advogados\app\public\wp-config.php:94
+[20-Nov-2022 18:24:01 UTC] PHP   6. do_action() C:\Users\ACER\Documents\IT9\Local\magalhes-sipert-sociedade-de-advogados\app\public\wp-settings.php:598
+[20-Nov-2022 18:24:01 UTC] PHP   7. WP_Hook->do_action() C:\Users\ACER\Documents\IT9\Local\magalhes-sipert-sociedade-de-advogados\app\public\wp-includes\plugin.php:476
+[20-Nov-2022 18:24:01 UTC] PHP   8. WP_Hook->apply_filters() C:\Users\ACER\Documents\IT9\Local\magalhes-sipert-sociedade-de-advogados\app\public\wp-includes\class-wp-hook.php:331
+[20-Nov-2022 18:24:01 UTC] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, function 'it9_mslaw_register_post_type_services' not found or invalid function name in C:\Users\ACER\Documents\IT9\Local\magalhes-sipert-sociedade-de-advogados\app\public\wp-includes\class-wp-hook.php on line 307
+[20-Nov-2022 18:24:01 UTC] PHP Stack trace:
+[20-Nov-2022 18:24:01 UTC] PHP   1. {main}() C:\Users\ACER\Documents\IT9\Local\magalhes-sipert-sociedade-de-advogados\app\public\wp-admin\post.php:0
+[20-Nov-2022 18:24:01 UTC] PHP   2. require_once() C:\Users\ACER\Documents\IT9\Local\magalhes-sipert-sociedade-de-advogados\app\public\wp-admin\post.php:12
+[20-Nov-2022 18:24:01 UTC] PHP   3. require_once() C:\Users\ACER\Documents\IT9\Local\magalhes-sipert-sociedade-de-advogados\app\public\wp-admin\admin.php:34
+[20-Nov-2022 18:24:01 UTC] PHP   4. require_once() C:\Users\ACER\Documents\IT9\Local\magalhes-sipert-sociedade-de-advogados\app\public\wp-load.php:50
+[20-Nov-2022 18:24:01 UTC] PHP   5. require_once() C:\Users\ACER\Documents\IT9\Local\magalhes-sipert-sociedade-de-advogados\app\public\wp-config.php:94
+[20-Nov-2022 18:24:01 UTC] PHP   6. do_action() C:\Users\ACER\Documents\IT9\Local\magalhes-sipert-sociedade-de-advogados\app\public\wp-settings.php:598
+[20-Nov-2022 18:24:01 UTC] PHP   7. WP_Hook->do_action() C:\Users\ACER\Documents\IT9\Local\magalhes-sipert-sociedade-de-advogados\app\public\wp-includes\plugin.php:476
+[20-Nov-2022 18:24:01 UTC] PHP   8. WP_Hook->apply_filters() C:\Users\ACER\Documents\IT9\Local\magalhes-sipert-sociedade-de-advogados\app\public\wp-includes\class-wp-hook.php:331
+[20-Nov-2022 18:24:01 UTC] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, function 'it9_mslaw_register_post_type_services' not found or invalid function name in C:\Users\ACER\Documents\IT9\Local\magalhes-sipert-sociedade-de-advogados\app\public\wp-includes\class-wp-hook.php on line 307
+[20-Nov-2022 18:24:01 UTC] PHP Stack trace:
+[20-Nov-2022 18:24:01 UTC] PHP   1. {main}() C:\Users\ACER\Documents\IT9\Local\magalhes-sipert-sociedade-de-advogados\app\public\wp-admin\admin-ajax.php:0
+[20-Nov-2022 18:24:01 UTC] PHP   2. require_once() C:\Users\ACER\Documents\IT9\Local\magalhes-sipert-sociedade-de-advogados\app\public\wp-admin\admin-ajax.php:22
+[20-Nov-2022 18:24:01 UTC] PHP   3. require_once() C:\Users\ACER\Documents\IT9\Local\magalhes-sipert-sociedade-de-advogados\app\public\wp-load.php:50
+[20-Nov-2022 18:24:01 UTC] PHP   4. require_once() C:\Users\ACER\Documents\IT9\Local\magalhes-sipert-sociedade-de-advogados\app\public\wp-config.php:94
+[20-Nov-2022 18:24:01 UTC] PHP   5. do_action() C:\Users\ACER\Documents\IT9\Local\magalhes-sipert-sociedade-de-advogados\app\public\wp-settings.php:598
+[20-Nov-2022 18:24:01 UTC] PHP   6. WP_Hook->do_action() C:\Users\ACER\Documents\IT9\Local\magalhes-sipert-sociedade-de-advogados\app\public\wp-includes\plugin.php:476
+[20-Nov-2022 18:24:01 UTC] PHP   7. WP_Hook->apply_filters() C:\Users\ACER\Documents\IT9\Local\magalhes-sipert-sociedade-de-advogados\app\public\wp-includes\class-wp-hook.php:331
+[20-Nov-2022 18:24:04 UTC] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, function 'it9_mslaw_register_post_type_services' not found or invalid function name in C:\Users\ACER\Documents\IT9\Local\magalhes-sipert-sociedade-de-advogados\app\public\wp-includes\class-wp-hook.php on line 307
+[20-Nov-2022 18:24:04 UTC] PHP Stack trace:
+[20-Nov-2022 18:24:04 UTC] PHP   1. {main}() C:\Users\ACER\Documents\IT9\Local\magalhes-sipert-sociedade-de-advogados\app\public\index.php:0
+[20-Nov-2022 18:24:04 UTC] PHP   2. require() C:\Users\ACER\Documents\IT9\Local\magalhes-sipert-sociedade-de-advogados\app\public\index.php:17
+[20-Nov-2022 18:24:04 UTC] PHP   3. require_once() C:\Users\ACER\Documents\IT9\Local\magalhes-sipert-sociedade-de-advogados\app\public\wp-blog-header.php:13
+[20-Nov-2022 18:24:04 UTC] PHP   4. require_once() C:\Users\ACER\Documents\IT9\Local\magalhes-sipert-sociedade-de-advogados\app\public\wp-load.php:50
+[20-Nov-2022 18:24:04 UTC] PHP   5. require_once() C:\Users\ACER\Documents\IT9\Local\magalhes-sipert-sociedade-de-advogados\app\public\wp-config.php:94
+[20-Nov-2022 18:24:04 UTC] PHP   6. do_action() C:\Users\ACER\Documents\IT9\Local\magalhes-sipert-sociedade-de-advogados\app\public\wp-settings.php:598
+[20-Nov-2022 18:24:04 UTC] PHP   7. WP_Hook->do_action() C:\Users\ACER\Documents\IT9\Local\magalhes-sipert-sociedade-de-advogados\app\public\wp-includes\plugin.php:476
+[20-Nov-2022 18:24:04 UTC] PHP   8. WP_Hook->apply_filters() C:\Users\ACER\Documents\IT9\Local\magalhes-sipert-sociedade-de-advogados\app\public\wp-includes\class-wp-hook.php:331
+[20-Nov-2022 18:24:07 UTC] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, function 'it9_mslaw_register_post_type_services' not found or invalid function name in C:\Users\ACER\Documents\IT9\Local\magalhes-sipert-sociedade-de-advogados\app\public\wp-includes\class-wp-hook.php on line 307
+[20-Nov-2022 18:24:07 UTC] PHP Stack trace:
+[20-Nov-2022 18:24:07 UTC] PHP   1. {main}() C:\Users\ACER\Documents\IT9\Local\magalhes-sipert-sociedade-de-advogados\app\public\index.php:0
+[20-Nov-2022 18:24:07 UTC] PHP   2. require() C:\Users\ACER\Documents\IT9\Local\magalhes-sipert-sociedade-de-advogados\app\public\index.php:17
+[20-Nov-2022 18:24:07 UTC] PHP   3. require_once() C:\Users\ACER\Documents\IT9\Local\magalhes-sipert-sociedade-de-advogados\app\public\wp-blog-header.php:13
+[20-Nov-2022 18:24:07 UTC] PHP   4. require_once() C:\Users\ACER\Documents\IT9\Local\magalhes-sipert-sociedade-de-advogados\app\public\wp-load.php:50
+[20-Nov-2022 18:24:07 UTC] PHP   5. require_once() C:\Users\ACER\Documents\IT9\Local\magalhes-sipert-sociedade-de-advogados\app\public\wp-config.php:94
+[20-Nov-2022 18:24:07 UTC] PHP   6. do_action() C:\Users\ACER\Documents\IT9\Local\magalhes-sipert-sociedade-de-advogados\app\public\wp-settings.php:598
+[20-Nov-2022 18:24:07 UTC] PHP   7. WP_Hook->do_action() C:\Users\ACER\Documents\IT9\Local\magalhes-sipert-sociedade-de-advogados\app\public\wp-includes\plugin.php:476
+[20-Nov-2022 18:24:07 UTC] PHP   8. WP_Hook->apply_filters() C:\Users\ACER\Documents\IT9\Local\magalhes-sipert-sociedade-de-advogados\app\public\wp-includes\class-wp-hook.php:331
+[20-Nov-2022 18:24:07 UTC] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, function 'it9_mslaw_register_post_type_services' not found or invalid function name in C:\Users\ACER\Documents\IT9\Local\magalhes-sipert-sociedade-de-advogados\app\public\wp-includes\class-wp-hook.php on line 307
+[20-Nov-2022 18:24:07 UTC] PHP Stack trace:
+[20-Nov-2022 18:24:07 UTC] PHP   1. {main}() C:\Users\ACER\Documents\IT9\Local\magalhes-sipert-sociedade-de-advogados\app\public\index.php:0
+[20-Nov-2022 18:24:07 UTC] PHP   2. require() C:\Users\ACER\Documents\IT9\Local\magalhes-sipert-sociedade-de-advogados\app\public\index.php:17
+[20-Nov-2022 18:24:07 UTC] PHP   3. require_once() C:\Users\ACER\Documents\IT9\Local\magalhes-sipert-sociedade-de-advogados\app\public\wp-blog-header.php:13
+[20-Nov-2022 18:24:07 UTC] PHP   4. require_once() C:\Users\ACER\Documents\IT9\Local\magalhes-sipert-sociedade-de-advogados\app\public\wp-load.php:50
+[20-Nov-2022 18:24:07 UTC] PHP   5. require_once() C:\Users\ACER\Documents\IT9\Local\magalhes-sipert-sociedade-de-advogados\app\public\wp-config.php:94
+[20-Nov-2022 18:24:07 UTC] PHP   6. do_action() C:\Users\ACER\Documents\IT9\Local\magalhes-sipert-sociedade-de-advogados\app\public\wp-settings.php:598
+[20-Nov-2022 18:24:07 UTC] PHP   7. WP_Hook->do_action() C:\Users\ACER\Documents\IT9\Local\magalhes-sipert-sociedade-de-advogados\app\public\wp-includes\plugin.php:476
+[20-Nov-2022 18:24:07 UTC] PHP   8. WP_Hook->apply_filters() C:\Users\ACER\Documents\IT9\Local\magalhes-sipert-sociedade-de-advogados\app\public\wp-includes\class-wp-hook.php:331
+[20-Nov-2022 18:24:11 UTC] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, function 'it9_mslaw_register_post_type_services' not found or invalid function name in C:\Users\ACER\Documents\IT9\Local\magalhes-sipert-sociedade-de-advogados\app\public\wp-includes\class-wp-hook.php on line 307
+[20-Nov-2022 18:24:11 UTC] PHP Stack trace:
+[20-Nov-2022 18:24:11 UTC] PHP   1. {main}() C:\Users\ACER\Documents\IT9\Local\magalhes-sipert-sociedade-de-advogados\app\public\wp-admin\themes.php:0
+[20-Nov-2022 18:24:11 UTC] PHP   2. require_once() C:\Users\ACER\Documents\IT9\Local\magalhes-sipert-sociedade-de-advogados\app\public\wp-admin\themes.php:10
+[20-Nov-2022 18:24:11 UTC] PHP   3. require_once() C:\Users\ACER\Documents\IT9\Local\magalhes-sipert-sociedade-de-advogados\app\public\wp-admin\admin.php:34
+[20-Nov-2022 18:24:11 UTC] PHP   4. require_once() C:\Users\ACER\Documents\IT9\Local\magalhes-sipert-sociedade-de-advogados\app\public\wp-load.php:50
+[20-Nov-2022 18:24:11 UTC] PHP   5. require_once() C:\Users\ACER\Documents\IT9\Local\magalhes-sipert-sociedade-de-advogados\app\public\wp-config.php:94
+[20-Nov-2022 18:24:11 UTC] PHP   6. do_action() C:\Users\ACER\Documents\IT9\Local\magalhes-sipert-sociedade-de-advogados\app\public\wp-settings.php:598
+[20-Nov-2022 18:24:11 UTC] PHP   7. WP_Hook->do_action() C:\Users\ACER\Documents\IT9\Local\magalhes-sipert-sociedade-de-advogados\app\public\wp-includes\plugin.php:476
+[20-Nov-2022 18:24:11 UTC] PHP   8. WP_Hook->apply_filters() C:\Users\ACER\Documents\IT9\Local\magalhes-sipert-sociedade-de-advogados\app\public\wp-includes\class-wp-hook.php:331
+[20-Nov-2022 18:24:12 UTC] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, function 'it9_mslaw_register_post_type_services' not found or invalid function name in C:\Users\ACER\Documents\IT9\Local\magalhes-sipert-sociedade-de-advogados\app\public\wp-includes\class-wp-hook.php on line 307
+[20-Nov-2022 18:24:12 UTC] PHP Stack trace:
+[20-Nov-2022 18:24:12 UTC] PHP   1. {main}() C:\Users\ACER\Documents\IT9\Local\magalhes-sipert-sociedade-de-advogados\app\public\wp-admin\admin-ajax.php:0
+[20-Nov-2022 18:24:12 UTC] PHP   2. require_once() C:\Users\ACER\Documents\IT9\Local\magalhes-sipert-sociedade-de-advogados\app\public\wp-admin\admin-ajax.php:22
+[20-Nov-2022 18:24:12 UTC] PHP   3. require_once() C:\Users\ACER\Documents\IT9\Local\magalhes-sipert-sociedade-de-advogados\app\public\wp-load.php:50
+[20-Nov-2022 18:24:12 UTC] PHP   4. require_once() C:\Users\ACER\Documents\IT9\Local\magalhes-sipert-sociedade-de-advogados\app\public\wp-config.php:94
+[20-Nov-2022 18:24:12 UTC] PHP   5. do_action() C:\Users\ACER\Documents\IT9\Local\magalhes-sipert-sociedade-de-advogados\app\public\wp-settings.php:598
+[20-Nov-2022 18:24:12 UTC] PHP   6. WP_Hook->do_action() C:\Users\ACER\Documents\IT9\Local\magalhes-sipert-sociedade-de-advogados\app\public\wp-includes\plugin.php:476
+[20-Nov-2022 18:24:12 UTC] PHP   7. WP_Hook->apply_filters() C:\Users\ACER\Documents\IT9\Local\magalhes-sipert-sociedade-de-advogados\app\public\wp-includes\class-wp-hook.php:331
+[20-Nov-2022 18:24:13 UTC] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, function 'it9_mslaw_register_post_type_services' not found or invalid function name in C:\Users\ACER\Documents\IT9\Local\magalhes-sipert-sociedade-de-advogados\app\public\wp-includes\class-wp-hook.php on line 307
+[20-Nov-2022 18:24:13 UTC] PHP Stack trace:
+[20-Nov-2022 18:24:13 UTC] PHP   1. {main}() C:\Users\ACER\Documents\IT9\Local\magalhes-sipert-sociedade-de-advogados\app\public\wp-admin\themes.php:0
+[20-Nov-2022 18:24:13 UTC] PHP   2. require_once() C:\Users\ACER\Documents\IT9\Local\magalhes-sipert-sociedade-de-advogados\app\public\wp-admin\themes.php:10
+[20-Nov-2022 18:24:13 UTC] PHP   3. require_once() C:\Users\ACER\Documents\IT9\Local\magalhes-sipert-sociedade-de-advogados\app\public\wp-admin\admin.php:34
+[20-Nov-2022 18:24:13 UTC] PHP   4. require_once() C:\Users\ACER\Documents\IT9\Local\magalhes-sipert-sociedade-de-advogados\app\public\wp-load.php:50
+[20-Nov-2022 18:24:13 UTC] PHP   5. require_once() C:\Users\ACER\Documents\IT9\Local\magalhes-sipert-sociedade-de-advogados\app\public\wp-config.php:94
+[20-Nov-2022 18:24:13 UTC] PHP   6. do_action() C:\Users\ACER\Documents\IT9\Local\magalhes-sipert-sociedade-de-advogados\app\public\wp-settings.php:598
+[20-Nov-2022 18:24:13 UTC] PHP   7. WP_Hook->do_action() C:\Users\ACER\Documents\IT9\Local\magalhes-sipert-sociedade-de-advogados\app\public\wp-includes\plugin.php:476
+[20-Nov-2022 18:24:13 UTC] PHP   8. WP_Hook->apply_filters() C:\Users\ACER\Documents\IT9\Local\magalhes-sipert-sociedade-de-advogados\app\public\wp-includes\class-wp-hook.php:331
+[20-Nov-2022 18:24:15 UTC] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, function 'it9_mslaw_register_post_type_services' not found or invalid function name in C:\Users\ACER\Documents\IT9\Local\magalhes-sipert-sociedade-de-advogados\app\public\wp-includes\class-wp-hook.php on line 307
+[20-Nov-2022 18:24:15 UTC] PHP Stack trace:
+[20-Nov-2022 18:24:15 UTC] PHP   1. {main}() C:\Users\ACER\Documents\IT9\Local\magalhes-sipert-sociedade-de-advogados\app\public\wp-admin\themes.php:0
+[20-Nov-2022 18:24:15 UTC] PHP   2. require_once() C:\Users\ACER\Documents\IT9\Local\magalhes-sipert-sociedade-de-advogados\app\public\wp-admin\themes.php:10
+[20-Nov-2022 18:24:15 UTC] PHP   3. require_once() C:\Users\ACER\Documents\IT9\Local\magalhes-sipert-sociedade-de-advogados\app\public\wp-admin\admin.php:34
+[20-Nov-2022 18:24:15 UTC] PHP   4. require_once() C:\Users\ACER\Documents\IT9\Local\magalhes-sipert-sociedade-de-advogados\app\public\wp-load.php:50
+[20-Nov-2022 18:24:15 UTC] PHP   5. require_once() C:\Users\ACER\Documents\IT9\Local\magalhes-sipert-sociedade-de-advogados\app\public\wp-config.php:94
+[20-Nov-2022 18:24:15 UTC] PHP   6. do_action() C:\Users\ACER\Documents\IT9\Local\magalhes-sipert-sociedade-de-advogados\app\public\wp-settings.php:598
+[20-Nov-2022 18:24:15 UTC] PHP   7. WP_Hook->do_action() C:\Users\ACER\Documents\IT9\Local\magalhes-sipert-sociedade-de-advogados\app\public\wp-includes\plugin.php:476
+[20-Nov-2022 18:24:15 UTC] PHP   8. WP_Hook->apply_filters() C:\Users\ACER\Documents\IT9\Local\magalhes-sipert-sociedade-de-advogados\app\public\wp-includes\class-wp-hook.php:331
+[20-Nov-2022 18:24:17 UTC] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, function 'it9_mslaw_register_post_type_services' not found or invalid function name in C:\Users\ACER\Documents\IT9\Local\magalhes-sipert-sociedade-de-advogados\app\public\wp-includes\class-wp-hook.php on line 307
+[20-Nov-2022 18:24:17 UTC] PHP Stack trace:
+[20-Nov-2022 18:24:17 UTC] PHP   1. {main}() C:\Users\ACER\Documents\IT9\Local\magalhes-sipert-sociedade-de-advogados\app\public\index.php:0
+[20-Nov-2022 18:24:17 UTC] PHP   2. require() C:\Users\ACER\Documents\IT9\Local\magalhes-sipert-sociedade-de-advogados\app\public\index.php:17
+[20-Nov-2022 18:24:17 UTC] PHP   3. require_once() C:\Users\ACER\Documents\IT9\Local\magalhes-sipert-sociedade-de-advogados\app\public\wp-blog-header.php:13
+[20-Nov-2022 18:24:17 UTC] PHP   4. require_once() C:\Users\ACER\Documents\IT9\Local\magalhes-sipert-sociedade-de-advogados\app\public\wp-load.php:50
+[20-Nov-2022 18:24:17 UTC] PHP   5. require_once() C:\Users\ACER\Documents\IT9\Local\magalhes-sipert-sociedade-de-advogados\app\public\wp-config.php:94
+[20-Nov-2022 18:24:17 UTC] PHP   6. do_action() C:\Users\ACER\Documents\IT9\Local\magalhes-sipert-sociedade-de-advogados\app\public\wp-settings.php:598
+[20-Nov-2022 18:24:17 UTC] PHP   7. WP_Hook->do_action() C:\Users\ACER\Documents\IT9\Local\magalhes-sipert-sociedade-de-advogados\app\public\wp-includes\plugin.php:476
+[20-Nov-2022 18:24:17 UTC] PHP   8. WP_Hook->apply_filters() C:\Users\ACER\Documents\IT9\Local\magalhes-sipert-sociedade-de-advogados\app\public\wp-includes\class-wp-hook.php:331
+[20-Nov-2022 18:24:18 UTC] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, function 'it9_mslaw_register_post_type_services' not found or invalid function name in C:\Users\ACER\Documents\IT9\Local\magalhes-sipert-sociedade-de-advogados\app\public\wp-includes\class-wp-hook.php on line 307
+[20-Nov-2022 18:24:18 UTC] PHP Stack trace:
+[20-Nov-2022 18:24:18 UTC] PHP   1. {main}() C:\Users\ACER\Documents\IT9\Local\magalhes-sipert-sociedade-de-advogados\app\public\index.php:0
+[20-Nov-2022 18:24:18 UTC] PHP   2. require() C:\Users\ACER\Documents\IT9\Local\magalhes-sipert-sociedade-de-advogados\app\public\index.php:17
+[20-Nov-2022 18:24:18 UTC] PHP   3. require_once() C:\Users\ACER\Documents\IT9\Local\magalhes-sipert-sociedade-de-advogados\app\public\wp-blog-header.php:13
+[20-Nov-2022 18:24:18 UTC] PHP   4. require_once() C:\Users\ACER\Documents\IT9\Local\magalhes-sipert-sociedade-de-advogados\app\public\wp-load.php:50
+[20-Nov-2022 18:24:18 UTC] PHP   5. require_once() C:\Users\ACER\Documents\IT9\Local\magalhes-sipert-sociedade-de-advogados\app\public\wp-config.php:94
+[20-Nov-2022 18:24:18 UTC] PHP   6. do_action() C:\Users\ACER\Documents\IT9\Local\magalhes-sipert-sociedade-de-advogados\app\public\wp-settings.php:598
+[20-Nov-2022 18:24:18 UTC] PHP   7. WP_Hook->do_action() C:\Users\ACER\Documents\IT9\Local\magalhes-sipert-sociedade-de-advogados\app\public\wp-includes\plugin.php:476
+[20-Nov-2022 18:24:18 UTC] PHP   8. WP_Hook->apply_filters() C:\Users\ACER\Documents\IT9\Local\magalhes-sipert-sociedade-de-advogados\app\public\wp-includes\class-wp-hook.php:331
+[20-Nov-2022 18:24:51 UTC] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, function 'it9_mslaw_register_post_type_services' not found or invalid function name in C:\Users\ACER\Documents\IT9\Local\magalhes-sipert-sociedade-de-advogados\app\public\wp-includes\class-wp-hook.php on line 307
+[20-Nov-2022 18:24:51 UTC] PHP Stack trace:
+[20-Nov-2022 18:24:51 UTC] PHP   1. {main}() C:\Users\ACER\Documents\IT9\Local\magalhes-sipert-sociedade-de-advogados\app\public\wp-admin\edit.php:0
+[20-Nov-2022 18:24:51 UTC] PHP   2. require_once() C:\Users\ACER\Documents\IT9\Local\magalhes-sipert-sociedade-de-advogados\app\public\wp-admin\edit.php:10
+[20-Nov-2022 18:24:51 UTC] PHP   3. require_once() C:\Users\ACER\Documents\IT9\Local\magalhes-sipert-sociedade-de-advogados\app\public\wp-admin\admin.php:34
+[20-Nov-2022 18:24:51 UTC] PHP   4. require_once() C:\Users\ACER\Documents\IT9\Local\magalhes-sipert-sociedade-de-advogados\app\public\wp-load.php:50
+[20-Nov-2022 18:24:51 UTC] PHP   5. require_once() C:\Users\ACER\Documents\IT9\Local\magalhes-sipert-sociedade-de-advogados\app\public\wp-config.php:94
+[20-Nov-2022 18:24:51 UTC] PHP   6. do_action() C:\Users\ACER\Documents\IT9\Local\magalhes-sipert-sociedade-de-advogados\app\public\wp-settings.php:598
+[20-Nov-2022 18:24:51 UTC] PHP   7. WP_Hook->do_action() C:\Users\ACER\Documents\IT9\Local\magalhes-sipert-sociedade-de-advogados\app\public\wp-includes\plugin.php:476
+[20-Nov-2022 18:24:51 UTC] PHP   8. WP_Hook->apply_filters() C:\Users\ACER\Documents\IT9\Local\magalhes-sipert-sociedade-de-advogados\app\public\wp-includes\class-wp-hook.php:331
+[20-Nov-2022 18:24:51 UTC] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, function 'it9_mslaw_register_post_type_services' not found or invalid function name in C:\Users\ACER\Documents\IT9\Local\magalhes-sipert-sociedade-de-advogados\app\public\wp-includes\class-wp-hook.php on line 307
+[20-Nov-2022 18:24:51 UTC] PHP Stack trace:
+[20-Nov-2022 18:24:51 UTC] PHP   1. {main}() C:\Users\ACER\Documents\IT9\Local\magalhes-sipert-sociedade-de-advogados\app\public\wp-admin\admin-ajax.php:0
+[20-Nov-2022 18:24:51 UTC] PHP   2. require_once() C:\Users\ACER\Documents\IT9\Local\magalhes-sipert-sociedade-de-advogados\app\public\wp-admin\admin-ajax.php:22
+[20-Nov-2022 18:24:51 UTC] PHP   3. require_once() C:\Users\ACER\Documents\IT9\Local\magalhes-sipert-sociedade-de-advogados\app\public\wp-load.php:50
+[20-Nov-2022 18:24:51 UTC] PHP   4. require_once() C:\Users\ACER\Documents\IT9\Local\magalhes-sipert-sociedade-de-advogados\app\public\wp-config.php:94
+[20-Nov-2022 18:24:51 UTC] PHP   5. do_action() C:\Users\ACER\Documents\IT9\Local\magalhes-sipert-sociedade-de-advogados\app\public\wp-settings.php:598
+[20-Nov-2022 18:24:51 UTC] PHP   6. WP_Hook->do_action() C:\Users\ACER\Documents\IT9\Local\magalhes-sipert-sociedade-de-advogados\app\public\wp-includes\plugin.php:476
+[20-Nov-2022 18:24:51 UTC] PHP   7. WP_Hook->apply_filters() C:\Users\ACER\Documents\IT9\Local\magalhes-sipert-sociedade-de-advogados\app\public\wp-includes\class-wp-hook.php:331
+[20-Nov-2022 18:24:55 UTC] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, function 'it9_mslaw_register_post_type_services' not found or invalid function name in C:\Users\ACER\Documents\IT9\Local\magalhes-sipert-sociedade-de-advogados\app\public\wp-includes\class-wp-hook.php on line 307
+[20-Nov-2022 18:24:55 UTC] PHP Stack trace:
+[20-Nov-2022 18:24:55 UTC] PHP   1. {main}() C:\Users\ACER\Documents\IT9\Local\magalhes-sipert-sociedade-de-advogados\app\public\index.php:0
+[20-Nov-2022 18:24:55 UTC] PHP   2. require() C:\Users\ACER\Documents\IT9\Local\magalhes-sipert-sociedade-de-advogados\app\public\index.php:17
+[20-Nov-2022 18:24:55 UTC] PHP   3. require_once() C:\Users\ACER\Documents\IT9\Local\magalhes-sipert-sociedade-de-advogados\app\public\wp-blog-header.php:13
+[20-Nov-2022 18:24:55 UTC] PHP   4. require_once() C:\Users\ACER\Documents\IT9\Local\magalhes-sipert-sociedade-de-advogados\app\public\wp-load.php:50
+[20-Nov-2022 18:24:55 UTC] PHP   5. require_once() C:\Users\ACER\Documents\IT9\Local\magalhes-sipert-sociedade-de-advogados\app\public\wp-config.php:94
+[20-Nov-2022 18:24:55 UTC] PHP   6. do_action() C:\Users\ACER\Documents\IT9\Local\magalhes-sipert-sociedade-de-advogados\app\public\wp-settings.php:598
+[20-Nov-2022 18:24:55 UTC] PHP   7. WP_Hook->do_action() C:\Users\ACER\Documents\IT9\Local\magalhes-sipert-sociedade-de-advogados\app\public\wp-includes\plugin.php:476
+[20-Nov-2022 18:24:55 UTC] PHP   8. WP_Hook->apply_filters() C:\Users\ACER\Documents\IT9\Local\magalhes-sipert-sociedade-de-advogados\app\public\wp-includes\class-wp-hook.php:331
+[20-Nov-2022 18:25:01 UTC] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, function 'it9_mslaw_register_post_type_services' not found or invalid function name in C:\Users\ACER\Documents\IT9\Local\magalhes-sipert-sociedade-de-advogados\app\public\wp-includes\class-wp-hook.php on line 307
+[20-Nov-2022 18:25:01 UTC] PHP Stack trace:
+[20-Nov-2022 18:25:01 UTC] PHP   1. {main}() C:\Users\ACER\Documents\IT9\Local\magalhes-sipert-sociedade-de-advogados\app\public\wp-admin\edit.php:0
+[20-Nov-2022 18:25:01 UTC] PHP   2. require_once() C:\Users\ACER\Documents\IT9\Local\magalhes-sipert-sociedade-de-advogados\app\public\wp-admin\edit.php:10
+[20-Nov-2022 18:25:01 UTC] PHP   3. require_once() C:\Users\ACER\Documents\IT9\Local\magalhes-sipert-sociedade-de-advogados\app\public\wp-admin\admin.php:34
+[20-Nov-2022 18:25:01 UTC] PHP   4. require_once() C:\Users\ACER\Documents\IT9\Local\magalhes-sipert-sociedade-de-advogados\app\public\wp-load.php:50
+[20-Nov-2022 18:25:01 UTC] PHP   5. require_once() C:\Users\ACER\Documents\IT9\Local\magalhes-sipert-sociedade-de-advogados\app\public\wp-config.php:94
+[20-Nov-2022 18:25:01 UTC] PHP   6. do_action() C:\Users\ACER\Documents\IT9\Local\magalhes-sipert-sociedade-de-advogados\app\public\wp-settings.php:598
+[20-Nov-2022 18:25:01 UTC] PHP   7. WP_Hook->do_action() C:\Users\ACER\Documents\IT9\Local\magalhes-sipert-sociedade-de-advogados\app\public\wp-includes\plugin.php:476
+[20-Nov-2022 18:25:01 UTC] PHP   8. WP_Hook->apply_filters() C:\Users\ACER\Documents\IT9\Local\magalhes-sipert-sociedade-de-advogados\app\public\wp-includes\class-wp-hook.php:331
+[20-Nov-2022 18:25:01 UTC] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, function 'it9_mslaw_register_post_type_services' not found or invalid function name in C:\Users\ACER\Documents\IT9\Local\magalhes-sipert-sociedade-de-advogados\app\public\wp-includes\class-wp-hook.php on line 307
+[20-Nov-2022 18:25:01 UTC] PHP Stack trace:
+[20-Nov-2022 18:25:01 UTC] PHP   1. {main}() C:\Users\ACER\Documents\IT9\Local\magalhes-sipert-sociedade-de-advogados\app\public\wp-admin\admin-ajax.php:0
+[20-Nov-2022 18:25:01 UTC] PHP   2. require_once() C:\Users\ACER\Documents\IT9\Local\magalhes-sipert-sociedade-de-advogados\app\public\wp-admin\admin-ajax.php:22
+[20-Nov-2022 18:25:01 UTC] PHP   3. require_once() C:\Users\ACER\Documents\IT9\Local\magalhes-sipert-sociedade-de-advogados\app\public\wp-load.php:50
+[20-Nov-2022 18:25:01 UTC] PHP   4. require_once() C:\Users\ACER\Documents\IT9\Local\magalhes-sipert-sociedade-de-advogados\app\public\wp-config.php:94
+[20-Nov-2022 18:25:01 UTC] PHP   5. do_action() C:\Users\ACER\Documents\IT9\Local\magalhes-sipert-sociedade-de-advogados\app\public\wp-settings.php:598
+[20-Nov-2022 18:25:01 UTC] PHP   6. WP_Hook->do_action() C:\Users\ACER\Documents\IT9\Local\magalhes-sipert-sociedade-de-advogados\app\public\wp-includes\plugin.php:476
+[20-Nov-2022 18:25:01 UTC] PHP   7. WP_Hook->apply_filters() C:\Users\ACER\Documents\IT9\Local\magalhes-sipert-sociedade-de-advogados\app\public\wp-includes\class-wp-hook.php:331
+[20-Nov-2022 18:25:01 UTC] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, function 'it9_mslaw_register_post_type_services' not found or invalid function name in C:\Users\ACER\Documents\IT9\Local\magalhes-sipert-sociedade-de-advogados\app\public\wp-includes\class-wp-hook.php on line 307
+[20-Nov-2022 18:25:01 UTC] PHP Stack trace:
+[20-Nov-2022 18:25:01 UTC] PHP   1. {main}() C:\Users\ACER\Documents\IT9\Local\magalhes-sipert-sociedade-de-advogados\app\public\index.php:0
+[20-Nov-2022 18:25:01 UTC] PHP   2. require() C:\Users\ACER\Documents\IT9\Local\magalhes-sipert-sociedade-de-advogados\app\public\index.php:17
+[20-Nov-2022 18:25:01 UTC] PHP   3. require_once() C:\Users\ACER\Documents\IT9\Local\magalhes-sipert-sociedade-de-advogados\app\public\wp-blog-header.php:13
+[20-Nov-2022 18:25:01 UTC] PHP   4. require_once() C:\Users\ACER\Documents\IT9\Local\magalhes-sipert-sociedade-de-advogados\app\public\wp-load.php:50
+[20-Nov-2022 18:25:01 UTC] PHP   5. require_once() C:\Users\ACER\Documents\IT9\Local\magalhes-sipert-sociedade-de-advogados\app\public\wp-config.php:94
+[20-Nov-2022 18:25:01 UTC] PHP   6. do_action() C:\Users\ACER\Documents\IT9\Local\magalhes-sipert-sociedade-de-advogados\app\public\wp-settings.php:598
+[20-Nov-2022 18:25:01 UTC] PHP   7. WP_Hook->do_action() C:\Users\ACER\Documents\IT9\Local\magalhes-sipert-sociedade-de-advogados\app\public\wp-includes\plugin.php:476
+[20-Nov-2022 18:25:01 UTC] PHP   8. WP_Hook->apply_filters() C:\Users\ACER\Documents\IT9\Local\magalhes-sipert-sociedade-de-advogados\app\public\wp-includes\class-wp-hook.php:331
+[20-Nov-2022 18:25:17 UTC] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, function 'it9_mslaw_register_post_type_services' not found or invalid function name in C:\Users\ACER\Documents\IT9\Local\magalhes-sipert-sociedade-de-advogados\app\public\wp-includes\class-wp-hook.php on line 307
+[20-Nov-2022 18:25:17 UTC] PHP Stack trace:
+[20-Nov-2022 18:25:17 UTC] PHP   1. {main}() C:\Users\ACER\Documents\IT9\Local\magalhes-sipert-sociedade-de-advogados\app\public\wp-admin\admin-ajax.php:0
+[20-Nov-2022 18:25:17 UTC] PHP   2. require_once() C:\Users\ACER\Documents\IT9\Local\magalhes-sipert-sociedade-de-advogados\app\public\wp-admin\admin-ajax.php:22
+[20-Nov-2022 18:25:17 UTC] PHP   3. require_once() C:\Users\ACER\Documents\IT9\Local\magalhes-sipert-sociedade-de-advogados\app\public\wp-load.php:50
+[20-Nov-2022 18:25:17 UTC] PHP   4. require_once() C:\Users\ACER\Documents\IT9\Local\magalhes-sipert-sociedade-de-advogados\app\public\wp-config.php:94
+[20-Nov-2022 18:25:17 UTC] PHP   5. do_action() C:\Users\ACER\Documents\IT9\Local\magalhes-sipert-sociedade-de-advogados\app\public\wp-settings.php:598
+[20-Nov-2022 18:25:17 UTC] PHP   6. WP_Hook->do_action() C:\Users\ACER\Documents\IT9\Local\magalhes-sipert-sociedade-de-advogados\app\public\wp-includes\plugin.php:476
+[20-Nov-2022 18:25:17 UTC] PHP   7. WP_Hook->apply_filters() C:\Users\ACER\Documents\IT9\Local\magalhes-sipert-sociedade-de-advogados\app\public\wp-includes\class-wp-hook.php:331
+[20-Nov-2022 18:37:58 UTC] PHP Notice:  Trying to get property 'title' of non-object in C:\Users\ACER\Documents\IT9\Local\magalhes-sipert-sociedade-de-advogados\app\public\wp-includes\class-wp-customize-widgets.php on line 899
+[20-Nov-2022 18:37:58 UTC] PHP Stack trace:
+[20-Nov-2022 18:37:58 UTC] PHP   1. {main}() C:\Users\ACER\Documents\IT9\Local\magalhes-sipert-sociedade-de-advogados\app\public\wp-admin\customize.php:0
+[20-Nov-2022 18:37:58 UTC] PHP   2. do_action() C:\Users\ACER\Documents\IT9\Local\magalhes-sipert-sociedade-de-advogados\app\public\wp-admin\customize.php:292
+[20-Nov-2022 18:37:58 UTC] PHP   3. WP_Hook->do_action() C:\Users\ACER\Documents\IT9\Local\magalhes-sipert-sociedade-de-advogados\app\public\wp-includes\plugin.php:476
+[20-Nov-2022 18:37:58 UTC] PHP   4. WP_Hook->apply_filters() C:\Users\ACER\Documents\IT9\Local\magalhes-sipert-sociedade-de-advogados\app\public\wp-includes\class-wp-hook.php:331
+[20-Nov-2022 18:37:58 UTC] PHP   5. WP_Customize_Widgets->output_widget_control_templates() C:\Users\ACER\Documents\IT9\Local\magalhes-sipert-sociedade-de-advogados\app\public\wp-includes\class-wp-hook.php:307
+[20-Nov-2022 18:52:34 UTC] Caller: C:\Users\ACER\Documents\IT9\Local\magalhes-sipert-sociedade-de-advogados\app\public\wp-content\themes\mslaw\pages\single\components\post-tags.php:5
+[20-Nov-2022 18:52:34 UTC] Array
+(
+    [0] => WP_Term Object
+        (
+            [term_id] => 6
+            [name] => Consequatur nisi
+            [slug] => consequatur-nisi
+            [term_group] => 0
+            [term_taxonomy_id] => 6
+            [taxonomy] => post_tag
+            [description] => Totam tempora voluptatibus corporis eveniet velit inventore nobis odit voluptas sapiente voluptatibus sed commodi eaque a et harum eligendi dignissimos voluptates accusamus sunt illum aut repudiandae asperiores non reprehenderit porro veniam esse vero ea aut et fuga
+            [parent] => 0
+            [count] => 16
+            [filter] => raw
+        )
+
+)
+
+[20-Nov-2022 18:52:43 UTC] Caller: C:\Users\ACER\Documents\IT9\Local\magalhes-sipert-sociedade-de-advogados\app\public\wp-content\themes\mslaw\pages\single\components\post-tags.php:5
+[20-Nov-2022 18:52:43 UTC] Array
+(
+    [0] => WP_Term Object
+        (
+            [term_id] => 6
+            [name] => Consequatur nisi
+            [slug] => consequatur-nisi
+            [term_group] => 0
+            [term_taxonomy_id] => 6
+            [taxonomy] => post_tag
+            [description] => Totam tempora voluptatibus corporis eveniet velit inventore nobis odit voluptas sapiente voluptatibus sed commodi eaque a et harum eligendi dignissimos voluptates accusamus sunt illum aut repudiandae asperiores non reprehenderit porro veniam esse vero ea aut et fuga
+            [parent] => 0
+            [count] => 16
+            [filter] => raw
+        )
+
+)
+
+[20-Nov-2022 18:53:29 UTC] Caller: C:\Users\ACER\Documents\IT9\Local\magalhes-sipert-sociedade-de-advogados\app\public\wp-content\themes\mslaw\pages\single\components\post-tags.php:5
+[20-Nov-2022 18:53:29 UTC] Array
+(
+    [0] => WP_Term Object
+        (
+            [term_id] => 6
+            [name] => Consequatur nisi
+            [slug] => consequatur-nisi
+            [term_group] => 0
+            [term_taxonomy_id] => 6
+            [taxonomy] => post_tag
+            [description] => Totam tempora voluptatibus corporis eveniet velit inventore nobis odit voluptas sapiente voluptatibus sed commodi eaque a et harum eligendi dignissimos voluptates accusamus sunt illum aut repudiandae asperiores non reprehenderit porro veniam esse vero ea aut et fuga
+            [parent] => 0
+            [count] => 16
+            [filter] => raw
+        )
+
+)
+
+[20-Nov-2022 18:54:04 UTC] Caller: C:\Users\ACER\Documents\IT9\Local\magalhes-sipert-sociedade-de-advogados\app\public\wp-content\themes\mslaw\pages\single\components\post-tags.php:5
+[20-Nov-2022 18:54:04 UTC] Array
+(
+    [0] => WP_Term Object
+        (
+            [term_id] => 6
+            [name] => Consequatur nisi
+            [slug] => consequatur-nisi
+            [term_group] => 0
+            [term_taxonomy_id] => 6
+            [taxonomy] => post_tag
+            [description] => Totam tempora voluptatibus corporis eveniet velit inventore nobis odit voluptas sapiente voluptatibus sed commodi eaque a et harum eligendi dignissimos voluptates accusamus sunt illum aut repudiandae asperiores non reprehenderit porro veniam esse vero ea aut et fuga
+            [parent] => 0
+            [count] => 16
+            [filter] => raw
+        )
+
+)
+
+[20-Nov-2022 18:55:05 UTC] Caller: C:\Users\ACER\Documents\IT9\Local\magalhes-sipert-sociedade-de-advogados\app\public\wp-content\themes\mslaw\pages\single\components\post-tags.php:5
+[20-Nov-2022 18:55:05 UTC] Array
+(
+    [0] => WP_Term Object
+        (
+            [term_id] => 6
+            [name] => Consequatur nisi
+            [slug] => consequatur-nisi
+            [term_group] => 0
+            [term_taxonomy_id] => 6
+            [taxonomy] => post_tag
+            [description] => Totam tempora voluptatibus corporis eveniet velit inventore nobis odit voluptas sapiente voluptatibus sed commodi eaque a et harum eligendi dignissimos voluptates accusamus sunt illum aut repudiandae asperiores non reprehenderit porro veniam esse vero ea aut et fuga
+            [parent] => 0
+            [count] => 16
+            [filter] => raw
+        )
+
+)
+
+[20-Nov-2022 18:57:03 UTC] Caller: C:\Users\ACER\Documents\IT9\Local\magalhes-sipert-sociedade-de-advogados\app\public\wp-content\themes\mslaw\pages\single\components\post-tags.php:5
+[20-Nov-2022 18:57:03 UTC] Array
+(
+    [0] => WP_Term Object
+        (
+            [term_id] => 6
+            [name] => Consequatur nisi
+            [slug] => consequatur-nisi
+            [term_group] => 0
+            [term_taxonomy_id] => 6
+            [taxonomy] => post_tag
+            [description] => Totam tempora voluptatibus corporis eveniet velit inventore nobis odit voluptas sapiente voluptatibus sed commodi eaque a et harum eligendi dignissimos voluptates accusamus sunt illum aut repudiandae asperiores non reprehenderit porro veniam esse vero ea aut et fuga
+            [parent] => 0
+            [count] => 16
+            [filter] => raw
+        )
+
+)
+
+[20-Nov-2022 19:02:33 UTC] Caller: C:\Users\ACER\Documents\IT9\Local\magalhes-sipert-sociedade-de-advogados\app\public\wp-content\themes\mslaw\pages\single\components\post-tags.php:5
+[20-Nov-2022 19:02:33 UTC] Array
+(
+    [0] => WP_Term Object
+        (
+            [term_id] => 6
+            [name] => Consequatur nisi
+            [slug] => consequatur-nisi
+            [term_group] => 0
+            [term_taxonomy_id] => 6
+            [taxonomy] => post_tag
+            [description] => Totam tempora voluptatibus corporis eveniet velit inventore nobis odit voluptas sapiente voluptatibus sed commodi eaque a et harum eligendi dignissimos voluptates accusamus sunt illum aut repudiandae asperiores non reprehenderit porro veniam esse vero ea aut et fuga
+            [parent] => 0
+            [count] => 16
+            [filter] => raw
+        )
+
+)
+
+[20-Nov-2022 19:09:06 UTC] Caller: C:\Users\ACER\Documents\IT9\Local\magalhes-sipert-sociedade-de-advogados\app\public\wp-content\themes\mslaw\pages\single\components\post-tags.php:5
+[20-Nov-2022 19:09:06 UTC] Array
+(
+    [0] => WP_Term Object
+        (
+            [term_id] => 6
+            [name] => Consequatur nisi
+            [slug] => consequatur-nisi
+            [term_group] => 0
+            [term_taxonomy_id] => 6
+            [taxonomy] => post_tag
+            [description] => Totam tempora voluptatibus corporis eveniet velit inventore nobis odit voluptas sapiente voluptatibus sed commodi eaque a et harum eligendi dignissimos voluptates accusamus sunt illum aut repudiandae asperiores non reprehenderit porro veniam esse vero ea aut et fuga
+            [parent] => 0
+            [count] => 16
+            [filter] => raw
+        )
+
+)
+
+[20-Nov-2022 19:11:17 UTC] Caller: C:\Users\ACER\Documents\IT9\Local\magalhes-sipert-sociedade-de-advogados\app\public\wp-content\themes\mslaw\pages\single\components\post-tags.php:5
+[20-Nov-2022 19:11:17 UTC] Array
+(
+    [0] => WP_Term Object
+        (
+            [term_id] => 6
+            [name] => Consequatur nisi
+            [slug] => consequatur-nisi
+            [term_group] => 0
+            [term_taxonomy_id] => 6
+            [taxonomy] => post_tag
+            [description] => Totam tempora voluptatibus corporis eveniet velit inventore nobis odit voluptas sapiente voluptatibus sed commodi eaque a et harum eligendi dignissimos voluptates accusamus sunt illum aut repudiandae asperiores non reprehenderit porro veniam esse vero ea aut et fuga
+            [parent] => 0
+            [count] => 16
+            [filter] => raw
+        )
+
+)
+
+[20-Nov-2022 19:11:56 UTC] Caller: C:\Users\ACER\Documents\IT9\Local\magalhes-sipert-sociedade-de-advogados\app\public\wp-content\themes\mslaw\pages\single\components\post-tags.php:5
+[20-Nov-2022 19:11:56 UTC] Array
+(
+    [0] => WP_Term Object
+        (
+            [term_id] => 6
+            [name] => Consequatur nisi
+            [slug] => consequatur-nisi
+            [term_group] => 0
+            [term_taxonomy_id] => 6
+            [taxonomy] => post_tag
+            [description] => Totam tempora voluptatibus corporis eveniet velit inventore nobis odit voluptas sapiente voluptatibus sed commodi eaque a et harum eligendi dignissimos voluptates accusamus sunt illum aut repudiandae asperiores non reprehenderit porro veniam esse vero ea aut et fuga
+            [parent] => 0
+            [count] => 16
+            [filter] => raw
+        )
+
+)
+

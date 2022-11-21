@@ -605,3 +605,22 @@
 
 )
 
+[20-Nov-2022 19:12:21 UTC] Caller: C:\Users\ACER\Documents\IT9\Local\magalhes-sipert-sociedade-de-advogados\app\public\wp-content\themes\mslaw\pages\single\components\post-tags.php:5
+[20-Nov-2022 19:12:21 UTC] Array
+(
+    [0] => WP_Term Object
+        (
+            [term_id] => 6
+            [name] => Consequatur nisi
+            [slug] => consequatur-nisi
+            [term_group] => 0
+            [term_taxonomy_id] => 6
+            [taxonomy] => post_tag
+            [description] => Totam tempora voluptatibus corporis eveniet velit inventore nobis odit voluptas sapiente voluptatibus sed commodi eaque a et harum eligendi dignissimos voluptates accusamus sunt illum aut repudiandae asperiores non reprehenderit porro veniam esse vero ea aut et fuga
+            [parent] => 0
+            [count] => 16
+            [filter] => raw
+        )
+
+)
+

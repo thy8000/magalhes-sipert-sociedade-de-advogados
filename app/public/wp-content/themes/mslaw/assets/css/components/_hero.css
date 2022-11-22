@@ -4,7 +4,7 @@
   background-size: cover;
   position: relative;
 }
-.hero .hero__button{
+.hero .hero__button, .services-call-to-action .hero__button{
   transition: 0.5s all;
   border: 1px solid #b5c5c8;
   border-radius: 5px;

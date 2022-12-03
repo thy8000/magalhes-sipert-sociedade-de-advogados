@@ -7,3 +7,17 @@
 [02-Dec-2022 01:51:50 UTC] PHP   3. WP_Hook->do_action() C:\Users\ACER\Documents\IT9\Local\magalhes-sipert-sociedade-de-advogados\app\public\wp-includes\plugin.php:476
 [02-Dec-2022 01:51:50 UTC] PHP   4. WP_Hook->apply_filters() C:\Users\ACER\Documents\IT9\Local\magalhes-sipert-sociedade-de-advogados\app\public\wp-includes\class-wp-hook.php:331
 [02-Dec-2022 01:51:50 UTC] PHP   5. WP_Customize_Widgets->output_widget_control_templates() C:\Users\ACER\Documents\IT9\Local\magalhes-sipert-sociedade-de-advogados\app\public\wp-includes\class-wp-hook.php:307
+[03-Dec-2022 17:54:06 UTC] PHP Notice:  Trying to get property 'title' of non-object in C:\Users\ACER\Documents\IT9\Local\magalhes-sipert-sociedade-de-advogados\app\public\wp-includes\class-wp-customize-widgets.php on line 899
+[03-Dec-2022 17:54:06 UTC] PHP Stack trace:
+[03-Dec-2022 17:54:06 UTC] PHP   1. {main}() C:\Users\ACER\Documents\IT9\Local\magalhes-sipert-sociedade-de-advogados\app\public\wp-admin\customize.php:0
+[03-Dec-2022 17:54:06 UTC] PHP   2. do_action() C:\Users\ACER\Documents\IT9\Local\magalhes-sipert-sociedade-de-advogados\app\public\wp-admin\customize.php:292
+[03-Dec-2022 17:54:06 UTC] PHP   3. WP_Hook->do_action() C:\Users\ACER\Documents\IT9\Local\magalhes-sipert-sociedade-de-advogados\app\public\wp-includes\plugin.php:476
+[03-Dec-2022 17:54:06 UTC] PHP   4. WP_Hook->apply_filters() C:\Users\ACER\Documents\IT9\Local\magalhes-sipert-sociedade-de-advogados\app\public\wp-includes\class-wp-hook.php:331
+[03-Dec-2022 17:54:06 UTC] PHP   5. WP_Customize_Widgets->output_widget_control_templates() C:\Users\ACER\Documents\IT9\Local\magalhes-sipert-sociedade-de-advogados\app\public\wp-includes\class-wp-hook.php:307
+[03-Dec-2022 18:05:12 UTC] PHP Notice:  Trying to get property 'title' of non-object in C:\Users\ACER\Documents\IT9\Local\magalhes-sipert-sociedade-de-advogados\app\public\wp-includes\class-wp-customize-widgets.php on line 899
+[03-Dec-2022 18:05:12 UTC] PHP Stack trace:
+[03-Dec-2022 18:05:12 UTC] PHP   1. {main}() C:\Users\ACER\Documents\IT9\Local\magalhes-sipert-sociedade-de-advogados\app\public\wp-admin\customize.php:0
+[03-Dec-2022 18:05:12 UTC] PHP   2. do_action() C:\Users\ACER\Documents\IT9\Local\magalhes-sipert-sociedade-de-advogados\app\public\wp-admin\customize.php:292
+[03-Dec-2022 18:05:12 UTC] PHP   3. WP_Hook->do_action() C:\Users\ACER\Documents\IT9\Local\magalhes-sipert-sociedade-de-advogados\app\public\wp-includes\plugin.php:476
+[03-Dec-2022 18:05:12 UTC] PHP   4. WP_Hook->apply_filters() C:\Users\ACER\Documents\IT9\Local\magalhes-sipert-sociedade-de-advogados\app\public\wp-includes\class-wp-hook.php:331
+[03-Dec-2022 18:05:12 UTC] PHP   5. WP_Customize_Widgets->output_widget_control_templates() C:\Users\ACER\Documents\IT9\Local\magalhes-sipert-sociedade-de-advogados\app\public\wp-includes\class-wp-hook.php:307

@@ -1,10 +1,6 @@
 <div class="front-page">
   <?php
-  get_template_part('components/_hero', null, [
-    'hero_title' => get_bloginfo(),
-    'hero_subtitle' => __('Escritório de Advocacia em Santo André - SP', 'mslaw'),
-    'hero_button_text' => __('Entrar em contato', 'mslaw'),
-  ]);
+  get_template_part('components/_hero');
   ?>
   <div class="bg-light">
     <?php

@@ -2,7 +2,7 @@
 if (!defined('ABSPATH')) exit;
 
 $post_id = $args['post_id'];
-$post_thumbnail = get_the_post_thumbnail_url($post_id);
+$post_thumbnail = get_the_post_thumbnail_url($post_id, 'full');
 
 $post_categories = empty(get_the_category($post_id)) ? false : get_the_category($post_id);
 

@@ -1,4 +1,8 @@
-.services-full-text p{
+.services-full-text ul{
+    list-style: disc;
+}
+.services-full-text p,
+.services-full-text li{
     color: #6c757d;
     font-size: 1.25rem;
     font-weight: normal;

@@ -12,18 +12,13 @@ function it9_mslaw_create_media_taxonomies()
    ];
 
    $args = [
-      'hierarchical'       => true,
-      'labels'             => $labels,
-      'public'             => true,
-      'show_in_quick_edit' => true,
-      'meta_box_cb'        => true,
-      'show_ui'            => true,
-      'show_in_rest'       => true,
-      'show_admin_column'  => true,
-      'query_var'          => true,
-      'supports'           => ['editor'],
-      'rewrite'            => ['slug' => 'midia/categoria', 'with_front' => false],
+      'label' => $labels,
+		'hierarchical' => true,
+		'rewrite' => ['slug' => 'midia-category'],
+		'show_admin_column' => true,
+		'show_in_rest' => true,
+		'labels' => $labels,
    ];
 
-   register_taxonomy('midia_categories', ['midia'], $args);
+   register_taxonomy('midia-category', ['midia'], $args);
 }

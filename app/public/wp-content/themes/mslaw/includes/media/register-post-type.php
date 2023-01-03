@@ -13,7 +13,7 @@ function it9_mslaw_register_post_type_media() {
 		'new_item'              => __( 'Novo Mídia', 'it9_mslaw' ),
 		'edit_item'             => __( 'Editar Mídia', 'it9_mslaw' ),
 		'view_item'             => __( 'Ver Mídia', 'it9_mslaw' ),
-		'all_items'             => __( 'Todos os Mídias', 'it9_mslaw' ),
+		'all_items'             => __( 'Todas as Mídias', 'it9_mslaw' ),
 		'search_items'          => __( 'Pesquisar Mídias', 'it9_mslaw' ),
 		'parent_item_colon'     => __( 'Mídias Ascendentes', 'it9_mslaw' ),
 		'not_found'             => __( 'Nenhum Mídia encontrado', 'it9_mslaw' ),
@@ -31,19 +31,16 @@ function it9_mslaw_register_post_type_media() {
 	);
 
 	$media_args = array(
-		'labels'             => $media_labels,
-		'public'             => true,
-		'publicly_queryable' => true,
-		'show_ui'            => true,
-		'show_in_menu'       => true,
-		'query_var'          => true,
-		'rewrite'            => array( 'slug' => 'midia' ),
-		'capability_type'    => 'post',
-		'has_archive'        => false,
-		'hierarchical'       => false,
-		'menu_position'      => null,
-        'menu_icon'          => 'dashicons-format-video',
-		'supports'           => array( 'title', 'author', 'thumbnail', 'content'),
+		'label' => $media_labels,
+		'public' => true,
+		'menu_position' => 5,
+		'menu_icon' => 'dashicons-format-video',
+		'supports' => ['title', 'editor', 'thumbnail', 'author', 'revisions', 'comments'],
+		'show_in_rest' => true,
+		'rewrite' => ['slug' => 'midia'],
+		'taxonomies' => ['midia-categories'],
+		'labels' => $media_labels,		
+		'has_archive' => true, 
 	);
 
 	register_post_type( 'midia', $media_args );

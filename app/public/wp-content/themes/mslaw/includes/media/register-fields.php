@@ -37,7 +37,7 @@ if (function_exists('acf_add_local_field_group')) :
                 array(
                     'param' => 'taxonomy',
                     'operator' => '==',
-                    'value' => 'midia_categories',
+                    'value' => 'midia-category',
                 ),
             ),
         ),

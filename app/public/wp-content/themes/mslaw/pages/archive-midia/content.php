@@ -7,7 +7,7 @@ $posts_per_page = 10;
 $posts_args = [
     'posts_per_page' => $posts_per_page,
     'paged' => $paged,
-    'post_type' => 'post',
+    'post_type' => get_post_type(),
     'orderby' => 'date',
     'order' => 'DESC',
 ];
@@ -17,13 +17,12 @@ $recent_posts_args = [
     'order' => 'DESC',
     'numberposts' => 5,
 ];
-debug(get_post_type_archive_link('midia'));
 ?>
 
 <div class="posts__page">
     <?php get_template_part('components/_page-header', null, [
-        'page_title' => __('Blog', 'it9_mslaws'),
-        'page_description' => __('Fique por dentro das novidades da área jurídica.', 'it9_mslaws'),
+        'page_title' => __('Mídias', 'it9_mslaws'),
+        'page_description' => __('Confira nossas aparições na mídia.', 'it9_mslaws'),
     ]); ?>
 
     <div class="container">
@@ -34,9 +33,13 @@ debug(get_post_type_archive_link('midia'));
                 ]); ?>
             </div>
             <div class="col-lg-4 col-md-12 py-5">
-                <?php get_template_part('components/_search-form'); ?>
-                <?php get_template_part('components/_categories-sidebar'); ?>
-                <?php get_template_part('components/_recent-posts', null, [
+                <?php 
+                get_template_part('components/_search-form'); 
+                get_template_part('components/_categories-sidebar', null, [
+                    'taxonomy_name' => 'midia-category',
+                    'title' => __('Mídias'),
+                ]); 
+                get_template_part('components/_recent-posts', null, [
                     'posts_args' => $recent_posts_args,
                 ]); ?>
             </div>

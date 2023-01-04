@@ -1,628 +1,26 @@
-[04-Jan-2023 13:55:42 UTC] Caller: C:\Users\ACER\Documents\IT9\Local\magalhes-sipert-sociedade-de-advogados\app\public\wp-content\themes\mslaw\pages\taxonomy\content.php:5
-[04-Jan-2023 13:55:42 UTC] WP_Term Object
+[04-Jan-2023 14:27:24 UTC] Caller: C:\Users\ACER\Documents\IT9\Local\magalhes-sipert-sociedade-de-advogados\app\public\wp-content\themes\mslaw\pages\category\content.php:5
+[04-Jan-2023 14:27:24 UTC] WP_Term Object
 (
-    [term_id] => 12
-    [name] => Band
-    [slug] => band
+    [term_id] => 5
+    [name] => Adipisci exercitationem sed consectetur
+    [slug] => adipisci-exercitationem-sed-consectetur
     [term_group] => 0
-    [term_taxonomy_id] => 12
-    [taxonomy] => midia-category
-    [description] => 
+    [term_taxonomy_id] => 5
+    [taxonomy] => category
+    [description] => Veritatis in earum nulla illo ut omnis quas voluptas laudantium commodi sint qui pariatur eos soluta labore aut aut quisquam vel ex officiis neque sed perferendis aut non eligendi autem voluptatem tempora blanditiis repellendus laboriosam fugiat quam doloribus molestiae minima et doloremque fugit
     [parent] => 0
-    [count] => 0
+    [count] => 14
     [filter] => raw
+    [cat_ID] => 5
+    [category_count] => 14
+    [category_description] => Veritatis in earum nulla illo ut omnis quas voluptas laudantium commodi sint qui pariatur eos soluta labore aut aut quisquam vel ex officiis neque sed perferendis aut non eligendi autem voluptatem tempora blanditiis repellendus laboriosam fugiat quam doloribus molestiae minima et doloremque fugit
+    [cat_name] => Adipisci exercitationem sed consectetur
+    [category_nicename] => adipisci-exercitationem-sed-consectetur
+    [category_parent] => 0
 )
 
-[04-Jan-2023 13:55:42 UTC] Caller: C:\Users\ACER\Documents\IT9\Local\magalhes-sipert-sociedade-de-advogados\app\public\wp-content\themes\mslaw\components\_categories-sidebar.php:11
-[04-Jan-2023 13:55:42 UTC] Array
-(
-    [0] => WP_Term Object
-        (
-            [term_id] => 12
-            [name] => Band
-            [slug] => band
-            [term_group] => 0
-            [term_taxonomy_id] => 12
-            [taxonomy] => midia-category
-            [description] => 
-            [parent] => 0
-            [count] => 0
-            [filter] => raw
-        )
-
-    [1] => WP_Term Object
-        (
-            [term_id] => 11
-            [name] => Globo
-            [slug] => globo
-            [term_group] => 0
-            [term_taxonomy_id] => 11
-            [taxonomy] => midia-category
-            [description] => 
-            [parent] => 0
-            [count] => 0
-            [filter] => raw
-        )
-
-    [2] => WP_Term Object
-        (
-            [term_id] => 14
-            [name] => Record
-            [slug] => record
-            [term_group] => 0
-            [term_taxonomy_id] => 14
-            [taxonomy] => midia-category
-            [description] => 
-            [parent] => 0
-            [count] => 0
-            [filter] => raw
-        )
-
-    [3] => WP_Term Object
-        (
-            [term_id] => 13
-            [name] => SBT
-            [slug] => sbt
-            [term_group] => 0
-            [term_taxonomy_id] => 13
-            [taxonomy] => midia-category
-            [description] => 
-            [parent] => 0
-            [count] => 0
-            [filter] => raw
-        )
-
-)
-
-[04-Jan-2023 13:56:07 UTC] Caller: C:\Users\ACER\Documents\IT9\Local\magalhes-sipert-sociedade-de-advogados\app\public\wp-content\themes\mslaw\pages\taxonomy\content.php:5
-[04-Jan-2023 13:56:07 UTC] WP_Term Object
-(
-    [term_id] => 12
-    [name] => Band
-    [slug] => band
-    [term_group] => 0
-    [term_taxonomy_id] => 12
-    [taxonomy] => midia-category
-    [description] => 
-    [parent] => 0
-    [count] => 0
-    [filter] => raw
-)
-
-[04-Jan-2023 13:56:07 UTC] Caller: C:\Users\ACER\Documents\IT9\Local\magalhes-sipert-sociedade-de-advogados\app\public\wp-content\themes\mslaw\components\_categories-sidebar.php:11
-[04-Jan-2023 13:56:07 UTC] Array
-(
-    [0] => WP_Term Object
-        (
-            [term_id] => 12
-            [name] => Band
-            [slug] => band
-            [term_group] => 0
-            [term_taxonomy_id] => 12
-            [taxonomy] => midia-category
-            [description] => 
-            [parent] => 0
-            [count] => 0
-            [filter] => raw
-        )
-
-    [1] => WP_Term Object
-        (
-            [term_id] => 11
-            [name] => Globo
-            [slug] => globo
-            [term_group] => 0
-            [term_taxonomy_id] => 11
-            [taxonomy] => midia-category
-            [description] => 
-            [parent] => 0
-            [count] => 0
-            [filter] => raw
-        )
-
-    [2] => WP_Term Object
-        (
-            [term_id] => 14
-            [name] => Record
-            [slug] => record
-            [term_group] => 0
-            [term_taxonomy_id] => 14
-            [taxonomy] => midia-category
-            [description] => 
-            [parent] => 0
-            [count] => 0
-            [filter] => raw
-        )
-
-    [3] => WP_Term Object
-        (
-            [term_id] => 13
-            [name] => SBT
-            [slug] => sbt
-            [term_group] => 0
-            [term_taxonomy_id] => 13
-            [taxonomy] => midia-category
-            [description] => 
-            [parent] => 0
-            [count] => 0
-            [filter] => raw
-        )
-
-)
-
-[04-Jan-2023 13:56:49 UTC] Caller: C:\Users\ACER\Documents\IT9\Local\magalhes-sipert-sociedade-de-advogados\app\public\wp-content\themes\mslaw\pages\taxonomy\content.php:5
-[04-Jan-2023 13:56:49 UTC] WP_Term Object
-(
-    [term_id] => 12
-    [name] => Band
-    [slug] => band
-    [term_group] => 0
-    [term_taxonomy_id] => 12
-    [taxonomy] => midia-category
-    [description] => 
-    [parent] => 0
-    [count] => 0
-    [filter] => raw
-)
-
-[04-Jan-2023 13:56:49 UTC] Caller: C:\Users\ACER\Documents\IT9\Local\magalhes-sipert-sociedade-de-advogados\app\public\wp-content\themes\mslaw\components\_categories-sidebar.php:11
-[04-Jan-2023 13:56:49 UTC] Array
-(
-    [0] => WP_Term Object
-        (
-            [term_id] => 12
-            [name] => Band
-            [slug] => band
-            [term_group] => 0
-            [term_taxonomy_id] => 12
-            [taxonomy] => midia-category
-            [description] => 
-            [parent] => 0
-            [count] => 0
-            [filter] => raw
-        )
-
-    [1] => WP_Term Object
-        (
-            [term_id] => 11
-            [name] => Globo
-            [slug] => globo
-            [term_group] => 0
-            [term_taxonomy_id] => 11
-            [taxonomy] => midia-category
-            [description] => 
-            [parent] => 0
-            [count] => 0
-            [filter] => raw
-        )
-
-    [2] => WP_Term Object
-        (
-            [term_id] => 14
-            [name] => Record
-            [slug] => record
-            [term_group] => 0
-            [term_taxonomy_id] => 14
-            [taxonomy] => midia-category
-            [description] => 
-            [parent] => 0
-            [count] => 0
-            [filter] => raw
-        )
-
-    [3] => WP_Term Object
-        (
-            [term_id] => 13
-            [name] => SBT
-            [slug] => sbt
-            [term_group] => 0
-            [term_taxonomy_id] => 13
-            [taxonomy] => midia-category
-            [description] => 
-            [parent] => 0
-            [count] => 0
-            [filter] => raw
-        )
-
-)
-
-[04-Jan-2023 13:57:04 UTC] Caller: C:\Users\ACER\Documents\IT9\Local\magalhes-sipert-sociedade-de-advogados\app\public\wp-content\themes\mslaw\pages\taxonomy\content.php:5
-[04-Jan-2023 13:57:04 UTC] WP_Term Object
-(
-    [term_id] => 12
-    [name] => Band
-    [slug] => band
-    [term_group] => 0
-    [term_taxonomy_id] => 12
-    [taxonomy] => midia-category
-    [description] => 
-    [parent] => 0
-    [count] => 0
-    [filter] => raw
-)
-
-[04-Jan-2023 13:57:04 UTC] Caller: C:\Users\ACER\Documents\IT9\Local\magalhes-sipert-sociedade-de-advogados\app\public\wp-content\themes\mslaw\components\_categories-sidebar.php:11
-[04-Jan-2023 13:57:04 UTC] Array
-(
-    [0] => WP_Term Object
-        (
-            [term_id] => 12
-            [name] => Band
-            [slug] => band
-            [term_group] => 0
-            [term_taxonomy_id] => 12
-            [taxonomy] => midia-category
-            [description] => 
-            [parent] => 0
-            [count] => 0
-            [filter] => raw
-        )
-
-    [1] => WP_Term Object
-        (
-            [term_id] => 11
-            [name] => Globo
-            [slug] => globo
-            [term_group] => 0
-            [term_taxonomy_id] => 11
-            [taxonomy] => midia-category
-            [description] => 
-            [parent] => 0
-            [count] => 0
-            [filter] => raw
-        )
-
-    [2] => WP_Term Object
-        (
-            [term_id] => 14
-            [name] => Record
-            [slug] => record
-            [term_group] => 0
-            [term_taxonomy_id] => 14
-            [taxonomy] => midia-category
-            [description] => 
-            [parent] => 0
-            [count] => 0
-            [filter] => raw
-        )
-
-    [3] => WP_Term Object
-        (
-            [term_id] => 13
-            [name] => SBT
-            [slug] => sbt
-            [term_group] => 0
-            [term_taxonomy_id] => 13
-            [taxonomy] => midia-category
-            [description] => 
-            [parent] => 0
-            [count] => 0
-            [filter] => raw
-        )
-
-)
-
-[04-Jan-2023 14:14:54 UTC] Caller: C:\Users\ACER\Documents\IT9\Local\magalhes-sipert-sociedade-de-advogados\app\public\wp-content\themes\mslaw\pages\taxonomy\content.php:5
-[04-Jan-2023 14:14:54 UTC] WP_Term Object
-(
-    [term_id] => 12
-    [name] => Band
-    [slug] => band
-    [term_group] => 0
-    [term_taxonomy_id] => 12
-    [taxonomy] => midia-category
-    [description] => 
-    [parent] => 0
-    [count] => 0
-    [filter] => raw
-)
-
-[04-Jan-2023 14:14:54 UTC] Caller: C:\Users\ACER\Documents\IT9\Local\magalhes-sipert-sociedade-de-advogados\app\public\wp-content\themes\mslaw\components\_categories-sidebar.php:11
-[04-Jan-2023 14:14:54 UTC] Array
-(
-    [0] => WP_Term Object
-        (
-            [term_id] => 12
-            [name] => Band
-            [slug] => band
-            [term_group] => 0
-            [term_taxonomy_id] => 12
-            [taxonomy] => midia-category
-            [description] => 
-            [parent] => 0
-            [count] => 0
-            [filter] => raw
-        )
-
-    [1] => WP_Term Object
-        (
-            [term_id] => 11
-            [name] => Globo
-            [slug] => globo
-            [term_group] => 0
-            [term_taxonomy_id] => 11
-            [taxonomy] => midia-category
-            [description] => 
-            [parent] => 0
-            [count] => 0
-            [filter] => raw
-        )
-
-    [2] => WP_Term Object
-        (
-            [term_id] => 14
-            [name] => Record
-            [slug] => record
-            [term_group] => 0
-            [term_taxonomy_id] => 14
-            [taxonomy] => midia-category
-            [description] => 
-            [parent] => 0
-            [count] => 0
-            [filter] => raw
-        )
-
-    [3] => WP_Term Object
-        (
-            [term_id] => 13
-            [name] => SBT
-            [slug] => sbt
-            [term_group] => 0
-            [term_taxonomy_id] => 13
-            [taxonomy] => midia-category
-            [description] => 
-            [parent] => 0
-            [count] => 0
-            [filter] => raw
-        )
-
-)
-
-[04-Jan-2023 14:20:49 UTC] Caller: C:\Users\ACER\Documents\IT9\Local\magalhes-sipert-sociedade-de-advogados\app\public\wp-content\themes\mslaw\pages\taxonomy\content.php:5
-[04-Jan-2023 14:20:49 UTC] WP_Term Object
-(
-    [term_id] => 12
-    [name] => Band
-    [slug] => band
-    [term_group] => 0
-    [term_taxonomy_id] => 12
-    [taxonomy] => midia-category
-    [description] => 
-    [parent] => 0
-    [count] => 0
-    [filter] => raw
-)
-
-[04-Jan-2023 14:20:49 UTC] Caller: C:\Users\ACER\Documents\IT9\Local\magalhes-sipert-sociedade-de-advogados\app\public\wp-content\themes\mslaw\components\_categories-sidebar.php:11
-[04-Jan-2023 14:20:49 UTC] Array
-(
-    [0] => WP_Term Object
-        (
-            [term_id] => 12
-            [name] => Band
-            [slug] => band
-            [term_group] => 0
-            [term_taxonomy_id] => 12
-            [taxonomy] => midia-category
-            [description] => 
-            [parent] => 0
-            [count] => 0
-            [filter] => raw
-        )
-
-    [1] => WP_Term Object
-        (
-            [term_id] => 11
-            [name] => Globo
-            [slug] => globo
-            [term_group] => 0
-            [term_taxonomy_id] => 11
-            [taxonomy] => midia-category
-            [description] => 
-            [parent] => 0
-            [count] => 0
-            [filter] => raw
-        )
-
-    [2] => WP_Term Object
-        (
-            [term_id] => 14
-            [name] => Record
-            [slug] => record
-            [term_group] => 0
-            [term_taxonomy_id] => 14
-            [taxonomy] => midia-category
-            [description] => 
-            [parent] => 0
-            [count] => 0
-            [filter] => raw
-        )
-
-    [3] => WP_Term Object
-        (
-            [term_id] => 13
-            [name] => SBT
-            [slug] => sbt
-            [term_group] => 0
-            [term_taxonomy_id] => 13
-            [taxonomy] => midia-category
-            [description] => 
-            [parent] => 0
-            [count] => 0
-            [filter] => raw
-        )
-
-)
-
-[04-Jan-2023 14:22:19 UTC] Caller: C:\Users\ACER\Documents\IT9\Local\magalhes-sipert-sociedade-de-advogados\app\public\wp-content\themes\mslaw\pages\taxonomy\content.php:5
-[04-Jan-2023 14:22:19 UTC] WP_Term Object
-(
-    [term_id] => 12
-    [name] => Band
-    [slug] => band
-    [term_group] => 0
-    [term_taxonomy_id] => 12
-    [taxonomy] => midia-category
-    [description] => 
-    [parent] => 0
-    [count] => 0
-    [filter] => raw
-)
-
-[04-Jan-2023 14:22:19 UTC] Caller: C:\Users\ACER\Documents\IT9\Local\magalhes-sipert-sociedade-de-advogados\app\public\wp-content\themes\mslaw\components\_categories-sidebar.php:11
-[04-Jan-2023 14:22:19 UTC] Array
-(
-    [0] => WP_Term Object
-        (
-            [term_id] => 12
-            [name] => Band
-            [slug] => band
-            [term_group] => 0
-            [term_taxonomy_id] => 12
-            [taxonomy] => midia-category
-            [description] => 
-            [parent] => 0
-            [count] => 0
-            [filter] => raw
-        )
-
-    [1] => WP_Term Object
-        (
-            [term_id] => 11
-            [name] => Globo
-            [slug] => globo
-            [term_group] => 0
-            [term_taxonomy_id] => 11
-            [taxonomy] => midia-category
-            [description] => 
-            [parent] => 0
-            [count] => 0
-            [filter] => raw
-        )
-
-    [2] => WP_Term Object
-        (
-            [term_id] => 14
-            [name] => Record
-            [slug] => record
-            [term_group] => 0
-            [term_taxonomy_id] => 14
-            [taxonomy] => midia-category
-            [description] => 
-            [parent] => 0
-            [count] => 0
-            [filter] => raw
-        )
-
-    [3] => WP_Term Object
-        (
-            [term_id] => 13
-            [name] => SBT
-            [slug] => sbt
-            [term_group] => 0
-            [term_taxonomy_id] => 13
-            [taxonomy] => midia-category
-            [description] => 
-            [parent] => 0
-            [count] => 0
-            [filter] => raw
-        )
-
-)
-
-[04-Jan-2023 14:22:50 UTC] Caller: C:\Users\ACER\Documents\IT9\Local\magalhes-sipert-sociedade-de-advogados\app\public\wp-content\themes\mslaw\pages\taxonomy\content.php:5
-[04-Jan-2023 14:22:50 UTC] WP_Term Object
-(
-    [term_id] => 12
-    [name] => Band
-    [slug] => band
-    [term_group] => 0
-    [term_taxonomy_id] => 12
-    [taxonomy] => midia-category
-    [description] => 
-    [parent] => 0
-    [count] => 0
-    [filter] => raw
-)
-
-[04-Jan-2023 14:22:50 UTC] Caller: C:\Users\ACER\Documents\IT9\Local\magalhes-sipert-sociedade-de-advogados\app\public\wp-content\themes\mslaw\components\_categories-sidebar.php:11
-[04-Jan-2023 14:22:50 UTC] Array
-(
-    [0] => WP_Term Object
-        (
-            [term_id] => 12
-            [name] => Band
-            [slug] => band
-            [term_group] => 0
-            [term_taxonomy_id] => 12
-            [taxonomy] => midia-category
-            [description] => 
-            [parent] => 0
-            [count] => 0
-            [filter] => raw
-        )
-
-    [1] => WP_Term Object
-        (
-            [term_id] => 11
-            [name] => Globo
-            [slug] => globo
-            [term_group] => 0
-            [term_taxonomy_id] => 11
-            [taxonomy] => midia-category
-            [description] => 
-            [parent] => 0
-            [count] => 0
-            [filter] => raw
-        )
-
-    [2] => WP_Term Object
-        (
-            [term_id] => 14
-            [name] => Record
-            [slug] => record
-            [term_group] => 0
-            [term_taxonomy_id] => 14
-            [taxonomy] => midia-category
-            [description] => 
-            [parent] => 0
-            [count] => 0
-            [filter] => raw
-        )
-
-    [3] => WP_Term Object
-        (
-            [term_id] => 13
-            [name] => SBT
-            [slug] => sbt
-            [term_group] => 0
-            [term_taxonomy_id] => 13
-            [taxonomy] => midia-category
-            [description] => 
-            [parent] => 0
-            [count] => 0
-            [filter] => raw
-        )
-
-)
-
-[04-Jan-2023 14:23:19 UTC] Caller: C:\Users\ACER\Documents\IT9\Local\magalhes-sipert-sociedade-de-advogados\app\public\wp-content\themes\mslaw\pages\taxonomy\content.php:5
-[04-Jan-2023 14:23:19 UTC] WP_Term Object
-(
-    [term_id] => 12
-    [name] => Band
-    [slug] => band
-    [term_group] => 0
-    [term_taxonomy_id] => 12
-    [taxonomy] => midia-category
-    [description] => 
-    [parent] => 0
-    [count] => 1
-    [filter] => raw
-)
-
-[04-Jan-2023 14:23:19 UTC] Caller: C:\Users\ACER\Documents\IT9\Local\magalhes-sipert-sociedade-de-advogados\app\public\wp-content\themes\mslaw\components\_categories-sidebar.php:11
-[04-Jan-2023 14:23:19 UTC] Array
+[04-Jan-2023 14:27:24 UTC] Caller: C:\Users\ACER\Documents\IT9\Local\magalhes-sipert-sociedade-de-advogados\app\public\wp-content\themes\mslaw\components\_categories-sidebar.php:11
+[04-Jan-2023 14:27:24 UTC] Array
 (
     [0] => WP_Term Object
         (
@@ -682,23 +80,29 @@
 
 )
 
-[04-Jan-2023 14:23:26 UTC] Caller: C:\Users\ACER\Documents\IT9\Local\magalhes-sipert-sociedade-de-advogados\app\public\wp-content\themes\mslaw\pages\taxonomy\content.php:5
-[04-Jan-2023 14:23:26 UTC] WP_Term Object
+[04-Jan-2023 14:28:27 UTC] Caller: C:\Users\ACER\Documents\IT9\Local\magalhes-sipert-sociedade-de-advogados\app\public\wp-content\themes\mslaw\pages\taxonomy\content.php:5
+[04-Jan-2023 14:28:27 UTC] WP_Term Object
 (
-    [term_id] => 11
-    [name] => Globo
-    [slug] => globo
+    [term_id] => 5
+    [name] => Adipisci exercitationem sed consectetur
+    [slug] => adipisci-exercitationem-sed-consectetur
     [term_group] => 0
-    [term_taxonomy_id] => 11
-    [taxonomy] => midia-category
-    [description] => 
+    [term_taxonomy_id] => 5
+    [taxonomy] => category
+    [description] => Veritatis in earum nulla illo ut omnis quas voluptas laudantium commodi sint qui pariatur eos soluta labore aut aut quisquam vel ex officiis neque sed perferendis aut non eligendi autem voluptatem tempora blanditiis repellendus laboriosam fugiat quam doloribus molestiae minima et doloremque fugit
     [parent] => 0
-    [count] => 0
+    [count] => 14
     [filter] => raw
+    [cat_ID] => 5
+    [category_count] => 14
+    [category_description] => Veritatis in earum nulla illo ut omnis quas voluptas laudantium commodi sint qui pariatur eos soluta labore aut aut quisquam vel ex officiis neque sed perferendis aut non eligendi autem voluptatem tempora blanditiis repellendus laboriosam fugiat quam doloribus molestiae minima et doloremque fugit
+    [cat_name] => Adipisci exercitationem sed consectetur
+    [category_nicename] => adipisci-exercitationem-sed-consectetur
+    [category_parent] => 0
 )
 
-[04-Jan-2023 14:23:26 UTC] Caller: C:\Users\ACER\Documents\IT9\Local\magalhes-sipert-sociedade-de-advogados\app\public\wp-content\themes\mslaw\components\_categories-sidebar.php:11
-[04-Jan-2023 14:23:26 UTC] Array
+[04-Jan-2023 14:28:27 UTC] Caller: C:\Users\ACER\Documents\IT9\Local\magalhes-sipert-sociedade-de-advogados\app\public\wp-content\themes\mslaw\components\_categories-sidebar.php:11
+[04-Jan-2023 14:28:27 UTC] Array
 (
     [0] => WP_Term Object
         (
@@ -758,151 +162,29 @@
 
 )
 
-[04-Jan-2023 14:23:30 UTC] Caller: C:\Users\ACER\Documents\IT9\Local\magalhes-sipert-sociedade-de-advogados\app\public\wp-content\themes\mslaw\pages\single\components\post-tags.php:5
-[04-Jan-2023 14:23:30 UTC] Array
+[04-Jan-2023 14:29:13 UTC] Caller: C:\Users\ACER\Documents\IT9\Local\magalhes-sipert-sociedade-de-advogados\app\public\wp-content\themes\mslaw\pages\category\content.php:5
+[04-Jan-2023 14:29:13 UTC] WP_Term Object
 (
-    [0] => WP_Term Object
-        (
-            [term_id] => 6
-            [name] => Consequatur nisi
-            [slug] => consequatur-nisi
-            [term_group] => 0
-            [term_taxonomy_id] => 6
-            [taxonomy] => post_tag
-            [description] => Totam tempora voluptatibus corporis eveniet velit inventore nobis odit voluptas sapiente voluptatibus sed commodi eaque a et harum eligendi dignissimos voluptates accusamus sunt illum aut repudiandae asperiores non reprehenderit porro veniam esse vero ea aut et fuga
-            [parent] => 0
-            [count] => 16
-            [filter] => raw
-        )
-
+    [term_id] => 5
+    [name] => Adipisci exercitationem sed consectetur
+    [slug] => adipisci-exercitationem-sed-consectetur
+    [term_group] => 0
+    [term_taxonomy_id] => 5
+    [taxonomy] => category
+    [description] => Veritatis in earum nulla illo ut omnis quas voluptas laudantium commodi sint qui pariatur eos soluta labore aut aut quisquam vel ex officiis neque sed perferendis aut non eligendi autem voluptatem tempora blanditiis repellendus laboriosam fugiat quam doloribus molestiae minima et doloremque fugit
+    [parent] => 0
+    [count] => 14
+    [filter] => raw
+    [cat_ID] => 5
+    [category_count] => 14
+    [category_description] => Veritatis in earum nulla illo ut omnis quas voluptas laudantium commodi sint qui pariatur eos soluta labore aut aut quisquam vel ex officiis neque sed perferendis aut non eligendi autem voluptatem tempora blanditiis repellendus laboriosam fugiat quam doloribus molestiae minima et doloremque fugit
+    [cat_name] => Adipisci exercitationem sed consectetur
+    [category_nicename] => adipisci-exercitationem-sed-consectetur
+    [category_parent] => 0
 )
 
-[04-Jan-2023 14:23:30 UTC] Caller: C:\Users\ACER\Documents\IT9\Local\magalhes-sipert-sociedade-de-advogados\app\public\wp-content\themes\mslaw\components\_categories-sidebar.php:11
-[04-Jan-2023 14:23:30 UTC] Array
-(
-    [0] => WP_Term Object
-        (
-            [term_id] => 12
-            [name] => Band
-            [slug] => band
-            [term_group] => 0
-            [term_taxonomy_id] => 12
-            [taxonomy] => midia-category
-            [description] => 
-            [parent] => 0
-            [count] => 1
-            [filter] => raw
-        )
-
-    [1] => WP_Term Object
-        (
-            [term_id] => 11
-            [name] => Globo
-            [slug] => globo
-            [term_group] => 0
-            [term_taxonomy_id] => 11
-            [taxonomy] => midia-category
-            [description] => 
-            [parent] => 0
-            [count] => 0
-            [filter] => raw
-        )
-
-    [2] => WP_Term Object
-        (
-            [term_id] => 14
-            [name] => Record
-            [slug] => record
-            [term_group] => 0
-            [term_taxonomy_id] => 14
-            [taxonomy] => midia-category
-            [description] => 
-            [parent] => 0
-            [count] => 0
-            [filter] => raw
-        )
-
-    [3] => WP_Term Object
-        (
-            [term_id] => 13
-            [name] => SBT
-            [slug] => sbt
-            [term_group] => 0
-            [term_taxonomy_id] => 13
-            [taxonomy] => midia-category
-            [description] => 
-            [parent] => 0
-            [count] => 0
-            [filter] => raw
-        )
-
-)
-
-[04-Jan-2023 14:24:40 UTC] Caller: C:\Users\ACER\Documents\IT9\Local\magalhes-sipert-sociedade-de-advogados\app\public\wp-content\themes\mslaw\components\_categories-sidebar.php:11
-[04-Jan-2023 14:24:40 UTC] Array
-(
-    [0] => WP_Term Object
-        (
-            [term_id] => 12
-            [name] => Band
-            [slug] => band
-            [term_group] => 0
-            [term_taxonomy_id] => 12
-            [taxonomy] => midia-category
-            [description] => 
-            [parent] => 0
-            [count] => 1
-            [filter] => raw
-        )
-
-    [1] => WP_Term Object
-        (
-            [term_id] => 11
-            [name] => Globo
-            [slug] => globo
-            [term_group] => 0
-            [term_taxonomy_id] => 11
-            [taxonomy] => midia-category
-            [description] => 
-            [parent] => 0
-            [count] => 0
-            [filter] => raw
-        )
-
-    [2] => WP_Term Object
-        (
-            [term_id] => 14
-            [name] => Record
-            [slug] => record
-            [term_group] => 0
-            [term_taxonomy_id] => 14
-            [taxonomy] => midia-category
-            [description] => 
-            [parent] => 0
-            [count] => 0
-            [filter] => raw
-        )
-
-    [3] => WP_Term Object
-        (
-            [term_id] => 13
-            [name] => SBT
-            [slug] => sbt
-            [term_group] => 0
-            [term_taxonomy_id] => 13
-            [taxonomy] => midia-category
-            [description] => 
-            [parent] => 0
-            [count] => 0
-            [filter] => raw
-        )
-
-)
-
-[04-Jan-2023 14:24:43 UTC] Caller: C:\Users\ACER\Documents\IT9\Local\magalhes-sipert-sociedade-de-advogados\app\public\wp-content\themes\mslaw\pages\home\content.php:20
-[04-Jan-2023 14:24:43 UTC] http://magalhes-sipert-sociedade-de-advogados.local/midia/
-[04-Jan-2023 14:24:43 UTC] Caller: C:\Users\ACER\Documents\IT9\Local\magalhes-sipert-sociedade-de-advogados\app\public\wp-content\themes\mslaw\components\_categories-sidebar.php:11
-[04-Jan-2023 14:24:43 UTC] Array
+[04-Jan-2023 14:29:13 UTC] Caller: C:\Users\ACER\Documents\IT9\Local\magalhes-sipert-sociedade-de-advogados\app\public\wp-content\themes\mslaw\components\_categories-sidebar.php:11
+[04-Jan-2023 14:29:13 UTC] Array
 (
     [0] => WP_Term Object
         (
@@ -948,153 +230,137 @@
 
 )
 
-[04-Jan-2023 14:25:09 UTC] Caller: C:\Users\ACER\Documents\IT9\Local\magalhes-sipert-sociedade-de-advogados\app\public\wp-content\themes\mslaw\pages\taxonomy\content.php:5
-[04-Jan-2023 14:25:09 UTC] WP_Term Object
+[04-Jan-2023 14:30:04 UTC] Caller: C:\Users\ACER\Documents\IT9\Local\magalhes-sipert-sociedade-de-advogados\app\public\wp-content\themes\mslaw\pages\category\content.php:5
+[04-Jan-2023 14:30:04 UTC] WP_Term Object
 (
-    [term_id] => 11
-    [name] => Globo
-    [slug] => globo
+    [term_id] => 5
+    [name] => Adipisci exercitationem sed consectetur
+    [slug] => adipisci-exercitationem-sed-consectetur
     [term_group] => 0
-    [term_taxonomy_id] => 11
-    [taxonomy] => midia-category
-    [description] => 
+    [term_taxonomy_id] => 5
+    [taxonomy] => category
+    [description] => Veritatis in earum nulla illo ut omnis quas voluptas laudantium commodi sint qui pariatur eos soluta labore aut aut quisquam vel ex officiis neque sed perferendis aut non eligendi autem voluptatem tempora blanditiis repellendus laboriosam fugiat quam doloribus molestiae minima et doloremque fugit
     [parent] => 0
-    [count] => 0
+    [count] => 14
     [filter] => raw
+    [cat_ID] => 5
+    [category_count] => 14
+    [category_description] => Veritatis in earum nulla illo ut omnis quas voluptas laudantium commodi sint qui pariatur eos soluta labore aut aut quisquam vel ex officiis neque sed perferendis aut non eligendi autem voluptatem tempora blanditiis repellendus laboriosam fugiat quam doloribus molestiae minima et doloremque fugit
+    [cat_name] => Adipisci exercitationem sed consectetur
+    [category_nicename] => adipisci-exercitationem-sed-consectetur
+    [category_parent] => 0
 )
 
-[04-Jan-2023 14:25:09 UTC] Caller: C:\Users\ACER\Documents\IT9\Local\magalhes-sipert-sociedade-de-advogados\app\public\wp-content\themes\mslaw\components\_categories-sidebar.php:11
-[04-Jan-2023 14:25:09 UTC] Array
+[04-Jan-2023 14:30:05 UTC] Caller: C:\Users\ACER\Documents\IT9\Local\magalhes-sipert-sociedade-de-advogados\app\public\wp-content\themes\mslaw\components\_categories-sidebar.php:11
+[04-Jan-2023 14:30:05 UTC] Array
 (
     [0] => WP_Term Object
         (
-            [term_id] => 12
-            [name] => Band
-            [slug] => band
+            [term_id] => 5
+            [name] => Adipisci exercitationem sed consectetur
+            [slug] => adipisci-exercitationem-sed-consectetur
             [term_group] => 0
-            [term_taxonomy_id] => 12
-            [taxonomy] => midia-category
-            [description] => 
+            [term_taxonomy_id] => 5
+            [taxonomy] => category
+            [description] => Veritatis in earum nulla illo ut omnis quas voluptas laudantium commodi sint qui pariatur eos soluta labore aut aut quisquam vel ex officiis neque sed perferendis aut non eligendi autem voluptatem tempora blanditiis repellendus laboriosam fugiat quam doloribus molestiae minima et doloremque fugit
             [parent] => 0
-            [count] => 1
+            [count] => 14
             [filter] => raw
         )
 
     [1] => WP_Term Object
         (
-            [term_id] => 11
-            [name] => Globo
-            [slug] => globo
+            [term_id] => 4
+            [name] => Harum sint
+            [slug] => harum-sint
             [term_group] => 0
-            [term_taxonomy_id] => 11
-            [taxonomy] => midia-category
-            [description] => 
+            [term_taxonomy_id] => 4
+            [taxonomy] => category
+            [description] => Esse et laboriosam sint et molestiae quia libero sunt ut autem mollitia hic accusamus corrupti eligendi non quas ad nemo modi corrupti quaerat et in
             [parent] => 0
-            [count] => 0
+            [count] => 14
             [filter] => raw
         )
 
     [2] => WP_Term Object
         (
-            [term_id] => 14
-            [name] => Record
-            [slug] => record
+            [term_id] => 1
+            [name] => Sem Categoria
+            [slug] => sem-categoria
             [term_group] => 0
-            [term_taxonomy_id] => 14
-            [taxonomy] => midia-category
+            [term_taxonomy_id] => 1
+            [taxonomy] => category
             [description] => 
             [parent] => 0
-            [count] => 0
-            [filter] => raw
-        )
-
-    [3] => WP_Term Object
-        (
-            [term_id] => 13
-            [name] => SBT
-            [slug] => sbt
-            [term_group] => 0
-            [term_taxonomy_id] => 13
-            [taxonomy] => midia-category
-            [description] => 
-            [parent] => 0
-            [count] => 0
+            [count] => 15
             [filter] => raw
         )
 
 )
 
-[04-Jan-2023 14:25:26 UTC] Caller: C:\Users\ACER\Documents\IT9\Local\magalhes-sipert-sociedade-de-advogados\app\public\wp-content\themes\mslaw\pages\taxonomy\content.php:5
-[04-Jan-2023 14:25:26 UTC] WP_Term Object
+[04-Jan-2023 14:30:13 UTC] Caller: C:\Users\ACER\Documents\IT9\Local\magalhes-sipert-sociedade-de-advogados\app\public\wp-content\themes\mslaw\pages\category\content.php:5
+[04-Jan-2023 14:30:13 UTC] WP_Term Object
 (
-    [term_id] => 12
-    [name] => Band
-    [slug] => band
+    [term_id] => 1
+    [name] => Sem Categoria
+    [slug] => sem-categoria
     [term_group] => 0
-    [term_taxonomy_id] => 12
-    [taxonomy] => midia-category
+    [term_taxonomy_id] => 1
+    [taxonomy] => category
     [description] => 
     [parent] => 0
-    [count] => 1
+    [count] => 15
     [filter] => raw
+    [cat_ID] => 1
+    [category_count] => 15
+    [category_description] => 
+    [cat_name] => Sem Categoria
+    [category_nicename] => sem-categoria
+    [category_parent] => 0
 )
 
-[04-Jan-2023 14:25:26 UTC] Caller: C:\Users\ACER\Documents\IT9\Local\magalhes-sipert-sociedade-de-advogados\app\public\wp-content\themes\mslaw\components\_categories-sidebar.php:11
-[04-Jan-2023 14:25:26 UTC] Array
+[04-Jan-2023 14:30:13 UTC] Caller: C:\Users\ACER\Documents\IT9\Local\magalhes-sipert-sociedade-de-advogados\app\public\wp-content\themes\mslaw\components\_categories-sidebar.php:11
+[04-Jan-2023 14:30:13 UTC] Array
 (
     [0] => WP_Term Object
         (
-            [term_id] => 12
-            [name] => Band
-            [slug] => band
+            [term_id] => 5
+            [name] => Adipisci exercitationem sed consectetur
+            [slug] => adipisci-exercitationem-sed-consectetur
             [term_group] => 0
-            [term_taxonomy_id] => 12
-            [taxonomy] => midia-category
-            [description] => 
+            [term_taxonomy_id] => 5
+            [taxonomy] => category
+            [description] => Veritatis in earum nulla illo ut omnis quas voluptas laudantium commodi sint qui pariatur eos soluta labore aut aut quisquam vel ex officiis neque sed perferendis aut non eligendi autem voluptatem tempora blanditiis repellendus laboriosam fugiat quam doloribus molestiae minima et doloremque fugit
             [parent] => 0
-            [count] => 1
+            [count] => 14
             [filter] => raw
         )
 
     [1] => WP_Term Object
         (
-            [term_id] => 11
-            [name] => Globo
-            [slug] => globo
+            [term_id] => 4
+            [name] => Harum sint
+            [slug] => harum-sint
             [term_group] => 0
-            [term_taxonomy_id] => 11
-            [taxonomy] => midia-category
-            [description] => 
+            [term_taxonomy_id] => 4
+            [taxonomy] => category
+            [description] => Esse et laboriosam sint et molestiae quia libero sunt ut autem mollitia hic accusamus corrupti eligendi non quas ad nemo modi corrupti quaerat et in
             [parent] => 0
-            [count] => 0
+            [count] => 14
             [filter] => raw
         )
 
     [2] => WP_Term Object
         (
-            [term_id] => 14
-            [name] => Record
-            [slug] => record
+            [term_id] => 1
+            [name] => Sem Categoria
+            [slug] => sem-categoria
             [term_group] => 0
-            [term_taxonomy_id] => 14
-            [taxonomy] => midia-category
+            [term_taxonomy_id] => 1
+            [taxonomy] => category
             [description] => 
             [parent] => 0
-            [count] => 0
-            [filter] => raw
-        )
-
-    [3] => WP_Term Object
-        (
-            [term_id] => 13
-            [name] => SBT
-            [slug] => sbt
-            [term_group] => 0
-            [term_taxonomy_id] => 13
-            [taxonomy] => midia-category
-            [description] => 
-            [parent] => 0
-            [count] => 0
+            [count] => 15
             [filter] => raw
         )
 

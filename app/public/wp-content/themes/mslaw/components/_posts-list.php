@@ -77,5 +77,18 @@ if (empty($posts_args))
             </div>
         </div>
     <?php
-    } ?>
+    } else { ?>
+        <h2 class="text-secondary fs-5 fw-normal lh-base text-lg-start text-center pt-5">
+            <?php
+            esc_html_e('Não existe nenhuma postagem disponível no momento.', 'it9_mslaws');
+            ?>
+        </h2>
+        <button href="<?php echo esc_url(get_home_url()); ?>" class="hero__button mt-3 fs-6 lh-base fw-light">
+            <?php
+            esc_html_e('Voltar para a página inicial', 'it9_mslaws');
+            ?>
+        </button>
+    <?php
+    }
+    ?>
 </div>

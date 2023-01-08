@@ -1,5 +1,7 @@
 //console.log(jQuery(document).width());
 var topHeader = jQuery(".top-menu .top-menu__nav");
+let darkLogo = jQuery('.dark-logo');
+let lightLogo = jQuery('.light-logo');
 if(jQuery(document).width() > 992){
     jQuery(".top-menu .top-menu__nav").addClass('is-fixed bg-transparent text-white');
 
@@ -20,10 +22,16 @@ else{
 function it9_mslaw_change_nav_style_by_window_scroll(windowScrollTop, header){
     if(windowScrollTop > 10){
         header.addClass('bg-light shadow');
+        lightLogo.addClass('d-none');
+
+        darkLogo.removeClass('d-none');
         header.removeClass('is-fixed bg-transparent text-white');
     }
     else{
         header.addClass('is-fixed bg-transparent text-white'); 
+        darkLogo.addClass('d-none');
+        
+        lightLogo.removeClass('d-none');
         header.removeClass('bg-light shadow');     
     }
 }

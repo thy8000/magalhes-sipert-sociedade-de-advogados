@@ -1,5 +1,5 @@
 <?php
-$hero_image = empty($args['hero_image']) ? 'http://magalhes-sipert-sociedade-de-advogados.local/wp-content/uploads/2022/10/sobre-nos-600x600-1.jpg' : $args['hero_image'];
+$hero_image = empty($args['hero_image']) ? get_home_url() . '/wp-content/uploads/2022/10/sobre-nos-600x600-1.jpg' : $args['hero_image'];
 $is_inverted = empty($args['is_inverted']) ? false : true;
 $hero_order_is_inverse = $is_inverted === true ? 'order-lg-last order-first' : '';
 $hero_image_is_inverse = $is_inverted === true ? 'last__hero' : 'first__hero';

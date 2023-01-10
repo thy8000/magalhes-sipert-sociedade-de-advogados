@@ -8,7 +8,7 @@ if (!defined('ABSPATH')) exit;
     <div class="bg-light">
         <?php
         get_template_part('components/_vertical-hero', null, [
-            'hero_image' => 'http://magalhes-sipert-sociedade-de-advogados.local/wp-content/uploads/2022/10/sobre-nos-600x600-1.jpg',
+            'hero_image' => get_home_url() . '/wp-content/uploads/2022/10/sobre-nos-600x600-1.jpg',
             'hero_title' => __('Quem Somos', 'mslaw'),
             'hero_text' => __('A Magalhães & Sipert Sociedade de Advogados nasceu da vontade de seus sócios em atender
       seus clientes com as melhores soluções jurídicas para cada caso concreto.', 'mslaw'),
@@ -16,7 +16,7 @@ if (!defined('ABSPATH')) exit;
             'is_inverted' => false
         ]);
         get_template_part('components/_vertical-hero', null, [
-            'hero_image' => 'http://magalhes-sipert-sociedade-de-advogados.local/wp-content/uploads/2022/10/missao-valores-600x600-1.jpg',
+            'hero_image' => get_home_url() . '/wp-content/uploads/2022/10/missao-valores-600x600-1.jpg',
             'hero_title' => __('Nossos Valores', 'mslaw'),
             'hero_text' => __('Além de apostar na parceria que se constrói diariamente junto ao cliente, na empatia e no
             comprometimento, um dos pilares do escritório é a excelência proveniente da transparência

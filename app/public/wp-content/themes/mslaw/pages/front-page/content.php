@@ -1,3 +1,11 @@
+<?php
+$posts_args = [
+  'posts_per_page' => 3,
+  'post_type' => 'post',
+  'orderby' => 'date',
+  'order' => 'DESC',
+];
+?>
 <div class="front-page">
   <?php
   get_template_part('components/_hero');
@@ -43,7 +51,9 @@
   </div>
   <div class="bg-light position-relative">
     <?php
-    get_template_part('components/_posts-cards');
+    get_template_part('components/_posts-cards', null, [
+      'posts_args' => $posts_args,
+    ]);
     ?>
   </div>
   <div class="bg-light mt-5">

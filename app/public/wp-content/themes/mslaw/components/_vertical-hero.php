@@ -22,7 +22,9 @@ $hero_text_is_inverse = $is_inverted === true ? 'pe-lg-5' : 'ps-lg-5';
                 <?php
                 if (!empty($args['hero_text'])) {
                 ?>
-                    <p class="text-secondary fs-5 fw-normal lh-base text-lg-start text-center"><?php echo esc_html($args['hero_text']); ?></p>
+                    <div class="text-secondary fs-5 fw-normal lh-base text-lg-start text-center">
+                        <?php echo $args['hero_text']; ?>
+                    </div>
                 <?php
                 }
                 ?>
@@ -30,7 +32,9 @@ $hero_text_is_inverse = $is_inverted === true ? 'pe-lg-5' : 'ps-lg-5';
                 if (!empty($args['hero_button_text'])) {
                 ?>
                     <div class="d-grid gap-2 d-md-flex justify-content-lg-start justify-content-md-center mt-5">
-                        <button type="button" class="hero__button fw-light lh-base"><?php echo esc_html($args['hero_button_text']); ?></button>
+                        <a href="<?php get_home_url() ?>/contato" class="hero__button fw-light lh-base">
+                            <?php echo esc_html($args['hero_button_text']); ?>
+                        </a>
                     </div>
                 <?php
                 }

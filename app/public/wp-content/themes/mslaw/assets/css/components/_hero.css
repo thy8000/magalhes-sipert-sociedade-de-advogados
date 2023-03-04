@@ -27,10 +27,16 @@
   background-color: #29666f;
   color: white;
 }
+.vertical-hero p{
+  line-height: 1.5rem;
+}
 .vertical-hero .hero__button{
   border: 1px solid #29666f;
   color: #29666f;
   display: inline-block;
+}
+.vertical-hero .hero__button:hover{
+  color: white;
 }
 .vertical-hero .hero__image.first__hero{
   position: relative;

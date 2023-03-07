@@ -1,0 +1,18 @@
+.single-equipe-featured-image-hr {
+  background-color: #29666f;
+  max-width: 6.25rem;
+  height: 0.125rem !important;
+  margin-top: -0.313rem;
+}
+.single-equipe-featured-image-svg {
+  width: 3.125rem;
+  stroke: white;
+  fill: #29666f;
+  transition: .5s all;
+}
+.single-equipe-featured-image-link{
+    transition: .5s all;
+}
+.single-equipe-featured-image-link:hover, .single-equipe-featured-image-link:hover ~ .single-equipe-featured-image-svg{
+    opacity: 0.5;
+}

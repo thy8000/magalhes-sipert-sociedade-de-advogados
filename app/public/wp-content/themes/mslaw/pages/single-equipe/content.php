@@ -1,9 +1,7 @@
 <?php
 if (!defined('ABSPATH')) exit;
 
-get_template_part('components/_page-header', null, [
-    'page_description' => __('Saiba mais sobre o nosso escritório.', 'it9_mslaws'),
-]);
+get_template_part('components/_page-header');
 ?>
 <div class="single-equipe">
     <div class="container">
@@ -13,7 +11,11 @@ get_template_part('components/_page-header', null, [
                 get_template_part('pages/single-equipe/components/featured-image');
                 ?>
             </div>
-            <div class="col-lg-6 col-12"></div>
+            <div class="col-lg-6 col-12">
+            <?php
+                get_template_part('pages/single-equipe/components/biography');
+                ?>
+            </div>
         </div>
     </div>
 </div>

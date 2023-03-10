@@ -1,3 +1,10 @@
 .cards-with-image-and-title .image{
     box-shadow: -30px -50px rgb(181 197 200 / 50%);
 }
+.cards-with-image-and-title .equipe-item{
+    margin-top: 6rem;
+}
+
+.equipe-item a{
+    transition: .5s all;
+}

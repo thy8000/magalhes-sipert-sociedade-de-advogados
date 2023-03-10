@@ -1,7 +1,11 @@
 <?php
 if (!defined('ABSPATH')) exit;
 
-get_template_part('components/_page-header');
+$occupation = get_field('single_equipe_occupation') ?? '';
+
+get_template_part('components/_page-header', null, [
+    'page_description' => $occupation ?? '',
+]);
 ?>
 <div class="single-equipe">
     <div class="container">

@@ -1,3 +1,19 @@
+<?php
+if (!defined('ABSPATH')) exit;
+
+$equipe_args = array(
+    'post_type'   => 'equipe',
+    'orderby'     => 'date',
+    'order'       => 'ASC',
+);
+
+$equipe_posts_list = get_posts($equipe_args);
+
+$equipe_thumbnail = '';
+
+if (empty($equipe_posts_list))
+    return;
+?>
 <div class="cards-with-image-and-title py-5">
     <div class="container">
         <div class="row">
@@ -9,20 +25,37 @@
             </div>
         </div>
         <div class="row py-5 my-5">
-            <div class="col-lg-6 d-flex justify-content-center py-lg-0 py-5">
-                <div class="cards__item">
-                    <img class="image" src="<?php echo get_home_url() ?>/wp-content/uploads/2022/10/Amilcar-Magalhaes.png">
-                    <h4 class="text-one fs-4 fw-bold lh-base text-lg-start text-center pt-3">Amilcar Magalhães</h4>
-                    <h5 class="text-secondary fs-5 fw-normal lh-base text-lg-start text-center">Sócio e Advogado</h5>
+            <?php
+            foreach ($equipe_posts_list as $equipe_post) {
+                if (!empty(get_the_post_thumbnail_url($equipe_post->ID)))
+                    $equipe_thumbnail = get_the_post_thumbnail_url($equipe_post->ID);
+                else
+                    $equipe_thumbnail = get_home_url() . '/wp-content/uploads/2023/03/empty-photo.png';
+            ?>
+                <div class="equipe-item col-lg-6 d-flex justify-content-center py-lg-0">
+                    <div class="cards__item">
+                        <a href="<?php echo esc_url(get_the_permalink($equipe_post->ID)) ?>" target="_blank">
+                            <img class="image" src="<?php echo esc_url($equipe_thumbnail) ?>">
+                        </a>
+                        <h4 class="text-one fs-4 fw-bold lh-base text-lg-start text-center pt-3">
+                            <a href="<?php echo esc_url(get_the_permalink($equipe_post->ID)) ?>" target="_blank">
+                                <?php echo esc_html($equipe_post->post_title) ?>
+                            </a>
+                        </h4>
+                        <?php
+                        if (!empty(get_field('single_equipe_occupation', $equipe_post->ID))) {
+                        ?>
+                            <h5 class="text-secondary fs-5 fw-normal lh-base text-lg-start text-center">
+                                <?php esc_html_e(get_field('single_equipe_occupation', $equipe_post->ID), 'it9_mslaws') ?>
+                            </h5>
+                        <?php
+                        }
+                        ?>
+                    </div>
                 </div>
-            </div>
-            <div class="col-lg-6 d-flex justify-content-center py-lg-0 py-5">
-            <div class="cards__item">
-                    <img class="image" src="<?php echo get_home_url() ?>/wp-content/uploads/2022/10/Tiago-Magalhaes.png">
-                    <h4 class="text-one fs-4 fw-bold lh-base text-lg-start text-center pt-3">Tiago Magalhães</h4>
-                    <h5 class="text-secondary fs-5 fw-normal lh-base text-lg-start text-center">Sócio e Advogado</h5>
-                </div>
-            </div>
+            <?php
+            }
+            ?>
         </div>
     </div>
 </div>

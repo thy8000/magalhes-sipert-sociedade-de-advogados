@@ -14,7 +14,7 @@ $email = get_field('single_equipe_email') ?? '';
 if (!empty($email))
     $email_url = "mailto:$email";
 ?>
-<div class="single-equipe-featured-image">
+<div class="single-equipe-featured-image pb-3">
     <div class="pt-5">
         <h2 class="text-one fs-2 fw-bold lh-base">
             <?php echo esc_html(get_the_title()) ?>

@@ -32,7 +32,7 @@ $hero_text_is_inverse = $is_inverted === true ? 'pe-lg-5' : 'ps-lg-5';
                 if (!empty($args['hero_button_text'])) {
                 ?>
                     <div class="d-grid gap-2 d-md-flex justify-content-lg-start justify-content-md-center mt-5">
-                        <a href="<?php get_home_url() ?>/contato" class="hero__button fw-light lh-base">
+                        <a href="<?php echo esc_url(get_home_url() . '/contato') ?>" class="hero__button fw-light lh-base">
                             <?php echo esc_html($args['hero_button_text']); ?>
                         </a>
                     </div>

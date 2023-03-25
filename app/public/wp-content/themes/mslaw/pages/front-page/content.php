@@ -17,6 +17,7 @@ $vertical_hero_list = get_field('vertical_hero_list');
     <div class="bg-light">
       <?php
       foreach ($vertical_hero_list as $vertical_hero) {
+
         get_template_part('components/_vertical-hero', null, [
           'hero_image' => $vertical_hero['image']['url'] ?? '',
           'hero_title' => $vertical_hero['title'] ?? '',
@@ -24,6 +25,7 @@ $vertical_hero_list = get_field('vertical_hero_list');
           'hero_button_text' => __('Entre em Contato', 'mslaw'),
           'is_inverted' => $vertical_hero['is_inverted'] ?? false,
         ]);
+        
       }
       ?>
     </div>

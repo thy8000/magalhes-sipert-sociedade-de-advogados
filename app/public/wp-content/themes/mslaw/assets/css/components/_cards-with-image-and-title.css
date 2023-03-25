@@ -1,3 +1,7 @@
+.cards-with-image-and-title .cards__description__text{
+    max-width: 65ch;
+}
+
 .cards-with-image-and-title .image{
     box-shadow: -30px -50px rgb(181 197 200 / 50%);
 }

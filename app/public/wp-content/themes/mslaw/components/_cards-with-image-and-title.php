@@ -17,11 +17,15 @@ if (empty($equipe_posts_list))
 <div class="cards-with-image-and-title py-5">
     <div class="container">
         <div class="row">
-            <div class="col-lg-5 col-12">
-                <h2 class="text-one fs-1 fw-bold lh-base text-lg-start text-center">Equipe</h2>
+            <div class="col-12">
+                <h2 class="text-one fs-1 fw-bold lh-base text-center">
+                    <?php esc_html_e('Equipe', 'it9_mslaw'); ?>
+                </h2>
             </div>
-            <div class="col-lg-7 col-12 cards__description">
-                <h3 class="text-secondary fs-5 fw-normal lh-base text-lg-start text-center">Contamos com uma equipe competente e experiente para resolver os seus problemas judiciais, com um atendimento especializado para cada cliente.</h3>
+            <div class="cards__description col-12 d-flex justify-content-center">
+                <h3 class="cards__description__text text-secondary fs-5 fw-normal lh-base text-center">
+                    <?php esc_html_e('Contamos com uma equipe competente e experiente para resolver os seus problemas judiciais, com um atendimento especializado para cada cliente.', 'it9_mslaw'); ?>
+                </h3>
             </div>
         </div>
         <div class="row py-5 my-5">
@@ -51,6 +55,11 @@ if (empty($equipe_posts_list))
                         <?php
                         }
                         ?>
+                        <div class="d-grid gap-2 d-md-flex justify-content-center mt-5">
+                            <a href="<?php echo esc_url(get_the_permalink($equipe_post->ID)) ?>" class="hero__button fw-light lh-base" target="_blank">
+                                <?php esc_html_e('Ver Perfil', 'it9_mslaw') ?>
+                            </a>
+                        </div>
                     </div>
                 </div>
             <?php

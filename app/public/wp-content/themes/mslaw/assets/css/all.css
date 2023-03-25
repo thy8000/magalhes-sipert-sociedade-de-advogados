@@ -17,6 +17,7 @@
 @import url(components/_recent-posts.css);
 @import url(components/_contact-list.css);
 @import url(components/_carousel.css);
+@import url(components/_float-whatsapp-button.css);
 
 @import url(pages/single/components/_post-thumbnail.css);
 @import url(pages/single/components/_post-terms.css);

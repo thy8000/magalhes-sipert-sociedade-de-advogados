@@ -1,4 +1,3 @@
-//console.log(jQuery(document).width());
 var topHeader = jQuery(".top-menu .top-menu__nav");
 let darkLogo = jQuery('.dark-logo');
 let lightLogo = jQuery('.light-logo');
@@ -96,6 +95,9 @@ function currentSlide(n) {
 }
 
 function showSlides(n) {
+  if( jQuery('.carousel-slide').length === 0)
+    return;
+
   let i;
   let slides = document.getElementsByClassName("carousel-slide");
   let dots = document.getElementsByClassName("dot");
@@ -110,4 +112,15 @@ function showSlides(n) {
   slides[slideIndex-1].style.display = "block";
   dots[slideIndex-1].className += " active";
 }
+
+/* Componente float-whatsapp-button */
+jQuery('.float-whatsapp-button').on("click", function(e) {
+  if(jQuery(".float-whatsapp-button").css('left') === '-140px'){
+    jQuery(".float-whatsapp-button").css('left', '0');
+  }
+  else{
+    jQuery(".float-whatsapp-button").css('left', '-140px');
+  }
+});
+
  

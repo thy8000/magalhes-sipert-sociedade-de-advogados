@@ -48,3 +48,5 @@ if (!defined('ABSPATH')) exit;
         </nav>
     </header>
     <main>
+
+<?php get_template_part('components/float-whatsapp-button') ?>

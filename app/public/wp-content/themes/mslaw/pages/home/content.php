@@ -17,7 +17,6 @@ $recent_posts_args = [
     'order' => 'DESC',
     'numberposts' => 5,
 ];
-debug(get_post_type_archive_link('midia'));
 ?>
 
 <div class="posts__page">

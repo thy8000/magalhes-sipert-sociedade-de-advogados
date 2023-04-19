@@ -2,7 +2,6 @@
 if (!defined('ABSPATH')) exit;
 
 $category_object = get_queried_object();
-debug($category_object);
 
 $paged = ( get_query_var( 'paged' ) ) ? absint( get_query_var( 'paged' ) ) : 1;
 $posts_per_page = 10;

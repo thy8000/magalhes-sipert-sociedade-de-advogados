@@ -1,12 +1,14 @@
 <?php
 if (!defined('ABSPATH')) exit;
 
-$post_id = $args['post_id'];
+$post_id = $args['post_id'] ?? '';
+
 $post_thumbnail = get_the_post_thumbnail_url($post_id, 'full');
 
-$post_categories = empty(get_the_category($post_id)) ? false : get_the_category($post_id);
+$post_categories = get_post_type() === 'midia' ? get_terms_by_taxonomy($post_id, 'midia-category') : get_terms_by_taxonomy($post_id);
 
 $has_post_info = empty($args['has_post_info']) ? false : $args['has_post_info'];
+
 $has_post_categories = empty($args['has_post_categories']) ? false : $args['has_post_categories'];
 
 $post_thumbnail_height = empty($has_post_info) ? 'thumbnail-h-500' : '';

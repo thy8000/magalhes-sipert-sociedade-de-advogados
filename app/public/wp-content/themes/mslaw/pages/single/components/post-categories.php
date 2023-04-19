@@ -5,8 +5,6 @@ global $post;
 
 $post_categories = empty($args['post_categories']) ? false : $args['post_categories'];
 
-//debug($post_categories);
-
 if (empty($post_categories))
     return;
 ?>

@@ -8,8 +8,6 @@ $post_categories = get_terms([
 ]);
 $title = empty($args['title']) ? __('Categorias', 'it9_mslaws') : $args['title'];
 
-debug($post_categories);
-
 if (empty($post_categories))
     return;
 

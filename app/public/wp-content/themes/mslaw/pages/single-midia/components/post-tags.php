@@ -2,7 +2,6 @@
 if (!defined('ABSPATH')) exit;
 
 $post_tags = empty($args['post_tags']) ? false : $args['post_tags'];
-debug($post_tags);
 
 if (empty($post_tags))
     return;

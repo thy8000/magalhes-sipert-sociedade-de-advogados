@@ -3,7 +3,7 @@ if (!defined('ABSPATH')) exit;
 
 $media_taxonomies_list = get_terms([
     'taxonomy' => 'midia-category',
-    'hide_empty' => false,
+    'hide_empty' => true,
 ]);
 
 if (empty($media_taxonomies_list)) return;

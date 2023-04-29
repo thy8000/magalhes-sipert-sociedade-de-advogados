@@ -4,6 +4,10 @@
   background-size: cover;
 }
 
+.posts-cards .card-text p{
+  line-height: 1.5rem;
+}
+
 .posts-cards .posts-cards__button {
   background-color: transparent;
   color: #29666f;

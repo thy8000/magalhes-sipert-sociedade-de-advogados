@@ -22,7 +22,7 @@ $hero_text_is_inverse = $is_inverted === true ? 'pe-lg-5' : 'ps-lg-5';
                 <?php
                 if (!empty($args['hero_text'])) {
                 ?>
-                    <div class="text-secondary fs-5 fw-normal lh-base text-lg-start text-center">
+                    <div class="text-secondary fs-5 fw-normal lh-base text-lg-justify-sm-center">
                         <?php echo $args['hero_text']; ?>
                     </div>
                 <?php

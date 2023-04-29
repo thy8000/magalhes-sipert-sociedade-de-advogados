@@ -21,7 +21,7 @@ $summary_fields = !empty(get_field('single_services_summary')) ? get_field('sing
                         }
                         if (!empty($summary_fields['description'])) {
                         ?>
-                            <h2 class="text-secondary fs-6 font-normal lh-base py-1">
+                            <h2 class="text-secondary fs-6 font-normal lh-base py-1 text-justify">
                                 <?php echo $summary_fields['description'] ?>
                             </h2>
                         <?php

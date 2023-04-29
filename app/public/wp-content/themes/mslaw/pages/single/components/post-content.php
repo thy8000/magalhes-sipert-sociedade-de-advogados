@@ -20,7 +20,7 @@ $post_date = get_the_date('d', $post->ID) . ' de ' . get_the_date('F', $post->ID
     }
     ?>
 
-    <div class="post-content-text pt-5">
+    <div class="post-content-text pt-5 text-justify">
         <?php the_content(); ?>
     </div>
 

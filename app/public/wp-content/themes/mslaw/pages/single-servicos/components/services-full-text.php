@@ -8,7 +8,7 @@ if (empty($fulldescription_fields)) return;
 <div class="services-full-text">
     <div class="container">
         <div class="row">
-            <div class="col-lg-8">
+            <div class="col-lg-8 text-justify">
                 <?php
                 if (!empty($fulldescription_fields['title'])) {
                 ?>

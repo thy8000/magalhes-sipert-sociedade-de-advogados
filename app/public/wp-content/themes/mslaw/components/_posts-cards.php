@@ -61,7 +61,7 @@ if ($wp_query->have_posts()) {
                 </div>
                 <a href="<?php echo get_the_permalink(); ?>">
                   <h3 class="posts-cards__title text-one fs-3 fw-bold lh-base"><?php echo esc_html__(get_the_title(), 'it9_mslaws'); ?></h3>
-                  <div class="card-text text-secondary fs-6 fw-normal lh-base">
+                  <div class="card-text text-secondary">
                     <?php the_excerpt(); ?>
                   </div>
                 </a>

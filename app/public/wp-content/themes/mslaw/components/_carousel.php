@@ -1,5 +1,13 @@
 <?php
+
 if (!defined('ABSPATH')) exit;
+
+$slide_list = get_field('escritorio_slides_list');
+
+if (empty($slide_list)) {
+    return;
+}
+
 ?>
 <div class="carousel">
     <div class="container">
@@ -11,30 +19,55 @@ if (!defined('ABSPATH')) exit;
         </div>
     </div>
     <div class="carousel-container pt-3">
-        <div class="carousel-slide fade">
-            <div class="numbertext">1 / 3</div>
-            <div class="carousel-image" style="background-image: url(<?php get_home_url() ?>/wp-content/uploads/2022/10/mslaws-vertical-hero-image.jpg);"></div>
-            <div class="text">Caption Text</div>
-        </div>
+        <?php
 
-        <div class="carousel-slide fade">
-            <div class="numbertext">2 / 3</div>
-            <div class="carousel-image" style="background-image: url(<?php get_home_url() ?>/wp-content/uploads/2022/10/hero-background-main-page.jpg);"></div>
-            <div class="text">Caption Two</div>
-        </div>
+        foreach ($slide_list as $key => $slide) {
 
-        <div class="carousel-slide fade">
-            <div class="numbertext">3 / 3</div>
-            <div class="carousel-image" style="background-image: url(<?php get_home_url() ?>/wp-content/uploads/2022/10/magalhaes-hero.jpg);"></div>
-            <div class="text">Caption Three</div>
-        </div>
+        ?>
+
+            <div class="carousel-slide fade">
+                <div class="numbertext">
+                    <?php echo $key . ' / ' . count($slide_list); ?>
+                </div>
+
+                <div class="carousel-image" style="background-image: url(<?php echo $slide['image']; ?>);"></div>
+
+                <?php
+
+                if (!empty($slide['text'])) {
+
+                ?>
+
+                    <div class="text">Caption Text</div>
+
+                <?php
+
+                }
+
+                ?>
+            </div>
+        <?php
+
+        }
+
+        ?>
         <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
         <a class="next" onclick="plusSlides(1)">&#10095;</a>
     </div>
     <br>
     <div class="pt-3" style="text-align:center">
-        <span class="dot" onclick="currentSlide(1)"></span>
-        <span class="dot" onclick="currentSlide(2)"></span>
-        <span class="dot" onclick="currentSlide(3)"></span>
+        <?php
+
+        foreach ($slide_list as $key => $slide) {
+
+        ?>
+
+            <span class="dot" onclick="currentSlide(<?php echo $key ?>)"></span>
+
+        <?php
+
+        }
+
+        ?>
     </div>
 </div>

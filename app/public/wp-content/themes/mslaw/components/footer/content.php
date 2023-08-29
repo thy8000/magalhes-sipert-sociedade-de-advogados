@@ -72,12 +72,8 @@ if (!defined('ABSPATH')) exit;
                 <table class="table text-center text-white">
                     <tbody class="font-weight-normal">
                         <tr>
-                            <td class="fs-6 fw-light lh-base">Segunda - Sexta:</td>
-                            <td class="fs-6 fw-light lh-base">8am - 9pm</td>
-                        </tr>
-                        <tr>
-                            <td class="fs-6 fw-light lh-base">Sábados e Feriados</td>
-                            <td class="fs-6 fw-light lh-base">8am - 1am</td>
+                            <td class="fs-6 fw-light lh-base">Segunda à Sexta</td>
+                            <td class="fs-6 fw-light lh-base">8am - 18pm</td>
                         </tr>
                     </tbody>
                 </table>

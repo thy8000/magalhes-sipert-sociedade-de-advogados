@@ -4,6 +4,7 @@
   height: 100vh;
   position: relative;
   margin: auto;
+  max-width: 56.25rem;
 }
 
 /* Hide the images by default */
